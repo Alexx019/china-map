@@ -1,0 +1,63 @@
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(64px + env(safe-area-inset-bottom));
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border-radius: var(--r-sheet) var(--r-sheet) 0 0;
+  box-shadow: var(--sheet-shadow);
+  will-change: transform;
+  /* La hoja sigue por debajo de la barra de pestañas para que no se vea un hueco al arrastrar */
+  margin-bottom: calc(-64px - env(safe-area-inset-bottom));
+  padding-bottom: calc(64px + env(safe-area-inset-bottom));
+}
+
+.handleArea {
+  flex-shrink: 0;
+  touch-action: none;
+  cursor: grab;
+}
+
+.grabber {
+  display: block;
+  width: 64px;
+  height: 22px;
+  margin: 0 auto;
+  border: 0;
+  background: transparent;
+  position: relative;
+  cursor: grab;
+}
+.grabber::after {
+  content: '';
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  top: 8px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--grab);
+}
+
+.body {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+.floating {
+  position: absolute;
+  right: 16px;
+  bottom: calc(100% + 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: opacity 180ms ease;
+}
+.floating[data-hidden] {
+  opacity: 0;
+  pointer-events: none;
+}

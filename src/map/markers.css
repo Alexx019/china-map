@@ -1,0 +1,169 @@
+/* Marcadores del mapa (HTML). Medidas de la maqueta: punto 28 px, foto 48 px, agrupación 36–44 px. */
+
+.pin {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  transition: width 220ms cubic-bezier(0.2, 0.8, 0.2, 1), height 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.pin__dot,
+.pin__photo {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2.5px solid var(--marker-ring);
+  box-shadow: var(--marker-shadow);
+  transition: opacity 200ms ease, transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.pin__dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--c);
+}
+
+.pin__photo {
+  border-width: 3px;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transform: scale(0.6);
+}
+
+.pin__badge {
+  position: absolute;
+  right: -5px;
+  bottom: -4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--marker-ring);
+  background: var(--c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0.4);
+  transition: opacity 200ms ease, transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.pin__label {
+  position: absolute;
+  left: calc(100% + 8px);
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 650;
+  color: var(--text);
+  text-shadow: 0 0 3px var(--map-land), 0 0 3px var(--map-land), 0 0 3px var(--map-land);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease;
+}
+
+/* Con foto */
+.pin--photo {
+  width: 48px;
+  height: 48px;
+}
+.pin--photo .pin__photo,
+.pin--photo .pin__badge {
+  opacity: 1;
+  transform: none;
+}
+.pin--photo .pin__dot {
+  opacity: 0;
+}
+
+.pin--label .pin__label {
+  opacity: 1;
+}
+
+/* Elegido */
+.pin--selected .pin__dot,
+.pin--selected .pin__photo {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 25%, transparent), var(--marker-shadow);
+}
+.pin--selected:not(.pin--photo) {
+  width: 34px;
+  height: 34px;
+}
+.pin--selected.pin--photo {
+  width: 56px;
+  height: 56px;
+}
+
+/* Agrupaciones */
+.cluster {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  background: var(--cluster);
+  color: var(--cluster-text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 0 0 0 5px var(--cluster-ring);
+  cursor: pointer;
+  animation: cluster-in 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.cluster--m {
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  box-shadow: 0 0 0 6px var(--cluster-ring);
+}
+.cluster--l {
+  width: 44px;
+  height: 44px;
+  font-size: 15px;
+  box-shadow: 0 0 0 6px var(--cluster-ring);
+}
+
+@keyframes cluster-in {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+}
+
+/* Mi ubicación */
+.me {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #2f7cf6;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 8px rgba(47, 124, 246, 0.18), 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Atribución de OSM: compacta, en cristal, debajo de los filtros */
+.maplibregl-ctrl-top-right {
+  top: calc(env(safe-area-inset-top) + 172px);
+}
+.maplibregl-ctrl.maplibregl-ctrl-attrib {
+  background: var(--glass);
+  color: var(--text-2);
+  border-radius: 14px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+.maplibregl-ctrl-attrib a {
+  color: var(--text-2);
+}
+.maplibregl-ctrl-attrib-button {
+  filter: var(--attrib-icon-filter, none);
+}

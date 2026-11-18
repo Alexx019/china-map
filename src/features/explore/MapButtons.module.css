@@ -1,0 +1,37 @@
+.fab {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pulse {
+  animation: pulse 1s ease-in-out infinite;
+}
+@keyframes pulse {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.toast {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 10px);
+  margin: 0;
+  white-space: nowrap;
+  padding: 8px 12px;
+  border-radius: 14px;
+  background: var(--cluster);
+  color: var(--cluster-text);
+  font-size: 13px;
+  font-weight: 500;
+}

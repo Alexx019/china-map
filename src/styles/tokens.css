@@ -63,8 +63,9 @@
   --tap: 44px;
 }
 
+/* Oscuro: el del móvil, salvo que se haya elegido claro a mano; o elegido a mano (html[data-theme]). */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
     --map-land: #14181f;
     --map-water: #0d2232;
     --map-park: #15261d;
@@ -98,4 +99,44 @@
 
     --accent-text: #ff8a7a;
   }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+    --map-land: #14181f;
+    --map-water: #0d2232;
+    --map-park: #15261d;
+    --map-road: #2a313c;
+    --map-road-case: #1a1f27;
+    --map-minor: #1b2028;
+    --map-label: #9aa1ad;
+    --map-water-label: #6e93ae;
+
+    --surface: #16181d;
+    --surface-2: #1f2228;
+    --text: #f2f3f5;
+    --text-2: #9aa1ad;
+    --text-body: #d9dce1;
+    --hair: rgba(255, 255, 255, 0.1);
+    --hair-soft: rgba(255, 255, 255, 0.07);
+    --grab: rgba(255, 255, 255, 0.24);
+
+    --glass: rgba(28, 31, 38, 0.78);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --chip: rgba(30, 33, 40, 0.86);
+    --nav: rgba(22, 24, 29, 0.94);
+    --nav-active: rgba(255, 255, 255, 0.1);
+    --shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+
+    --cluster: #f2f3f5;
+    --cluster-text: #111318;
+    --cluster-ring: rgba(242, 243, 245, 0.16);
+    --marker-ring: #f2f3f5;
+    --marker-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
+
+    --accent-text: #ff8a7a;
+  }
+
+:root[data-theme='light'] {
+  color-scheme: light;
 }
