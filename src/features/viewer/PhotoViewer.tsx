@@ -109,7 +109,7 @@ function Viewer({ list, index }: { list: ReturnType<typeof viewerPhotos>; index:
               className={css.thumb}
               aria-label={`Ver la foto ${i + 1}`}
               aria-current={i === index}
-              style={{ backgroundImage: `url('${thumbUrl(photo, 's')}'), ${photoBackground(photos[photo])}` }}
+              style={{ backgroundImage: `url(${JSON.stringify(thumbUrl(photo, 's'))}), ${photoBackground(photos[photo])}` }}
               onClick={() => track.current?.scrollTo({ left: i * track.current.clientWidth, behavior: 'smooth' })}
             />
           ))}

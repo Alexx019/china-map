@@ -11,6 +11,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "check-data": "node scripts/check-data.mjs",
+    "local": "node scripts/local.mjs",
     "api": "PLACES_PATH=public/data/places.json DB_PATH=.cache/dev.db node server/index.mjs"
   },
   "dependencies": {

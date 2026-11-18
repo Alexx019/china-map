@@ -28,6 +28,9 @@ const fmtDate = (iso: string) => {
   return Number.isNaN(d.getTime()) ? iso : new Intl.DateTimeFormat('es', { day: 'numeric', month: 'short', year: 'numeric' }).format(d);
 };
 
+/** Solo enlaces http(s): un `javascript:` en los datos no debe acabar en un href. */
+const safe = (url: string) => (/^https?:\/\//i.test(url) ? url : undefined);
+
 const host = (url: string) => {
   try {
     return new URL(url).hostname.replace(/^www\.|^m\./, '');
@@ -99,7 +102,7 @@ function Sources({ sources, verifiedAt }: { sources: Source[]; verifiedAt: strin
       <ul>
         {sources.map((s) => (
           <li key={s.url}>
-            <a href={s.url} target="_blank" rel="noopener noreferrer">
+            <a href={safe(s.url)} target="_blank" rel="noopener noreferrer">
               <span className={css.sourceTitle}>{s.title}</span>
               <span className={css.sourceHost}>
                 {host(s.url)}
@@ -129,7 +132,7 @@ export function TipsSection({ place }: { place: Place }) {
           {tips.map((t, i) => (
             <li key={i} className={css.tip}>
               <p>{t.text}</p>
-              <a href={t.source.url} target="_blank" rel="noopener noreferrer" className={css.tipSource}>
+              <a href={safe(t.source.url)} target="_blank" rel="noopener noreferrer" className={css.tipSource}>
                 {host(t.source.url)}
                 <Icon name="external" size={12} />
               </a>

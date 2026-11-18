@@ -99,14 +99,19 @@ export class MarkerLayer {
     el.className = 'pin';
     el.style.setProperty('--c', `var(--cat-${p.category})`);
     el.setAttribute('aria-label', p.name);
-    const photo = p.thumb ? `<span class="pin__photo" style="background-image:url('${p.thumb}'), ${p.bg}"></span>` : '';
+    // Solo HTML fijo (iconos propios); los datos (foto, nombre) van por propiedades del DOM, nunca como HTML
     el.innerHTML =
       `<span class="pin__dot">${iconSvg(p.category, 14, '#fff', 2.4)}</span>` +
-      photo +
+      (p.thumb ? `<span class="pin__photo"></span>` : '') +
       `<span class="pin__badge">${iconSvg(p.category, 10, '#fff', 3)}</span>` +
       `<span class="pin__status"></span>` +
       `<span class="pin__label"></span>`;
     (el.querySelector('.pin__label') as HTMLElement).textContent = p.name;
+    const photo = el.querySelector<HTMLElement>('.pin__photo');
+    if (photo) {
+      // Degradado con los colores de la foto debajo, mientras carga
+      photo.style.backgroundImage = `url(${JSON.stringify(p.thumb)}), ${p.bg}`;
+    }
     el.addEventListener('click', (e) => {
       e.stopPropagation();
       this.onPlace(p.id);

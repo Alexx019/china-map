@@ -54,7 +54,8 @@ Los datos (`public/data/`) van fuera del código: la investigación y los sitios
 - [x] PWA (`vite-plugin-pwa`): app, datos y fuentes precargados; fotos y mapa con «Preparar sin conexión»
 - [x] El mapa sin conexión: `.pmtiles` en caché servido por trozos (plan B: OPFS)
 - [x] `deploy/`: Docker Compose con Caddy (HTTPS, contraseña, `noindex`) y la API; `scripts/deploy.sh`
-- [ ] `/security-review` y despliegue en la Pi
+- [x] Revisión de seguridad (CSP, marcadores sin HTML de datos, enlaces solo http(s), volumen de la API)
+- [ ] Despliegue en la Pi (falta lo de Alex)
 
 ## Fase 4. Estados y rutas compartidos
 
@@ -66,7 +67,7 @@ Los datos (`public/data/`) van fuera del código: la investigación y los sitios
 
 ## Fase 5. Repaso antes de salir
 
-- [ ] Capturas de Playwright comparadas con la maqueta, en claro y en oscuro
+- [x] Capturas de Playwright comparadas con la maqueta, en claro y en oscuro
 - [ ] Lista de comprobación en cada móvil: instalar, preparar sin conexión, modo avión, Amap en Shenzhen y
   Hong Kong, y un estado y una ruta que aparezcan en otro móvil
 

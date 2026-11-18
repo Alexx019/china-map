@@ -1,4 +1,5 @@
 import type { TripData } from '../data/types';
+import { photoUrl, thumbUrl } from '../data/photos';
 import { CACHE, DATA_URLS, MAP_URL } from './caches';
 
 export interface OfflineStatus {
@@ -9,14 +10,13 @@ export interface OfflineStatus {
   photosTotal: number;
 }
 
-const thumb = (p: string, size: 's' | 'm') => `/data/thumbs/${size}/${p.split('/').pop()}`;
 
 function photoJobs(data: TripData) {
   const all = data.places.flatMap((p) => p.photos);
   return [
-    ...all.map((p) => ({ cache: CACHE.thumbs, url: thumb(p, 's') })),
-    ...all.map((p) => ({ cache: CACHE.thumbs, url: thumb(p, 'm') })),
-    ...all.map((p) => ({ cache: CACHE.photos, url: `/data/${p}` })),
+    ...all.map((p) => ({ cache: CACHE.thumbs, url: thumbUrl(p, 's') })),
+    ...all.map((p) => ({ cache: CACHE.thumbs, url: thumbUrl(p, 'm') })),
+    ...all.map((p) => ({ cache: CACHE.photos, url: photoUrl(p) })),
   ];
 }
 

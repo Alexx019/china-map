@@ -30,6 +30,7 @@
 
 .pin__photo {
   border-width: 3px;
+  background-color: var(--surface-2);
   background-size: cover;
   background-position: center;
   opacity: 0;

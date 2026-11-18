@@ -42,7 +42,14 @@ export default defineConfig({
   ],
   // En desarrollo, la API (server/index.mjs) corre aparte en el 8787
   server: { host: true, proxy: { '/api': 'http://127.0.0.1:8787' } },
-  preview: { proxy: { '/api': 'http://127.0.0.1:8787' } },
+  // La misma Content-Security-Policy que pone Caddy en la Pi, para probarla en local con `npm run preview`
+  preview: {
+    proxy: { '/api': 'http://127.0.0.1:8787' },
+    headers: {
+      'Content-Security-Policy':
+        "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; child-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'",
+    },
+  },
   // MapLibre 6 carga su worker con new URL(..., import.meta.url): el pre-empaquetado lo rompe
   optimizeDeps: { exclude: ['maplibre-gl'] },
   test: {
