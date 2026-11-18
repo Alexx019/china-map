@@ -4564,7 +4564,160 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E9%81%87%E9%BE%99%E6%B2%B3%E7%AB%B9%E7%AD%8F&city=%E9%98%B3%E6%9C%94"
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%81%87%E9%BE%99%E6%B2%B3%E7%AB%B9%E7%AD%8F&city=%E9%98%B3%E6%9C%94",
+      "practical": {
+        "how_to_get": "Depende del embarcadero. 金龙桥码头 (tramo largo, termina en 旧县): a unos 12 km del pueblo de Yangshuo y 3 km de Baisha (白沙). 水厄底码头 (tramo corto, termina en el muelle junto a 工农桥): a unos 6 km del pueblo. 骥马码头 (termina también en 工农桥): a unos 5 km.",
+        "payment": null,
+        "passport": "Sí. Reserva con nombre real: los extranjeros necesitan el pasaporte original para comprar y para pasar el control del embarcadero (aviso oficial, julio 2025).",
+        "rules": "Chaleco salvavidas puesto todo el trayecto y sentados. El aviso oficial pide no llevar objetos de valor ni aparatos electrónicos (móvil, cámara, tableta). Peso máximo: 160 kg por balsa de 2 y 210 kg por balsa de 3. Menores de 1 m y mayores de 70 solo en balsas de 4 u 8 plazas. No pueden subir embarazadas ni personas con problemas de corazón o hipertensión. Sin mascotas.",
+        "before_you_go": "Los tramos largos son solo de ida: el billete no incluye la vuelta (autobús de regreso, 10 CNY por persona según el aviso de 2025). Te mojas al bajar cada azud: calzado que se pueda mojar y bolsa estanca para el móvil. Las bicis no suben a la balsa. Los billetes «baratos» o «internos» que ofrecen por la calle no son oficiales. Puede suspenderse por nivel del agua, crecidas o mantenimiento: no hay datos de cómo funciona a finales de noviembre, confírmalo la víspera.",
+        "hours": "08:00–17:30 en 金龙桥 y 骥马; 08:00–18:00 en los demás embarcaderos (aviso oficial, julio 2025). Llegar 30 min antes de la franja reservada.",
+        "closed_days": "No consta día de cierre. Se puede suspender por nivel del agua, tiempo o mantenimiento.",
+        "booking": "Por confirmar: muy recomendable reservar. Online en la cuenta de WeChat «遇龙河» o en el miniprograma «i游阳朔»; según el aviso oficial y varias guías, los billetes del día siguiente salen a las 20:00 y los tramos populares se agotan en minutos. Una guía de noviembre de 2026 dice en cambio que los cupos se abren a las 8:00 y a las 12:00. En la taquilla del embarcadero solo se vende para el mismo día. Máximo 3 billetes por persona y día, por franjas horarias.",
+        "tickets": "Precio por balsa (web oficial): 金龙桥→旧县 320 CNY; 骥马→工农桥 320 CNY; 水厄底→工农桥 200 CNY; 夏棠→骥马 200 CNY; 遇龙桥 (ida y vuelta) 180 CNY. Balsa grande de 万景: 45 CNY/persona (se cobra un mínimo de 5, máximo 8). Las balsas normales son para 2: los 4 necesitáis 2 balsas.",
+        "duration": "金龙桥→旧县: unos 90 min (6,18 km, 9 azudes). 骥马→工农桥: unos 90 min (5,2 km, 9 azudes). 水厄底→工农桥: 40–50 min (2,48 km, 4 azudes).",
+        "best_time": "A primera hora de la mañana o al final de la tarde, para evitar gente. Las guías dan abril y septiembre–octubre como los mejores meses; no hay datos fiables sobre noviembre.",
+        "sources": [
+          {
+            "url": "https://www.ysylh.cn/reservation/",
+            "title": "遇龙河官网: 筏工预约 (precio por embarcadero, consultado 18-nov-2026)",
+            "fields": [
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.ysylh.cn/matou/2025/jinglongqiaoView.shtml",
+            "title": "遇龙河官网: 金龙桥漂游线路",
+            "fields": [
+              "how_to_get",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://www.ysylh.cn/matou/2025/shuiediView.shtml",
+            "title": "遇龙河官网: 水厄底漂游线路",
+            "fields": [
+              "how_to_get",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://www.ysylh.cn/matou/2025/jimamatouView.shtml",
+            "title": "遇龙河官网: 骥马漂游线路",
+            "fields": [
+              "how_to_get",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://www.sohu.com/a/909698950_121106875",
+            "title": "Sohu: 关于遇龙河景区实名制分时预约的温馨提示 (aviso oficial, 30 jun 2025)",
+            "fields": [
+              "passport",
+              "rules",
+              "before_you_go",
+              "hours",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://travel.sina.cn/2026-06-26/detail-inietfxy1990740.d.html?vt=4",
+            "title": "Sina: 遇龙河竹筏票怎么在官方小程序预约？ (26 jun 2026)",
+            "fields": [
+              "rules",
+              "before_you_go",
+              "booking",
+              "tickets",
+              "duration"
+            ]
+          },
+          {
+            "url": "http://gl.bendibao.com/tour/2024919/16773.shtm",
+            "title": "桂林本地宝: 遇龙河景区漂流攻略（线路+购票+规则） (13 mar 2025)",
+            "fields": [
+              "booking",
+              "tickets",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://k.sina.cn/article_7879777378_1d5abdc6206801j0zc.html",
+            "title": "Sina: 桂林阳朔慢游七八天怎么安排？ (actualizado 16 nov 2026)",
+            "fields": [
+              "booking"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/guilin/yangshuo/yulong-river-bamboo-rafting/",
+            "title": "Wander in China: Yulong River Bamboo Rafting 2026 (15 sep 2026)",
+            "fields": [
+              "before_you_go",
+              "closed_days",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://yangshuomountainretreat.com/blog/zh/%E9%98%B3%E6%9C%94%E7%8E%A9%E4%BB%80%E4%B9%88%EF%BC%9F2026-%E6%9C%80%E6%96%B0%E6%94%BB%E7%95%A5/",
+            "title": "Yangshuo Mountain Retreat: 阳朔玩什么？2026 最新攻略",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.chinahighlights.com/guilin/bamboo-rafting.htm",
+            "title": "China Highlights: Bamboo Rafting in Guilin (sin fecha)",
+            "fields": [
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20250527514646.html",
+            "title": "大河票务网: 遇龙河竹筏漂流 (27 may 2025)",
+            "fields": [
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/137485.html",
+            "title": "Ctrip: 遇龙河竹筏漂游 (hoy 08:00–18:00, 6.868 reseñas)",
+            "fields": [
+              "hours"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Si buscáis emoción, el tramo 金龙桥→旧县 es el más largo y el que tiene los azudes más intensos, sobre todo los primeros.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/137485.html",
+            "title": "Ctrip, reseña de usuario sobre 遇龙河竹筏漂游"
+          }
+        },
+        {
+          "text": "Mete los datos de los 4 pasaportes en el miniprograma antes de que abra la venta y pon una alarma: los tramos buenos se agotan en minutos.",
+          "source": {
+            "url": "https://travel.sina.cn/2026-06-26/detail-inietfxy1990740.d.html?vt=4",
+            "title": "Sina (jun 2026)"
+          }
+        },
+        {
+          "text": "Las fotos que te ofrecen por el camino y la propina al balsero son opcionales: pregunta el precio antes de aceptar nada.",
+          "source": {
+            "url": "https://www.wanderinchina.com/destinations/guilin/yangshuo/yulong-river-bamboo-rafting/",
+            "title": "Wander in China (sep 2026)"
+          }
+        },
+        {
+          "text": "Sujeta las gafas con una goma y lleva ropa de recambio: en cada azud salpica.",
+          "source": {
+            "url": "https://www.chinahighlights.com/guilin/bamboo-rafting.htm",
+            "title": "China Highlights: Bamboo Rafting in Guilin"
+          }
+        }
+      ]
     },
     {
       "id": "bic",
@@ -4585,7 +4738,103 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E9%81%87%E9%BE%99%E6%B2%B3%E9%AA%91%E8%A1%8C&city=%E9%98%B3%E6%9C%94"
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%81%87%E9%BE%99%E6%B2%B3%E9%AA%91%E8%A1%8C&city=%E9%98%B3%E6%9C%94",
+      "practical": {
+        "how_to_get": "Se sale en bici desde el propio pueblo de Yangshuo. Ruta clásica (unos 15 km): Yangshuo → 骥马 → 矮山门 → 兴隆桥 → 水厄底 → 工农桥 → Yangshuo. En 工农桥 se enlaza con la carretera de 十里画廊.",
+        "payment": null,
+        "passport": null,
+        "rules": "En 十里画廊 se comparte la carretera con coches: circula por la derecha y con atención.",
+        "before_you_go": "十里画廊 es una carretera libre, sin entrada. Pide el candado al alquilar: lo necesitas para dejar la bici en cada parada. El camino junto al río tiene escalones y tramos irregulares, más en la orilla oeste. Una e-bike con la batería llena hace 40–50 km.",
+        "hours": "Ruta al aire libre, abierta todo el día. Horario de las tiendas de alquiler: sin datos.",
+        "closed_days": "Ninguno (ruta al aire libre).",
+        "booking": null,
+        "tickets": "Alquiler de e-bike: 30–50 CNY al día (guía de noviembre de 2026); otra de junio de 2026 da unos 50 CNY. Bici normal: 10 CNY al día en una guía antigua sin fecha.",
+        "duration": "Ruta clásica de 15 km: unas 4 h ida y vuelta con paradas. Una guía de 2026 calcula 3–4 h para la ruta de 十里画廊 y el río.",
+        "best_time": "A primera hora o al final de la tarde, para evitar el tráfico de 十里画廊.",
+        "sources": [
+          {
+            "url": "https://yangshuolvyou.com/2739.html",
+            "title": "阳朔旅游网: 遇龙河骑行最佳线路 (sin fecha)",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "tickets",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://k.sina.cn/article_7879777378_1d5abdc6206801j0zc.html",
+            "title": "Sina: 桂林阳朔慢游七八天怎么安排？ (actualizado 16 nov 2026)",
+            "fields": [
+              "before_you_go",
+              "tickets",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://travel.sina.cn/2026-06-26/detail-inietfxy1990740.d.html?vt=4",
+            "title": "Sina: 遇龙河竹筏票怎么在官方小程序预约？ (26 jun 2026)",
+            "fields": [
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/52551.html",
+            "title": "Ctrip: 十里画廊 (全年全天开放, 免费)",
+            "fields": [
+              "before_you_go",
+              "hours",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://yangshuomountainretreat.com/blog/zh/%E9%98%B3%E6%9C%94%E7%8E%A9%E4%BB%80%E4%B9%88%EF%BC%9F2026-%E6%9C%80%E6%96%B0%E6%94%BB%E7%95%A5/",
+            "title": "Yangshuo Mountain Retreat: 阳朔玩什么？2026 最新攻略",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.chinahighlights.com/yangshuo/attraction/moon-hill.htm",
+            "title": "China Highlights: Moon Hill (consejos de ciclismo)",
+            "fields": [
+              "rules",
+              "best_time"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Si paras a hacer fotos en los azudes, cuidado con el musgo: resbala mucho.",
+          "source": {
+            "url": "https://k.sina.cn/article_7879777378_1d5abdc6206801j0zc.html",
+            "title": "Sina (nov 2026)"
+          }
+        },
+        {
+          "text": "Para combinar con la balsa: id en bici hasta el embarcadero de llegada, dejadla allí y moveos en coche al de salida; así bajáis por el río hasta las bicis. Confirmad antes que se puede aparcar.",
+          "source": {
+            "url": "https://www.wanderinchina.com/destinations/guilin/yangshuo/yulong-river-bamboo-rafting/",
+            "title": "Wander in China (sep 2026), experiencia de un viajero"
+          }
+        },
+        {
+          "text": "La ruta larga por 白沙 y 旧县 tiene baches y casi no hay tiendas: llevad agua y algo de comer.",
+          "source": {
+            "url": "https://yangshuolvyou.com/2739.html",
+            "title": "阳朔旅游网: 遇龙河骑行最佳线路"
+          }
+        },
+        {
+          "text": "Pedid siempre el candado al alquilar: sin él no podéis dejar la bici para entrar a ver nada.",
+          "source": {
+            "url": "https://yangshuolvyou.com/2739.html",
+            "title": "阳朔旅游网: 遇龙河骑行最佳线路"
+          }
+        }
+      ]
     },
     {
       "id": "moo",
@@ -4610,7 +4859,83 @@
         "source": "nominatim",
         "osm_id": "node/1364118179",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "A unos 9 km de 西街, al final de 十里画廊: 30–45 min en bici o unos 15 min en coche.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Por confirmar si está abierto: Ctrip lo marca hoy como «暂停营业», con reapertura sin fecha, y una guía de 2026 dice que está cerrado temporalmente. El arco se ve bien desde fuera, desde la carretera de enfrente.",
+        "hours": "Por confirmar: cerrado temporalmente según Ctrip (18-nov-2026). Horario habitual cuando abre: 08:00–17:30.",
+        "closed_days": "Por confirmar: cerrado temporalmente, sin fecha de reapertura (Ctrip, 18-nov-2026).",
+        "booking": null,
+        "tickets": "Por confirmar: Ctrip muestra «门市价 desde 26 CNY»; una guía de 2026 da 14 CNY, una reseña 15 CNY y Qunar 50 CNY.",
+        "duration": "Más de 800 escalones: unos 15 min hasta el primer mirador, 30 min hasta el de media luna y 1 h hasta la cima.",
+        "best_time": "Atardecer para las fotos del arco desde arriba. Tras la lluvia, con niebla, el mirador de media luna es muy fotogénico.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/22084.html",
+            "title": "Ctrip: 十里画廊-月亮山 (暂停营业, 门市价¥26起; reseñas)",
+            "fields": [
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "tickets",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://yangshuomountainretreat.com/blog/zh/%E9%98%B3%E6%9C%94%E7%8E%A9%E4%BB%80%E4%B9%88%EF%BC%9F2026-%E6%9C%80%E6%96%B0%E6%94%BB%E7%95%A5/",
+            "title": "Yangshuo Mountain Retreat: 阳朔玩什么？2026 最新攻略 («月亮山暂时关闭»)",
+            "fields": [
+              "before_you_go",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://touch.travel.qunar.com/poi/709764",
+            "title": "Qunar: 十里画廊-月亮山",
+            "fields": [
+              "hours",
+              "tickets",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.chinahighlights.com/yangshuo/attraction/moon-hill.htm",
+            "title": "China Highlights: The Moon Hill (sin fecha)",
+            "fields": [
+              "how_to_get",
+              "duration",
+              "best_time"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Se aprecia mejor de lejos: busca el ángulo desde el otro lado de la carretera para ver el agujero como una luna.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/22084.html",
+            "title": "Ctrip, reseña de usuario sobre 月亮山"
+          }
+        },
+        {
+          "text": "Los escalones son empinados y con lluvia resbalan: calzado con agarre.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/22084.html",
+            "title": "Ctrip, reseña de usuario sobre 月亮山"
+          }
+        },
+        {
+          "text": "Si vais justos de tiempo, no hace falta subir: arriba hay poco más y la mejor foto se hace desde fuera.",
+          "source": {
+            "url": "https://touch.travel.qunar.com/poi/709764",
+            "title": "Qunar, reseñas de usuarios"
+          }
+        }
+      ]
     },
     {
       "id": "b20",
@@ -4635,7 +4960,106 @@
         "source": "nominatim",
         "osm_id": "node/6255301985",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Desde el muelle de 兴坪: unos minutos por la orilla, cruzar el puente y seguir unos 15 min a pie hasta el punto de 黄布倒影 (relato de Ctrip). Para volver, hay vecinos con triciclos por algo más de 10 CNY, regateando. También se ve desde la balsa o barca 兴坪–九马画山.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "En la calle abundan los que ofrecen barcas y comida: compra la barca solo por canales oficiales. La balsa 兴坪–九马画山 (ida y vuelta, unos 98 CNY por persona y 1,5 h, guía de 2025) pasa por el paisaje del billete.",
+        "hours": "Al aire libre, sin horario.",
+        "closed_days": "Ninguno.",
+        "booking": "No hace falta para ver el paisaje: se fotografía sin subir a ninguna barca.",
+        "tickets": "Gratis: el mirador no cobra entrada (artículo de octubre de 2026). Por el camino hay plataformas de vecinos que cobran por la foto o por el atrezo: pregunta el precio antes.",
+        "duration": "Unos 15 min a pie desde el muelle de 兴坪 por trayecto. En balsa, 兴坪–九马画山 ida y vuelta: 1–1,5 h.",
+        "best_time": "Amanecer o atardecer, por la luz más suave. La niebla, el nivel del río y el tráfico de barcas influyen más que la hora.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje «我的兴坪古镇之旅» (visita en nov 2020)",
+            "fields": [
+              "how_to_get",
+              "tickets",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/26887.html",
+            "title": "Ctrip: 兴坪古镇 (全年全天开放, 免费; reseñas)",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "hours",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://k.sina.cn/article_7879923029_1d5ae155506801hl3a.html",
+            "title": "Sina: 漓江门票包含什么？2026票价全拆解 (6 oct 2026)",
+            "fields": [
+              "tickets",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/guilin/yangshuo/xingping/",
+            "title": "Wander in China: Xingping Guide (15 sep 2026)",
+            "fields": [
+              "tickets",
+              "best_time",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.gxlvyouwang.com/lvyougonglve/1041.html",
+            "title": "广西途趣旅游网: 兴坪古镇20元人民币背景地 (30 oct 2025)",
+            "fields": [
+              "before_you_go",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://chinahighlights.com/yangshuo/attraction/xingping-anceint-town.htm",
+            "title": "China Highlights: Xingping Ancient Town (sin fecha)",
+            "fields": [
+              "how_to_get",
+              "duration"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Por el camino hay varias plataformas de vecinos con casi el mismo ángulo: ve parando y elige; no hace falta pagar por ninguna.",
+          "source": {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje (nov 2020)"
+          }
+        },
+        {
+          "text": "Si te ofrecen atrezo o retrato con el paisaje, pacta el precio antes de aceptar.",
+          "source": {
+            "url": "https://www.wanderinchina.com/destinations/guilin/yangshuo/xingping/",
+            "title": "Wander in China (sep 2026)"
+          }
+        },
+        {
+          "text": "Desde el pueblo, en pocos minutos andando estás en la orilla con el encuadre del billete: lo bueno de 兴坪 es el río, no la calle comercial.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/26887.html",
+            "title": "Ctrip, reseña de usuario sobre 兴坪古镇"
+          }
+        },
+        {
+          "text": "Al caer la tarde hay ancianos con barcas de pesca tradicional que posan para fotos cobrando.",
+          "source": {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje (nov 2020)"
+          }
+        }
+      ]
     },
     {
       "id": "lao",
@@ -4661,7 +5085,92 @@
         "source": "nominatim",
         "osm_id": "node/4780981642",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "La entrada está en el propio pueblo de 兴坪, junto al arco de entrada (牌坊), en un sitio poco visible. Ctrip lo sitúa junto al muelle de 兴坪.",
+        "payment": "Arriba hay bebidas en autoservicio que se pagan escaneando un QR (más caras cuanto más subes).",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Monte sin urbanizar: desde el pabellón de media ladera se acaba el escalón de piedra, hay tramos expuestos sin barandilla y, al final, una escalera metálica casi vertical. Más de 1.100 escalones. Sin iluminación: si bajáis de noche, frontal. No subir con lluvia.",
+        "hours": "Abierto todo el día.",
+        "closed_days": "Ninguno según Ctrip. Evitar con lluvia.",
+        "booking": "No hace falta.",
+        "tickets": "Gratis.",
+        "duration": "Subida: de 40 min a 1 h para alguien en forma.",
+        "best_time": "Atardecer (la vista de «兴坪夕照»), subiendo a partir de las 16:00. Bajar de noche es lo más peligroso: Wander in China desaconseja estar arriba al anochecer.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/1417363.html",
+            "title": "Ctrip: 老寨山公园 (全年全天开放, 免费; reseñas)",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje «我的兴坪古镇之旅» (subida en nov 2020)",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "before_you_go",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://www.gxlvyouwang.com/lvyougonglve/1041.html",
+            "title": "广西途趣旅游网: 兴坪古镇20元人民币背景地 (30 oct 2025)",
+            "fields": [
+              "tickets",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/guilin/yangshuo/xingping/",
+            "title": "Wander in China: Xingping Guide (15 sep 2026)",
+            "fields": [
+              "before_you_go",
+              "closed_days",
+              "best_time"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Cerca de la cima hay dos escaleras de hierro seguidas: es el camino bueno, no te desvíes.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/1417363.html",
+            "title": "Ctrip, reseña de usuario sobre 老寨山"
+          }
+        },
+        {
+          "text": "El pabellón de la cima no es el mejor punto para el atardecer: sube un poco más, hasta la antena, para ver la curva del río.",
+          "source": {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje (nov 2020)"
+          }
+        },
+        {
+          "text": "Id en grupo y con frontal si os quedáis al atardecer: la bajada a oscuras es lo más duro. En noviembre, quien subió llegó arriba hacia las 16:30.",
+          "source": {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje (nov 2020)"
+          }
+        },
+        {
+          "text": "Calzado con buen agarre y agua: no hay dónde comprar abajo del todo y la subida es dura.",
+          "source": {
+            "url": "https://www.gxlvyouwang.com/lvyougonglve/1041.html",
+            "title": "广西途趣旅游网 (oct 2025)"
+          }
+        }
+      ]
     },
     {
       "id": "xgs",
@@ -4687,7 +5196,109 @@
         "source": "nominatim",
         "osm_id": "node/6487071285",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Por confirmar: está en la orilla opuesta del 漓江 respecto a 兴坪. Lo habitual es coche o traslado reservado desde Yangshuo (en el pueblo se ofrecen traslados compartidos al amanecer). Desde 兴坪 en coche, una guía dice 30 min y un relato de viaje unas 2 h dando un rodeo.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Calzado cómodo. Arriba hay plataformas escalonadas con sitio para trípodes. Transporte privado ida y vuelta desde Yangshuo: unos 300–350 CNY según guías de 2026.",
+        "hours": "04:30–19:00 (Ctrip, 18-nov-2026).",
+        "closed_days": null,
+        "booking": "La entrada no se reserva: se paga en la taquilla. Lo que sí hay que reservar, la víspera, es el transporte.",
+        "tickets": "Por confirmar: 60 CNY por persona en taquilla, según reseñas y guías de 2025–2026; Ctrip muestra «desde 90 CNY».",
+        "duration": "Subida corta por escalones: de 10 a 20 min desde la taquilla.",
+        "best_time": "Amanecer, mejor con cielo despejado o niebla baja. Salir de Yangshuo hacia las 4:30–5:00.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/1417461.html",
+            "title": "Ctrip: 相公山景区 (hoy 04:30–19:00, 门票¥90起; reseñas)",
+            "fields": [
+              "before_you_go",
+              "hours",
+              "tickets",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/134715804.html",
+            "title": "Ctrip: 相公山观景台 (reseñas: «门票60», «十分钟可上山»)",
+            "fields": [
+              "tickets",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://yangshuomountainretreat.com/blog/zh/%E9%98%B3%E6%9C%94%E7%8E%A9%E4%BB%80%E4%B9%88%EF%BC%9F2026-%E6%9C%80%E6%96%B0%E6%94%BB%E7%95%A5/",
+            "title": "Yangshuo Mountain Retreat: 阳朔玩什么？2026 最新攻略",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "booking",
+              "tickets",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.gxlvyouwang.com/lvyougonglve/1041.html",
+            "title": "广西途趣旅游网: 兴坪古镇20元人民币背景地 (30 oct 2025)",
+            "fields": [
+              "how_to_get",
+              "booking",
+              "tickets",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://k.sina.cn/article_7879777378_1d5abdc6206801j0zc.html",
+            "title": "Sina: 桂林阳朔慢游七八天怎么安排？ (actualizado 16 nov 2026)",
+            "fields": [
+              "before_you_go",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje «我的兴坪古镇之旅» (nov 2020)",
+            "fields": [
+              "how_to_get"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Contratar el traslado ahorra conducir de madrugada por carreteras que no conoces; la subida es fácil y arriba hay sitio de sobra en las plataformas.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/1417461.html",
+            "title": "Ctrip, reseña de usuario sobre 相公山"
+          }
+        },
+        {
+          "text": "Algunos lo ven caro para 10 min de subida: compensa si el día amanece despejado o con niebla baja.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/134715804.html",
+            "title": "Ctrip, reseña de usuario sobre 相公山观景台"
+          }
+        },
+        {
+          "text": "En días festivos se llena: llega pronto para coger buen sitio para el trípode.",
+          "source": {
+            "url": "https://www.gxlvyouwang.com/lvyougonglve/1041.html",
+            "title": "广西途趣旅游网 (oct 2025)"
+          }
+        },
+        {
+          "text": "La curva en U del río también luce al atardecer, no solo al amanecer.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/1417461.html",
+            "title": "Ctrip, reseña de usuario sobre 相公山"
+          }
+        }
+      ]
     },
     {
       "id": "xpt",
@@ -4713,7 +5324,112 @@
         "source": "nominatim",
         "osm_id": "node/9921956319",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Por confirmar: autobús desde la estación de autobuses de Yangshuo, unos 7 CNY y 45 min, cada ~20 min de 6:00 a 19:30 (guía sin fecha). Coche privado ida y vuelta: unos 280 CNY (guía de 2026). La estación de tren «阳朔站» está junto a 兴坪, no en el pueblo de Yangshuo.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Entrada libre al pueblo: solo se pagan las barcas y alguna casa antigua. La calle principal es muy comercial y está llena de gente que ofrece barcas y comida. El pescado se vende al peso: pregunta el precio antes de pedir. Mercado los días 3, 6, 9, 13, 16, 19, 23, 26 y 29 de cada mes.",
+        "hours": "Abierto todo el día.",
+        "closed_days": "Ninguno.",
+        "booking": "No hace falta.",
+        "price_per_person": null,
+        "dishes": "Pescado a la cerveza (啤酒鱼), caracoles rellenos (田螺酿) y, para llevar, el dulce 松花糖.",
+        "menu": null,
+        "duration": "De 30 min a 1 h para recorrer las calles antiguas.",
+        "best_time": "Para comer o cenar temprano; el pueblo es pequeño y se ve rápido.",
+        "sources": [
+          {
+            "url": "https://topchinatravel.com/guilin/how-to-get-to-xingping-from-yangshuo.htm",
+            "title": "Top China Travel: How to get to Xingping from Yangshuo (sin fecha)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://yangshuomountainretreat.com/blog/zh/%E9%98%B3%E6%9C%94%E7%8E%A9%E4%BB%80%E4%B9%88%EF%BC%9F2026-%E6%9C%80%E6%96%B0%E6%94%BB%E7%95%A5/",
+            "title": "Yangshuo Mountain Retreat: 阳朔玩什么？2026 最新攻略",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/guilin/yangshuo/xingping/",
+            "title": "Wander in China: Xingping Guide (15 sep 2026)",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/26887.html",
+            "title": "Ctrip: 兴坪古镇 (全年全天开放, 免费; reseñas)",
+            "fields": [
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://www.gxlvyouwang.com/lvyougonglve/1041.html",
+            "title": "广西途趣旅游网: 兴坪古镇20元人民币背景地 (30 oct 2025)",
+            "fields": [
+              "before_you_go",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje «我的兴坪古镇之旅» (nov 2020)",
+            "fields": [
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://chinahighlights.com/yangshuo/attraction/xingping-anceint-town.htm",
+            "title": "China Highlights: Xingping Ancient Town (sin fecha)",
+            "fields": [
+              "duration"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Lo más interesante del casco antiguo es el teatro de la dinastía Qing (万年戏台), gratis. Huye de la calle principal y métete por las laterales.",
+          "source": {
+            "url": "https://www.gxlvyouwang.com/lvyougonglve/1041.html",
+            "title": "广西途趣旅游网 (oct 2025)"
+          }
+        },
+        {
+          "text": "El pueblo en sí es normalito; úsalo como base para el río: en pocos minutos andando estás en la orilla.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/26887.html",
+            "title": "Ctrip, reseña de usuario sobre 兴坪古镇"
+          }
+        },
+        {
+          "text": "En festivos las calles son estrechas y van llenas de gente y motos eléctricas.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/26887.html",
+            "title": "Ctrip, reseña de usuario sobre 兴坪古镇"
+          }
+        },
+        {
+          "text": "Los precios en el pueblo no son baratos: compara antes de sentarte a comer.",
+          "source": {
+            "url": "https://you.ctrip.com/travels/yangshuo702/3985627.html",
+            "title": "Ctrip, relato de viaje (nov 2020)"
+          }
+        }
+      ]
     },
     {
       "id": "wst",
@@ -4738,7 +5454,88 @@
         "source": "nominatim",
         "osm_id": "way/849826843",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Calle peatonal en el centro del pueblo de Yangshuo, desde 蟠桃路 hasta el río Li.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Entrada libre. Los bares hacen ruido hasta tarde: si dormís cerca, mejor en calles laterales. De noche se llena mucho. En las tiendas, regatea: muchos artículos se repiten.",
+        "hours": "Calle abierta todo el día; el ambiente es de noche.",
+        "closed_days": "Ninguno.",
+        "booking": "No hace falta.",
+        "price_per_person": "Pescado a la cerveza: lo normal son 80–120 CNY por jin (500 g) según el pez; por encima de 150 CNY/jin, desconfía. Para 2 personas basta un pez de ~1,5 jin.",
+        "dishes": "Pescado a la cerveza (啤酒鱼), caracoles rellenos (田螺酿), arroz en caña de bambú (竹筒饭), pastelitos de osmanto (桂花糕) y 油茶.",
+        "menu": null,
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/22079.html",
+            "title": "Ctrip: 阳朔西街 (全年全天开放, 免费; reseñas)",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "booking",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://yangshuomountainretreat.com/blog/zh/%E9%98%B3%E6%9C%94%E7%8E%A9%E4%BB%80%E4%B9%88%EF%BC%9F2026-%E6%9C%80%E6%96%B0%E6%94%BB%E7%95%A5/",
+            "title": "Yangshuo Mountain Retreat: 阳朔玩什么？2026 最新攻略",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://k.sina.cn/article_7879777378_1d5abdc6206801j0zc.html",
+            "title": "Sina: 桂林阳朔慢游七八天怎么安排？ (actualizado 16 nov 2026)",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://weibo.com/2/detail/comos:nisheny8333468",
+            "title": "Weibo/Sina: 阳朔啤酒鱼3大真相+避坑指南 (18 sep 2026)",
+            "fields": [
+              "price_per_person",
+              "dishes"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Para el pescado a la cerveza, mejor un local de callejón llevado por gente de aquí que los de la calle principal o los que trabajan con grupos.",
+          "source": {
+            "url": "https://weibo.com/2/detail/comos:nisheny8333468",
+            "title": "Weibo/Sina (sep 2026)"
+          }
+        },
+        {
+          "text": "Pide 毛骨鱼 o 剑骨鱼: tienen menos espinas que la carpa (草鱼) que usan los sitios para grupos. Y moja el arroz en la salsa.",
+          "source": {
+            "url": "https://weibo.com/2/detail/comos:nisheny8333468",
+            "title": "Weibo/Sina (sep 2026)"
+          }
+        },
+        {
+          "text": "De día es una calle comercial más: el ambiente con música en directo y bares empieza al anochecer.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/yangshuo702/22079.html",
+            "title": "Ctrip, reseñas de usuarios sobre 阳朔西街"
+          }
+        },
+        {
+          "text": "Si buscáis dormir tranquilos, no os alojéis en la propia calle de bares.",
+          "source": {
+            "url": "https://k.sina.cn/article_7879777378_1d5abdc6206801j0zc.html",
+            "title": "Sina (nov 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "lsj",
@@ -4764,7 +5561,106 @@
         "source": "nominatim",
         "osm_id": "way/313899372",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Teatro al aire libre en 田园路1号, a las afueras del pueblo. Bus 802, 806 u 808 hasta 石马山水路口 y 1,1 km a pie. Desde 西街, taxi o Didi por unos 20–30 CNY; andando son unos 30 min, no recomendable de noche (carretera con mucho tráfico y poca luz).",
+        "payment": null,
+        "passport": null,
+        "rules": "Se pueden hacer fotos, sin flash.",
+        "before_you_go": "Es al aire libre: en invierno de noche hace frío, abrigaos. Con lluvia ligera se actúa y reparten chubasqueros; con tormenta se cancela y se devuelve el dinero. Llegad 30 min antes: la numeración de asientos es confusa.",
+        "hours": "Recinto abierto de 19:00 a 21:00, según los pases (Ctrip, 18-nov-2026).",
+        "closed_days": "Se cancela con tormenta fuerte. Según una guía antigua, suele parar desde el 12.º mes lunar (hacia enero) hasta el 2 del primero: no afecta a finales de noviembre.",
+        "booking": "Se compra en la cuenta oficial de WeChat de 印象刘三姐 o en Ctrip/Trip.com. Teléfono de venta: 0773-8818008.",
+        "tickets": "Por confirmar: Ctrip, desde 238 CNY (hoy). Bendibao (ago 2025): niños (1,2–1,4 m) 118 CNY; adulto «nuevo VIP» desde 268 CNY; rango 118–888 CNY. Por zonas (China Discovery, sin fecha): C 198, B2 268, B1 368, A2 628, A1 828. Guía de 2026: C 238–328, B 328–398, A 468–528, palco VIP cubierto desde 688.",
+        "duration": "70 min de función; unas 3 h con el trayecto.",
+        "showtimes": "Por confirmar: en invierno, 2 pases, a las 19:30 y a las 21:05–21:10 (Bendibao, ago 2025); otra guía de 2026 da 19:45 y 21:20. El número de pases se decide cada día: confirmar al comprar.",
+        "best_spot": "Cuanto más atrás, mejor se ve el conjunto: las zonas caras (incluidos los asientos «presidenciales») están detrás. Mejor relación calidad-precio: zona B, según una guía de 2026; el palco VIP cubierto solo compensa con mal tiempo.",
+        "sources": [
+          {
+            "url": "http://gl.bendibao.com/tour/202346/14145.shtm",
+            "title": "桂林本地宝: 桂林阳朔印象刘三姐演出时间+地点+票价(持续更新) (28 ago 2025)",
+            "fields": [
+              "how_to_get",
+              "booking",
+              "tickets",
+              "showtimes",
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://gl.bendibao.com/tour/2021429/3963.shtm",
+            "title": "桂林本地宝: 印象刘三姐演出指南（时间地点+交通+门票） (28 ago 2025)",
+            "fields": [
+              "booking",
+              "tickets",
+              "duration",
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/yangshuo702/22077.html",
+            "title": "Ctrip: 《印象刘三姐》山水实景演出 (hoy 19:00–21:00, desde ¥238)",
+            "fields": [
+              "hours",
+              "booking",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.yangshuomountainretreat.com/blog/en/yangshuo-liu-sanjie-worth-it/",
+            "title": "Yangshuo Mountain Retreat: Yangshuo Liu Sanjie Worth It? (2026)",
+            "fields": [
+              "how_to_get",
+              "rules",
+              "before_you_go",
+              "closed_days",
+              "tickets",
+              "duration",
+              "showtimes",
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://www.chinadiscovery.com/guangxi/guilin/yangshuo/impression-sanjie-liu.html",
+            "title": "China Discovery: Impression Sanjie Liu (sin fecha)",
+            "fields": [
+              "closed_days",
+              "tickets"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "La zona B es la que mejor relación calidad-precio tiene; las sillas de mimbre de la zona C son incómodas si tienes la espalda delicada.",
+          "source": {
+            "url": "https://www.yangshuomountainretreat.com/blog/en/yangshuo-liu-sanjie-worth-it/",
+            "title": "Yangshuo Mountain Retreat (2026)"
+          }
+        },
+        {
+          "text": "Mejor mirar que grabar: la cámara del móvil sufre con esta luz.",
+          "source": {
+            "url": "https://www.yangshuomountainretreat.com/blog/en/yangshuo-liu-sanjie-worth-it/",
+            "title": "Yangshuo Mountain Retreat (2026)"
+          }
+        },
+        {
+          "text": "Lleva tu propio chubasquero y algo de abrigo: es al aire libre y junto al río.",
+          "source": {
+            "url": "https://www.yangshuomountainretreat.com/blog/en/yangshuo-liu-sanjie-worth-it/",
+            "title": "Yangshuo Mountain Retreat (2026)"
+          }
+        },
+        {
+          "text": "Es como un cine gigante: desde atrás se ve el escenario completo con las montañas, por eso las mejores zonas están al fondo.",
+          "source": {
+            "url": "http://gl.bendibao.com/tour/202346/14145.shtm",
+            "title": "桂林本地宝 (ago 2025)"
+          }
+        }
+      ]
     }
   ]
 }
