@@ -51,9 +51,9 @@ Los datos (`public/data/`) van fuera del código: la investigación y los sitios
 
 ## Fase 3. Sin conexión y despliegue
 
-- [ ] PWA (`vite-plugin-pwa`): app, datos y fuentes precargados; fotos y mapa con «Preparar sin conexión»
-- [ ] El mapa sin conexión: `.pmtiles` en caché servido por trozos (plan B: OPFS)
-- [ ] `deploy/`: Docker Compose con Caddy (HTTPS, contraseña, `noindex`) y la API; `scripts/deploy.sh`
+- [x] PWA (`vite-plugin-pwa`): app, datos y fuentes precargados; fotos y mapa con «Preparar sin conexión»
+- [x] El mapa sin conexión: `.pmtiles` en caché servido por trozos (plan B: OPFS)
+- [x] `deploy/`: Docker Compose con Caddy (HTTPS, contraseña, `noindex`) y la API; `scripts/deploy.sh`
 - [ ] `/security-review` y despliegue en la Pi
 
 ## Fase 4. Estados y rutas compartidos
@@ -77,9 +77,9 @@ Agentes en paralelo, uno por zona o grupo de zonas pequeñas. Cada uno escribe s
 `check-data` lo valida.
 
 - [x] Shenzhen: Bao'an y costa este · Nanshan · Futian · Huaqiangbei, Luohu y Longgang
-- [ ] Hong Kong: Kowloon e isla
-- [ ] Guangzhou: Liwan y Zhujiang
-- [ ] Yangshuo: Yulong, Xingping y el pueblo
+- [x] Hong Kong: Kowloon e isla
+- [x] Guangzhou: Liwan y Zhujiang
+- [x] Yangshuo: Yulong, Xingping y el pueblo
 
 Reglas (de CLAUDE.md): nada inventado, cada dato con fuente, `null` o «por confirmar» si no se encuentra
 o las fuentes se contradicen, y consejos resumidos en español con su fuente.

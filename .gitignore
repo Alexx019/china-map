@@ -10,3 +10,7 @@ public/data/thumbs/
 
 # Claude Code: ajustes locales de cada uno
 .claude/settings.local.json
+
+# Despliegue: secretos y datos de la Pi
+deploy/.env
+deploy/deploy.env
