@@ -8,6 +8,18 @@ export type ThemePref = 'auto' | 'light' | 'dark';
 export type Tab = 'explorar' | 'guardados' | 'rutas';
 export type SheetSnap = 'peek' | 'half' | 'full';
 
+/** Pantallas que se abren encima del mapa. Todo esto vive también en el hash (state/nav.ts). */
+export interface Route {
+  selectedId: string | null;
+  zoneId: string | null;
+  /** Ficha completa del sitio elegido. */
+  ficha: boolean;
+  /** Mood board: zona de referencia y si se ven las fotos de la zona o de toda su región. */
+  mood: { zone: string; scope: 'zona' | 'region' } | null;
+  /** Foto abierta en el visor (de la ficha o del mood board). */
+  viewer: number | null;
+}
+
 interface AppState {
   data: TripData | null;
   photos: PhotoManifest;
@@ -21,6 +33,9 @@ interface AppState {
   amapMode: AmapMode;
   tab: Tab;
   sheet: SheetSnap;
+  ficha: boolean;
+  mood: Route['mood'];
+  viewer: number | null;
 
   setData: (data: TripData, photos: PhotoManifest) => void;
   setRegion: (id: string) => void;
@@ -33,6 +48,13 @@ interface AppState {
   setAmapMode: (m: AmapMode) => void;
   setTab: (t: Tab) => void;
   setSheet: (s: SheetSnap) => void;
+  openFicha: (id: string) => void;
+  closeFicha: () => void;
+  openMood: (zone: string, scope?: 'zona' | 'region') => void;
+  closeMood: () => void;
+  openViewer: (index: number) => void;
+  setViewer: (index: number | null) => void;
+  applyRoute: (r: Route) => void;
 }
 
 export const useStore = create<AppState>()(
@@ -49,6 +71,9 @@ export const useStore = create<AppState>()(
       amapMode: 'walk',
       tab: 'explorar',
       sheet: 'peek',
+      ficha: false,
+      mood: null,
+      viewer: null,
 
       setData: (data, photos) => {
         const regionOk = data.regions.some((r) => r.id === get().regionId);
@@ -76,6 +101,19 @@ export const useStore = create<AppState>()(
       setAmapMode: (m) => set({ amapMode: m }),
       setTab: (t) => set({ tab: t }),
       setSheet: (s) => set({ sheet: s }),
+      openFicha: (id) => {
+        get().select(id);
+        set({ ficha: true, viewer: null });
+      },
+      closeFicha: () => set({ ficha: false, viewer: null }),
+      openMood: (zone, scope = 'zona') => set({ mood: { zone, scope }, viewer: null }),
+      closeMood: () => set({ mood: null, viewer: null }),
+      openViewer: (index) => set({ viewer: index }),
+      setViewer: (index) => set({ viewer: index }),
+      applyRoute: (r) => {
+        const place = r.selectedId ? get().data?.places.find((p) => p.id === r.selectedId) : undefined;
+        set({ ...r, ...(place ? { regionId: place.region } : {}) });
+      },
     }),
     {
       name: 'china-map:ui',

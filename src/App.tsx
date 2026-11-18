@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import { loadTripData } from './data/load';
 import { loadPhotoManifest } from './data/photos';
 import { ExploreSheet } from './features/explore/ExploreSheet';
+import { PlaceScreen } from './features/place/PlaceScreen';
+import { PhotoViewer } from './features/viewer/PhotoViewer';
+import { MoodBoard } from './features/zone/MoodBoard';
 import { TopBar } from './features/explore/TopBar';
 import { MapView } from './map/MapView';
 import { useHashNav } from './state/nav';
@@ -41,6 +44,9 @@ export function App() {
           <TopBar />
           <ExploreSheet />
           <TabBar />
+          <PlaceScreen />
+          <MoodBoard />
+          <PhotoViewer />
         </>
       )}
     </>

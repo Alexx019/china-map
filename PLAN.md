@@ -42,10 +42,10 @@ Los datos (`public/data/`) van fuera del código: la investigación y los sitios
 
 ## Fase 2. Ficha, Amap, visor y mood board
 
-- [ ] Ficha: galería con `scroll-snap`, nombre chino con «Copiar», estados, modo y «Ir con Amap»
-- [ ] Información práctica (con la fecha de verificación y las fuentes) y consejos locales
-- [ ] `src/data/amap.ts` con tests (`coordinate=wgs84`, `src=china-map`; sin coordenadas, `amap_search`)
-- [ ] Visor a pantalla completa y mood board por zona o región
+- [x] Ficha: galería con `scroll-snap`, nombre chino con «Copiar», estados, modo y «Ir con Amap»
+- [x] Información práctica (con la fecha de verificación y las fuentes) y consejos locales
+- [x] `src/data/amap.ts` con tests (`coordinate=wgs84`, `src=china-map`; sin coordenadas, `amap_search`)
+- [x] Visor a pantalla completa y mood board por zona o región
 - [x] Miniaturas y color dominante de cada foto (`scripts/thumbs.mjs`)
 - [ ] Prueba en un móvil real con Amap: un sitio de Shenzhen y otro de Hong Kong
 

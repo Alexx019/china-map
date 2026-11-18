@@ -1,12 +1,12 @@
-import { useMemo, useState } from 'react';
-import { AMAP_MODES, amapUrl, type AmapMode } from '../../data/amap';
+import { useMemo } from 'react';
 import { isLocated } from '../../data/geo';
 import { photoBackground, thumbUrl } from '../../data/photos';
 import { searchPlaces } from '../../data/search';
 import type { Place } from '../../data/types';
 import { useStore } from '../../state/store';
 import { BottomSheet } from '../../ui/BottomSheet';
-import { CATEGORY_LABEL, categoryColor, Icon, type IconName } from '../../ui/icons';
+import { CATEGORY_LABEL, categoryColor, Icon } from '../../ui/icons';
+import { AmapAction, ZhCard } from '../place/actions';
 import css from './Explore.module.css';
 import { MapButtons } from './MapButtons';
 
@@ -84,6 +84,7 @@ function RegionHeader() {
   const region = data.regions.find((r) => r.id === regionId)!;
   const n = data.places.filter((p) => p.region === regionId).length;
   const zones = data.zones.filter((z) => z.region === regionId).length;
+  const firstZone = data.zones.find((z) => z.region === regionId)?.id;
   return (
     <div className={css.head}>
       <div className={css.titleRow}>
@@ -92,9 +93,12 @@ function RegionHeader() {
           {region.name_zh}
         </span>
       </div>
-      <p className={css.sub}>
-        {n} sitios en {zones} zonas
-      </p>
+      <div className={css.subRow}>
+        <p className={css.sub}>
+          {n} sitios en {zones} zonas
+        </p>
+        {firstZone && <MoodButton zone={firstZone} scope="region" />}
+      </div>
     </div>
   );
 }
@@ -154,10 +158,23 @@ function ZoneHeader() {
       <div className={css.titleRow}>
         <h1 className={css.title}>{zone.name}</h1>
       </div>
-      <p className={css.sub} lang="zh-CN">
-        {zone.name_zh}
-      </p>
+      <div className={css.subRow}>
+        <p className={css.sub} lang="zh-CN">
+          {zone.name_zh}
+        </p>
+        <MoodButton zone={zone.id} scope="zona" />
+      </div>
     </div>
+  );
+}
+
+function MoodButton({ zone, scope }: { zone: string; scope: 'zona' | 'region' }) {
+  const openMood = useStore((s) => s.openMood);
+  return (
+    <button type="button" className={css.moodBtn} onClick={() => openMood(zone, scope)}>
+      <Icon name="images" size={16} />
+      Fotos
+    </button>
   );
 }
 
@@ -233,57 +250,27 @@ function PlaceHeader({ place }: { place: Place }) {
 
 function PlaceBody({ place }: { place: Place }) {
   const photos = useStore((s) => s.photos);
-  const mode = useStore((s) => s.amapMode);
-  const setMode = useStore((s) => s.setAmapMode);
-  const [copied, setCopied] = useState(false);
-
-  const copy = async () => {
-    try {
-      await navigator.clipboard.writeText(place.name_zh);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1600);
-    } catch {
-      /* sin permiso de portapapeles: el nombre se puede seleccionar a mano */
-    }
-  };
-  const modeIcon: Record<AmapMode, IconName> = { walk: 'walk', bus: 'train', car: 'car' };
+  const openFicha = useStore((s) => s.openFicha);
+  const openViewer = useStore((s) => s.openViewer);
 
   return (
     <div className={css.place}>
-      <div className={css.zhCard}>
-        <div className={css.zhText}>
-          <div className={css.zh} lang="zh-CN">
-            {place.name_zh}
-          </div>
-          <div className={css.zhCity} lang="zh-CN">
-            {place.city_zh}
-          </div>
-        </div>
-        <button type="button" className={css.copy} onClick={copy}>
-          <Icon name={copied ? 'check' : 'copy'} size={16} />
-          {copied ? 'Copiado' : 'Copiar'}
-        </button>
-      </div>
-
-      <div className={css.modes} role="group" aria-label="Cómo ir">
-        {AMAP_MODES.map((m) => (
-          <button key={m.id} type="button" className={css.mode} aria-pressed={mode === m.id} onClick={() => setMode(m.id)}>
-            <Icon name={modeIcon[m.id]} size={16} />
-            {m.label}
-          </button>
-        ))}
-      </div>
-      <a className={css.amap} href={amapUrl(place, mode)} target="_blank" rel="noopener noreferrer">
-        <Icon name="navigation" size={20} fill="currentColor" stroke={1.6} />
-        Ir con Amap
-      </a>
-      {!isLocated(place) && <p className={css.note}>Aún sin ubicar en el mapa: Amap lo buscará por su nombre en chino.</p>}
+      <ZhCard place={place} />
+      <AmapAction place={place} />
+      <button type="button" className={css.fichaBtn} onClick={() => openFicha(place.id)}>
+        Ver ficha completa
+        <Icon name="chevronRight" size={18} stroke={2.2} />
+      </button>
 
       {place.photos.length > 0 && (
         <div className={css.strip}>
-          {place.photos.map((ph) => (
+          {place.photos.map((ph, i) => (
             <img
               key={ph}
+              onClick={() => {
+                openFicha(place.id);
+                openViewer(i);
+              }}
               className={css.stripImg}
               src={thumbUrl(ph, 'm')}
               alt=""
