@@ -1,0 +1,437 @@
+{
+  "group": "bao-est",
+  "researched_at": "2026-11-18",
+  "places": {
+    "zsg": {
+      "practical": {
+        "how_to_get": "Metro línea 5, estación Linhai (临海), salida B2. Unos 5 min a pie hasta la orilla este (东岸) de OH BAY. Local L1-021.",
+        "payment": null,
+        "passport": null,
+        "rules": "Es una librería en funcionamiento: sin ruido y sin bloquear a quien lee. Un viajero dice que no dejan usar trípode (dato sin fecha).",
+        "before_you_go": "Entrada libre. No hay que comprar nada para entrar ni para hacer fotos. Dentro hay cafetería.",
+        "hours": "10:00–22:00.",
+        "closed_days": "No consta ningún día de cierre (abre a diario).",
+        "booking": "No hace falta reservar.",
+        "tickets": "Gratis.",
+        "duration": "Al menos 1 hora.",
+        "best_time": "Entre semana por la mañana, a la apertura (10:00). Los fines de semana se llena.",
+        "sources": [
+          {
+            "url": "https://mtr.com.hk/archive/ch/services/ShenZhen/zhongshuge-bookstore-en.pdf",
+            "title": "MTR: [Shenzhen] Zhongshuge Bookstore (guía oficial de MTR, sin fecha)",
+            "fields": ["how_to_get", "before_you_go"]
+          },
+          {
+            "url": "https://m.bendibao.com/show985960.html",
+            "title": "Shenzhen Bendibao: 钟书阁（欢乐港湾店） (18 mar 2025)",
+            "fields": ["how_to_get", "hours"]
+          },
+          {
+            "url": "https://nz.trip.com/moments/poi-zhongshuge-130897766",
+            "title": "Trip.com Moments: Zhongshuge (OH BAY, Shenzhen)",
+            "fields": ["rules", "before_you_go", "hours", "closed_days", "booking", "tickets", "best_time"]
+          },
+          {
+            "url": "https://www.viaggiapiccoli.com/libreria-zhongshuge-shenzhen/",
+            "title": "Viaggiapiccoli: A Shenzhen c'è una libreria dove ti perdi in un vortice di libri",
+            "fields": ["duration"]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Id entre semana y a primera hora (abre a las 10:00): los fines de semana hay mucha gente delante de la espiral.",
+          "source": { "url": "https://nz.trip.com/moments/poi-zhongshuge-130897766", "title": "Trip.com Moments: Zhongshuge (OH BAY)" }
+        },
+        {
+          "text": "Para la espiral, gran angular o ultra gran angular, de pie en el centro; disparando desde abajo, el techo de espejo da profundidad.",
+          "source": { "url": "https://nz.trip.com/moments/poi-zhongshuge-130897766", "title": "Trip.com Moments: Zhongshuge (OH BAY)" }
+        },
+        {
+          "text": "La parte alta de la espiral es impresa, no son libros de verdad: no os empeñéis en subir a buscarlos.",
+          "source": { "url": "https://nz.trip.com/moments/poi-zhongshuge-130897766", "title": "Trip.com Moments: Zhongshuge (OH BAY)" }
+        },
+        {
+          "text": "Visto de frente, cada tramo de la espiral parece la esfera de un reloj (las barandillas son las agujas): la foto frontal y centrada es la buena.",
+          "source": { "url": "https://www.ourchinastory.com/cn/10097", "title": "我们的中国故事: 「中国最美书店」钟书阁登陆深圳 (6 dic 2021)" }
+        }
+      ],
+      "notes": [
+        "La dirección del local varía según la fuente: L1-021 (MTR, Bendibao 2025) o L1-201 (Ourchinastory 2021, Sing Tao 2023). Con Amap y el nombre chino basta.",
+        "No he encontrado noticias de cierre de la tienda de Shenzhen, pero la cadena cerró en 2025 varias tiendas (Pekín, Guiyang, Yangzhou, Wuxi) según Winshang (https://m.winshang.com/news735317.html). Conviene mirar en Amap/Dianping que siga abierta antes de ir.",
+        "places.json, `why`: dice que es «una ilusión de estanterías y espejos». Es parcialmente cierto: la estantería espiral es real (MTR, Ourchinastory), el techo es de espejo (MTR) y, según un viajero de Trip.com, la parte alta está impresa.",
+        "places.json, `when`: propone «hacia las 16:00, entre semana». Los viajeros recomiendan la mañana, a la apertura, para evitar gente. No es un error, pero la tarde puede estar más llena.",
+        "Fuentes sobre horario: Bendibao (mar 2025) y Trip.com dicen 10:00–22:00; algún post de Trip.com da 21:30 o 23:00."
+      ]
+    },
+    "nor": {
+      "practical": {
+        "how_to_get": "Metro línea 5, estación Linhai (临海), salida B2. La noria está en el extremo este de OH BAY, junto a la librería Zhongshuge.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "OH BAY es de acceso libre; solo se paga la noria. Las luces de la noria se encienden a las 18:00. La venta y el embarque terminan 30 min antes del cierre.",
+        "hours": "Por confirmar: lunes, miércoles y jueves 10:30–22:00; viernes a domingo 10:30–22:30. Martes (revisión semanal): 14:00–22:00 según Dahepiao (2025) o 17:00–22:00 según Bendibao (2022). Último acceso 30 min antes del cierre.",
+        "closed_days": "Ningún día de cierre fijo. Los martes abre por la tarde por mantenimiento.",
+        "booking": "No hace falta reservar hora, pero sí comprar billete. El precio rebajado de adulto (140) se compra como tarde a las 23:45 del día anterior; se puede comprar hasta 7 días antes.",
+        "tickets": "Por confirmar: adulto 140 CNY online (precio normal 150); en taquilla, 180 CNY según una guía de oct 2026. Niños de 1–1,4 m y mayores de 65: 80 CNY. Menores de 1 m: gratis con un adulto. En reventa: Trip.com unos 125 CNY, Klook unos 132 CNY.",
+        "duration": "Unos 30 min por vuelta.",
+        "best_time": "Hacia las 17:00–18:00, para el atardecer; las luces se encienden a las 18:00. Entre semana hay menos gente.",
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/show979693.html",
+            "title": "Shenzhen Bendibao: 湾区之光摩天轮门票 (24 feb 2025)",
+            "fields": ["how_to_get", "tickets", "best_time"]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20250619517330.html",
+            "title": "大河票务网: 深圳湾区之光摩天轮 门票与开放时间 (19 jun 2025)",
+            "fields": ["hours", "closed_days", "duration", "best_time", "before_you_go"]
+          },
+          {
+            "url": "https://m.bendibao.com/show845603.html",
+            "title": "Shenzhen Bendibao: 欢乐港湾 摩天轮营业时间 (30 ago 2022)",
+            "fields": ["hours", "closed_days", "before_you_go"]
+          },
+          {
+            "url": "https://m.bendibao.com/show903415.html",
+            "title": "Shenzhen Bendibao: 湾区之光摩天轮门票 购票须知 (24 sep 2024)",
+            "fields": ["tickets", "booking"]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/huanlegangwan/",
+            "title": "Shenzhen Bendibao: 欢乐港湾 (ficha del lugar)",
+            "fields": ["before_you_go", "booking"]
+          },
+          {
+            "url": "https://www.eastchinatrip.com/china-attraction-tickets/shenzhen/bay-glory-ferris-wheel-tickets/",
+            "title": "EastChinaTrip: Bay Glory Ferris Wheel Tickets (calendario nov 2026)",
+            "fields": ["tickets", "hours"]
+          },
+          {
+            "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/",
+            "title": "EastChinaTrip: Shenzhen OH Bay guide (20 oct 2026)",
+            "fields": ["how_to_get", "tickets", "duration"]
+          },
+          {
+            "url": "https://offpeaktrip.com/en/guide/shenzhen/bay-glory-ferris-wheel",
+            "title": "Offpeaktrip: Bay Glory Ferris Wheel Travel Guide",
+            "fields": ["best_time"]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Subid hacia las 17:00–18:00 para pillar el atardecer sobre la bahía y bajar ya con las luces encendidas.",
+          "source": { "url": "https://m.bendibao.com/show979693.html", "title": "Shenzhen Bendibao: 湾区之光摩天轮门票 (2025)" }
+        },
+        {
+          "text": "Las cabinas son transparentes, con vista de 360°: buen sitio para grabar la vuelta entera.",
+          "source": { "url": "https://www.dahepiao.com/lvyounews1/20250619517330.html", "title": "大河票务网: 深圳湾区之光摩天轮 (2025)" }
+        },
+        {
+          "text": "Mejor un día laborable: los fines de semana y festivos se forman colas en hora punta.",
+          "source": { "url": "https://offpeaktrip.com/en/guide/shenzhen/bay-glory-ferris-wheel", "title": "Offpeaktrip: Bay Glory Ferris Wheel Travel Guide" }
+        },
+        {
+          "text": "Comprad online con un día de antelación: sale más barato que en taquilla.",
+          "source": { "url": "https://m.bendibao.com/show903415.html", "title": "Shenzhen Bendibao: 湾区之光摩天轮 购票须知 (2024)" }
+        }
+      ],
+      "notes": [
+        "No hay fuente oficial reciente (cuenta de WeChat de 欢乐港湾) que se haya podido leer; los horarios y precios salen de webs locales y de reventa.",
+        "Contradicción en el horario de los martes: 14:00 (Dahepiao 2025; Klook según la búsqueda) frente a 17:00 (Bendibao 2022). En el viaje caen martes el 24 nov y el 1 dic.",
+        "Contradicción en el precio de taquilla: 150 laborable / 180 festivo en la apertura de 2021 (Eye Shenzhen, https://www.eyeshenzhen.com/content/2021-04/19/content_24143899.htm) y 180 según EastChinaTrip (oct 2026). Online, 140 de forma constante.",
+        "Edad o límite de concesión: Bendibao 2024 da 65+ para el billete de mayores; EastChinaTrip dice 60+. No nos afecta.",
+        "Klook (klook.com) devolvió 403 y no se pudo leer."
+      ]
+    },
+    "ohb": {
+      "practical": {
+        "how_to_get": "Metro línea 5, estación Linhai (临海), salida B2: sale a la orilla este (noria y Zhongshuge).",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Zona de paseo libre y gratuita, sin reserva; solo se paga la noria y lo que consumáis. Ojo: en agosto de 2026 cerraron casi todos los restaurantes del bloque 米·城市新天地 (orilla oeste) por un conflicto de alquileres; a 31 de agosto habían reabierto unos 10. Mirad en Amap o Dianping que el restaurante esté abierto.",
+        "hours": "Por confirmar: parque frente al mar 10:00–21:00 entre semana y 10:00–22:00 fines de semana y festivos (guía de oct 2026). Zona comercial de la orilla este: 10:00–22:00 de lunes a jueves y 10:00–22:30 de viernes a domingo (dato de 2022). Cada restaurante tiene su propio horario.",
+        "closed_days": null,
+        "booking": "Para entrar no hace falta reservar.",
+        "price_per_person": "Ejemplos (guía de oct 2026): Wanli Chifan (茶餐厅) unos 54 CNY; Mishu (suflés) unos 49 CNY; KIKA (helados) unos 33 CNY.",
+        "dishes": "En Wanli Chifan (茶餐厅): pan de piña y espaguetis con tomate y ternera.",
+        "menu": null,
+        "showtimes": "Por confirmar: espectáculo de agua y luces 《鲲鹏之梦》 en la plaza 庆典广场, 15 min por pase. Fuente musical a las 19:30 y espectáculo de agua y luces a las 20:00; fines de semana y festivos, pases extra a las 20:30 y 21:00. Los lunes no hay. Gratis y sin reserva. Una guía de 2026 dice que solo hay pases los fines de semana y festivos.",
+        "best_spot": "La plaza 庆典广场, en el centro de OH BAY.",
+        "sources": [
+          {
+            "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/",
+            "title": "EastChinaTrip: Shenzhen OH Bay guide (20 oct 2026)",
+            "fields": ["how_to_get", "hours", "price_per_person", "dishes", "showtimes"]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/huanlegangwan/",
+            "title": "Shenzhen Bendibao: 欢乐港湾 (ficha; incluye nota de la fiesta nacional 2026)",
+            "fields": ["before_you_go", "booking", "showtimes"]
+          },
+          {
+            "url": "https://m.bendibao.com/show912545_61.html",
+            "title": "Shenzhen Bendibao: 2026深圳春节活动 – 欢乐港湾《鲲鹏之梦》水秀 (12 feb 2026)",
+            "fields": ["showtimes", "best_spot"]
+          },
+          {
+            "url": "https://m.bendibao.com/show845603.html",
+            "title": "Shenzhen Bendibao: 欢乐港湾 营业时间 (30 ago 2022)",
+            "fields": ["hours"]
+          },
+          {
+            "url": "https://www.163.com/dy/article/L3M1DDOK05129QAF.html",
+            "title": "网易 / 奥一新闻: 欢乐港湾米·城市新天地 餐饮门店集中停业 (6 ago 2026)",
+            "fields": ["before_you_go"]
+          },
+          {
+            "url": "https://m.mp.oeeee.com/a/BAAFRD0000202608281654343.html",
+            "title": "奥一新闻: 米·城市新天地 回访 (31 ago 2026)",
+            "fields": ["before_you_go"]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Llegad entre semana a media tarde, un poco antes del atardecer: veis el paseo de día, la puesta de sol y las luces sin aglomeraciones.",
+          "source": { "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/", "title": "EastChinaTrip: Shenzhen OH Bay guide (oct 2026)" }
+        },
+        {
+          "text": "Al anochecer sopla brisa del mar: llevad una capa ligera.",
+          "source": { "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/", "title": "EastChinaTrip: Shenzhen OH Bay guide (oct 2026)" }
+        },
+        {
+          "text": "Hay taquillas de autoservicio para mochilas en la zona de servicios junto a la noria.",
+          "source": { "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/", "title": "EastChinaTrip: Shenzhen OH Bay guide (oct 2026)" }
+        },
+        {
+          "text": "En la zona de restauración hay mucha oferta; en un local de fideos con ternera rellenan gratis el té caliente de dátiles rojos.",
+          "source": { "url": "https://www.stheadline.com/zh-hans/local-topics/3322534/深圳好去处欢乐港湾半日游-过关后乘45分钟地铁直达-睇摩天轮行钟书阁附交通指南Juicy叮", "title": "星岛 Juicy叮: 欢乐港湾半日游 (9 mar 2024)" }
+        }
+      ],
+      "notes": [
+        "places.json, `why`: «buen sitio para cenar los cuatro sin buscar más». En agosto de 2026 el bloque de restaurantes 米·城市新天地 estaba casi todo cerrado y a finales de agosto solo había reabierto la mitad (unos 10 de 20). No he encontrado noticias posteriores: conviene elegir restaurante en Dianping/Amap antes de ir.",
+        "Espectáculo de agua: tres versiones. Bendibao (feb 2026) y EastChinaTrip (oct 2026): diario salvo lunes (20:00, y 21:00 los fines de semana). Bendibao (fiesta nacional 2026): solo fines de semana y festivos. Una ficha de Bendibao de sep 2025 (https://m.bendibao.com/show874382.html) lo marcaba como «suspendido».",
+        "No he encontrado una lista fiable de restaurantes con precio medio ni carta en inglés; Dianping no se ha podido consultar (requiere sesión o bloquea). `menu` y `payment` quedan en null.",
+        "Horario de la zona: fuentes distintas y antiguas; un post de Trip.com dice que el paseo está abierto 24 h."
+      ]
+    },
+    "htf": {
+      "practical": {
+        "how_to_get": "Metro líneas 12 y 20, estación Guozhan (国展), salidas C1/C2: llegan directas al vestíbulo sur (南登录大厅), donde está el mostrador para extranjeros. La estación Guozhan North (国展北), salidas C1/C2, da al vestíbulo norte. En taxi hay mucho atasco durante la feria.",
+        "payment": null,
+        "passport": "Sí. Llevad el pasaporte original. Los extranjeros tienen que pasar por el mostrador manual (Manual Service Counter / Overseas Visitors) del vestíbulo sur para sacar la acreditación; luego se entra escaneando el pasaporte.",
+        "rules": "Control de seguridad en la entrada. Prohibido fumar. Prohibido comprar o vender productos dentro, salvo la comida oficial. Prohibido repartir publicidad o tarjetas. Al entrar aceptáis que la organización os fotografíe o grabe. Edad mínima 16 años. No consta norma sobre grabar los visitantes.",
+        "before_you_go": "Es una feria profesional enorme (unos 400.000 m², más de 20 zonas: robots, IA, semiconductores, aeroespacial…). El billete de metro gratis para los inscritos solo funciona con un número de móvil de China continental. Un mismo billete vale para los 3 días, con entradas ilimitadas.",
+        "hours": "26 nov: entrada desde las 9:30. 27 y 28 nov: desde las 9:00. Último acceso a las 16:00; cierre a las 17:00. El 28 se deja de vender entradas y de registrar a las 15:00.",
+        "closed_days": "Solo abre el 26, 27 y 28 de noviembre de 2026.",
+        "booking": "Preregistro gratuito en www.chtf.com o en la cuenta de WeChat «高交会» (alta + cuestionario; la organización lo aprueba). El canal gratuito cierra el 25 nov a las 12:00. Comprad solo por canales oficiales: la organización no ha autorizado a revendedores.",
+        "tickets": "Gratis con preregistro antes del 25 nov a las 12:00. Después: 120 CNY por persona (entrada electrónica online, válida los 3 días) o compra en el mostrador del vestíbulo sur. Sin devoluciones online durante la feria.",
+        "duration": null,
+        "best_time": null,
+        "sources": [
+          {
+            "url": "https://www.chtf.com/canguanzhiyin/gonggao/",
+            "title": "CHTF (oficial): 门票公告 2026",
+            "fields": ["hours", "tickets", "booking", "passport", "rules", "before_you_go"]
+          },
+          {
+            "url": "https://www.chtf.com/canguanzhiyin/ruchangxuzhiX/",
+            "title": "CHTF (oficial): 第二十八届高交会入场须知",
+            "fields": ["hours", "rules", "passport"]
+          },
+          {
+            "url": "https://www.chtf.com/canguanzhiyin/canguanzheng",
+            "title": "CHTF (oficial): 参观证办理",
+            "fields": ["booking", "before_you_go"]
+          },
+          {
+            "url": "https://chtf.com/english/Info/ForVisitors/Admission",
+            "title": "CHTF (official, English): Admission Information",
+            "fields": ["hours", "passport", "rules", "closed_days"]
+          },
+          {
+            "url": "https://chtf.com/english/Info/ForVisitors/First",
+            "title": "CHTF (official, English): First Time Attendees",
+            "fields": ["passport", "booking", "closed_days"]
+          },
+          {
+            "url": "https://cn.chinadaily.com.cn/a/202607/08/WS6a4e1c08a310d709c2fbc810.html",
+            "title": "中国日报网: 第二十八届高交会 11月26日至28日 (8 jul 2026)",
+            "fields": ["closed_days", "before_you_go"]
+          },
+          {
+            "url": "https://m.bendibao.com/show980554.html",
+            "title": "Shenzhen Bendibao: 高交会 交通指南 (edición 2025)",
+            "fields": ["how_to_get"]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Durante la feria hay mucho tráfico alrededor del recinto: mejor metro (líneas 12/20) que taxi, y salid con margen.",
+          "source": { "url": "https://m.bendibao.com/show980554.html", "title": "Shenzhen Bendibao: 高交会 交通指南 (2025)" }
+        }
+      ],
+      "notes": [
+        "URGENTE: el preregistro gratuito cierra el 25 nov a las 12:00 (hora de China). Hoy es 18 nov: si vamos, hay que registrarse ya en chtf.com o en el WeChat «高交会». Después cuesta 120 CNY.",
+        "places.json correcto: 26–28 nov 2026 en el Shenzhen World Exhibition & Convention Center (深圳国际会展中心, Bao'an), confirmado por la web oficial.",
+        "Contradicción oficial sobre menores: el 入场须知 dice que no entran menores de 16; el 门票公告 dice que entran gratis acompañados firmando un documento. No nos afecta.",
+        "El preregistro en chino pide «本人身份证»; la página en inglés dice que los aprobados entran escaneando el pasaporte, y el 门票公告 manda a los extranjeros al mostrador manual del vestíbulo sur. No queda claro si el formulario chino acepta pasaporte: si no, el formulario en inglés o el mostrador.",
+        "Webs de terceros como 聚展 (jufair.com) venden «entradas» por 150 CNY de «gestión»; la organización dice que no hay revendedores autorizados.",
+        "Datos de metro (salidas C1/C2) sacados de la guía de 2025 de Bendibao; el recinto es el mismo. La guía de visitantes de 2026 no se ha podido encontrar.",
+        "La cumbre APEC en Shenzhen es el 18–19 nov 2026 (cortes de tráfico 17–19 nov): antes del viaje, no afecta.",
+        "No he encontrado opiniones de visitantes fiables (Xiaohongshu y Zhihu no aparecen en las búsquedas); por eso solo hay un consejo."
+      ]
+    },
+    "dap": {
+      "practical": {
+        "how_to_get": "No hay metro hasta la puerta. Opción A: metro línea 8 hasta Xichong (溪涌, final de línea, abierta el 28 dic 2025), salida A o C (parada 溪涌地铁站) y bus E91 hasta la parada 大鹏所城 (billete 5 CNY). Opción B: bus E11 u 833 hasta 大鹏中心 y cambio al M471 hasta 大鹏所城. En coche, 1–1,5 h desde el centro; en taxi desde Futian, unos 100–115 CNY.",
+        "payment": "El pago con QR funciona casi en todas partes; algún puesto pequeño puede pedir efectivo: llevad un poco.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Está lejos del centro. Los museos y casi todas las tiendas cierran hacia las 17:00–17:30; muchas tiendas cierran pronto también por la tarde.",
+        "hours": "La ciudad amurallada está abierta todo el día. Museo 大鹏古城博物馆: martes a domingo, 9:00–17:00. Salas de exposición: hacia 9:00–17:30.",
+        "closed_days": "El museo cierra los lunes.",
+        "booking": "No hace falta reservar. La reserva obligatoria para coches en la península de Dapeng solo rige los fines de semana y festivos del 1 de mayo al 8 de octubre; en noviembre no. Los taxis y los VTC no la necesitan.",
+        "tickets": "Gratis. El museo, también gratis. Algunas salas interiores cobran aparte.",
+        "duration": "Media jornada; hay quien hace el día entero combinándolo con la playa de Jiaochangwei.",
+        "best_time": "Por la mañana: menos gente y mejor luz.",
+        "sources": [
+          {
+            "url": "http://m.bendibao.com/show1000847.html",
+            "title": "Shenzhen Bendibao: 2026五一深圳大鹏徒步线路指南（大鹏所城→鹿嘴山庄） (30 abr 2026)",
+            "fields": ["how_to_get", "hours", "tickets", "booking"]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/dapengguchengbowuguan/",
+            "title": "Shenzhen Bendibao: 大鹏古城博物馆",
+            "fields": ["hours", "closed_days", "tickets", "how_to_get"]
+          },
+          {
+            "url": "https://m.bendibao.com/ditie/zd_xichong.shtml",
+            "title": "Shenzhen Bendibao: 溪涌站 (salidas y buses)",
+            "fields": ["how_to_get"]
+          },
+          {
+            "url": "https://www.sz.gov.cn/en_szgov/news/notices/content/post_12589348.html",
+            "title": "Shenzhen Government Online: nuevas líneas de bus (E91 核电站 ↔ 溪涌地铁站)",
+            "fields": ["how_to_get"]
+          },
+          {
+            "url": "https://www.chinadailyhk.com/hk/article/626191",
+            "title": "China Daily HK: apertura de la estación Xichong (29 dic 2025)",
+            "fields": ["how_to_get"]
+          },
+          {
+            "url": "https://www.sznews.com/news/content/2026-04/28/content_32031325.htm",
+            "title": "深圳新闻网: 2026 大鹏半岛预约通行 (28 abr 2026)",
+            "fields": ["booking"]
+          },
+          {
+            "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533",
+            "title": "Trip.com Moments: Dapeng Fortress",
+            "fields": ["how_to_get", "payment", "before_you_go", "hours", "tickets", "duration", "best_time"]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Id por la mañana: hay menos gente y mejor luz. Entre semana está tranquilo.",
+          "source": { "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533", "title": "Trip.com Moments: Dapeng Fortress" }
+        },
+        {
+          "text": "Calzado cómodo: las calles son de piedra y resbalan cuando oscurece.",
+          "source": { "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533", "title": "Trip.com Moments: Dapeng Fortress" }
+        },
+        {
+          "text": "Subid a la torre de la puerta sur (南门城楼): desde arriba se ve todo el casco antiguo.",
+          "source": { "url": "http://m.bendibao.com/show1000847.html", "title": "Shenzhen Bendibao: 大鹏徒步线路指南 (abr 2026)" }
+        },
+        {
+          "text": "Para comer, el pollo al horno de barro (窑鸡) del restaurante 鹏城饭馆, y los snacks de la puerta sur (rollos de arroz, zongzi de erizo, tortilla de ostras).",
+          "source": { "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533", "title": "Trip.com Moments: Dapeng Fortress" }
+        },
+        {
+          "text": "La playa de Jiaochangwei (较场尾) está enfrente y se combina bien; por la tarde se llena, así que el orden fortaleza por la mañana y playa después funciona.",
+          "source": { "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533", "title": "Trip.com Moments: Dapeng Fortress" }
+        }
+      ],
+      "notes": [
+        "Línea 8 hasta Xichong: abrió el 28 dic 2025 (China Daily HK y Wikipedia, vistos en la búsqueda). Las páginas de sz.gov.cn (incluido el aviso del bus E91) devolvían ECONNRESET y no se pudieron abrir; los datos del E91 (paradas 大鹏所城, 较场尾, 大鹏中心; billete 5 CNY; servicio hacia Xichong 05:30–20:30 y hacia 核电站 06:40–22:00) salen del resumen de la búsqueda. Comprobad la ruta en Amap.",
+        "La mayoría de posts de Trip.com no tienen fecha; los precios de comida (p. ej. pato del general unos 170 CNY por persona en 鹏城饭馆) no se han incluido por ser antiguos o sin fecha.",
+        "Una guía antigua da 15 CNY de entrada y 9:00–18:00; las fuentes recientes (Bendibao 2024 y 2026) dicen gratis y abierto todo el día. Me quedo con las recientes.",
+        "Ctrip (gs.ctrip.com / m.ctrip.com) devolvió el error 432 y no se pudo leer; Dianping solo dio un post de 2021."
+      ]
+    },
+    "dms": {
+      "practical": {
+        "how_to_get": "Metro líneas 2/8, estación Dameisha (大梅沙), salidas A o B; está a pocos minutos a pie.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "La temporada de baño es de mayo a octubre: a finales de noviembre se va a pasear y a ver el atardecer, no a bañarse. Cierra de forma temporal con lluvias fuertes o tifón.",
+        "hours": "Por confirmar: 6:30–23:00 (Bendibao y ficha oficial de Trip.com) o 7:00–23:00, con desalojo desde las 22:00 (web del gobierno de Shenzhen).",
+        "closed_days": "Sin día de cierre fijo; cierra en días de lluvia fuerte o tifón.",
+        "booking": "No hace falta reservar para entrar. La reserva de coches por temporada alta es para los fines de semana y festivos de mayo a octubre; en noviembre no.",
+        "tickets": "Gratis.",
+        "duration": "De 3 a 5 horas.",
+        "best_time": "Atardecer: la luz se suaviza a partir de las 16:00 y el mejor momento es hacia las 17:00–18:30. Los fines de semana se llena.",
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/jingdian/dameisha/",
+            "title": "Shenzhen Bendibao: 大梅沙海滨公园",
+            "fields": ["hours", "tickets", "booking", "how_to_get", "before_you_go", "closed_days"]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/dameisha/traffic/",
+            "title": "Shenzhen Bendibao: 大梅沙海滨公园 交通",
+            "fields": ["how_to_get", "booking"]
+          },
+          {
+            "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346",
+            "title": "Trip.com Moments: Dameisha Beach",
+            "fields": ["hours", "duration", "best_time", "how_to_get", "booking"]
+          },
+          {
+            "url": "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html",
+            "title": "Shenzhen Government Online: Dameisha Seaside Park",
+            "fields": ["hours"]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Id al atardecer, hacia las 17:00–18:30; antes de las 16:00 la luz es dura.",
+          "source": { "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346", "title": "Trip.com Moments: Dameisha Beach" }
+        },
+        {
+          "text": "En los puestos de la playa que cobran al peso, preguntad el precio antes de pedir: hay quejas de cobros abusivos. Bebidas y juguetes allí son caros.",
+          "source": { "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346", "title": "Trip.com Moments: Dameisha Beach" }
+        },
+        {
+          "text": "En el tramo este están las siete esculturas de ángeles de colores (unos 18 m): la foto típica del sitio.",
+          "source": { "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346", "title": "Trip.com Moments: Dameisha Beach" }
+        },
+        {
+          "text": "Evitad los fines de semana y festivos: mucha gente y atascos. Llevad una capa para la brisa de la noche.",
+          "source": { "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346", "title": "Trip.com Moments: Dameisha Beach" }
+        }
+      ],
+      "notes": [
+        "Contradicción en el horario: 6:30–23:00 (Bendibao, ficha de Trip.com) frente a 7:00–23:00 (web del gobierno de Shenzhen, según la búsqueda; la página devolvió ECONNRESET al abrirla). Para ir al atardecer da igual.",
+        "La reserva de coches en Meisha: el aviso de 2026 (深圳新闻网, 28 abr 2026) no menciona Meisha; Bendibao dice que sí hay reserva en temporada alta. Fuera de temporada (noviembre) no aplica en ningún caso.",
+        "Los posts de Trip.com no tienen fecha individual."
+      ]
+    }
+  }
+}

@@ -276,7 +276,89 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E9%92%9F%E4%B9%A6%E9%98%81%EF%BC%88%E6%AC%A2%E4%B9%90%E6%B8%AF%E6%B9%BE%EF%BC%89&city=%E6%B7%B1%E5%9C%B3"
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%92%9F%E4%B9%A6%E9%98%81%EF%BC%88%E6%AC%A2%E4%B9%90%E6%B8%AF%E6%B9%BE%EF%BC%89&city=%E6%B7%B1%E5%9C%B3",
+      "practical": {
+        "how_to_get": "Metro línea 5, estación Linhai (临海), salida B2. Unos 5 min a pie hasta la orilla este (东岸) de OH BAY. Local L1-021.",
+        "payment": null,
+        "passport": null,
+        "rules": "Es una librería en funcionamiento: sin ruido y sin bloquear a quien lee. Un viajero dice que no dejan usar trípode (dato sin fecha).",
+        "before_you_go": "Entrada libre. No hay que comprar nada para entrar ni para hacer fotos. Dentro hay cafetería.",
+        "hours": "10:00–22:00.",
+        "closed_days": "No consta ningún día de cierre (abre a diario).",
+        "booking": "No hace falta reservar.",
+        "tickets": "Gratis.",
+        "duration": "Al menos 1 hora.",
+        "best_time": "Entre semana por la mañana, a la apertura (10:00). Los fines de semana se llena.",
+        "sources": [
+          {
+            "url": "https://mtr.com.hk/archive/ch/services/ShenZhen/zhongshuge-bookstore-en.pdf",
+            "title": "MTR: [Shenzhen] Zhongshuge Bookstore (guía oficial de MTR, sin fecha)",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show985960.html",
+            "title": "Shenzhen Bendibao: 钟书阁（欢乐港湾店） (18 mar 2025)",
+            "fields": [
+              "how_to_get",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://nz.trip.com/moments/poi-zhongshuge-130897766",
+            "title": "Trip.com Moments: Zhongshuge (OH BAY, Shenzhen)",
+            "fields": [
+              "rules",
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.viaggiapiccoli.com/libreria-zhongshuge-shenzhen/",
+            "title": "Viaggiapiccoli: A Shenzhen c'è una libreria dove ti perdi in un vortice di libri",
+            "fields": [
+              "duration"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Id entre semana y a primera hora (abre a las 10:00): los fines de semana hay mucha gente delante de la espiral.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-zhongshuge-130897766",
+            "title": "Trip.com Moments: Zhongshuge (OH BAY)"
+          }
+        },
+        {
+          "text": "Para la espiral, gran angular o ultra gran angular, de pie en el centro; disparando desde abajo, el techo de espejo da profundidad.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-zhongshuge-130897766",
+            "title": "Trip.com Moments: Zhongshuge (OH BAY)"
+          }
+        },
+        {
+          "text": "La parte alta de la espiral es impresa, no son libros de verdad: no os empeñéis en subir a buscarlos.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-zhongshuge-130897766",
+            "title": "Trip.com Moments: Zhongshuge (OH BAY)"
+          }
+        },
+        {
+          "text": "Visto de frente, cada tramo de la espiral parece la esfera de un reloj (las barandillas son las agujas): la foto frontal y centrada es la buena.",
+          "source": {
+            "url": "https://www.ourchinastory.com/cn/10097",
+            "title": "我们的中国故事: 「中国最美书店」钟书阁登陆深圳 (6 dic 2021)"
+          }
+        }
+      ]
     },
     {
       "id": "nor",
@@ -302,7 +384,122 @@
         "source": "nominatim",
         "osm_id": "way/914175455",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro línea 5, estación Linhai (临海), salida B2. La noria está en el extremo este de OH BAY, junto a la librería Zhongshuge.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "OH BAY es de acceso libre; solo se paga la noria. Las luces de la noria se encienden a las 18:00. La venta y el embarque terminan 30 min antes del cierre.",
+        "hours": "Por confirmar: lunes, miércoles y jueves 10:30–22:00; viernes a domingo 10:30–22:30. Martes (revisión semanal): 14:00–22:00 según Dahepiao (2025) o 17:00–22:00 según Bendibao (2022). Último acceso 30 min antes del cierre.",
+        "closed_days": "Ningún día de cierre fijo. Los martes abre por la tarde por mantenimiento.",
+        "booking": "No hace falta reservar hora, pero sí comprar billete. El precio rebajado de adulto (140) se compra como tarde a las 23:45 del día anterior; se puede comprar hasta 7 días antes.",
+        "tickets": "Por confirmar: adulto 140 CNY online (precio normal 150); en taquilla, 180 CNY según una guía de oct 2026. Niños de 1–1,4 m y mayores de 65: 80 CNY. Menores de 1 m: gratis con un adulto. En reventa: Trip.com unos 125 CNY, Klook unos 132 CNY.",
+        "duration": "Unos 30 min por vuelta.",
+        "best_time": "Hacia las 17:00–18:00, para el atardecer; las luces se encienden a las 18:00. Entre semana hay menos gente.",
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/show979693.html",
+            "title": "Shenzhen Bendibao: 湾区之光摩天轮门票 (24 feb 2025)",
+            "fields": [
+              "how_to_get",
+              "tickets",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20250619517330.html",
+            "title": "大河票务网: 深圳湾区之光摩天轮 门票与开放时间 (19 jun 2025)",
+            "fields": [
+              "hours",
+              "closed_days",
+              "duration",
+              "best_time",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show845603.html",
+            "title": "Shenzhen Bendibao: 欢乐港湾 摩天轮营业时间 (30 ago 2022)",
+            "fields": [
+              "hours",
+              "closed_days",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show903415.html",
+            "title": "Shenzhen Bendibao: 湾区之光摩天轮门票 购票须知 (24 sep 2024)",
+            "fields": [
+              "tickets",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/huanlegangwan/",
+            "title": "Shenzhen Bendibao: 欢乐港湾 (ficha del lugar)",
+            "fields": [
+              "before_you_go",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://www.eastchinatrip.com/china-attraction-tickets/shenzhen/bay-glory-ferris-wheel-tickets/",
+            "title": "EastChinaTrip: Bay Glory Ferris Wheel Tickets (calendario nov 2026)",
+            "fields": [
+              "tickets",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/",
+            "title": "EastChinaTrip: Shenzhen OH Bay guide (20 oct 2026)",
+            "fields": [
+              "how_to_get",
+              "tickets",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://offpeaktrip.com/en/guide/shenzhen/bay-glory-ferris-wheel",
+            "title": "Offpeaktrip: Bay Glory Ferris Wheel Travel Guide",
+            "fields": [
+              "best_time"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Subid hacia las 17:00–18:00 para pillar el atardecer sobre la bahía y bajar ya con las luces encendidas.",
+          "source": {
+            "url": "https://m.bendibao.com/show979693.html",
+            "title": "Shenzhen Bendibao: 湾区之光摩天轮门票 (2025)"
+          }
+        },
+        {
+          "text": "Las cabinas son transparentes, con vista de 360°: buen sitio para grabar la vuelta entera.",
+          "source": {
+            "url": "https://www.dahepiao.com/lvyounews1/20250619517330.html",
+            "title": "大河票务网: 深圳湾区之光摩天轮 (2025)"
+          }
+        },
+        {
+          "text": "Mejor un día laborable: los fines de semana y festivos se forman colas en hora punta.",
+          "source": {
+            "url": "https://offpeaktrip.com/en/guide/shenzhen/bay-glory-ferris-wheel",
+            "title": "Offpeaktrip: Bay Glory Ferris Wheel Travel Guide"
+          }
+        },
+        {
+          "text": "Comprad online con un día de antelación: sale más barato que en taquilla.",
+          "source": {
+            "url": "https://m.bendibao.com/show903415.html",
+            "title": "Shenzhen Bendibao: 湾区之光摩天轮 购票须知 (2024)"
+          }
+        }
+      ]
     },
     {
       "id": "ohb",
@@ -327,7 +524,104 @@
         "source": "nominatim",
         "osm_id": "way/771513760",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro línea 5, estación Linhai (临海), salida B2: sale a la orilla este (noria y Zhongshuge).",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Zona de paseo libre y gratuita, sin reserva; solo se paga la noria y lo que consumáis. Ojo: en agosto de 2026 cerraron casi todos los restaurantes del bloque 米·城市新天地 (orilla oeste) por un conflicto de alquileres; a 31 de agosto habían reabierto unos 10. Mirad en Amap o Dianping que el restaurante esté abierto.",
+        "hours": "Por confirmar: parque frente al mar 10:00–21:00 entre semana y 10:00–22:00 fines de semana y festivos (guía de oct 2026). Zona comercial de la orilla este: 10:00–22:00 de lunes a jueves y 10:00–22:30 de viernes a domingo (dato de 2022). Cada restaurante tiene su propio horario.",
+        "closed_days": null,
+        "booking": "Para entrar no hace falta reservar.",
+        "price_per_person": "Ejemplos (guía de oct 2026): Wanli Chifan (茶餐厅) unos 54 CNY; Mishu (suflés) unos 49 CNY; KIKA (helados) unos 33 CNY.",
+        "dishes": "En Wanli Chifan (茶餐厅): pan de piña y espaguetis con tomate y ternera.",
+        "menu": null,
+        "showtimes": "Por confirmar: espectáculo de agua y luces 《鲲鹏之梦》 en la plaza 庆典广场, 15 min por pase. Fuente musical a las 19:30 y espectáculo de agua y luces a las 20:00; fines de semana y festivos, pases extra a las 20:30 y 21:00. Los lunes no hay. Gratis y sin reserva. Una guía de 2026 dice que solo hay pases los fines de semana y festivos.",
+        "best_spot": "La plaza 庆典广场, en el centro de OH BAY.",
+        "sources": [
+          {
+            "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/",
+            "title": "EastChinaTrip: Shenzhen OH Bay guide (20 oct 2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "price_per_person",
+              "dishes",
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/huanlegangwan/",
+            "title": "Shenzhen Bendibao: 欢乐港湾 (ficha; incluye nota de la fiesta nacional 2026)",
+            "fields": [
+              "before_you_go",
+              "booking",
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show912545_61.html",
+            "title": "Shenzhen Bendibao: 2026深圳春节活动 – 欢乐港湾《鲲鹏之梦》水秀 (12 feb 2026)",
+            "fields": [
+              "showtimes",
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show845603.html",
+            "title": "Shenzhen Bendibao: 欢乐港湾 营业时间 (30 ago 2022)",
+            "fields": [
+              "hours"
+            ]
+          },
+          {
+            "url": "https://www.163.com/dy/article/L3M1DDOK05129QAF.html",
+            "title": "网易 / 奥一新闻: 欢乐港湾米·城市新天地 餐饮门店集中停业 (6 ago 2026)",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.mp.oeeee.com/a/BAAFRD0000202608281654343.html",
+            "title": "奥一新闻: 米·城市新天地 回访 (31 ago 2026)",
+            "fields": [
+              "before_you_go"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Llegad entre semana a media tarde, un poco antes del atardecer: veis el paseo de día, la puesta de sol y las luces sin aglomeraciones.",
+          "source": {
+            "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/",
+            "title": "EastChinaTrip: Shenzhen OH Bay guide (oct 2026)"
+          }
+        },
+        {
+          "text": "Al anochecer sopla brisa del mar: llevad una capa ligera.",
+          "source": {
+            "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/",
+            "title": "EastChinaTrip: Shenzhen OH Bay guide (oct 2026)"
+          }
+        },
+        {
+          "text": "Hay taquillas de autoservicio para mochilas en la zona de servicios junto a la noria.",
+          "source": {
+            "url": "https://www.eastchinatrip.com/shenzhen-oh-bay-guide/",
+            "title": "EastChinaTrip: Shenzhen OH Bay guide (oct 2026)"
+          }
+        },
+        {
+          "text": "En la zona de restauración hay mucha oferta; en un local de fideos con ternera rellenan gratis el té caliente de dátiles rojos.",
+          "source": {
+            "url": "https://www.stheadline.com/zh-hans/local-topics/3322534/深圳好去处欢乐港湾半日游-过关后乘45分钟地铁直达-睇摩天轮行钟书阁附交通指南Juicy叮",
+            "title": "星岛 Juicy叮: 欢乐港湾半日游 (9 mar 2024)"
+          }
+        }
+      ]
     },
     {
       "id": "htf",
@@ -354,7 +648,95 @@
         "osm_id": "way/1005694758",
         "checked": true,
         "note": "Recinto 深圳国际会展中心"
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro líneas 12 y 20, estación Guozhan (国展), salidas C1/C2: llegan directas al vestíbulo sur (南登录大厅), donde está el mostrador para extranjeros. La estación Guozhan North (国展北), salidas C1/C2, da al vestíbulo norte. En taxi hay mucho atasco durante la feria.",
+        "payment": null,
+        "passport": "Sí. Llevad el pasaporte original. Los extranjeros tienen que pasar por el mostrador manual (Manual Service Counter / Overseas Visitors) del vestíbulo sur para sacar la acreditación; luego se entra escaneando el pasaporte.",
+        "rules": "Control de seguridad en la entrada. Prohibido fumar. Prohibido comprar o vender productos dentro, salvo la comida oficial. Prohibido repartir publicidad o tarjetas. Al entrar aceptáis que la organización os fotografíe o grabe. Edad mínima 16 años. No consta norma sobre grabar los visitantes.",
+        "before_you_go": "Es una feria profesional enorme (unos 400.000 m², más de 20 zonas: robots, IA, semiconductores, aeroespacial…). El billete de metro gratis para los inscritos solo funciona con un número de móvil de China continental. Un mismo billete vale para los 3 días, con entradas ilimitadas.",
+        "hours": "26 nov: entrada desde las 9:30. 27 y 28 nov: desde las 9:00. Último acceso a las 16:00; cierre a las 17:00. El 28 se deja de vender entradas y de registrar a las 15:00.",
+        "closed_days": "Solo abre el 26, 27 y 28 de noviembre de 2026.",
+        "booking": "Preregistro gratuito en www.chtf.com o en la cuenta de WeChat «高交会» (alta + cuestionario; la organización lo aprueba). El canal gratuito cierra el 25 nov a las 12:00. Comprad solo por canales oficiales: la organización no ha autorizado a revendedores.",
+        "tickets": "Gratis con preregistro antes del 25 nov a las 12:00. Después: 120 CNY por persona (entrada electrónica online, válida los 3 días) o compra en el mostrador del vestíbulo sur. Sin devoluciones online durante la feria.",
+        "duration": null,
+        "best_time": null,
+        "sources": [
+          {
+            "url": "https://www.chtf.com/canguanzhiyin/gonggao/",
+            "title": "CHTF (oficial): 门票公告 2026",
+            "fields": [
+              "hours",
+              "tickets",
+              "booking",
+              "passport",
+              "rules",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.chtf.com/canguanzhiyin/ruchangxuzhiX/",
+            "title": "CHTF (oficial): 第二十八届高交会入场须知",
+            "fields": [
+              "hours",
+              "rules",
+              "passport"
+            ]
+          },
+          {
+            "url": "https://www.chtf.com/canguanzhiyin/canguanzheng",
+            "title": "CHTF (oficial): 参观证办理",
+            "fields": [
+              "booking",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://chtf.com/english/Info/ForVisitors/Admission",
+            "title": "CHTF (official, English): Admission Information",
+            "fields": [
+              "hours",
+              "passport",
+              "rules",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://chtf.com/english/Info/ForVisitors/First",
+            "title": "CHTF (official, English): First Time Attendees",
+            "fields": [
+              "passport",
+              "booking",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://cn.chinadaily.com.cn/a/202607/08/WS6a4e1c08a310d709c2fbc810.html",
+            "title": "中国日报网: 第二十八届高交会 11月26日至28日 (8 jul 2026)",
+            "fields": [
+              "closed_days",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show980554.html",
+            "title": "Shenzhen Bendibao: 高交会 交通指南 (edición 2025)",
+            "fields": [
+              "how_to_get"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Durante la feria hay mucho tráfico alrededor del recinto: mejor metro (líneas 12/20) que taxi, y salid con margen.",
+          "source": {
+            "url": "https://m.bendibao.com/show980554.html",
+            "title": "Shenzhen Bendibao: 高交会 交通指南 (2025)"
+          }
+        }
+      ]
     },
     {
       "id": "dji",
@@ -381,7 +763,116 @@
         "osm_id": "node/5305182201",
         "checked": true,
         "note": "Tienda «大疆创新» de Happy Coast en OSM; falta confirmar que es la insignia"
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro línea 9, estación Shenzhen Bay Park (深圳湾公园), salida E. Está en Happy Coast (欢乐海岸), en el edificio con forma de pirámide.",
+        "payment": null,
+        "passport": "Solo si quieres la devolución de impuestos: pasaporte con sello de entrada en el momento de pagar.",
+        "rules": "Prohibido volar drones en parques, zonas comerciales y lugares concurridos de Shenzhen sin permiso (norma provincial de 2023).",
+        "before_you_go": "Tienda de 4 plantas (reformada en 2024), con terraza exterior para vuelos de prueba. Si vais a pedir la devolución del IVA (离境退税), preguntad antes de pagar si esta tienda la tramita: no está confirmado. Requisitos generales: compra mínima de 200 CNY en la misma tienda, salir de China en 90 días y llevar el producto sin usar y precintado; en un caso de 2025 la devolución neta fue de un 9 %. Ojo: si la configuráis y estrenáis allí, deja de estar «sin usar». Confirmad versión regional, ajustes y garantía antes de comprar.",
+        "hours": "Domingo a jueves 10:00–22:00; viernes y sábado 10:00–22:30.",
+        "closed_days": "Ninguno indicado (abre todos los días).",
+        "booking": "No hace falta.",
+        "sources": [
+          {
+            "url": "https://www.dji.com/where-to-buy/flagship/cn-sz",
+            "title": "DJI – Flagship Store, Shenzhen OCT Harbour (oficial)",
+            "fields": [
+              "hours",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://store.dji.com/pages/where-to-buy-retail-stores",
+            "title": "DJI Store – Where to buy (dirección oficial)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.eyeshenzhen.com/content/2025-06/26/content_31586030.htm",
+            "title": "Eye Shenzhen (2025) – DJI Flagship Showroom",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://larojatravel.com/blog/shenzhen-tech-giants-visit-guide",
+            "title": "Laroja Travel – DJI & Huawei visitor guide (horario comprobado 06/09/2026)",
+            "fields": [
+              "hours",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://loftcn.com/archives/295210.html",
+            "title": "LOFT中国 (2024) – reforma de la tienda insignia",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://note.com/tojimasaya/n/n9b97314e1023?hl=en",
+            "title": "TJ en note.com (sept. 2025) – devolución de impuestos comprando DJI en Shenzhen",
+            "fields": [
+              "passport",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.nbd.com.cn/articles/2026-11-01/4633548.html",
+            "title": "每日经济新闻 (nov. 2026) – 离境退税深圳样本",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.topchinatravel.com/china-attractions/dji-flagship-store-shenzhen.htm",
+            "title": "Top China Travel – DJI Flagship Store Shenzhen",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.sznews.com/news/content/2023-04/23/content_30185216_0.htm",
+            "title": "深圳新闻网 (2023) – prohibido volar drones en parques",
+            "fields": [
+              "rules"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Si buscáis devolución de impuestos, el personal puede probar y actualizar el equipo y volver a precintarlo con una pegatina para que siga contando como «sin abrir».",
+          "source": {
+            "url": "https://note.com/tojimasaya/n/n9b97314e1023?hl=en",
+            "title": "TJ en note.com (sept. 2025)"
+          }
+        },
+        {
+          "text": "La devolución en Alipay le falló a un comprador; se la dieron en efectivo en el mostrador de la frontera (Luohu). Tened plan B.",
+          "source": {
+            "url": "https://note.com/tojimasaya/n/n9b97314e1023?hl=en",
+            "title": "TJ en note.com (sept. 2025)"
+          }
+        },
+        {
+          "text": "Mirad bien la garantía: comprado en China continental puede que solo la cubran allí.",
+          "source": {
+            "url": "https://note.com/tojimasaya/n/n9b97314e1023?hl=en",
+            "title": "TJ en note.com (sept. 2025)"
+          }
+        },
+        {
+          "text": "No contéis con una sesión de vuelo en interior: confirmad en la tienda qué demostraciones hay ese día.",
+          "source": {
+            "url": "https://larojatravel.com/blog/shenzhen-tech-giants-visit-guide",
+            "title": "Laroja Travel (2026)"
+          }
+        }
+      ]
     },
     {
       "id": "hcs",
@@ -406,7 +897,87 @@
         "source": "nominatim",
         "osm_id": "way/322631274",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro línea 9, estación Shenzhen Bay Park (深圳湾公园), salida E (también D): unos 300 m, 5 min a pie.",
+        "payment": null,
+        "passport": null,
+        "rules": "Prohibido volar drones en zonas comerciales y concurridas sin permiso.",
+        "before_you_go": "Zona abierta y gratuita: el exterior está abierto todo el día. Lo de pago va aparte: espectáculo de agua (水秀, unos 70–80 CNY en 2025) y acuario (海洋奇梦馆).",
+        "hours": "Centro comercial: domingo a jueves 10:00–22:00; viernes y sábado 10:00–22:30. Exterior: todo el día. Cada restaurante tiene su horario.",
+        "closed_days": "El espectáculo de agua no hay los lunes (mantenimiento).",
+        "booking": null,
+        "price_per_person": null,
+        "dishes": null,
+        "menu": null,
+        "showtimes": "Por confirmar: espectáculo de agua de martes a domingo a las 20:00 (entrada desde 19:25–19:30). Entre semana dura unos 26–30 min; fines de semana 20:00–20:50 según una fuente. Se cancela con mal tiempo.",
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/show783155.html",
+            "title": "深圳本地宝 – 欢乐海岸怎么去",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20240425460303.html",
+            "title": "大河票务网 (2024) – 欢乐海岸门票+交通",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/shenhuanlehaian/",
+            "title": "深圳本地宝 – 欢乐海岸攻略2026",
+            "fields": [
+              "hours",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show979722.html",
+            "title": "深圳本地宝 (mar. 2025) – 欢乐海岸水秀剧场购票攻略",
+            "fields": [
+              "showtimes",
+              "closed_days",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20250407508491.html",
+            "title": "大河票务网 (abr. 2025) – 欢乐海岸水秀剧场",
+            "fields": [
+              "showtimes",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://www.sznews.com/news/content/2023-04/23/content_30185216_0.htm",
+            "title": "深圳新闻网 (2023) – prohibición de drones",
+            "fields": [
+              "rules"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "El 曲水湾 (canales con edificios de estilo cantonés) queda mejor al atardecer, cuando encienden los farolillos.",
+          "source": {
+            "url": "https://zhuanlan.zhihu.com/p/30240269279",
+            "title": "知乎 – 深圳欢乐海岸｜免费逛吃+水秀夜游全攻略 (resumen de búsqueda; la página no se pudo abrir)"
+          }
+        },
+        {
+          "text": "La noria no está aquí: es la de Happy Harbour (欢乐港湾), en Bao'an. Hay entrada combinada con el espectáculo de agua, que se compra el día antes.",
+          "source": {
+            "url": "https://m.bendibao.com/show979722.html",
+            "title": "深圳本地宝 (2025)"
+          }
+        }
+      ]
     },
     {
       "id": "szb",
@@ -433,7 +1004,101 @@
         "osm_id": "node/9062301243",
         "checked": true,
         "note": "Estación de metro 深圳湾公园, en el parque (el parque es un paseo largo junto a la bahía)"
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro línea 9, estación Shenzhen Bay Park (深圳湾公园): salida D2 hacia la puerta este y el mar; la C queda más cerca del mirador de aves. También línea 11, Hongshuwan South (红树湾南), salida A.",
+        "payment": "Entrada gratis. Bicis compartidas (~1,5 CNY/30 min) solo con Alipay o WeChat Pay; si no, alquiler en puesto con personal (~30 CNY/hora).",
+        "passport": null,
+        "rules": "Prohibido volar drones en parques. No dar de comer a las aves ni entrar en el barro o el manglar. Nada de bicis eléctricas ni motos en el carril verde.",
+        "before_you_go": "Son unos 13–15 km de costa en 14 tramos: elegid entrada según lo que queráis ver. En coche hay que reservar aparcamiento (cuenta de WeChat «美丽深圳»).",
+        "hours": "6:00–23:00 (dejan de entrar hacia las 22:30).",
+        "closed_days": null,
+        "booking": "No hace falta a pie. Solo el aparcamiento se reserva.",
+        "tickets": "Gratis.",
+        "duration": "Paseo de 1 h; para el atardecer, 2–3 h; en bici, medio día.",
+        "best_time": "Atardecer, mirando hacia el puente de la bahía de Shenzhen. De noviembre a abril hay aves migratorias, mejor con marea baja (±1 h).",
+        "sources": [
+          {
+            "url": "https://www.gochinatravel.org/zh/shenzhen/shenzhen-bay-park",
+            "title": "GoChinaTravel – 深圳湾公园攻略 2026 (verificado 09/10/2026)",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "rules",
+              "before_you_go",
+              "hours",
+              "booking",
+              "tickets",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.journeytochina.org/zh/cities/shenzhen/attractions/shenzhen-bay-park/",
+            "title": "Journey To China – 深圳湾公园 (act. 04/09/2026)",
+            "fields": [
+              "hours",
+              "tickets",
+              "rules",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://sz.bendibao.com/tour/2022728/ly895773.html",
+            "title": "深圳本地宝 (jun. 2025) – 深圳湾公园游玩攻略",
+            "fields": [
+              "hours",
+              "tickets",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.sznews.com/news/content/2023-04/23/content_30185216_0.htm",
+            "title": "深圳新闻网 (2023) – prohibido volar drones en parques",
+            "fields": [
+              "rules"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Para el atardecer, poneos en la orilla oeste y fotografiad a contraluz cuando el sol baja por detrás del puente de la bahía.",
+          "source": {
+            "url": "https://www.gochinatravel.org/zh/shenzhen/shenzhen-bay-park",
+            "title": "GoChinaTravel (2026)"
+          }
+        },
+        {
+          "text": "Las mañanas entre semana están tranquilas; los sábados por la tarde los carriles bici se llenan.",
+          "source": {
+            "url": "https://www.gochinatravel.org/zh/shenzhen/shenzhen-bay-park",
+            "title": "GoChinaTravel (2026)"
+          }
+        },
+        {
+          "text": "Mirad la tabla de mareas antes de ir: con marea baja aparecen el barro y las bandadas.",
+          "source": {
+            "url": "https://www.journeytochina.org/zh/cities/shenzhen/attractions/shenzhen-bay-park/",
+            "title": "Journey To China (2026)"
+          }
+        },
+        {
+          "text": "A primera hora (hacia las 7:30) el puente suele salir entre bruma; muy bonito para fotos.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-shenzhen-bay-park-18119222",
+            "title": "Trip.com Moments – Shenzhen Bay Park"
+          }
+        },
+        {
+          "text": "Después del atardecer, seguid a pie hasta el Parque del Talento para ver el skyline iluminado.",
+          "source": {
+            "url": "https://www.journeytochina.org/zh/cities/shenzhen/attractions/shenzhen-bay-park/",
+            "title": "Journey To China (2026)"
+          }
+        }
+      ]
     },
     {
       "id": "tal",
@@ -460,7 +1125,116 @@
         "source": "nominatim",
         "osm_id": "relation/18459537",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Por confirmar: línea 13, estación Talent Park (人才公园), salida B, unos 200 m hasta la puerta norte (guía de sept. 2026; otra página dice que la A es la más cercana). Alternativas: línea 2, Dengliang (登良), salida C (0,6–1 km), o Houhai (后海), salidas G/H (1,2 km).",
+        "payment": null,
+        "passport": null,
+        "rules": "Prohibido volar drones. Según una guía, tampoco se permite ir en bici, acampar, bailes en grupo ni mascotas.",
+        "before_you_go": "No hay restaurantes dentro del parque: cenad antes en Shenzhen Bay MixC o Coastal City. Junto al mar refresca de noche: llevad algo de abrigo.",
+        "hours": "6:00–23:00, todos los días.",
+        "closed_days": "Ninguno.",
+        "booking": "No hace falta.",
+        "tickets": "Gratis, también el espectáculo de luces.",
+        "duration": null,
+        "best_time": "De noche, sobre todo viernes o sábado con el espectáculo de luces.",
+        "showtimes": "Espectáculo de luces en los rascacielos: viernes, sábados y festivos. De noviembre a marzo a las 19:00, 20:00 y 21:00 (unos 15 min cada uno). Durante el viaje serían el vie 27 y el sáb 28 de noviembre. Se suspende con lluvia.",
+        "best_spot": "Puente Starlight (星光桥): la mejor vista, pero muy lleno. Alternativas: puente π (π桥, con aseos y fuentes) y plaza Wuyou (无忧广场).",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/zh-cn/%E6%B7%B1%E5%9C%B3%E4%BA%BA%E6%89%8D%E5%85%AC%E5%9B%AD",
+            "title": "Wikipedia – 深圳人才公园",
+            "fields": [
+              "hours",
+              "closed_days",
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://sz.bendibao.com/xiuxian/2026929/1014219.shtm",
+            "title": "深圳本地宝 (sept. 2026) – 国庆灯光秀汇总",
+            "fields": [
+              "how_to_get",
+              "tickets",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/ditie/zd_rencaigongyuan.shtml",
+            "title": "深圳本地宝 – 人才公园站出入口",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://sz.bendibao.com/tour/2018929/ly808797.html",
+            "title": "深圳本地宝 (2026) – 人才公园灯光秀时间+最佳观赏点",
+            "fields": [
+              "showtimes",
+              "best_spot",
+              "tickets",
+              "booking",
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "http://sz.bendibao.com/xiuxian/2024428/972781.shtm",
+            "title": "深圳本地宝 (jun. 2026) – 人才公园灯光秀观赏攻略",
+            "fields": [
+              "showtimes",
+              "best_spot",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.toutiao.com/zixun/7551254066148427826/",
+            "title": "今日头条 (sept. 2025) – 深圳人才公园一日游攻略",
+            "fields": [
+              "showtimes",
+              "rules",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.sznews.com/news/content/2023-04/23/content_30185216_0.htm",
+            "title": "深圳新闻网 (2023) – prohibido volar drones en parques",
+            "fields": [
+              "rules"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "En el puente Starlight se pelea por el sitio; si no llegáis pronto, el puente π o la plaza Wuyou dan buena vista con menos gente.",
+          "source": {
+            "url": "https://sz.bendibao.com/tour/2018929/ly808797.html",
+            "title": "深圳本地宝 (2026)"
+          }
+        },
+        {
+          "text": "El puente de Houhai (后海大桥) ve el espectáculo entero, pero tiene tráfico mezclado con peatones y el diseñador no lo recomienda por seguridad.",
+          "source": {
+            "url": "https://sz.bendibao.com/tour/2018929/ly808797.html",
+            "title": "深圳本地宝 (2026)"
+          }
+        },
+        {
+          "text": "De día, buscad el marco que encuadra la torre «Brote de bambú» (春笋) y el pavo real, que de noche abre unas alas azules.",
+          "source": {
+            "url": "https://www.toutiao.com/zixun/7551254066148427826/",
+            "title": "今日头条 (2025)"
+          }
+        },
+        {
+          "text": "Después del espectáculo, volved a los puentes Starlight y π: iluminados quedan mejor.",
+          "source": {
+            "url": "https://www.toutiao.com/zixun/7551254066148427826/",
+            "title": "今日头条 (2025)"
+          }
+        }
+      ]
     },
     {
       "id": "oct",
@@ -486,7 +1260,100 @@
         "source": "nominatim",
         "osm_id": "way/741581536",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Zona sur: línea 1, Qiaocheng East (侨城东), salida A, unos 8–12 min a pie. Zona norte: línea 2, Qiaocheng North (侨城北), salida B.",
+        "payment": null,
+        "passport": null,
+        "rules": "En algunas exposiciones se prohíbe el flash. Prohibido volar drones en zonas turísticas sin permiso.",
+        "before_you_go": "El recinto es abierto y gratis; muchas exposiciones también, pero no todas (OCAT vendía un pase de 4 exposiciones por 100 CNY en dic. 2025). Hay zona norte y zona sur. Cada galería, café o tienda tiene su horario.",
+        "hours": "Recinto: todo el día. Galerías y tiendas: más o menos 10:00–22:00, según el local.",
+        "closed_days": "Por confirmar: algunas galerías cierran el lunes (OCAT figura de martes a domingo 10:00–17:30 en una ficha sin fecha; en dic. 2025 anunciaba lunes a viernes 10:00–18:00).",
+        "booking": null,
+        "tickets": "Recinto gratis. Algunas exposiciones son de pago.",
+        "duration": null,
+        "best_time": null,
+        "sources": [
+          {
+            "url": "https://www.eyeshenzhen.com/content/2025-05/27/content_31581465.htm",
+            "title": "Eye Shenzhen (mayo 2025) – OCT-LOFT",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show702269.html",
+            "title": "深圳本地宝 – 华侨城创意文化园地址+交通",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://m.wenda.bendibao.com/tour/170507.shtm",
+            "title": "本地宝 (2021) – 华侨城创意文化园参观指引",
+            "fields": [
+              "hours",
+              "tickets",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.e-flux.com/directory/7924/ocat-shenzhen",
+            "title": "e-flux – OCAT Shenzhen",
+            "fields": [
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://m.sohu.com/a/964137875_428907",
+            "title": "搜狐 / OCAT (dic. 2025) – 展览通票",
+            "fields": [
+              "closed_days",
+              "before_you_go",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.sznews.com/news/content/2023-04/23/content_30185216_0.htm",
+            "title": "深圳新闻网 (2023) – drones prohibidos en zonas turísticas",
+            "fields": [
+              "rules"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "La librería Old Heaven (旧天堂书店, zona norte, A5) mezcla libros y vinilos y a veces tiene música en directo.",
+          "source": {
+            "url": "https://www.hopegoo.com/zh-hk/blogs/detail/shen-zhen-hua-qiao-cheng-chuang-yi-wen-hua-yuan-yi-ri-you-gong-lve-wen-qing-bi-qu-shi-ji-xiao-dian-mei-shi-da-ka-qing-dan/",
+            "title": "HopeGoo (jul. 2025)"
+          }
+        },
+        {
+          "text": "La casita amarilla del Lu Ba Coffee (驴吧咖啡), uno de los cafés más antiguos de Shenzhen, es un clásico para la foto.",
+          "source": {
+            "url": "https://www.hopegoo.com/zh-hk/blogs/detail/shen-zhen-hua-qiao-cheng-chuang-yi-wen-hua-yuan-yi-ri-you-gong-lve-wen-qing-bi-qu-shi-ji-xiao-dian-mei-shi-da-ka-qing-dan/",
+            "title": "HopeGoo (jul. 2025)"
+          }
+        },
+        {
+          "text": "La OCAT B10 tiene una escalera de caracol blanca y una galería al aire libre: buen sitio para fotos de arquitectura.",
+          "source": {
+            "url": "https://www.hopegoo.com/zh-hk/blogs/detail/shen-zhen-hua-qiao-cheng-chuang-yi-wen-hua-yuan-yi-ri-you-gong-lve-wen-qing-bi-qu-shi-ji-xiao-dian-mei-shi-da-ka-qing-dan/",
+            "title": "HopeGoo (jul. 2025)"
+          }
+        },
+        {
+          "text": "Los sábados por la tarde es cuando más gente hay.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-shenzhen-bay-park-18119222",
+            "title": "Trip.com Moments (usuario mayaecho)"
+          }
+        }
+      ]
     },
     {
       "id": "sea",
@@ -512,7 +1379,103 @@
         "osm_id": "way/105683429",
         "checked": true,
         "note": "El barco 明华轮, en el centro de Sea World"
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro líneas 2/8/12, estación Sea World (海上世界), salida A: unos 200 m hasta el barco. Algunas guías indican la salida C.",
+        "payment": null,
+        "passport": null,
+        "rules": "Teatro del barco: no se entra con bolsos (hay consigna), el móvil va en una funda cerrada y no hay aseos dentro.",
+        "before_you_go": "Plaza abierta y gratis. El barco Minghua (明华轮) reabrió en otoño de 2025 tras la reforma: subir y ver cubiertas y camarotes es gratis. Dentro hay restaurantes, tiendas y el teatro inmersivo 《交易人生》 (sin diálogo, de pago: 580 CNY entre semana, 680 CNY fin de semana; en el teatro hace 17–18 °C).",
+        "hours": "Barco: todos los días 10:00–22:00. Restaurantes: cada uno el suyo.",
+        "closed_days": "La fuente musical no funciona los lunes.",
+        "booking": "El barco no necesita reserva. El teatro se compra en Maoyan (猫眼), Damai (大麦) u One Shekou.",
+        "price_per_person": "Orientativo: cafés 30–50 CNY; restaurantes normales 80–150 CNY; con vistas al mar o de gama alta, 200–400 CNY.",
+        "dishes": null,
+        "menu": null,
+        "showtimes": "Por confirmar: fuente musical de martes a domingo desde las 19:00 (18:30 algunos fines de semana), pases cada 30 min hasta 20:30–21:30 según el día, unos 10 min cada uno. Teatro 《交易人生》: mié–vie 20:00; sáb 15:00 y 20:00; dom 15:00 (y 20:00 según otra fuente).",
+        "best_spot": "La fuente está en la plaza central, delante del barco. Las terrazas de las cubiertas de Maison Jue (D4-02) y DeVeil (D6-01) dan a la fuente y al puerto.",
+        "sources": [
+          {
+            "url": "https://news.tvb.com/tc/1163730-%E6%B7%B1%E5%9C%B3%E5%A5%BD%E5%8E%BB%E8%99%95%E6%98%8E%E8%8F%AF%E8%BC%AA%E5%85%8D%E8%B2%BB%E7%99%BB%E7%94%B2%E6%9D%BF%E8%88%B9%E8%89%99%E9%81%8A%E6%A8%828%E5%A4%A7%E4%BA%AE%E9%BB%9E%E4%B8%80%E8%A6%BD%E5%8C%97%E4%B8%8A%E6%B6%88%E8%B2%BB%E7%86%B1%E9%BB%9E%E9%80%90%E5%80%8B%E6%8D%89",
+            "title": "TVB News (abr. 2026) – 明華輪免費登甲板船艙",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "booking",
+              "before_you_go",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://www.hk01.com/%E6%97%85%E9%81%8A/60317984/%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C%E6%98%8E%E8%8F%AF%E8%BC%AA%E5%85%8D%E8%B2%BB%E9%96%8B%E6%94%BE-%E7%99%BB%E8%88%B9%E8%B3%BC%E7%89%A9%E4%BA%AB%E7%BE%8E%E9%A3%9F%E5%86%8D%E7%9C%8B%E4%B8%80%E5%A0%B4%E8%82%A2%E9%AB%94%E5%8A%87",
+            "title": "HK01 (feb. 2026) – 明華輪免費開放",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "showtimes",
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://eastweek.stheadline.com/fungba/15643/%E6%B7%B1%E5%9C%B3%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C%E6%B2%89%E6%B5%B8%E5%BC%8F%E8%82%A2%E9%AB%94%E5%8A%87%E4%BA%A4%E6%98%93%E4%BA%BA%E7%94%9F-%E6%98%8E%E8%8F%AF%E8%BC%AA%E7%99%BB%E8%88%B9%E6%8C%87%E5%8D%97%E4%BA%A4%E9%80%9A%E6%BC%94%E5%87%BA%E6%99%82%E9%96%93%E9%96%80%E7%A5%A8%E6%94%BB%E7%95%A5",
+            "title": "東周刊 (nov. 2025) – 沉浸式肢體劇《交易人生》",
+            "fields": [
+              "rules",
+              "booking",
+              "before_you_go",
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://chinatraveljetso.com/%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C/",
+            "title": "中華遊 JetSo – 海上世界2026",
+            "fields": [
+              "showtimes",
+              "best_spot",
+              "price_per_person",
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show891123.html",
+            "title": "深圳本地宝 (2023) – 海上世界水秀表演",
+            "fields": [
+              "showtimes"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Para ver la fuente desde primera fila, llegad unos 15 min antes; de 19:00 a 21:00 y en fin de semana se llena.",
+          "source": {
+            "url": "https://chinatraveljetso.com/%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C/",
+            "title": "中華遊 JetSo"
+          }
+        },
+        {
+          "text": "Cenad viendo la fuente: la terraza exterior de Paulaner da a la plaza.",
+          "source": {
+            "url": "https://chinatraveljetso.com/%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C/",
+            "title": "中華遊 JetSo"
+          }
+        },
+        {
+          "text": "Una noche despejada, reservad mesa en la cubierta de Maison Jue o DeVeil para ver la fuente y el puerto desde arriba.",
+          "source": {
+            "url": "https://www.hk01.com/%E6%97%85%E9%81%8A/60317984/%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C%E6%98%8E%E8%8F%AF%E8%BC%AA%E5%85%8D%E8%B2%BB%E9%96%8B%E6%94%BE-%E7%99%BB%E8%88%B9%E8%B3%BC%E7%89%A9%E4%BA%AB%E7%BE%8E%E9%A3%9F%E5%86%8D%E7%9C%8B%E4%B8%80%E5%A0%B4%E8%82%A2%E9%AB%94%E5%8A%87",
+            "title": "HK01 (2026)"
+          }
+        },
+        {
+          "text": "En el 79號漁船 (marisco), llegad antes de las 17:30 para no hacer cola larga.",
+          "source": {
+            "url": "https://chinatraveljetso.com/%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C/",
+            "title": "中華遊 JetSo"
+          }
+        }
+      ]
     },
     {
       "id": "rbt",
@@ -532,7 +1495,96 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E8%90%9D%E5%8D%9C%E5%BF%AB%E8%B7%91%20%C2%B7%20%E5%B0%8F%E9%A9%AC%E6%99%BA%E8%A1%8C&city=%E6%B7%B1%E5%9C%B3"
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%90%9D%E5%8D%9C%E5%BF%AB%E8%B7%91%20%C2%B7%20%E5%B0%8F%E9%A9%AC%E6%99%BA%E8%A1%8C&city=%E6%B7%B1%E5%9C%B3",
+      "practical": {
+        "how_to_get": "Se pide por app dentro de su zona. Pony.ai (小马智行): app PonyPilot+, minprograma de WeChat o Amap; Nanshan (Qianhai, Houhai, bahía de Shenzhen), Bao'an, aeropuerto y frontera de Shenzhen Bay. Apollo Go (萝卜快跑): su app, minprograma o Baidu Maps; Nanshan, Bao'an y Pingshan, con paradas fijas.",
+        "payment": "Solo WeChat Pay o Alipay; no aceptan efectivo.",
+        "passport": null,
+        "rules": "Máximo 4 pasajeros. No toquéis el volante ni el salpicadero. El coche no obedece órdenes de voz (p. ej. «para aquí»).",
+        "before_you_go": "Por confirmar: hace falta un número de teléfono para registrarse; una guía (oct. 2026) dice que PonyPilot+ exige un número chino +86 y otra que un +852 de Hong Kong suele valer. Precio parecido a un taxi; un trayecto de 8,7 km costó 29,5 CNY en 2025. Con lluvia fuerte o niebla se suspende.",
+        "hours": "Por confirmar: Pony.ai anunció 24 h en 2025 (antes 7:30–22:00); Apollo Go 7:00–23:00. Por la noche puede tocar coche con conductor.",
+        "closed_days": null,
+        "booking": "Se pide en el momento desde la app; no se reserva con antelación.",
+        "best_time": "Mañanas o primeras horas de la tarde entre semana: en hora punta la espera puede pasar de 15 min.",
+        "sources": [
+          {
+            "url": "https://hkexpatclub.com/driverless-taxi-shenzhen-robotaxi-guide/",
+            "title": "HK Expat Club – How to ride a driverless taxi in Shenzhen",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "rules",
+              "before_you_go",
+              "hours",
+              "best_time",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://larojatravel.com/blog/essential-apps-shenzhen-tourist-2026",
+            "title": "Laroja Travel – Essential apps Shenzhen (act. 26/10/2026)",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://news.qq.com/rain/a/20250901A022DS00",
+            "title": "深圳商报 vía 腾讯新闻 (sept. 2025) – Robotaxi在深加大投放",
+            "fields": [
+              "hours",
+              "before_you_go",
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.yahoo.com/news/articles/pony-ai-granted-first-citywide-091225377.html",
+            "title": "Reuters vía Yahoo (oct. 2025) – Pony.ai permiso en toda la ciudad",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://weibo.com/2/detail/comos:niuhcmr5888397",
+            "title": "深圳无人驾驶网约车2026实测 (oct. 2026)",
+            "fields": [
+              "payment",
+              "before_you_go",
+              "best_time"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Empezad en Nanshan, donde hay más coches; tened Didi o un taxi como plan B.",
+          "source": {
+            "url": "https://hkexpatclub.com/driverless-taxi-shenzhen-robotaxi-guide/",
+            "title": "HK Expat Club"
+          }
+        },
+        {
+          "text": "La app de Pony.ai se puede poner en inglés, pero los avisos dentro del coche son casi todos en chino.",
+          "source": {
+            "url": "https://hkexpatclub.com/driverless-taxi-shenzhen-robotaxi-guide/",
+            "title": "HK Expat Club"
+          }
+        },
+        {
+          "text": "Antes de salir, comprobad en la app que el punto de recogida está dentro de la zona de servicio.",
+          "source": {
+            "url": "https://weibo.com/2/detail/comos:niuhcmr5888397",
+            "title": "深圳无人驾驶网约车2026实测"
+          }
+        },
+        {
+          "text": "Van despacio (unos 60 km/h como mucho) y el maletero es pequeño: no sirven si vais con prisa o con equipaje.",
+          "source": {
+            "url": "https://weibo.com/2/detail/comos:niuhcmr5888397",
+            "title": "深圳无人驾驶网约车2026实测"
+          }
+        }
+      ]
     },
     {
       "id": "pin",
@@ -558,7 +1610,129 @@
         "source": "nominatim",
         "osm_id": "way/535860513",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro 购物公园站 (L1 y L3), salida D. Alternativa: 福田站 (L2/L3/L11), salida 8, cruzando el sótano de COCO Park y siguiendo carteles de «云际观光» (guía en inglés de 2026, sin verificar). En Amap, buscar «平安金融中心云际观光» para el camino por dentro.",
+        "payment": "Online: Trip.com permite comprar sin cuenta bancaria china, según una guía de 2026. Pago en taquilla: sin datos.",
+        "passport": "Llévalo. Hace falta documento para los descuentos (mayores, cumpleaños). En 2020 se pedía para comprar o recoger la entrada; no consta si sigue siendo obligatorio.",
+        "rules": "Según una guía en inglés de 2026: prohibidos trípodes, palos selfie y drones; revisan los bolsos.",
+        "before_you_go": "Arriba no hay restaurante. El amortiguador de masa (TMD) se visita por turnos cada media hora. La terraza exterior del piso 118 (Sky Terrace) se paga aparte y abre según el tiempo.",
+        "hours": "Dom–jue 10:00–20:00 (última entrada 19:15). Vie–sáb 10:00–21:00 (última entrada 20:15).",
+        "closed_days": "Abre todo el año, sin día de cierre (en Nochevieja china cierra a las 18:00).",
+        "booking": "No hace falta reservar con mucha antelación: se puede comprar en taquilla. Online sale más barato, pero algunas tarifas hay que pagarlas antes de las 23:55 del día anterior.",
+        "tickets": "Adulto: 200 CNY en taquilla; online desde 180 CNY (Ctrip, nov 2026). Niños de 1,2–1,5 m: 100 CNY; menores de 1,2 m, gratis. Descuentos para estudiantes, mayores y el día de tu cumpleaños, con documento.",
+        "duration": "Entre 1,5 y 2 horas.",
+        "best_time": "Vie o sáb, que cierra a las 21:00: da tiempo a ver el atardecer y la noche. El aire está más limpio por la mañana en invierno; hay más gente al atardecer (15:00–19:00).",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/shenzhen26/4336342.html",
+            "title": "Ctrip: 深圳平安金融中心云际观光层 (horario de hoy, precio desde 180 CNY, notas de usuarios 2025-2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "tickets",
+              "before_you_go",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20250506512005.html",
+            "title": "大河票务网: 2025深圳平安金融中心云际观光层游玩攻略 (6 may 2025)",
+            "fields": [
+              "hours",
+              "booking",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20250228505387.html",
+            "title": "大河票务网: 2025深圳平安金融中心云际观光层门票怎么预约 (28 feb 2025)",
+            "fields": [
+              "hours",
+              "closed_days",
+              "tickets",
+              "passport"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/pinganjinrongzhongxinyunjiguanguangceng/",
+            "title": "深圳本地宝: 平安金融中心云际观光层攻略2026",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "closed_days",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/en/destinations/shenzhen/ping-an-finance-centre/",
+            "title": "Wander in China: Ping An Finance Centre Free Sky (2 may 2026)",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "passport",
+              "rules",
+              "before_you_go",
+              "booking",
+              "tickets",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show831597.html",
+            "title": "深圳本地宝: 深圳平安大厦开放了吗 (2020)",
+            "fields": [
+              "passport"
+            ]
+          },
+          {
+            "url": "https://www.wingontravel.com/discovery/scenic-ping-an-finance-center---free-sky-46835160?rank_id=11",
+            "title": "Wing On Travel: Ping An Finance Center Free Sky (reseñas)",
+            "fields": [
+              "duration"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Ve en viernes o sábado: abre hasta las 21:00 y puedes ver el atardecer y luego la ciudad encendida.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/shenzhen26/4336342.html",
+            "title": "Ctrip, nota «平安金融中心云际观光层打卡秘籍» (30 oct 2025)"
+          }
+        },
+        {
+          "text": "El amortiguador gigante de la torre solo se visita cada media hora: mira el próximo turno al llegar y organiza la vuelta según eso.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/shenzhen26/4336342.html",
+            "title": "Ctrip, nota «站在深圳之巅：平安金融中心云际观光层全攻略» (2026)"
+          }
+        },
+        {
+          "text": "Arriba no hay dónde comer: come algo antes de subir.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/shenzhen26/4336342.html",
+            "title": "Ctrip, nota «站在深圳之巅» (2026)"
+          }
+        },
+        {
+          "text": "Llegar sobre las 16:00 un día entre semana permite ver el skyline de día, el atardecer y la noche sin el pico de gente.",
+          "source": {
+            "url": "https://www.wanderinchina.com/en/destinations/shenzhen/ping-an-finance-centre/",
+            "title": "Wander in China (2026)"
+          }
+        },
+        {
+          "text": "Contra los reflejos: pega el objetivo al cristal y tápalo con una chaqueta oscura.",
+          "source": {
+            "url": "https://www.wanderinchina.com/en/destinations/shenzhen/ping-an-finance-centre/",
+            "title": "Wander in China (2026)"
+          }
+        }
+      ]
     },
     {
       "id": "lhs",
@@ -584,7 +1758,112 @@
         "source": "nominatim",
         "osm_id": "way/41281446",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro 少年宫站 (L3/L4), salida F1: recto hasta la puerta sur (principal), unos minutos. Salidas C/D/E: pasarela sobre el Centro del Libro hasta la plaza de las Cometas. Otras opciones: 莲花西站 (L2), ~8 min a la puerta sur; 莲花北站 (L4) salida A2, ~10 min a la puerta noreste (la más lejos de la cima).",
+        "payment": "Entrada gratis. Dentro solo hay quioscos de bebidas y snacks, caros.",
+        "passport": "No hace falta: entrada libre y sin reserva.",
+        "rules": "Picnic y cometas permitidos en el césped; prohibido hacer fuego o barbacoa. Prohibido pescar en el lago. En noches de luces, en el mirador de la cima no se permiten trípodes, palos selfie grandes ni drones.",
+        "before_you_go": "La cima (plaza con la estatua de Deng Xiaoping) es el mirador del CBD de Futian y uno de los sitios sin reserva para ver el espectáculo de luces; esas noches el espacio es pequeño y se llena.",
+        "hours": "6:00–23:00, última entrada 22:30. Zona de la estatua de la cima: 6:30–22:30 (nota de Ctrip, nov 2026).",
+        "closed_days": "Abre todos los días.",
+        "booking": "No hace falta reservar para entrar (solo el aparcamiento).",
+        "tickets": "Gratis.",
+        "duration": "Unos 20 min de subida suave a la cima desde la puerta sur; unas 2 h en total paseando.",
+        "best_time": "Entrar después de las 16:00: luz suave, atardecer desde la cima (mejor luz después de las 17:30) y el skyline encendiéndose. Entre semana hay mucha menos gente que el fin de semana.",
+        "sources": [
+          {
+            "url": "https://gs.ctrip.com/html5/you/sight/26/50541.html",
+            "title": "Ctrip: 莲花山公园 (horario y precio)",
+            "fields": [
+              "hours",
+              "closed_days",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.sz.gov.cn/szzt2010/gysz/csgy/content/post_10776567.html",
+            "title": "Gobierno de Shenzhen: ficha del parque Lianhuashan (solo leído el extracto de búsqueda; la página no cargó)",
+            "fields": [
+              "hours"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/shenzhenlianhuashangongyuan/",
+            "title": "深圳本地宝: 莲花山公园攻略2026",
+            "fields": [
+              "tickets",
+              "booking",
+              "passport"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show829808.html",
+            "title": "深圳本地宝: 深圳莲花山公园坐地铁怎么去 (2022)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html",
+            "title": "Ctrip: 莲花山公园-风筝广场 (notas de usuarios, nov 2026)",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "rules",
+              "hours",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show918976.html",
+            "title": "深圳本地宝: 2026深圳市民中心灯光秀星期天有吗 (28 sep 2026)",
+            "fields": [
+              "rules",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show1014168.html",
+            "title": "深圳本地宝: 2026深圳市民中心灯光秀需要预约的区域 (29 sep 2026)",
+            "fields": [
+              "before_you_go"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Entra por la puerta sur (少年宫, salida F1): el camino a la cima es suave y se sube en unos 20 minutos.",
+          "source": {
+            "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html",
+            "title": "Ctrip, nota «深圳莲花山20分钟登顶攻略» (nov 2026)"
+          }
+        },
+        {
+          "text": "Entra a partir de las 16:00 para estar arriba al atardecer y ver cómo se encienden los rascacielos.",
+          "source": {
+            "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html",
+            "title": "Ctrip, nota «深圳莲花山20分钟登顶攻略» (nov 2026)"
+          }
+        },
+        {
+          "text": "Arriba al atardecer sopla viento: lleva una chaqueta fina y repelente de mosquitos. El fin de semana se llena; mejor entre semana.",
+          "source": {
+            "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html",
+            "title": "Ctrip, nota «莲花山，藏着深圳限定秋» (nov 2026)"
+          }
+        },
+        {
+          "text": "No comas en los quioscos del parque ni en los puestos de la puerta: son caros. Al bajar, la galería subterránea de 少年宫 (连城新天地) tiene comida cantonesa barata (25–35 CNY por persona).",
+          "source": {
+            "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html",
+            "title": "Ctrip, nota «深圳莲花山｜0 元登顶，俯瞰福田 CBD！» (nov 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "civ",
@@ -610,7 +1889,187 @@
         "source": "nominatim",
         "osm_id": "relation/10837975",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Plaza: metro 市民中心站 (L2/L4), salidas A o F. Las noches con mucha gente se han cerrado las salidas C y D, y B/E han sido solo de entrada. Sin reserva: 少年宫站 (L3/L4), salida F1 para subir a Lianhuashan, o salida B para la puerta del Palacio de los Niños (少年宫).",
+        "payment": "Gratis.",
+        "passport": "No consta si el miniprograma de reserva acepta pasaporte; una guía del 16-nov-2026 dice que nadie lo ha probado. Para verlo desde Lianhuashan o el Palacio de los Niños no hace falta nada.",
+        "rules": "En las zonas de la plaza y del mirador de Lianhuashan: prohibidos trípodes, palos selfie grandes, drones, patinetes, bicis, carritos de bebé y mascotas. Ir ligero y seguir al personal.",
+        "before_you_go": "Con reserva hay que llegar al acceso de tu zona 30 min antes; si llegas tarde, no entras. Tres ausencias en 30 días bloquean la cuenta. Se puede cancelar o retrasar por lluvia, alertas meteorológicas o exceso de gente.",
+        "hours": "Lun–jue 19:00–22:00: solo iluminación fija de los edificios, sin espectáculo (norma anterior a la reforma de 2026).",
+        "closed_days": "Domingos con las luces apagadas.",
+        "booking": "Solo hace falta para la plaza del Civic Center: miniprograma de WeChat «福田中心区夜景灯光预约导引服务». En los pases normales, la reserva abre el lunes a las 10:00 para esa semana (para el vie 27 y el sáb 28 de nov sería el lun 23, si se mantiene la norma). Hasta 3 personas por reserva, con un código por persona.",
+        "tickets": "Gratis.",
+        "duration": "Unos 15 min por pase.",
+        "showtimes": "Por confirmar: lo habitual son viernes y sábado (y festivos y sus vísperas) a las 19:00, 20:00 y 21:00 de noviembre a marzo. En nuestro viaje serían el vie 27 y el sáb 28 de nov. Tras la reforma de 2026 no hay calendario oficial publicado a partir del 16-nov, y una guía del 13-nov incluye también los domingos.",
+        "best_spot": "Plaza del Civic Center: de frente y cerca, con reserva (mejor las zonas 1 y 2). Cima de Lianhuashan: la vista más completa desde arriba, sin reserva, pero con poco espacio. Puerta sur del Palacio de los Niños (少年宫): sin reserva, menos gente, se ve casi todo.",
+        "sources": [
+          {
+            "url": "https://news.qq.com/rain/a/20260424A08YQX00",
+            "title": "深圳本地宝 en Tencent News: 别跑空！福田灯光秀将暂停！(24 abr 2026)",
+            "fields": [
+              "showtimes"
+            ]
+          },
+          {
+            "url": "http://m.bendibao.com/show1014167.html",
+            "title": "深圳本地宝: 2026深圳市民中心灯光秀最新消息 (29 sep 2026)",
+            "fields": [
+              "showtimes",
+              "duration"
+            ]
+          },
+          {
+            "url": "http://m.bendibao.com/show1014194.html",
+            "title": "深圳本地宝: 2026深圳福田市民中心国庆灯光秀观赏攻略 (29 sep 2026)",
+            "fields": [
+              "how_to_get",
+              "best_spot"
+            ]
+          },
+          {
+            "url": "http://m.bendibao.com/show1014168.html",
+            "title": "深圳本地宝: 2026深圳市民中心灯光秀需要预约的区域 (29 sep 2026)",
+            "fields": [
+              "best_spot",
+              "booking"
+            ]
+          },
+          {
+            "url": "http://m.bendibao.com/show921480.html",
+            "title": "深圳本地宝: 深圳市民中心灯光秀时间2026年 (11 nov 2026)",
+            "fields": [
+              "showtimes",
+              "how_to_get",
+              "payment",
+              "tickets"
+            ]
+          },
+          {
+            "url": "http://m.bendibao.com/show1015735.html",
+            "title": "深圳本地宝: 11月12日至15日福田市民中心灯光秀连续4晚亮灯 (12 nov 2026)",
+            "fields": [
+              "how_to_get",
+              "best_spot",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/news/dengguangxiu/",
+            "title": "深圳本地宝: 深圳灯光秀活动最新消息 (act. 13 nov 2026)",
+            "fields": [
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://sz.bendibao.com/news/202323/914703.htm",
+            "title": "深圳本地宝: 2026深圳福田灯光秀亮灯时间安排 (19 ene 2026)",
+            "fields": [
+              "showtimes",
+              "hours",
+              "closed_days",
+              "duration",
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show990603.html",
+            "title": "深圳本地宝: 2025深圳市民中心灯光秀时间表（附预约开放时间）(12 dic 2025)",
+            "fields": [
+              "booking",
+              "hours",
+              "closed_days",
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show914876.html",
+            "title": "深圳本地宝: 2026深圳市民中心灯光秀在哪里预约 (28 sep 2026)",
+            "fields": [
+              "booking"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show914758.html",
+            "title": "深圳本地宝: 深圳市民中心灯光秀预约规则 (31 dic 2024)",
+            "fields": [
+              "booking",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show918976.html",
+            "title": "深圳本地宝: 2026深圳市民中心灯光秀星期天有吗 (28 sep 2026)",
+            "fields": [
+              "closed_days",
+              "rules"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show914754.html",
+            "title": "深圳本地宝: 深圳市民中心广场灯光秀怎么走 (31 dic 2024)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show968161.html",
+            "title": "深圳本地宝: 2024深圳春节市民中心灯光秀观赏攻略 (18 feb 2024)",
+            "fields": [
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://www.thepaper.cn/newsDetail_forward_34463142",
+            "title": "澎湃号·政务: 点亮夜空！深圳市民中心灯光表演将连开4晚 (12 nov 2026)",
+            "fields": [
+              "booking",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.shenzhendecoded.com/en/guides/shenzhen-light-show",
+            "title": "Shenzhen Decoded: Shenzhen light show 2026 (act. 16 nov 2026)",
+            "fields": [
+              "showtimes",
+              "passport",
+              "before_you_go",
+              "rules"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Si no hay reserva, ve a la puerta del Palacio de los Niños (少年宫): hay mucha menos gente y se ve casi todo el espectáculo.",
+          "source": {
+            "url": "https://m.bendibao.com/show968161.html",
+            "title": "深圳本地宝: 市民中心灯光秀观赏攻略 (2024)"
+          }
+        },
+        {
+          "text": "Desde la cima de Lianhuashan se ve el espectáculo entero desde arriba, pero cabe poca gente: sube con margen antes del pase.",
+          "source": {
+            "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html",
+            "title": "Ctrip, nota «莲花山，藏着深圳限定秋» (nov 2026)"
+          }
+        },
+        {
+          "text": "Graba a pulso: en la plaza no dejan pasar trípodes ni palos selfie grandes.",
+          "source": {
+            "url": "https://www.shenzhendecoded.com/en/guides/shenzhen-light-show",
+            "title": "Shenzhen Decoded (nov 2026)"
+          }
+        },
+        {
+          "text": "Organiza esa noche alrededor de la cena por la zona, para que siga valiendo la pena si cancelan el pase por lluvia o por la gente.",
+          "source": {
+            "url": "https://www.shenzhendecoded.com/en/guides/shenzhen-light-show",
+            "title": "Shenzhen Decoded (nov 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "shw",
@@ -631,7 +2090,109 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B4%E5%9B%B41368%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA&city=%E6%B7%B1%E5%9C%B3"
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B4%E5%9B%B41368%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA&city=%E6%B7%B1%E5%9C%B3",
+      "practical": {
+        "how_to_get": "Metro 福民站 (L4/L7), salida D, unos 5 min a pie. Alternativa: 皇岗村站 (L7), salida B2, unos 4 min hasta la calle Shuiwei 9 (水围九街), donde está el mercado nocturno. Desde el paso fronterizo de Futian/Lok Ma Chau se llega andando.",
+        "payment": "En los puestos se paga casi todo con Alipay o WeChat Pay (con tarjeta extranjera vinculada); el efectivo se acepta poco. Escanea el QR impreso del puesto, nunca pegatinas sueltas.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Entrada libre: solo pagas lo que consumes. El barrio 1368 (callejones con farolillos, bares, cafés y restaurantes) y el mercado nocturno de la calle Shuiwei 9 están pegados. Los puestos abren hacia las 17:00.",
+        "hours": "Barrio abierto todo el día. Puestos del mercado nocturno: desde las 17:00 aprox. hasta tarde (una guía dice 16:30–2:00). Cada restaurante tiene su horario.",
+        "closed_days": null,
+        "booking": "No hace falta para el barrio. En los restaurantes con mesa más populares hay colas.",
+        "price_per_person": "Unos 50 CNY por persona picando en los puestos.",
+        "dishes": "烤冷面 (crepe de fideos a la plancha con relleno, típico del noreste), tortilla de ostras taiwanesa (15 CNY por 4 o 20 CNY por 6), 鸡蛋仔 (gofre de huevo, 8 CNY), 罐罐烤奶 (leche tostada en tarro, de Yunnan), 捞汁海鲜 y brochetas fritas. Para sentarse: pichón asado (Kun Ji Guangming, 49 CNY).",
+        "menu": "Muchos puestos tienen carta por código QR. Si dudas, señala lo que comen otros. Una guía de 2026 dice que es el mercado más fácil para quien no habla chino.",
+        "sources": [
+          {
+            "url": "https://www.ourchinastory.com/cn/amp/14063",
+            "title": "Our China Story: 深圳好去处｜福田宝安区四大人气夜市推介 (5 feb 2025)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "before_you_go",
+              "price_per_person",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://global.hk01.com/%E6%97%85%E6%B8%B8/60393479/%E6%B7%B1%E5%9C%B3%E5%A4%9C%E5%B8%82%E6%8E%A8%E4%BB%8B10%E5%A4%A7-1%E7%83%A7%E7%94%9F%E8%9A%9D-%E6%9C%80%E6%96%B0%E7%BD%97%E6%B9%96%E7%BE%8E%E9%A3%9F%E5%9F%8E-1%E4%B8%AA%E8%B6%85%E8%BF%91%E7%A6%8F%E7%94%B0%E5%8F%A3%E5%B2%B8",
+            "title": "HK01: 深圳夜市推介10大",
+            "fields": [
+              "how_to_get",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://www.eastchinatrip.com/shuiwei-night-market-travel-guide/",
+            "title": "East China Trip: Shuiwei Night Market travel guide",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "booking",
+              "before_you_go",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show841860.html",
+            "title": "深圳本地宝: 深圳水围村有什么好玩的地方 (2020)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "http://m.bendibao.com/show1000049.html",
+            "title": "深圳本地宝: 2026深圳25大网红+文艺打卡地推荐 (13 abr 2026)",
+            "fields": [
+              "booking",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://citiesinsider.com/country/china/shenzhen/shenzhen-night-markets/en",
+            "title": "Cities Insider: Shenzhen night markets (2026)",
+            "fields": [
+              "payment",
+              "hours",
+              "menu"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Llega después de las 18:00: es cuando hay más ambiente y todos los puestos están abiertos.",
+          "source": {
+            "url": "https://www.eastchinatrip.com/shuiwei-night-market-travel-guide/",
+            "title": "East China Trip: Shuiwei Night Market"
+          }
+        },
+        {
+          "text": "Lo que no hay que perderse es el 烤冷面; lo demás que más se pide son snacks taiwaneses como la tortilla de ostras.",
+          "source": {
+            "url": "https://www.ourchinastory.com/cn/amp/14063",
+            "title": "Our China Story (2025)"
+          }
+        },
+        {
+          "text": "La calle de puestos es corta: con unos 50 CNY por cabeza se cena bien, y los farolillos rojos son la mejor foto.",
+          "source": {
+            "url": "https://www.ourchinastory.com/cn/amp/14063",
+            "title": "Our China Story (2025)"
+          }
+        },
+        {
+          "text": "Si vais con poco tiempo, mejor picar 2 o 3 cosas de pie que hacer cola en los restaurantes con mesa.",
+          "source": {
+            "url": "https://www.eastchinatrip.com/shuiwei-night-market-travel-guide/",
+            "title": "East China Trip: Shuiwei Night Market"
+          }
+        }
+      ]
     },
     {
       "id": "coc",
@@ -657,7 +2218,88 @@
         "source": "nominatim",
         "osm_id": "way/546582690",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro 购物公园站 (L1/L3), salida C, unos 4 min a pie (dirección: 福华三路268号). Las salidas E, F y G también dan al parque o centro comercial.",
+        "payment": null,
+        "passport": "Lleva el pasaporte original: algunos locales, sobre todo clubs con clientela extranjera, registran en la puerta.",
+        "rules": null,
+        "before_you_go": "Pide la lista de precios (价格表) antes de pedir y no sigas a desconocidos que te ofrecen «un bar mejor» (timo de cuenta inflada). El metro deja de funcionar entre las 23:00 y las 24:00: la vuelta, en DiDi pedido desde dentro del local.",
+        "hours": "Tiendas del centro comercial ~10:00–22:00; la plaza exterior está abierta siempre. Bares y clubs: hasta las 2–3 h entre semana y las 4–6 h el fin de semana.",
+        "closed_days": null,
+        "booking": "Los bares normalmente no hacen falta. Los restaurantes populares, mejor con reserva en las horas punta del fin de semana.",
+        "price_per_person": "Por confirmar: cócteles a 50–100 CNY (Trip.com, Shenzhen en general) o bebidas a 80–150 CNY (Wander in China, Futian).",
+        "menu": "En COCO Park suele haber personal con inglés básico; para pedir, ayúdate de un traductor.",
+        "sources": [
+          {
+            "url": "https://mtr.com.hk/archive/ch/services/ShenZhen/8_Coco_Park_Futian_C.pdf",
+            "title": "MTR: 【深圳‧打卡】潮逛福田人氣商場 – 星河 COCO Park (folleto)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.trip.com/moments/detail/shenzhen-26-136391152",
+            "title": "Trip.com Moments: Galaxy COCO Park one-day food and beverage guide (28 sep 2025)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://www.trip.com/guide/destination/shenzhen-nightlife.html",
+            "title": "Trip.com: Shenzhen Nightlife 2026",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "price_per_person",
+              "menu",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://wanderinchina.com/zh/destinations/shenzhen/activity/nightlife/",
+            "title": "Wander in China: 深圳夜生活指南",
+            "fields": [
+              "passport",
+              "before_you_go",
+              "price_per_person"
+            ]
+          },
+          {
+            "url": "https://www.eyeshenzhen.com/content/2023-04/27/content_30196088.htm",
+            "title": "Eyeshenzhen: Bar streets",
+            "fields": [
+              "how_to_get"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Los clubs de hip-hop como Sauce Club se llenan a partir de las 23:00: llega antes si queréis sitio cerca de la pista.",
+          "source": {
+            "url": "https://www.trip.com/guide/destination/shenzhen-nightlife.html",
+            "title": "Trip.com: Shenzhen Nightlife 2026"
+          }
+        },
+        {
+          "text": "Para comer en la zona sin colas, ve antes de las 11:00 o después de las 20:30; las tardes del fin de semana y la hora de cenar están a tope.",
+          "source": {
+            "url": "https://www.trip.com/moments/detail/shenzhen-26-136391152",
+            "title": "Trip.com Moments (sep 2025)"
+          }
+        },
+        {
+          "text": "De madrugada, pide el DiDi con antelación desde dentro: hacia las 3:00 tarda 10–15 min en llegar, y evita los coches sin distintivo que esperan fuera.",
+          "source": {
+            "url": "https://wanderinchina.com/zh/destinations/shenzhen/activity/nightlife/",
+            "title": "Wander in China: 深圳夜生活指南"
+          }
+        }
+      ]
     },
     {
       "id": "hqe",
@@ -683,7 +2325,95 @@
         "source": "nominatim",
         "osm_id": "way/99498037",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro Huaqiangbei (华强北, líneas 2, 7 y 8): salidas D1 o E2, ambas junto a Huaqiang Electronics World. El edificio 1 (solo componentes) está junto a la salida A de la estación Huaqiang Road (华强路, línea 1).",
+        "payment": "Alipay o WeChat Pay con tarjeta extranjera vinculada. Casi ningún puesto acepta tarjeta extranjera física. El efectivo en CNY vale (mejor billetes de 50 y 100).",
+        "passport": null,
+        "rules": "Pide permiso antes de fotografiar mercancía o probar productos. Lo mismo para fotos de puestos o tarjetas.",
+        "before_you_go": "Edificio 2 (fachada de cristal curva): juguetes, gadgets y recuerdos baratos. Edificio 1: solo componentes electrónicos. Muchos puestos son mayoristas: pregunta antes si venden una sola unidad. Prueba todo antes de pagar y pide recibo. Si vais a volar dentro de China, no compréis power banks sin sello 3C (CCC): no se pueden subir al avión desde el 28-6-2025.",
+        "hours": "Por confirmar: cada edificio tiene su horario. Guías: cierra hacia las 18:30; puestos aprox. 10:00–19:00. Antes de las 10:00 casi todo está vacío; la actividad empieza hacia las 11:00.",
+        "closed_days": null,
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/ditie/zd_huaqiangbei.shtml",
+            "title": "Bendibao: salidas de la estación Huaqiangbei",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.eyeshenzhen.com/content/2025-07/04/content_31595474.htm",
+            "title": "EyeShenzhen: Huaqiang Electronics World",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.travelofchina.com/huaqiangbei-shenzhen-china/",
+            "title": "Travel of China: Huaqiangbei (act. jun 2026)",
+            "fields": [
+              "payment",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/shenzhen/huaqiangbei/",
+            "title": "Wander in China: Huaqiangbei 2026",
+            "fields": [
+              "rules",
+              "before_you_go",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://hsu.cy/2024/07/neges/",
+            "title": "The New Essential Guide to Electronics in Shenzhen (2024)",
+            "fields": [
+              "hours"
+            ]
+          },
+          {
+            "url": "https://www.news.cn/fortune/20250626/b6d0700fd15d451bb184933b52ea8b3f/c.html",
+            "title": "Xinhua: norma de la CAAC sobre power banks sin 3C",
+            "fields": [
+              "before_you_go"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Id a media mañana o por la tarde: antes de las 10 casi no hay nadie y la actividad empieza hacia las 11. Muchos paran a comer de 12 a 14.",
+          "source": {
+            "url": "https://hsu.cy/2024/07/neges/",
+            "title": "The New Essential Guide to Electronics in Shenzhen (2024)"
+          }
+        },
+        {
+          "text": "Para recuerdos y juguetes curiosos, el edificio 2 (el de cristal curvo); el 1 es solo para componentes.",
+          "source": {
+            "url": "https://www.eyeshenzhen.com/content/2025-07/04/content_31595474.htm",
+            "title": "EyeShenzhen: Huaqiang Electronics World"
+          }
+        },
+        {
+          "text": "Los vendedores ajustan el precio según lo novato que parezcas: compara al menos en tres puestos y no esperes gangas en marcas conocidas, que cuestan lo mismo que en otras tiendas.",
+          "source": {
+            "url": "https://m.thepaper.cn/newsDetail_forward_32717239",
+            "title": "The Paper (2026): «华强北探店翻车»"
+          }
+        },
+        {
+          "text": "Prueba el producto en el puesto antes de pagar y guarda el recibo o el comprobante del pago: la calidad es muy desigual y la posventa, dudosa.",
+          "source": {
+            "url": "https://global.hk01.com/旅游/60337534/华强北淘货指南-八大市场攻略-二手iphone-ccd相机入手价格超值",
+            "title": "HK01 (abr 2026): guía de los ocho mercados de Huaqiangbei"
+          }
+        }
+      ]
     },
     {
       "id": "seg",
@@ -708,7 +2438,119 @@
         "source": "nominatim",
         "osm_id": "way/64896107",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro Huaqiangbei (华强北, líneas 2, 7 y 8): salida D1 (o D2), al lado de SEG Plaza. Dirección: 华强北路1002号.",
+        "payment": "Alipay, WeChat Pay, tarjetas UnionPay y efectivo en CNY. Las tarjetas de crédito extranjeras casi no sirven. Pagar con Alipay deja mejor registro si hay que reclamar.",
+        "passport": null,
+        "rules": "Pide permiso antes de fotografiar mercancía o puestos.",
+        "before_you_go": "El mercado ocupa las primeras plantas de la torre (8 o 10, según la fuente). Según las guías: plantas 1–2 componentes; 3–5 o 4–6 ordenadores y accesorios; 6–8 móviles, cámaras de acción y accesorios de dron. Las plantas 9–10 son mayoristas o de fabricación OEM. Al lado está el SEG Communication Market (fundas, protectores de pantalla y cargadores). Más riesgo de falsificaciones en plantas altas: pide una demostración de cada función antes de pagar. Power banks: solo con sello 3C si vais a volar dentro de China.",
+        "hours": "Por confirmar: plantas del mercado 9:30–18:30 a diario según dos guías; otra dice que cierra hacia las 19:00. Antes de las 10:00 hay poca actividad.",
+        "closed_days": "Abre todos los días según Travel of China. No se ha encontrado día de cierre semanal.",
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/ditie/zd_huaqiangbei.shtml",
+            "title": "Bendibao: salidas de la estación Huaqiangbei",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.eyeshenzhen.com/content/2025-07/03/content_31595461.htm",
+            "title": "EyeShenzhen: SEG Electronics Market",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.travelofchina.com/seg-plaza-shenzhen/",
+            "title": "Travel of China: SEG Plaza floor-by-floor",
+            "fields": [
+              "payment",
+              "before_you_go",
+              "hours",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://jingsourcing.com/b-shenzhen-seg-market/",
+            "title": "Jingsourcing: SEG E-Market 2026 Guide",
+            "fields": [
+              "hours",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.travelofchina.com/huaqiangbei-shenzhen-china/",
+            "title": "Travel of China: Huaqiangbei (act. jun 2026)",
+            "fields": [
+              "hours",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://global.hk01.com/旅游/60337534/华强北淘货指南-八大市场攻略-二手iphone-ccd相机入手价格超值",
+            "title": "HK01 (abr 2026): guía de los ocho mercados de Huaqiangbei",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/shenzhen/huaqiangbei/",
+            "title": "Wander in China: Huaqiangbei 2026",
+            "fields": [
+              "rules",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://hsu.cy/2024/07/neges/",
+            "title": "The New Essential Guide to Electronics in Shenzhen (2024)",
+            "fields": [
+              "hours"
+            ]
+          },
+          {
+            "url": "https://www.news.cn/fortune/20250626/b6d0700fd15d451bb184933b52ea8b3f/c.html",
+            "title": "Xinhua: norma de la CAAC sobre power banks sin 3C",
+            "fields": [
+              "before_you_go"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Entre semana de 10 a 12 hay menos gente y es más fácil negociar. Las tardes de fin de semana son las peores.",
+          "source": {
+            "url": "https://www.travelofchina.com/seg-plaza-shenzhen/",
+            "title": "Travel of China: SEG Plaza floor-by-floor"
+          }
+        },
+        {
+          "text": "Para protectores de pantalla y accesorios del móvil, el SEG Communication Market de al lado: los ponen rápido y bien y cuestan pocos yuanes, aunque otros accesorios están algo inflados.",
+          "source": {
+            "url": "https://global.hk01.com/旅游/60337534/华强北淘货指南-八大市场攻略-二手iphone-ccd相机入手价格超值",
+            "title": "HK01 (abr 2026): guía de los ocho mercados de Huaqiangbei"
+          }
+        },
+        {
+          "text": "Muchos puestos solo venden al por mayor y tratan con frialdad al que compra una unidad. Las tiendas de marca (DJI, Xiaomi, Huawei) cobran lo mismo que en cualquier otro sitio.",
+          "source": {
+            "url": "https://m.thepaper.cn/newsDetail_forward_32717239",
+            "title": "The Paper (2026): «华强北探店翻车»"
+          }
+        },
+        {
+          "text": "Lleva el modelo exacto (o una captura con la referencia) y compara especificaciones por escrito, no la caja: dos productos iguales por fuera pueden ser muy distintos por dentro.",
+          "source": {
+            "url": "https://www.wanderinchina.com/destinations/shenzhen/huaqiangbei/",
+            "title": "Wander in China: Huaqiangbei 2026"
+          }
+        }
+      ]
     },
     {
       "id": "hqs",
@@ -735,7 +2577,90 @@
         "osm_id": "way/588249188",
         "checked": true,
         "note": "En OSM se llama 华强路步行街"
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro Huaqiangbei (华强北, líneas 2, 7 y 8), salida E1 (da a la calle peatonal). Alternativas: Huaqiang Road (华强路, línea 1) por el sur o Huaxin (华新, líneas 3 y 7) por el norte.",
+        "payment": "Alipay o WeChat Pay con tarjeta extranjera; casi ningún puesto acepta tarjeta extranjera física. Efectivo en CNY también vale.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "A la hora de comer hay mucha gente y pasan muchos repartidores, motos eléctricas y carretillas: atentos al caminar. Debajo está la calle comercial del metro, también muy concurrida.",
+        "hours": "Calle abierta las 24 horas. Las pantallas LED se encienden a partir de las 18:00.",
+        "closed_days": "Ninguno (calle abierta 24 h).",
+        "duration": null,
+        "best_time": "Al atardecer y de noche, con las pantallas encendidas y más ambiente. Los puestos especializados cierran antes que la calle.",
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/ditie/zd_huaqiangbei.shtml",
+            "title": "Bendibao: salidas de la estación Huaqiangbei",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://info.newsgd.com/node_ed2910caae/307a9ab104.shtml",
+            "title": "Shenzhen Daily / INFO Guangdong (nov 2025): calles peatonales de Shenzhen",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.travelofchina.com/huaqiangbei-shenzhen-china/",
+            "title": "Travel of China: Huaqiangbei (act. jun 2026)",
+            "fields": [
+              "payment",
+              "hours",
+              "closed_days",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.thepaper.cn/newsDetail_forward_31998244",
+            "title": "The Paper (nov 2025): «深圳：华强北的日与夜»",
+            "fields": [
+              "before_you_go",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/shenzhen/huaqiangbei/",
+            "title": "Wander in China: Huaqiangbei 2026",
+            "fields": [
+              "best_time"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Al caer la tarde se encienden las grandes pantallas de Maoye (茂业天地) y Manha (曼哈): es el momento con más ambiente para grabar.",
+          "source": {
+            "url": "https://www.thepaper.cn/newsDetail_forward_31998244",
+            "title": "The Paper (nov 2025): «深圳：华强北的日与夜»"
+          }
+        },
+        {
+          "text": "En la calle suele haber actuaciones: cosplay, cantantes, baile y guitarra. En la plaza hay un piano público.",
+          "source": {
+            "url": "https://m.thepaper.cn/newsDetail_forward_32717239",
+            "title": "The Paper (2026): «华强北探店翻车»"
+          }
+        },
+        {
+          "text": "Para comer, la calle Zhenhua (振华路), al lado, tiene unos cien restaurantes en un kilómetro.",
+          "source": {
+            "url": "https://www.thepaper.cn/newsDetail_forward_31998244",
+            "title": "The Paper (nov 2025): «深圳：华强北的日与夜»"
+          }
+        },
+        {
+          "text": "Si os interesa la historia del barrio, está el Museo de Huaqiangbei en la 5.ª planta del edificio Modern Window (salida E2): gratis, de martes a domingo de 10:00 a 18:00.",
+          "source": {
+            "url": "https://www.wanderinchina.com/destinations/shenzhen/huaqiangbei/",
+            "title": "Wander in China: Huaqiangbei 2026"
+          }
+        }
+      ]
     },
     {
       "id": "shb",
@@ -756,7 +2681,105 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B4%E8%B4%9D%E7%8F%A0%E5%AE%9D&city=%E6%B7%B1%E5%9C%B3"
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B4%E8%B4%9D%E7%8F%A0%E5%AE%9D&city=%E6%B7%B1%E5%9C%B3",
+      "practical": {
+        "how_to_get": "Metro línea 3, estación Shuibei (水贝). Una guía de 2023 usa la salida B: enfrente está 水贝国际, al que se cruza por la pasarela. Un reportaje de 2025 sale por la D1, con 水贝银座 y 水贝金座 a la vista. También vale Tianbei (田贝, líneas 3 y 7).",
+        "payment": "Pago en CNY: efectivo o Alipay/WeChat Pay con tarjeta extranjera vinculada (el pago con móvil es lo más habitual). La mayoría de puestos no aceptan tarjetas extranjeras directamente.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Plata: 水贝银座 (Yinzuo, junto a Jinzuo), y las plantas 2–3 del International Jewellery Exchange y de Wanshan. Muchas plantas altas solo venden al por mayor. Los sótanos (B1) de 水贝国际, 水贝壹号, 金座, 银座 y 特力 están unidos y son la zona de venta al público. Para plata, el precio mayorista suele pedir 5 piezas o más. Comprueba el sello 925/S925: hay piezas chapadas vendidas como plata de ley. Casi nunca hay devoluciones, y a veces solo dan un recibo escrito a mano. Hay laboratorios de análisis en la zona.",
+        "hours": "Por confirmar: International Jewellery Exchange, tiendas 9:00–18:00 y mayoristas 9:00–17:00 (Trip.com 2026). La mayoría de puestos cierran a partir de las 17:30, algunos hasta las 19:30 (Huaxia Times, nov 2026). Una guía de 2023 decía que dejan de atender hacia las 16:00.",
+        "closed_days": null,
+        "sources": [
+          {
+            "url": "https://post.smzdm.com/p/akkvqdee/",
+            "title": "SMZDM (oct 2023): primera vez comprando en Shuibei",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://m.tech.china.com/redian/2025/0725/072025_1704940.html",
+            "title": "Red Star News (jul 2025): visita al mercado de Shuibei",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/ditie/zd_shuibei.shtml",
+            "title": "Bendibao: salidas de la estación Shuibei",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://ca.trip.com/guide/shopping/shenzhen-shuibei.html",
+            "title": "Trip.com (jul 2026): Shenzhen Shuibei Market",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "before_you_go",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://www.madisondia.com/en/blogs/news/shenzhen-shuibei-jewelry-guide",
+            "title": "MadisonDia: Shenzhen Shuibei Jewelry Market Guide (act. jul 2026)",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://finance.eastmoney.com/a/202611153931494596.html",
+            "title": "Huaxia Times vía Eastmoney (15-11-2026): «实探水贝»",
+            "fields": [
+              "hours"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Baja al sótano (B1): los edificios están conectados por debajo y ahí venden al público. Arriba suelen ser mayoristas que no atienden a particulares.",
+          "source": {
+            "url": "https://post.smzdm.com/p/akkvqdee/",
+            "title": "SMZDM (oct 2023): primera vez comprando en Shuibei"
+          }
+        },
+        {
+          "text": "Pide precio de la misma pieza en al menos tres puestos. Evita fines de semana y tardes después de las 15:00, cuando están más ocupados y negocian menos.",
+          "source": {
+            "url": "https://www.madisondia.com/en/blogs/news/shenzhen-shuibei-jewelry-guide",
+            "title": "MadisonDia: Shenzhen Shuibei Jewelry Market Guide"
+          }
+        },
+        {
+          "text": "Pregunta siempre el precio por gramo y la mano de obra (工费) por separado: la mano de obra cambia mucho según el acabado, y algunas piezas llevan recargos extra.",
+          "source": {
+            "url": "https://finance.eastmoney.com/a/202611153931494596.html",
+            "title": "Huaxia Times vía Eastmoney (15-11-2026): «实探水贝»"
+          }
+        },
+        {
+          "text": "Guarda la etiqueta, el recibo y el certificado si lo hay: te sirven para reclamar o revender.",
+          "source": {
+            "url": "https://finance.eastmoney.com/a/202611153931494596.html",
+            "title": "Huaxia Times vía Eastmoney (15-11-2026): «实探水贝»"
+          }
+        },
+        {
+          "text": "Hacen piezas personalizadas: un viajero se llevó una pulsera de plata grabada por 100 CNY.",
+          "source": {
+            "url": "https://ph.trip.com/moments/detail/shenzhen-26-131225634",
+            "title": "Trip.com Moments (abr 2025)"
+          }
+        }
+      ]
     },
     {
       "id": "lcc",
@@ -782,7 +2805,80 @@
         "source": "nominatim",
         "osm_id": "way/75839547",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Por confirmar: metro línea 1, estación Luohu (罗湖, final de línea), junto al paso fronterizo. Bendibao pone Luohu Commercial City en la salida A2; EyeShenzhen dice salida B. Dirección: 罗湖区广场路25号.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Hay más de 140 sastrerías, en las plantas 3 y 5. Un traje se tarda unos 15 días (21 en algún sastre); algunos hacen urgencias en 7–10 días: encargadlo nada más llegar. Precios de 2025 en tiendas concretas: traje de dos piezas desde 780 CNY (tejido mezcla), otro desde 980 CNY. En las demás plantas, los bolsos, relojes y ropa «de marca» suelen ser imitaciones. Nada lleva precio: hay que regatear.",
+        "hours": "La mayoría de tiendas, aprox. 10:30–22:00 (EyeShenzhen). Los sastres tienen horario propio: p. ej. 10:30–19:30 entre semana y 10:00–20:30 el fin de semana en uno, 10:00–22:00 en otro.",
+        "closed_days": null,
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/ditie/zd_luohu.shtml",
+            "title": "Bendibao: salidas de la estación Luohu",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.eyeshenzhen.com/content/2025-09/09/content_31652310.htm",
+            "title": "EyeShenzhen: Luohu Commercial City",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://www.stheadline.com/zh-hans/lifetips/3436290/罗湖商业城订造西装旗袍婚纱4大洋服店推介-两件头西装1000有找-家燕姐都捧场",
+            "title": "Sing Tao (mar 2025): cuatro sastres de Luohu Commercial City",
+            "fields": [
+              "before_you_go",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://driveontheleft.com/luohu-commercial-city-mall",
+            "title": "Drive on the Left (2018): Luohu Commercial City",
+            "fields": [
+              "before_you_go"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Lleva una foto o una prenda que te guste para que la copien, o elige tela del muestrario. Revisa bien las costuras: la calidad varía mucho de una tienda a otra.",
+          "source": {
+            "url": "https://driveontheleft.com/luohu-commercial-city-mall",
+            "title": "Drive on the Left (2018): Luohu Commercial City"
+          }
+        },
+        {
+          "text": "La primera cifra está muy inflada. Una visitante contraofertaba al 20–25 % del primer precio y aun así cree que pagó un 10 % de más. Estad dispuestos a iros.",
+          "source": {
+            "url": "https://driveontheleft.com/luohu-commercial-city-mall",
+            "title": "Drive on the Left (2018): Luohu Commercial City"
+          }
+        },
+        {
+          "text": "En la entrada hay ganchos que ofrecen relojes, electrónica o masajes y hasta te siguen por las escaleras mecánicas: un «bù yào» firme y seguid andando.",
+          "source": {
+            "url": "https://driveontheleft.com/luohu-commercial-city-mall",
+            "title": "Drive on the Left (2018): Luohu Commercial City"
+          }
+        },
+        {
+          "text": "Contad con el plazo: en los sastres citados, el traje normal tarda 15–21 días; la urgencia, 7–10 días. Preguntad cuántas pruebas hacen.",
+          "source": {
+            "url": "https://www.stheadline.com/zh-hans/lifetips/3436290/罗湖商业城订造西装旗袍婚纱4大洋服店推介-两件头西装1000有找-家燕姐都捧场",
+            "title": "Sing Tao (mar 2025): cuatro sastres de Luohu Commercial City"
+          }
+        }
+      ]
     },
     {
       "id": "dmn",
@@ -808,7 +2904,114 @@
         "source": "nominatim",
         "osm_id": "way/1238852261",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro Laojie (老街, líneas 1, 3 y 17): salida A (calle peatonal de Dongmen y food court) o D (东门老街). También Shaibu (晒布, línea 3) para la zona este.",
+        "payment": "Alipay y WeChat Pay son lo habitual. Un viajero dice que casi no aceptan efectivo y otro recomienda llevar algo: llevad las dos cosas.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "El food court 东门町美食广场 (más de 40 puestos) se trasladó en 2024 a 永新路15号, cerca de la salida A de Laojie. Los fines de semana hay muchísima gente: cuidado con carteras y móviles. Algunos locales de moda tienen colas largas.",
+        "hours": "Calle abierta todo el día. Los puestos de comida tienen más vida de 18:00 a 23:00. Cada local tiene su horario (muchos, 10:00–22:00).",
+        "closed_days": "Ninguno (calle abierta todo el día).",
+        "price_per_person": "Picoteo callejero: un viajero gastó unos 85 CNY en una cena variada (marzo 2026). Pinchos picantes desde 2 CNY; pulpo a la brasa, 15 CNY. Restaurantes: olla de cangrejo (胖哥俩) ~50 CNY; bufés de marisco 148–158 CNY.",
+        "dishes": "Callejón de snacks de Chaoshan; ostras a la brasa con ajo, calamar a la plancha, leche de doble capa (双皮奶), tofu apestoso, chuletas de cordero, ternera guisada (牛杂) y postres dulces (糖水). Pasteles 车轮饼 (7–10 CNY).",
+        "menu": null,
+        "best_time": "Al anochecer, con los neones y los puestos en marcha. Entre semana hay menos gente.",
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/ditie/zd_laojie.shtml",
+            "title": "Bendibao: salidas de la estación Laojie",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/dongmen/",
+            "title": "Bendibao: Dongmen",
+            "fields": [
+              "hours",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://www.stheadline.com/zh-hans/travel/3390707/深圳东门美食10大推介东门町美食广场重开即捞即煮海鲜粥底火锅最新深圳手信人龙店",
+            "title": "Sing Tao (oct 2024): diez sitios para comer en Dongmen",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "price_per_person",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://ph.trip.com/moments/dongmen-commercial-area-2036308",
+            "title": "Trip.com Moments: Dongmen (2026)",
+            "fields": [
+              "payment",
+              "before_you_go",
+              "hours",
+              "price_per_person",
+              "dishes",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.hk01.com/旅遊/1066308/深圳老街美食8推介-炭火燒肉店-爆餡車輪餅-飲茶酒樓-可麗餅",
+            "title": "HK01 (jun 2026): ocho sitios para comer en Laojie",
+            "fields": [
+              "before_you_go",
+              "hours",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://info.newsgd.com/node_ed2910caae/307a9ab104.shtml",
+            "title": "Shenzhen Daily / INFO Guangdong (nov 2025): calles peatonales de Shenzhen",
+            "fields": [
+              "how_to_get",
+              "dishes"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Lo mejor está en los callejones laterales, sobre todo los del sur, llenos de parrillas y puestos de fideos. No os quedéis solo en la calle principal.",
+          "source": {
+            "url": "https://ph.trip.com/moments/dongmen-commercial-area-2036308",
+            "title": "Trip.com Moments: Dongmen (2026)"
+          }
+        },
+        {
+          "text": "Buscad el callejón dedicado a los snacks de Chaoshan.",
+          "source": {
+            "url": "https://info.newsgd.com/node_ed2910caae/307a9ab104.shtml",
+            "title": "Shenzhen Daily / INFO Guangdong (nov 2025)"
+          }
+        },
+        {
+          "text": "Si no tomáis picante, pedid «bù yào là» (不要辣). Llevad toallitas: las salsas manchan.",
+          "source": {
+            "url": "https://ph.trip.com/moments/dongmen-commercial-area-2036308",
+            "title": "Trip.com Moments: Dongmen (2026)"
+          }
+        },
+        {
+          "text": "El food court de Dongmending se reformó y ahora es limpio, con asientos y aire acondicionado: buena parada para probar varias cosas a la vez.",
+          "source": {
+            "url": "https://www.stheadline.com/zh-hans/travel/3390707/深圳东门美食10大推介东门町美食广场重开即捞即煮海鲜粥底火锅最新深圳手信人龙店",
+            "title": "Sing Tao (oct 2024): diez sitios para comer en Dongmen"
+          }
+        },
+        {
+          "text": "Los 车轮饼 de 记录余生 (永新街, salida F de Laojie) tienen colas largas: id temprano.",
+          "source": {
+            "url": "https://www.hk01.com/旅遊/1066308/深圳老街美食8推介-炭火燒肉店-爆餡車輪餅-飲茶酒樓-可麗餅",
+            "title": "HK01 (jun 2026): ocho sitios para comer en Laojie"
+          }
+        }
+      ]
     },
     {
       "id": "daf",
@@ -834,7 +3037,96 @@
         "source": "nominatim",
         "osm_id": "way/248181066",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro línea 3, estación Dafen (大芬), salida A1; un viajero calcula unos 200 m a pie. Desde el centro de Futian, 35–40 min y 5–7 CNY.",
+        "payment": "Llevad algo de efectivo para compras pequeñas: algunos talleres no aceptan tarjeta (viajero en Trip.com).",
+        "passport": null,
+        "rules": "Pide permiso antes de fotografiar de cerca a los pintores o sus cuadros.",
+        "before_you_go": "Pregunta si es original, copia pintada a mano o impresión; quién lo pintó; si está firmado y si el precio incluye marco y embalaje. Encargos (retratos): uno sencillo tarda alrededor de una semana. No deis por hecho que estará listo antes de iros: acordad plazo, embalaje y envío por escrito antes de pagar la señal.",
+        "hours": "Por confirmar: las calles están abiertas todo el día y cada galería o taller pone su horario (viajeros: aprox. 9:00–18:00 o 10:00–20:00). Museo de Arte de Dafen: 9:30–17:30, última entrada 17:00. Bendibao da 9:30–17:30, de martes a domingo, para todo el pueblo.",
+        "closed_days": "Por confirmar: el museo cierra los lunes. Bendibao dice que el pueblo no abre los lunes; China Highlights y viajeros de Trip.com dicen que las calles abren a diario y los talleres según cada uno.",
+        "booking": "Por confirmar: viajeros de Trip.com dicen que es gratis y sin reserva; Bendibao dice que hay que reservar y que hay cupo. Los talleres de pintura se reservan con cada estudio.",
+        "tickets": "Gratis (pueblo). El museo también es gratis según viajeros.",
+        "duration": "2–3 horas para una primera visita.",
+        "best_time": "Entre semana y de día, cuando los talleres están pintando. China Highlights recomienda la tarde; viajeros de Trip.com, las mañanas entre semana, con menos gente.",
+        "sources": [
+          {
+            "url": "https://www.chinahighlights.com/shenzhen/attraction/dafen-oil-painting-village.htm",
+            "title": "China Highlights (act. sep 2026): Dafen Oil Painting Village",
+            "fields": [
+              "how_to_get",
+              "rules",
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://nz.trip.com/moments/poi-dafen-oil-painting-village-83239",
+            "title": "Trip.com Moments: Dafen Oil Painting Village",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/dafenyouhuacun/",
+            "title": "Bendibao: 大芬油画村",
+            "fields": [
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show988176.html",
+            "title": "Bendibao (may 2025): horario del Museo de Arte de Dafen",
+            "fields": [
+              "hours"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Id entre semana: el fin de semana se llena y resulta caótico.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-dafen-oil-painting-village-83239",
+            "title": "Trip.com Moments: Dafen Oil Painting Village"
+          }
+        },
+        {
+          "text": "Algunos estudios ofrecen una experiencia de pintura al óleo para principiantes: un cuadro pequeño en una hora más o menos. Un viajero cita unos 30 CNY.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-dafen-oil-painting-village-83239",
+            "title": "Trip.com Moments: Dafen Oil Painting Village"
+          }
+        },
+        {
+          "text": "Para un encargo, lleva fotos de referencia (y primeros planos de caras), elige un pintor especializado en ese tema y pide fotos del progreso por WeChat: los cambios son más difíciles cuantas más capas lleva.",
+          "source": {
+            "url": "https://www.thatsmags.com/shenzhen/post/22513/how-to-order-a-custom-oil-painting-in-shenzhen-s-dafen-village",
+            "title": "That's Shenzhen (2018): encargar un óleo en Dafen"
+          }
+        },
+        {
+          "text": "Elige dos prioridades (ver pintar y el museo, por ejemplo) y deja el resto para pasear sin plan.",
+          "source": {
+            "url": "https://www.chinahighlights.com/shenzhen/attraction/dafen-oil-painting-village.htm",
+            "title": "China Highlights (act. sep 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "gkg",
@@ -861,7 +3153,94 @@
         "source": "nominatim",
         "osm_id": "way/1039077937",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro línea 10, estación Gankeng (甘坑), salida B. Desde allí, la lanzadera T124 va a la entrada sur del pueblo: 10:00–19:00, cada 10 min entre semana y cada 5 min el fin de semana, 2 CNY. En taxi desde el centro, ~40 min y ~50 CNY.",
+        "payment": null,
+        "passport": "Algunas atracciones de pago piden documento para entrar o para descuentos: llevad el pasaporte.",
+        "rules": "Al hacer fotos, no bloqueéis los pasos.",
+        "before_you_go": "El pueblo es gratis; se paga por separado el Valle del Fénix (凤凰谷), la granja Xiaoliangmao (小凉帽农场), el teatro de sombras y la Academia de las 24 Historias. Decidid antes qué queréis ver. Los callejones viejos tienen piedras irregulares, escalones y umbrales. Hay taquillas para equipaje a la derecha de la puerta principal. Las entradas de pago se compran en el miniprograma «花橙旅游».",
+        "hours": "Pueblo abierto las 24 horas. Atracciones de pago (2024): granja 10:00–18:00 entre semana y 9:00–18:00 fines de semana y festivos; Valle del Fénix igual; museo de Gankeng 9:00–18:00; Academia de las 24 Historias 13:30–21:00 (sesión nocturna 17:30–21:00).",
+        "closed_days": "El pueblo no cierra. La Academia de las 24 Historias cierra los lunes (si es festivo, el día siguiente).",
+        "booking": "El pueblo es sin reserva. Las atracciones de pago se pueden comprar online (miniprograma «花橙旅游»), a veces con descuento.",
+        "tickets": "Por confirmar: el pueblo es gratis. Academia de las 24 Historias: 60 CNY de día; de noche, 30 CNY (Bendibao 2024) o 39 CNY (EastChinaTrip 2026). Valle del Fénix: 30 CNY adulto (2024) o 26 CNY (2026). Granja Xiaoliangmao: 20 CNY adulto (2024).",
+        "duration": "1–1,5 h en visita rápida; 2–3 h la primera vez; 5–6 h con atracciones de pago y fotos de noche.",
+        "best_time": "Última hora de la tarde: se ve de día y luego con las luces encendidas, sin hora fija de encendido. Entre semana hay menos gente.",
+        "sources": [
+          {
+            "url": "https://www.eyeshenzhen.com/content/2025-07/15/content_31629939.htm",
+            "title": "EyeShenzhen (jul 2025): nueva lanzadera T124 a Gankeng",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.eastchinatrip.com/gankeng-hakka-town-shenzhen-guide/",
+            "title": "EastChinaTrip (oct 2026): Gankeng Hakka Town guide",
+            "fields": [
+              "how_to_get",
+              "rules",
+              "before_you_go",
+              "hours",
+              "tickets",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show903153.html",
+            "title": "Bendibao (feb 2024): horarios y entradas de Gankeng",
+            "fields": [
+              "passport",
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/show873859.html",
+            "title": "Bendibao (sep 2023): Gankeng",
+            "fields": [
+              "before_you_go",
+              "duration",
+              "best_time"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Llegad a última hora de la tarde: veréis el pueblo con luz de día y luego iluminado, que son dos ambientes distintos. A mediodía hace calor.",
+          "source": {
+            "url": "https://m.bendibao.com/show873859.html",
+            "title": "Bendibao (sep 2023): Gankeng"
+          }
+        },
+        {
+          "text": "Si solo vais a pasear y hacer fotos, en unas dos horas lo veis y no hace falta gastar nada.",
+          "source": {
+            "url": "https://m.bendibao.com/show873859.html",
+            "title": "Bendibao (sep 2023): Gankeng"
+          }
+        },
+        {
+          "text": "Para comer, pollo a la sal hakka en Phoenix Hakka Restaurant (~108 CNY por persona, 10:30–14:30 y 17:00–22:00) o snacks como ai ban y ciba por la zona de Ganwei Lane.",
+          "source": {
+            "url": "https://www.eastchinatrip.com/gankeng-hakka-town-shenzhen-guide/",
+            "title": "EastChinaTrip (oct 2026)"
+          }
+        },
+        {
+          "text": "Por la noche, la sesión nocturna de la Academia de las 24 Historias sale más barata que la de día.",
+          "source": {
+            "url": "https://www.eastchinatrip.com/gankeng-hakka-town-shenzhen-guide/",
+            "title": "EastChinaTrip (oct 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "dap",
@@ -887,7 +3266,121 @@
         "source": "nominatim",
         "osm_id": "way/404249608",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "No hay metro hasta la puerta. Opción A: metro línea 8 hasta Xichong (溪涌, final de línea, abierta el 28 dic 2025), salida A o C (parada 溪涌地铁站) y bus E91 hasta la parada 大鹏所城 (billete 5 CNY). Opción B: bus E11 u 833 hasta 大鹏中心 y cambio al M471 hasta 大鹏所城. En coche, 1–1,5 h desde el centro; en taxi desde Futian, unos 100–115 CNY.",
+        "payment": "El pago con QR funciona casi en todas partes; algún puesto pequeño puede pedir efectivo: llevad un poco.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Está lejos del centro. Los museos y casi todas las tiendas cierran hacia las 17:00–17:30; muchas tiendas cierran pronto también por la tarde.",
+        "hours": "La ciudad amurallada está abierta todo el día. Museo 大鹏古城博物馆: martes a domingo, 9:00–17:00. Salas de exposición: hacia 9:00–17:30.",
+        "closed_days": "El museo cierra los lunes.",
+        "booking": "No hace falta reservar. La reserva obligatoria para coches en la península de Dapeng solo rige los fines de semana y festivos del 1 de mayo al 8 de octubre; en noviembre no. Los taxis y los VTC no la necesitan.",
+        "tickets": "Gratis. El museo, también gratis. Algunas salas interiores cobran aparte.",
+        "duration": "Media jornada; hay quien hace el día entero combinándolo con la playa de Jiaochangwei.",
+        "best_time": "Por la mañana: menos gente y mejor luz.",
+        "sources": [
+          {
+            "url": "http://m.bendibao.com/show1000847.html",
+            "title": "Shenzhen Bendibao: 2026五一深圳大鹏徒步线路指南（大鹏所城→鹿嘴山庄） (30 abr 2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "tickets",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/dapengguchengbowuguan/",
+            "title": "Shenzhen Bendibao: 大鹏古城博物馆",
+            "fields": [
+              "hours",
+              "closed_days",
+              "tickets",
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/ditie/zd_xichong.shtml",
+            "title": "Shenzhen Bendibao: 溪涌站 (salidas y buses)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.sz.gov.cn/en_szgov/news/notices/content/post_12589348.html",
+            "title": "Shenzhen Government Online: nuevas líneas de bus (E91 核电站 ↔ 溪涌地铁站)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.chinadailyhk.com/hk/article/626191",
+            "title": "China Daily HK: apertura de la estación Xichong (29 dic 2025)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.sznews.com/news/content/2026-04/28/content_32031325.htm",
+            "title": "深圳新闻网: 2026 大鹏半岛预约通行 (28 abr 2026)",
+            "fields": [
+              "booking"
+            ]
+          },
+          {
+            "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533",
+            "title": "Trip.com Moments: Dapeng Fortress",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "before_you_go",
+              "hours",
+              "tickets",
+              "duration",
+              "best_time"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Id por la mañana: hay menos gente y mejor luz. Entre semana está tranquilo.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533",
+            "title": "Trip.com Moments: Dapeng Fortress"
+          }
+        },
+        {
+          "text": "Calzado cómodo: las calles son de piedra y resbalan cuando oscurece.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533",
+            "title": "Trip.com Moments: Dapeng Fortress"
+          }
+        },
+        {
+          "text": "Subid a la torre de la puerta sur (南门城楼): desde arriba se ve todo el casco antiguo.",
+          "source": {
+            "url": "http://m.bendibao.com/show1000847.html",
+            "title": "Shenzhen Bendibao: 大鹏徒步线路指南 (abr 2026)"
+          }
+        },
+        {
+          "text": "Para comer, el pollo al horno de barro (窑鸡) del restaurante 鹏城饭馆, y los snacks de la puerta sur (rollos de arroz, zongzi de erizo, tortilla de ostras).",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533",
+            "title": "Trip.com Moments: Dapeng Fortress"
+          }
+        },
+        {
+          "text": "La playa de Jiaochangwei (较场尾) está enfrente y se combina bien; por la tarde se llena, así que el orden fortaleza por la mañana y playa después funciona.",
+          "source": {
+            "url": "https://nz.trip.com/moments/poi-dapeng-fortress-134048533",
+            "title": "Trip.com Moments: Dapeng Fortress"
+          }
+        }
+      ]
     },
     {
       "id": "dms",
@@ -913,7 +3406,91 @@
         "source": "nominatim",
         "osm_id": "way/192579211",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro líneas 2/8, estación Dameisha (大梅沙), salidas A o B; está a pocos minutos a pie.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "La temporada de baño es de mayo a octubre: a finales de noviembre se va a pasear y a ver el atardecer, no a bañarse. Cierra de forma temporal con lluvias fuertes o tifón.",
+        "hours": "Por confirmar: 6:30–23:00 (Bendibao y ficha oficial de Trip.com) o 7:00–23:00, con desalojo desde las 22:00 (web del gobierno de Shenzhen).",
+        "closed_days": "Sin día de cierre fijo; cierra en días de lluvia fuerte o tifón.",
+        "booking": "No hace falta reservar para entrar. La reserva de coches por temporada alta es para los fines de semana y festivos de mayo a octubre; en noviembre no.",
+        "tickets": "Gratis.",
+        "duration": "De 3 a 5 horas.",
+        "best_time": "Atardecer: la luz se suaviza a partir de las 16:00 y el mejor momento es hacia las 17:00–18:30. Los fines de semana se llena.",
+        "sources": [
+          {
+            "url": "https://m.bendibao.com/jingdian/dameisha/",
+            "title": "Shenzhen Bendibao: 大梅沙海滨公园",
+            "fields": [
+              "hours",
+              "tickets",
+              "booking",
+              "how_to_get",
+              "before_you_go",
+              "closed_days"
+            ]
+          },
+          {
+            "url": "https://m.bendibao.com/jingdian/dameisha/traffic/",
+            "title": "Shenzhen Bendibao: 大梅沙海滨公园 交通",
+            "fields": [
+              "how_to_get",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346",
+            "title": "Trip.com Moments: Dameisha Beach",
+            "fields": [
+              "hours",
+              "duration",
+              "best_time",
+              "how_to_get",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://www.sz.gov.cn/en_szgov/news/infocus/park/csgy/content/post_10986843.html",
+            "title": "Shenzhen Government Online: Dameisha Seaside Park",
+            "fields": [
+              "hours"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Id al atardecer, hacia las 17:00–18:30; antes de las 16:00 la luz es dura.",
+          "source": {
+            "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346",
+            "title": "Trip.com Moments: Dameisha Beach"
+          }
+        },
+        {
+          "text": "En los puestos de la playa que cobran al peso, preguntad el precio antes de pedir: hay quejas de cobros abusivos. Bebidas y juguetes allí son caros.",
+          "source": {
+            "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346",
+            "title": "Trip.com Moments: Dameisha Beach"
+          }
+        },
+        {
+          "text": "En el tramo este están las siete esculturas de ángeles de colores (unos 18 m): la foto típica del sitio.",
+          "source": {
+            "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346",
+            "title": "Trip.com Moments: Dameisha Beach"
+          }
+        },
+        {
+          "text": "Evitad los fines de semana y festivos: mucha gente y atascos. Llevad una capa para la brisa de la noche.",
+          "source": {
+            "url": "https://ph.trip.com/moments/poi-dameisha-beach-69450346",
+            "title": "Trip.com Moments: Dameisha Beach"
+          }
+        }
+      ]
     },
     {
       "id": "chc",

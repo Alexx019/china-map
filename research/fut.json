@@ -1,0 +1,203 @@
+{
+  "group": "fut",
+  "researched_at": "2026-11-18",
+  "places": {
+    "pin": {
+      "practical": {
+        "how_to_get": "Metro 购物公园站 (L1 y L3), salida D. Alternativa: 福田站 (L2/L3/L11), salida 8, cruzando el sótano de COCO Park y siguiendo carteles de «云际观光» (guía en inglés de 2026, sin verificar). En Amap, buscar «平安金融中心云际观光» para el camino por dentro.",
+        "payment": "Online: Trip.com permite comprar sin cuenta bancaria china, según una guía de 2026. Pago en taquilla: sin datos.",
+        "passport": "Llévalo. Hace falta documento para los descuentos (mayores, cumpleaños). En 2020 se pedía para comprar o recoger la entrada; no consta si sigue siendo obligatorio.",
+        "rules": "Según una guía en inglés de 2026: prohibidos trípodes, palos selfie y drones; revisan los bolsos.",
+        "before_you_go": "Arriba no hay restaurante. El amortiguador de masa (TMD) se visita por turnos cada media hora. La terraza exterior del piso 118 (Sky Terrace) se paga aparte y abre según el tiempo.",
+        "hours": "Dom–jue 10:00–20:00 (última entrada 19:15). Vie–sáb 10:00–21:00 (última entrada 20:15).",
+        "closed_days": "Abre todo el año, sin día de cierre (en Nochevieja china cierra a las 18:00).",
+        "booking": "No hace falta reservar con mucha antelación: se puede comprar en taquilla. Online sale más barato, pero algunas tarifas hay que pagarlas antes de las 23:55 del día anterior.",
+        "tickets": "Adulto: 200 CNY en taquilla; online desde 180 CNY (Ctrip, nov 2026). Niños de 1,2–1,5 m: 100 CNY; menores de 1,2 m, gratis. Descuentos para estudiantes, mayores y el día de tu cumpleaños, con documento.",
+        "duration": "Entre 1,5 y 2 horas.",
+        "best_time": "Vie o sáb, que cierra a las 21:00: da tiempo a ver el atardecer y la noche. El aire está más limpio por la mañana en invierno; hay más gente al atardecer (15:00–19:00).",
+        "sources": [
+          { "url": "https://you.ctrip.com/sight/shenzhen26/4336342.html", "title": "Ctrip: 深圳平安金融中心云际观光层 (horario de hoy, precio desde 180 CNY, notas de usuarios 2025-2026)", "fields": ["how_to_get", "hours", "tickets", "before_you_go", "best_time"] },
+          { "url": "https://www.dahepiao.com/lvyounews1/20250506512005.html", "title": "大河票务网: 2025深圳平安金融中心云际观光层游玩攻略 (6 may 2025)", "fields": ["hours", "booking", "tickets"] },
+          { "url": "https://www.dahepiao.com/lvyounews1/20250228505387.html", "title": "大河票务网: 2025深圳平安金融中心云际观光层门票怎么预约 (28 feb 2025)", "fields": ["hours", "closed_days", "tickets", "passport"] },
+          { "url": "https://m.bendibao.com/jingdian/pinganjinrongzhongxinyunjiguanguangceng/", "title": "深圳本地宝: 平安金融中心云际观光层攻略2026", "fields": ["how_to_get", "hours", "closed_days", "tickets"] },
+          { "url": "https://www.wanderinchina.com/en/destinations/shenzhen/ping-an-finance-centre/", "title": "Wander in China: Ping An Finance Centre Free Sky (2 may 2026)", "fields": ["how_to_get", "payment", "passport", "rules", "before_you_go", "booking", "tickets", "duration", "best_time"] },
+          { "url": "https://m.bendibao.com/show831597.html", "title": "深圳本地宝: 深圳平安大厦开放了吗 (2020)", "fields": ["passport"] },
+          { "url": "https://www.wingontravel.com/discovery/scenic-ping-an-finance-center---free-sky-46835160?rank_id=11", "title": "Wing On Travel: Ping An Finance Center Free Sky (reseñas)", "fields": ["duration"] }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        { "text": "Ve en viernes o sábado: abre hasta las 21:00 y puedes ver el atardecer y luego la ciudad encendida.", "source": { "url": "https://you.ctrip.com/sight/shenzhen26/4336342.html", "title": "Ctrip, nota «平安金融中心云际观光层打卡秘籍» (30 oct 2025)" } },
+        { "text": "El amortiguador gigante de la torre solo se visita cada media hora: mira el próximo turno al llegar y organiza la vuelta según eso.", "source": { "url": "https://you.ctrip.com/sight/shenzhen26/4336342.html", "title": "Ctrip, nota «站在深圳之巅：平安金融中心云际观光层全攻略» (2026)" } },
+        { "text": "Arriba no hay dónde comer: come algo antes de subir.", "source": { "url": "https://you.ctrip.com/sight/shenzhen26/4336342.html", "title": "Ctrip, nota «站在深圳之巅» (2026)" } },
+        { "text": "Llegar sobre las 16:00 un día entre semana permite ver el skyline de día, el atardecer y la noche sin el pico de gente.", "source": { "url": "https://www.wanderinchina.com/en/destinations/shenzhen/ping-an-finance-centre/", "title": "Wander in China (2026)" } },
+        { "text": "Contra los reflejos: pega el objetivo al cristal y tápalo con una chaqueta oscura.", "source": { "url": "https://www.wanderinchina.com/en/destinations/shenzhen/ping-an-finance-centre/", "title": "Wander in China (2026)" } }
+      ],
+      "notes": [
+        "Horario: Ctrip (dato en vivo del 18-nov-2026: jueves 10:00–20:00, entrada hasta 19:15), Bendibao y Dahepiao 2025 coinciden. Wander in China da 9:00–21:30, que no cuadra con nada más: descartado.",
+        "Precios de descuento contradictorios: mayores 120 CNY (Bendibao/Dahepiao) o gratis a partir de 70 años (Wander in China); estudiantes 160 CNY (Wander in China). No afecta a 4 adultos.",
+        "Comida: en 2020 (época COVID) estaba «禁止携带食物入场»; una nota de Ctrip de 2026 recomienda llevar algo de picar. No queda claro si se puede subir comida.",
+        "No he podido abrir Klook (403), Zhihu (403), Dianping ni Xiaohongshu. Ctrip solo se pudo leer descargando la página pública."
+      ]
+    },
+    "lhs": {
+      "practical": {
+        "how_to_get": "Metro 少年宫站 (L3/L4), salida F1: recto hasta la puerta sur (principal), unos minutos. Salidas C/D/E: pasarela sobre el Centro del Libro hasta la plaza de las Cometas. Otras opciones: 莲花西站 (L2), ~8 min a la puerta sur; 莲花北站 (L4) salida A2, ~10 min a la puerta noreste (la más lejos de la cima).",
+        "payment": "Entrada gratis. Dentro solo hay quioscos de bebidas y snacks, caros.",
+        "passport": "No hace falta: entrada libre y sin reserva.",
+        "rules": "Picnic y cometas permitidos en el césped; prohibido hacer fuego o barbacoa. Prohibido pescar en el lago. En noches de luces, en el mirador de la cima no se permiten trípodes, palos selfie grandes ni drones.",
+        "before_you_go": "La cima (plaza con la estatua de Deng Xiaoping) es el mirador del CBD de Futian y uno de los sitios sin reserva para ver el espectáculo de luces; esas noches el espacio es pequeño y se llena.",
+        "hours": "6:00–23:00, última entrada 22:30. Zona de la estatua de la cima: 6:30–22:30 (nota de Ctrip, nov 2026).",
+        "closed_days": "Abre todos los días.",
+        "booking": "No hace falta reservar para entrar (solo el aparcamiento).",
+        "tickets": "Gratis.",
+        "duration": "Unos 20 min de subida suave a la cima desde la puerta sur; unas 2 h en total paseando.",
+        "best_time": "Entrar después de las 16:00: luz suave, atardecer desde la cima (mejor luz después de las 17:30) y el skyline encendiéndose. Entre semana hay mucha menos gente que el fin de semana.",
+        "sources": [
+          { "url": "https://gs.ctrip.com/html5/you/sight/26/50541.html", "title": "Ctrip: 莲花山公园 (horario y precio)", "fields": ["hours", "closed_days", "tickets"] },
+          { "url": "https://www.sz.gov.cn/szzt2010/gysz/csgy/content/post_10776567.html", "title": "Gobierno de Shenzhen: ficha del parque Lianhuashan (solo leído el extracto de búsqueda; la página no cargó)", "fields": ["hours"] },
+          { "url": "https://m.bendibao.com/jingdian/shenzhenlianhuashangongyuan/", "title": "深圳本地宝: 莲花山公园攻略2026", "fields": ["tickets", "booking", "passport"] },
+          { "url": "https://m.bendibao.com/show829808.html", "title": "深圳本地宝: 深圳莲花山公园坐地铁怎么去 (2022)", "fields": ["how_to_get"] },
+          { "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html", "title": "Ctrip: 莲花山公园-风筝广场 (notas de usuarios, nov 2026)", "fields": ["how_to_get", "payment", "rules", "hours", "duration", "best_time"] },
+          { "url": "https://m.bendibao.com/show918976.html", "title": "深圳本地宝: 2026深圳市民中心灯光秀星期天有吗 (28 sep 2026)", "fields": ["rules", "before_you_go"] },
+          { "url": "https://m.bendibao.com/show1014168.html", "title": "深圳本地宝: 2026深圳市民中心灯光秀需要预约的区域 (29 sep 2026)", "fields": ["before_you_go"] }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        { "text": "Entra por la puerta sur (少年宫, salida F1): el camino a la cima es suave y se sube en unos 20 minutos.", "source": { "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html", "title": "Ctrip, nota «深圳莲花山20分钟登顶攻略» (nov 2026)" } },
+        { "text": "Entra a partir de las 16:00 para estar arriba al atardecer y ver cómo se encienden los rascacielos.", "source": { "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html", "title": "Ctrip, nota «深圳莲花山20分钟登顶攻略» (nov 2026)" } },
+        { "text": "Arriba al atardecer sopla viento: lleva una chaqueta fina y repelente de mosquitos. El fin de semana se llena; mejor entre semana.", "source": { "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html", "title": "Ctrip, nota «莲花山，藏着深圳限定秋» (nov 2026)" } },
+        { "text": "No comas en los quioscos del parque ni en los puestos de la puerta: son caros. Al bajar, la galería subterránea de 少年宫 (连城新天地) tiene comida cantonesa barata (25–35 CNY por persona).", "source": { "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html", "title": "Ctrip, nota «深圳莲花山｜0 元登顶，俯瞰福田 CBD！» (nov 2026)" } }
+      ],
+      "notes": [
+        "Horario: Ctrip y el gobierno de Shenzhen (extracto) dan 6:00–23:00 con última entrada a las 22:30; Bendibao y una nota de Ctrip dicen «6:00–22:30»; otra nota dice «全天开放» (abierto 24 h), que es falso. Me quedo con 6:00–23:00 y entrada hasta las 22:30.",
+        "Tiempo a pie desde 少年宫 F1: unos 3 min a la puerta sur (nota de Ctrip) frente a 11 min (guía de MTR, seguramente hasta la dirección del parque).",
+        "Una nota de Ctrip (nov 2026) dice que del 28 nov al 7 dic puede haber exposición de buganvillas (簕杜鹃花展), con mucha gente. No lo he podido confirmar: en 2025 fue del 7 al 21 de noviembre y no he encontrado fechas oficiales de 2026.",
+        "Una guía (shenzhendecoded.com) habla de restricción de drones en la zona del Civic Center hasta las 24:00 del 23-nov-2026.",
+        "No he podido abrir Dianping ni Xiaohongshu; los consejos salen de notas de usuarios de Ctrip de noviembre de 2026."
+      ]
+    },
+    "civ": {
+      "practical": {
+        "how_to_get": "Plaza: metro 市民中心站 (L2/L4), salidas A o F. Las noches con mucha gente se han cerrado las salidas C y D, y B/E han sido solo de entrada. Sin reserva: 少年宫站 (L3/L4), salida F1 para subir a Lianhuashan, o salida B para la puerta del Palacio de los Niños (少年宫).",
+        "payment": "Gratis.",
+        "passport": "No consta si el miniprograma de reserva acepta pasaporte; una guía del 16-nov-2026 dice que nadie lo ha probado. Para verlo desde Lianhuashan o el Palacio de los Niños no hace falta nada.",
+        "rules": "En las zonas de la plaza y del mirador de Lianhuashan: prohibidos trípodes, palos selfie grandes, drones, patinetes, bicis, carritos de bebé y mascotas. Ir ligero y seguir al personal.",
+        "before_you_go": "Con reserva hay que llegar al acceso de tu zona 30 min antes; si llegas tarde, no entras. Tres ausencias en 30 días bloquean la cuenta. Se puede cancelar o retrasar por lluvia, alertas meteorológicas o exceso de gente.",
+        "hours": "Lun–jue 19:00–22:00: solo iluminación fija de los edificios, sin espectáculo (norma anterior a la reforma de 2026).",
+        "closed_days": "Domingos con las luces apagadas.",
+        "booking": "Solo hace falta para la plaza del Civic Center: miniprograma de WeChat «福田中心区夜景灯光预约导引服务». En los pases normales, la reserva abre el lunes a las 10:00 para esa semana (para el vie 27 y el sáb 28 de nov sería el lun 23, si se mantiene la norma). Hasta 3 personas por reserva, con un código por persona.",
+        "tickets": "Gratis.",
+        "duration": "Unos 15 min por pase.",
+        "showtimes": "Por confirmar: lo habitual son viernes y sábado (y festivos y sus vísperas) a las 19:00, 20:00 y 21:00 de noviembre a marzo. En nuestro viaje serían el vie 27 y el sáb 28 de nov. Tras la reforma de 2026 no hay calendario oficial publicado a partir del 16-nov, y una guía del 13-nov incluye también los domingos.",
+        "best_spot": "Plaza del Civic Center: de frente y cerca, con reserva (mejor las zonas 1 y 2). Cima de Lianhuashan: la vista más completa desde arriba, sin reserva, pero con poco espacio. Puerta sur del Palacio de los Niños (少年宫): sin reserva, menos gente, se ve casi todo.",
+        "sources": [
+          { "url": "https://news.qq.com/rain/a/20260424A08YQX00", "title": "深圳本地宝 en Tencent News: 别跑空！福田灯光秀将暂停！(24 abr 2026)", "fields": ["showtimes"] },
+          { "url": "http://m.bendibao.com/show1014167.html", "title": "深圳本地宝: 2026深圳市民中心灯光秀最新消息 (29 sep 2026)", "fields": ["showtimes", "duration"] },
+          { "url": "http://m.bendibao.com/show1014194.html", "title": "深圳本地宝: 2026深圳福田市民中心国庆灯光秀观赏攻略 (29 sep 2026)", "fields": ["how_to_get", "best_spot"] },
+          { "url": "http://m.bendibao.com/show1014168.html", "title": "深圳本地宝: 2026深圳市民中心灯光秀需要预约的区域 (29 sep 2026)", "fields": ["best_spot", "booking"] },
+          { "url": "http://m.bendibao.com/show921480.html", "title": "深圳本地宝: 深圳市民中心灯光秀时间2026年 (11 nov 2026)", "fields": ["showtimes", "how_to_get", "payment", "tickets"] },
+          { "url": "http://m.bendibao.com/show1015735.html", "title": "深圳本地宝: 11月12日至15日福田市民中心灯光秀连续4晚亮灯 (12 nov 2026)", "fields": ["how_to_get", "best_spot", "before_you_go"] },
+          { "url": "https://m.bendibao.com/news/dengguangxiu/", "title": "深圳本地宝: 深圳灯光秀活动最新消息 (act. 13 nov 2026)", "fields": ["showtimes"] },
+          { "url": "https://sz.bendibao.com/news/202323/914703.htm", "title": "深圳本地宝: 2026深圳福田灯光秀亮灯时间安排 (19 ene 2026)", "fields": ["showtimes", "hours", "closed_days", "duration", "how_to_get"] },
+          { "url": "https://m.bendibao.com/show990603.html", "title": "深圳本地宝: 2025深圳市民中心灯光秀时间表（附预约开放时间）(12 dic 2025)", "fields": ["booking", "hours", "closed_days", "showtimes"] },
+          { "url": "https://m.bendibao.com/show914876.html", "title": "深圳本地宝: 2026深圳市民中心灯光秀在哪里预约 (28 sep 2026)", "fields": ["booking"] },
+          { "url": "https://m.bendibao.com/show914758.html", "title": "深圳本地宝: 深圳市民中心灯光秀预约规则 (31 dic 2024)", "fields": ["booking", "before_you_go"] },
+          { "url": "https://m.bendibao.com/show918976.html", "title": "深圳本地宝: 2026深圳市民中心灯光秀星期天有吗 (28 sep 2026)", "fields": ["closed_days", "rules"] },
+          { "url": "https://m.bendibao.com/show914754.html", "title": "深圳本地宝: 深圳市民中心广场灯光秀怎么走 (31 dic 2024)", "fields": ["how_to_get"] },
+          { "url": "https://m.bendibao.com/show968161.html", "title": "深圳本地宝: 2024深圳春节市民中心灯光秀观赏攻略 (18 feb 2024)", "fields": ["best_spot"] },
+          { "url": "https://www.thepaper.cn/newsDetail_forward_34463142", "title": "澎湃号·政务: 点亮夜空！深圳市民中心灯光表演将连开4晚 (12 nov 2026)", "fields": ["booking", "before_you_go"] },
+          { "url": "https://www.shenzhendecoded.com/en/guides/shenzhen-light-show", "title": "Shenzhen Decoded: Shenzhen light show 2026 (act. 16 nov 2026)", "fields": ["showtimes", "passport", "before_you_go", "rules"] }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        { "text": "Si no hay reserva, ve a la puerta del Palacio de los Niños (少年宫): hay mucha menos gente y se ve casi todo el espectáculo.", "source": { "url": "https://m.bendibao.com/show968161.html", "title": "深圳本地宝: 市民中心灯光秀观赏攻略 (2024)" } },
+        { "text": "Desde la cima de Lianhuashan se ve el espectáculo entero desde arriba, pero cabe poca gente: sube con margen antes del pase.", "source": { "url": "https://gs.ctrip.com/html5/you/sight/shenzhen26/124907629.html", "title": "Ctrip, nota «莲花山，藏着深圳限定秋» (nov 2026)" } },
+        { "text": "Graba a pulso: en la plaza no dejan pasar trípodes ni palos selfie grandes.", "source": { "url": "https://www.shenzhendecoded.com/en/guides/shenzhen-light-show", "title": "Shenzhen Decoded (nov 2026)" } },
+        { "text": "Organiza esa noche alrededor de la cena por la zona, para que siga valiendo la pena si cancelan el pase por lluvia o por la gente.", "source": { "url": "https://www.shenzhendecoded.com/en/guides/shenzhen-light-show", "title": "Shenzhen Decoded (nov 2026)" } }
+      ],
+      "notes": [
+        "IMPORTANTE: el espectáculo estuvo parado por obras del 30-abr al 1-oct de 2026. Volvió del 1 al 7 de octubre (19:30/20:30/21:30) y hubo un pase especial por la APEC del 12 al 15 de noviembre (19:00/20:00/21:00). No he encontrado ningún aviso oficial del calendario normal después del 16-nov. Bendibao (11-nov) da la norma «de antes de la reforma» y dice que en noviembre estaban probando un espectáculo nuevo. Hay que mirar el miniprograma el lunes 23-nov.",
+        "Contradicción en los días: la norma (Bendibao ene-2026, dic-2025 y sep-2026) es vie y sáb, con domingos apagados. La página de listado de Bendibao del 13-nov-2026 dice «每周五、六日、法定节假日及前一天», que podría leerse como vie, sáb y dom (quizá sea una errata).",
+        "Apertura de reservas: los lunes a las 10:00 para los pases normales (Bendibao dic-2025 y sep-2026). Para las fiestas nacionales de 2026 abría cada día a las 10:00, con 3 días de antelación.",
+        "Salida de metro: Bendibao (2024-2026) dice 市民中心站 A o F; una guía de MTR Hong Kong sin fecha dice salida C (2 min). En noches de mucha gente, C y D se han cerrado.",
+        "Primera parada del Palacio de los Niños: Bendibao (12-nov-2026) dice 少年宫站 salida B; Shenzhen Decoded dice salida C (unos 2 min).",
+        "places.json: el `name_zh` «市民中心 · 福田灯光秀» y el `when` «Noche (consulta horario)» son correctos. El `why` («algunas noches») encaja: normalmente solo vie y sáb.",
+        "El registro en el miniprograma pide apodo y número de teléfono; no consta si acepta números extranjeros.",
+        "No he podido abrir sz.gov.cn (conexión cortada), Dianping ni Xiaohongshu."
+      ]
+    },
+    "shw": {
+      "practical": {
+        "how_to_get": "Metro 福民站 (L4/L7), salida D, unos 5 min a pie. Alternativa: 皇岗村站 (L7), salida B2, unos 4 min hasta la calle Shuiwei 9 (水围九街), donde está el mercado nocturno. Desde el paso fronterizo de Futian/Lok Ma Chau se llega andando.",
+        "payment": "En los puestos se paga casi todo con Alipay o WeChat Pay (con tarjeta extranjera vinculada); el efectivo se acepta poco. Escanea el QR impreso del puesto, nunca pegatinas sueltas.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Entrada libre: solo pagas lo que consumes. El barrio 1368 (callejones con farolillos, bares, cafés y restaurantes) y el mercado nocturno de la calle Shuiwei 9 están pegados. Los puestos abren hacia las 17:00.",
+        "hours": "Barrio abierto todo el día. Puestos del mercado nocturno: desde las 17:00 aprox. hasta tarde (una guía dice 16:30–2:00). Cada restaurante tiene su horario.",
+        "closed_days": null,
+        "booking": "No hace falta para el barrio. En los restaurantes con mesa más populares hay colas.",
+        "price_per_person": "Unos 50 CNY por persona picando en los puestos.",
+        "dishes": "烤冷面 (crepe de fideos a la plancha con relleno, típico del noreste), tortilla de ostras taiwanesa (15 CNY por 4 o 20 CNY por 6), 鸡蛋仔 (gofre de huevo, 8 CNY), 罐罐烤奶 (leche tostada en tarro, de Yunnan), 捞汁海鲜 y brochetas fritas. Para sentarse: pichón asado (Kun Ji Guangming, 49 CNY).",
+        "menu": "Muchos puestos tienen carta por código QR. Si dudas, señala lo que comen otros. Una guía de 2026 dice que es el mercado más fácil para quien no habla chino.",
+        "sources": [
+          { "url": "https://www.ourchinastory.com/cn/amp/14063", "title": "Our China Story: 深圳好去处｜福田宝安区四大人气夜市推介 (5 feb 2025)", "fields": ["how_to_get", "hours", "before_you_go", "price_per_person", "dishes"] },
+          { "url": "https://global.hk01.com/%E6%97%85%E6%B8%B8/60393479/%E6%B7%B1%E5%9C%B3%E5%A4%9C%E5%B8%82%E6%8E%A8%E4%BB%8B10%E5%A4%A7-1%E7%83%A7%E7%94%9F%E8%9A%9D-%E6%9C%80%E6%96%B0%E7%BD%97%E6%B9%96%E7%BE%8E%E9%A3%9F%E5%9F%8E-1%E4%B8%AA%E8%B6%85%E8%BF%91%E7%A6%8F%E7%94%B0%E5%8F%A3%E5%B2%B8", "title": "HK01: 深圳夜市推介10大", "fields": ["how_to_get", "dishes"] },
+          { "url": "https://www.eastchinatrip.com/shuiwei-night-market-travel-guide/", "title": "East China Trip: Shuiwei Night Market travel guide", "fields": ["how_to_get", "hours", "booking", "before_you_go", "dishes"] },
+          { "url": "https://m.bendibao.com/show841860.html", "title": "深圳本地宝: 深圳水围村有什么好玩的地方 (2020)", "fields": ["how_to_get", "hours", "before_you_go"] },
+          { "url": "http://m.bendibao.com/show1000049.html", "title": "深圳本地宝: 2026深圳25大网红+文艺打卡地推荐 (13 abr 2026)", "fields": ["booking", "before_you_go"] },
+          { "url": "https://citiesinsider.com/country/china/shenzhen/shenzhen-night-markets/en", "title": "Cities Insider: Shenzhen night markets (2026)", "fields": ["payment", "hours", "menu"] }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        { "text": "Llega después de las 18:00: es cuando hay más ambiente y todos los puestos están abiertos.", "source": { "url": "https://www.eastchinatrip.com/shuiwei-night-market-travel-guide/", "title": "East China Trip: Shuiwei Night Market" } },
+        { "text": "Lo que no hay que perderse es el 烤冷面; lo demás que más se pide son snacks taiwaneses como la tortilla de ostras.", "source": { "url": "https://www.ourchinastory.com/cn/amp/14063", "title": "Our China Story (2025)" } },
+        { "text": "La calle de puestos es corta: con unos 50 CNY por cabeza se cena bien, y los farolillos rojos son la mejor foto.", "source": { "url": "https://www.ourchinastory.com/cn/amp/14063", "title": "Our China Story (2025)" } },
+        { "text": "Si vais con poco tiempo, mejor picar 2 o 3 cosas de pie que hacer cola en los restaurantes con mesa.", "source": { "url": "https://www.eastchinatrip.com/shuiwei-night-market-travel-guide/", "title": "East China Trip: Shuiwei Night Market" } }
+      ],
+      "notes": [
+        "Contradicción sobre qué es cada cosa: Our China Story dice que el mercado nocturno está dentro del barrio 1368; East China Trip dice que son zonas vecinas pero distintas (el mercado está en la calle Shuiwei 9). Para el mapa conviene apuntar a la calle 水围九街 para la cena.",
+        "Las direcciones no coinciden: «皇岗公园一街» (Bendibao 2020), «水围七街» y «水围九街» (guías en inglés).",
+        "Horario de cierre de los puestos sin confirmar: «hasta la noche» (Our China Story), 16:30–2:00 (East China Trip y Cities Insider), 17:00–24:00 o 17:00–01:00 (otros resultados de búsqueda).",
+        "Los precios de los platos salen de guías de 2025 o sin fecha.",
+        "No he podido leer Dianping ni Xiaohongshu ni encontrar ficha de Ctrip del sitio. No hay consejos de reseñas chinas recientes: los que hay son de guías de viaje."
+      ]
+    },
+    "coc": {
+      "practical": {
+        "how_to_get": "Metro 购物公园站 (L1/L3), salida C, unos 4 min a pie (dirección: 福华三路268号). Las salidas E, F y G también dan al parque o centro comercial.",
+        "payment": null,
+        "passport": "Lleva el pasaporte original: algunos locales, sobre todo clubs con clientela extranjera, registran en la puerta.",
+        "rules": null,
+        "before_you_go": "Pide la lista de precios (价格表) antes de pedir y no sigas a desconocidos que te ofrecen «un bar mejor» (timo de cuenta inflada). El metro deja de funcionar entre las 23:00 y las 24:00: la vuelta, en DiDi pedido desde dentro del local.",
+        "hours": "Tiendas del centro comercial ~10:00–22:00; la plaza exterior está abierta siempre. Bares y clubs: hasta las 2–3 h entre semana y las 4–6 h el fin de semana.",
+        "closed_days": null,
+        "booking": "Los bares normalmente no hacen falta. Los restaurantes populares, mejor con reserva en las horas punta del fin de semana.",
+        "price_per_person": "Por confirmar: cócteles a 50–100 CNY (Trip.com, Shenzhen en general) o bebidas a 80–150 CNY (Wander in China, Futian).",
+        "menu": "En COCO Park suele haber personal con inglés básico; para pedir, ayúdate de un traductor.",
+        "sources": [
+          { "url": "https://mtr.com.hk/archive/ch/services/ShenZhen/8_Coco_Park_Futian_C.pdf", "title": "MTR: 【深圳‧打卡】潮逛福田人氣商場 – 星河 COCO Park (folleto)", "fields": ["how_to_get"] },
+          { "url": "https://www.trip.com/moments/detail/shenzhen-26-136391152", "title": "Trip.com Moments: Galaxy COCO Park one-day food and beverage guide (28 sep 2025)", "fields": ["how_to_get", "hours", "booking"] },
+          { "url": "https://www.trip.com/guide/destination/shenzhen-nightlife.html", "title": "Trip.com: Shenzhen Nightlife 2026", "fields": ["how_to_get", "hours", "price_per_person", "menu", "before_you_go"] },
+          { "url": "https://wanderinchina.com/zh/destinations/shenzhen/activity/nightlife/", "title": "Wander in China: 深圳夜生活指南", "fields": ["passport", "before_you_go", "price_per_person"] },
+          { "url": "https://www.eyeshenzhen.com/content/2023-04/27/content_30196088.htm", "title": "Eyeshenzhen: Bar streets", "fields": ["how_to_get"] }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        { "text": "Los clubs de hip-hop como Sauce Club se llenan a partir de las 23:00: llega antes si queréis sitio cerca de la pista.", "source": { "url": "https://www.trip.com/guide/destination/shenzhen-nightlife.html", "title": "Trip.com: Shenzhen Nightlife 2026" } },
+        { "text": "Para comer en la zona sin colas, ve antes de las 11:00 o después de las 20:30; las tardes del fin de semana y la hora de cenar están a tope.", "source": { "url": "https://www.trip.com/moments/detail/shenzhen-26-136391152", "title": "Trip.com Moments (sep 2025)" } },
+        { "text": "De madrugada, pide el DiDi con antelación desde dentro: hacia las 3:00 tarda 10–15 min en llegar, y evita los coches sin distintivo que esperan fuera.", "source": { "url": "https://wanderinchina.com/zh/destinations/shenzhen/activity/nightlife/", "title": "Wander in China: 深圳夜生活指南" } }
+      ],
+      "notes": [
+        "Fuentes flojas para este sitio: ninguna reseña china reciente (Dianping solo devolvió notas de 2021 que no hablan de la calle de bares; Xiaohongshu no se puede leer).",
+        "Salida de metro: C según MTR, Trip.com y Bendibao; chinawondersguide.com dice B (fuente poco fiable, descartada).",
+        "chinawondersguide.com da nombres de bares y precios concretos (TAPS, LAVO, HOU LIVE…) sin fecha y con datos que parecen poco fiables: no se usan.",
+        "Los precios de las copas varían mucho según la fuente (por eso aparecen como «Por confirmar»)."
+      ]
+    }
+  }
+}
