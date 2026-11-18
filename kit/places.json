@@ -1,0 +1,1335 @@
+{
+  "generated": "2026-11-18",
+  "note": "lat/lng = null: falta geocodificar. Coordenadas WGS-84 para OpenStreetMap.",
+  "regions": [
+    {
+      "id": "sz",
+      "name": "Shenzhen",
+      "name_zh": "深圳",
+      "emoji": "🏙️",
+      "days": "6 días",
+      "lede": "La ciudad del futuro: rascacielos, electrónica, la bahía al atardecer y pueblos antiguos a una hora."
+    },
+    {
+      "id": "gz",
+      "name": "Guangzhou",
+      "name_zh": "广州",
+      "emoji": "🏮",
+      "days": "½–1 día",
+      "lede": "La vieja Cantón y la torre sobre el río de las Perlas. Se hace en el día desde Shenzhen: tren de 30 a 60 minutos, con pasaporte. Media jornada: elegid una zona. Día entero: la ciudad vieja por la mañana y la torre por la noche."
+    },
+    {
+      "id": "hk",
+      "name": "Hong Kong",
+      "name_zh": "香港",
+      "emoji": "⛴️",
+      "days": "1 día",
+      "lede": "Ida y vuelta en el día desde Shenzhen: monos por la mañana, perderse y comer por Kowloon, el ferry y la ciudad iluminada de noche. Llevad el pasaporte. Entre cuatro, los taxis (DiDi, Uber) salen baratos."
+    },
+    {
+      "id": "ys",
+      "name": "Yangshuo",
+      "name_zh": "阳朔",
+      "emoji": "⛰️",
+      "days": "2 días",
+      "lede": "Montañas kársticas, ríos y arrozales. Aquí está la balsa de bambú y los mejores planos del viaje."
+    }
+  ],
+  "zones": [
+    {
+      "id": "bao",
+      "region": "sz",
+      "name": "Bao'an · OH BAY",
+      "name_zh": "宝安 · 欢乐港湾",
+      "when": "Media tarde y noche",
+      "lede": "Frente marítimo con la librería espiral, la noria y la feria tecnológica.",
+      "plan": [
+        "Librería Zhongshuge hacia las 16:00",
+        "Paseo por el frente marítimo al atardecer",
+        "Noria y cena en OH BAY con las luces encendidas",
+        "La Hi-Tech Fair va aparte: es otro día, más al norte junto al aeropuerto"
+      ]
+    },
+    {
+      "id": "nan",
+      "region": "sz",
+      "name": "Nanshan · la bahía",
+      "name_zh": "南山",
+      "when": "Día 1 y otra tarde",
+      "lede": "La tienda de DJI, el paseo de la bahía y el skyline nocturno de Houhai.",
+      "plan": [
+        "Tienda DJI en Happy Coast: comprar y configurar la 360",
+        "Parque de la Bahía de Shenzhen al atardecer",
+        "Parque del Talento de noche (primer ensayo en modo nocturno)",
+        "Otro día: OCT Loft y Sea World de Shekou"
+      ]
+    },
+    {
+      "id": "fut",
+      "region": "sz",
+      "name": "Futian · el centro",
+      "name_zh": "福田",
+      "when": "Tarde y noche",
+      "lede": "El corazón de rascacielos: miradores, el parque con la mejor vista y callejones de comida.",
+      "plan": [
+        "Mirador Free Sky del Ping An al final de la tarde",
+        "Bajar a Lianhuashan o al Civic Center para las luces",
+        "Cena en Shuiwei 1368 y copas en COCO Park"
+      ]
+    },
+    {
+      "id": "hqb",
+      "region": "sz",
+      "name": "Huaqiangbei",
+      "name_zh": "华强北",
+      "when": "Mañana",
+      "lede": "El mercado de electrónica más grande del mundo. Mejor por la mañana, que hay menos gente.",
+      "plan": [
+        "Huaqiang Electronics World y SEG Plaza",
+        "Calle peatonal de Huaqiangbei",
+        "Comer por la zona y seguir a Luohu si queda energía"
+      ]
+    },
+    {
+      "id": "luo",
+      "region": "sz",
+      "name": "Luohu · el Shenzhen de antes",
+      "name_zh": "罗湖",
+      "when": "Mañana o tarde",
+      "lede": "Joyería de plata al por mayor, sastres y calles comerciales con más vida local.",
+      "plan": [
+        "Shuibei para la plata S925 (compara varios puestos)",
+        "Luohu Commercial City si os apetece un sastre",
+        "Tarde en la calle peatonal de Dongmen"
+      ]
+    },
+    {
+      "id": "lon",
+      "region": "sz",
+      "name": "Longgang · arte y hakka",
+      "name_zh": "龙岗",
+      "when": "Media jornada",
+      "lede": "Un pueblo de pintores y un pueblo hakka restaurado: el contrapunto tranquilo a la ciudad.",
+      "plan": [
+        "Dafen por la mañana, con los talleres abiertos",
+        "Gankeng por la tarde, cerca de una hora más"
+      ]
+    },
+    {
+      "id": "est",
+      "region": "sz",
+      "name": "Costa este",
+      "name_zh": "大鹏 · 大梅沙",
+      "when": "Día entero",
+      "lede": "Playa, montaña y una fortaleza de 600 años. Lejos del centro: dedicadle el día.",
+      "plan": [
+        "Fortaleza de Dapeng por la mañana",
+        "Comer marisco en la zona",
+        "Dameisha al atardecer de vuelta"
+      ]
+    },
+    {
+      "id": "xig",
+      "region": "gz",
+      "name": "Liwan · la ciudad vieja",
+      "name_zh": "荔湾 · 西关",
+      "when": "Mañana o media jornada",
+      "lede": "Dim sum, la casa del clan Chen, los soportales de Xiguan y la isla colonial de Shamian.",
+      "plan": [
+        "Dim sum de desayuno",
+        "Casa del clan Chen (cierra los martes)",
+        "Yongqing Fang y Enning Road",
+        "Shamian después de comer"
+      ]
+    },
+    {
+      "id": "zjx",
+      "region": "gz",
+      "name": "Zhujiang · la torre",
+      "name_zh": "珠江新城 · 广州塔",
+      "when": "Tarde y noche",
+      "lede": "El Guangzhou moderno: la plaza entre rascacielos, la torre y el río iluminado.",
+      "plan": [
+        "Huacheng Square al atardecer",
+        "Subir a la Canton Tower o hacer el crucero: con uno basta",
+        "Volver a Shenzhen en tren; mirad en 12306 a qué estación sale el último"
+      ]
+    },
+    {
+      "id": "kow",
+      "region": "hk",
+      "name": "Kowloon",
+      "name_zh": "九龙",
+      "when": "Todo el día",
+      "lede": "Monos salvajes al norte, barrios para perderse y comer, neones y la mejor vista de la isla al otro lado del agua.",
+      "plan": [
+        "Tren rápido Futian → West Kowloon a primera hora (14 min)",
+        "Monos de Monkey Hill en taxi o DiDi (1–1,5 h)",
+        "Comer y perderse por Sham Shui Po y Mong Kok",
+        "De noche: Symphony of Lights a las 20:00 y cena en Temple Street",
+        "Vuelta a Shenzhen: comprad el tren de vuelta con antelación"
+      ]
+    },
+    {
+      "id": "isl",
+      "region": "hk",
+      "name": "Isla de Hong Kong",
+      "name_zh": "香港岛",
+      "when": "Tarde",
+      "lede": "Tranvías, escaleras mecánicas, dim sum y el Peak.",
+      "plan": [
+        "Star Ferry de ida y vuelta a Central (unos 10 min)",
+        "Escaleras de Mid-Levels y calles de Central",
+        "Victoria Peak solo si os sobra tiempo: la subida es corta, pero las colas son largas",
+        "Monster Building queda lejos, en Quarry Bay: mejor otro viaje"
+      ]
+    },
+    {
+      "id": "yul",
+      "region": "ys",
+      "name": "Río Yulong",
+      "name_zh": "遇龙河",
+      "when": "Un día entero",
+      "lede": "La balsa de bambú, arrozales y bicis. El capítulo estrella del montaje.",
+      "plan": [
+        "Balsa de bambú por la mañana (grúa, hyperlapse, fotos con tele)",
+        "Comer en el campo",
+        "Bici por los arrozales hasta Moon Hill al atardecer"
+      ]
+    },
+    {
+      "id": "xin",
+      "region": "ys",
+      "name": "Xingping y el río Li",
+      "name_zh": "兴坪 · 漓江",
+      "when": "Amanecer o atardecer",
+      "lede": "El paisaje del billete de 20 yuanes y los miradores con más fama de la zona.",
+      "plan": [
+        "Xianggong al amanecer si hay niebla",
+        "Pueblo de Xingping y mirador del billete",
+        "Subir Laozhai para el atardecer (es empinado)"
+      ]
+    },
+    {
+      "id": "pue",
+      "region": "ys",
+      "name": "Pueblo de Yangshuo",
+      "name_zh": "阳朔镇",
+      "when": "Noches",
+      "lede": "Donde dormís: West Street, cenas y el espectáculo en el río.",
+      "plan": [
+        "Cena y paseo por West Street",
+        "Impression Liu Sanjie una de las dos noches"
+      ]
+    }
+  ],
+  "categories": {
+    "ver": {
+      "em": "🌿",
+      "hex": "#9CAE94",
+      "label": "ver y hacer"
+    },
+    "comer": {
+      "em": "🍰",
+      "hex": "#DFBE79",
+      "label": "comer"
+    },
+    "comprar": {
+      "em": "🎀",
+      "hex": "#AE9CBC",
+      "label": "comprar"
+    },
+    "noche": {
+      "em": "🌙",
+      "hex": "#C77E8A",
+      "label": "de noche"
+    },
+    "otro": {
+      "em": "✿",
+      "hex": "#8A6B6F",
+      "label": "otro"
+    }
+  },
+  "shot_types": {
+    "raw": "📷 Foto RAW con el móvil",
+    "v360": "◎ Osmo 360",
+    "both": "📷 RAW + ◎ 360"
+  },
+  "places": [
+    {
+      "id": "zsg",
+      "region": "sz",
+      "zone": "bao",
+      "category": "ver",
+      "name": "Librería Zhongshuge",
+      "name_zh": "钟书阁（欢乐港湾）",
+      "city_zh": "深圳",
+      "why": "La escalera espiral infinita. Es una ilusión de estanterías y espejos que solo funciona desde el centro.",
+      "when": "Hacia las 16:00, entre semana",
+      "shot": "both",
+      "tip": "Foto RAW centrada y nivelada; con la 360, entra caminando y revela la espiral al pararte en el centro.",
+      "photos": [
+        "photos/zsg_0.jpg",
+        "photos/zsg_1.jpg",
+        "photos/zsg_5.jpg",
+        "photos/zsg_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%92%9F%E4%B9%A6%E9%98%81%EF%BC%88%E6%AC%A2%E4%B9%90%E6%B8%AF%E6%B9%BE%EF%BC%89&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "nor",
+      "region": "sz",
+      "zone": "bao",
+      "category": "noche",
+      "name": "Noria Bay Glory",
+      "name_zh": "湾区之光摩天轮",
+      "city_zh": "深圳",
+      "why": "La noria junto a la bahía. Al atardecer tiene el cielo detrás y de noche se ilumina.",
+      "when": "Atardecer o noche",
+      "shot": "both",
+      "tip": "Desde el paseo, con el tele 3x para que la noria llene el encuadre.",
+      "photos": [
+        "photos/nor_0.jpg",
+        "photos/nor_3.jpg",
+        "photos/nor_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B9%BE%E5%8C%BA%E4%B9%8B%E5%85%89%E6%91%A9%E5%A4%A9%E8%BD%AE&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "ohb",
+      "region": "sz",
+      "zone": "bao",
+      "category": "comer",
+      "name": "Paseo de OH BAY",
+      "name_zh": "欢乐港湾",
+      "city_zh": "深圳",
+      "why": "Frente marítimo con tiendas y restaurantes. Buen sitio para cenar los cuatro sin buscar más.",
+      "when": "Atardecer",
+      "shot": "v360",
+      "tip": "Paseo en grupo con el palo alzado: plano de \"vida\" para el montaje.",
+      "photos": [
+        "photos/ohb_3.jpg",
+        "photos/ohb_2.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%AC%A2%E4%B9%90%E6%B8%AF%E6%B9%BE&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "htf",
+      "region": "sz",
+      "zone": "bao",
+      "category": "ver",
+      "name": "China Hi-Tech Fair",
+      "name_zh": "高交会 · 深圳国际会展中心",
+      "city_zh": "深圳",
+      "why": "La feria tecnológica, del 26 al 28 de noviembre. Está en el recinto ferial junto al aeropuerto, no en OH BAY.",
+      "when": "26–28 nov",
+      "shot": "both",
+      "tip": "Detalles de producto con el móvil; la 360 para pasillos y ambiente.",
+      "photos": [
+        "photos/htf_1.jpg",
+        "photos/htf_2.jpg",
+        "photos/htf_3.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%AB%98%E4%BA%A4%E4%BC%9A%20%C2%B7%20%E6%B7%B1%E5%9C%B3%E5%9B%BD%E9%99%85%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "dji",
+      "region": "sz",
+      "zone": "nan",
+      "category": "comprar",
+      "name": "Tienda insignia DJI",
+      "name_zh": "大疆旗舰店 · 欢乐海岸",
+      "city_zh": "深圳",
+      "why": "Aquí compras la Osmo 360 II, el mini trípode y pruebas el palo antes de pagar.",
+      "when": "Día 1",
+      "shot": "raw",
+      "tip": "Comprueba en Amap que sigue en Happy Coast antes de ir. Pide versión internacional.",
+      "photos": [
+        "photos/dji_1.jpg",
+        "photos/dji_4.jpg",
+        "photos/dji_3.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E7%96%86%E6%97%97%E8%88%B0%E5%BA%97%20%C2%B7%20%E6%AC%A2%E4%B9%90%E6%B5%B7%E5%B2%B8&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "hcs",
+      "region": "sz",
+      "zone": "nan",
+      "category": "comer",
+      "name": "Happy Coast",
+      "name_zh": "欢乐海岸",
+      "city_zh": "深圳",
+      "why": "Zona de paseo y restaurantes junto a la tienda de DJI. Buena para el primer ensayo con la cámara.",
+      "when": "Tarde",
+      "shot": "v360",
+      "tip": "Primeros clips de prueba: palo alzado, palo bajo, un giro lento.",
+      "photos": [
+        "photos/hcs_1.jpg",
+        "photos/hcs_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%AC%A2%E4%B9%90%E6%B5%B7%E5%B2%B8&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "szb",
+      "region": "sz",
+      "zone": "nan",
+      "category": "ver",
+      "name": "Parque de la Bahía de Shenzhen",
+      "name_zh": "深圳湾公园",
+      "city_zh": "深圳",
+      "why": "Kilómetros de paseo junto al agua. Al atardecer, el sol cae sobre la bahía.",
+      "when": "Atardecer",
+      "shot": "both",
+      "tip": "Fotos RAW del cielo con EV −0,3/−0,7. Grúa ascendente de práctica.",
+      "photos": [
+        "photos/szb_5.jpg",
+        "photos/szb_4.jpg",
+        "photos/szb_2.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E6%B9%BE%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "tal",
+      "region": "sz",
+      "zone": "nan",
+      "category": "noche",
+      "name": "Parque del Talento",
+      "name_zh": "人才公园",
+      "city_zh": "深圳",
+      "why": "El skyline de Houhai iluminado y reflejado en el lago. De las mejores vistas nocturnas de la ciudad.",
+      "when": "Noche",
+      "shot": "both",
+      "tip": "360 en modo nocturno; foto RAW apoyando el móvil para el reflejo.",
+      "photos": [
+        "photos/tal_0.jpg",
+        "photos/tal_3.jpg",
+        "photos/tal_5.jpg",
+        "photos/tal_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E4%BA%BA%E6%89%8D%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "oct",
+      "region": "sz",
+      "zone": "nan",
+      "category": "ver",
+      "name": "OCT Loft",
+      "name_zh": "华侨城创意文化园",
+      "city_zh": "深圳",
+      "why": "Antiguas fábricas convertidas en galerías, cafés y tiendas de diseño.",
+      "when": "Mañana o tarde",
+      "shot": "raw",
+      "tip": "Detalles de arquitectura y grafitis con el móvil.",
+      "photos": [
+        "photos/oct_2.jpg",
+        "photos/oct_0.jpg",
+        "photos/oct_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E4%BE%A8%E5%9F%8E%E5%88%9B%E6%84%8F%E6%96%87%E5%8C%96%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "sea",
+      "region": "sz",
+      "zone": "nan",
+      "category": "comer",
+      "name": "Sea World de Shekou",
+      "name_zh": "蛇口海上世界 · 明华轮",
+      "city_zh": "深圳",
+      "why": "Plaza junto al mar con un viejo crucero varado y muchos restaurantes internacionales.",
+      "when": "Noche",
+      "shot": "v360",
+      "tip": "Plano de grupo cenando con el trípode en la mesa.",
+      "photos": [
+        "photos/sea_2.jpg",
+        "photos/sea_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%9B%87%E5%8F%A3%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C%20%C2%B7%20%E6%98%8E%E5%8D%8E%E8%BD%AE&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "rbt",
+      "region": "sz",
+      "zone": "nan",
+      "category": "otro",
+      "name": "Robotaxi sin conductor",
+      "name_zh": "萝卜快跑 · 小马智行",
+      "city_zh": "深圳",
+      "why": "Coches autónomos que se piden por app. El volante girando solo es un plano estrella.",
+      "when": "Cualquier día",
+      "shot": "v360",
+      "tip": "Sentaos detrás; la 360 a la altura del reposabrazos. Mira el día antes en qué zonas operan.",
+      "photos": [
+        "photos/rbt_5.jpg",
+        "photos/rbt_2.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%90%9D%E5%8D%9C%E5%BF%AB%E8%B7%91%20%C2%B7%20%E5%B0%8F%E9%A9%AC%E6%99%BA%E8%A1%8C&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "pin",
+      "region": "sz",
+      "zone": "fut",
+      "category": "ver",
+      "name": "Free Sky, Ping An Finance Centre",
+      "name_zh": "平安金融中心 · 云际观光层",
+      "city_zh": "深圳",
+      "why": "El mirador en lo alto del rascacielos más alto de la ciudad.",
+      "when": "Final de la tarde",
+      "shot": "raw",
+      "tip": "Pega el móvil al cristal y tapa los reflejos con la mano o la chaqueta.",
+      "photos": [
+        "photos/pin_3.jpg",
+        "photos/pin_2.jpg",
+        "photos/pin_5.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%B3%E5%AE%89%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%20%C2%B7%20%E4%BA%91%E9%99%85%E8%A7%82%E5%85%89%E5%B1%82&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "lhs",
+      "region": "sz",
+      "zone": "fut",
+      "category": "ver",
+      "name": "Parque Lianhuashan",
+      "name_zh": "莲花山公园",
+      "city_zh": "深圳",
+      "why": "Subida corta a la cima con la vista del CBD de Futian a tus pies.",
+      "when": "Atardecer",
+      "shot": "both",
+      "tip": "Hyperlapse corto del skyline encendiéndose.",
+      "photos": [
+        "photos/lhs_0.jpg",
+        "photos/lhs_1.jpg",
+        "photos/lhs_2.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%8E%B2%E8%8A%B1%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "civ",
+      "region": "sz",
+      "zone": "fut",
+      "category": "noche",
+      "name": "Civic Center y luces del CBD",
+      "name_zh": "市民中心 · 福田灯光秀",
+      "city_zh": "深圳",
+      "why": "Algunas noches los rascacielos hacen un espectáculo de luces coordinado.",
+      "when": "Noche (consulta horario)",
+      "shot": "both",
+      "tip": "Antiparpadeo a 50 Hz; graba sin moverte.",
+      "photos": [
+        "photos/civ_1.jpg",
+        "photos/civ_2.jpg",
+        "photos/civ_4.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83%20%C2%B7%20%E7%A6%8F%E7%94%B0%E7%81%AF%E5%85%89%E7%A7%80&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "shw",
+      "region": "sz",
+      "zone": "fut",
+      "category": "comer",
+      "name": "Shuiwei 1368",
+      "name_zh": "水围1368文化街区",
+      "city_zh": "深圳",
+      "why": "Callejones de un antiguo pueblo con farolillos, puestos y restaurantes.",
+      "when": "Cena",
+      "shot": "both",
+      "tip": "Detalles de comida con el móvil; la 360 baja para el ambiente.",
+      "photos": [
+        "photos/shw_0.jpg",
+        "photos/shw_5.jpg",
+        "photos/shw_2.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B4%E5%9B%B41368%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "coc",
+      "region": "sz",
+      "zone": "fut",
+      "category": "noche",
+      "name": "COCO Park",
+      "name_zh": "福田COCO Park",
+      "city_zh": "深圳",
+      "why": "Zona de bares y terrazas para la noche.",
+      "when": "Noche",
+      "shot": "v360",
+      "tip": "Clips cortos: brindis de los cuatro como hilo del montaje.",
+      "photos": [
+        "photos/coc_4.jpg",
+        "photos/coc_2.jpg",
+        "photos/coc_1.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%A6%8F%E7%94%B0COCO%20Park&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "hqe",
+      "region": "sz",
+      "zone": "hqb",
+      "category": "comprar",
+      "name": "Huaqiang Electronics World",
+      "name_zh": "华强电子世界",
+      "city_zh": "深圳",
+      "why": "Plantas enteras de componentes, móviles, gadgets y accesorios.",
+      "when": "Mañana",
+      "shot": "raw",
+      "tip": "Pregunta antes de grabar puestos de cerca.",
+      "photos": [
+        "photos/hqe_2.jpg",
+        "photos/hqe_0.jpg",
+        "photos/hqe_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E5%BC%BA%E7%94%B5%E5%AD%90%E4%B8%96%E7%95%8C&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "seg",
+      "region": "sz",
+      "zone": "hqb",
+      "category": "comprar",
+      "name": "SEG Plaza",
+      "name_zh": "赛格广场",
+      "city_zh": "深圳",
+      "why": "El edificio clásico del mercado: drones, cámaras y electrónica.",
+      "when": "Mañana",
+      "shot": "raw",
+      "tip": "Aquí también puedes buscar accesorios para la 360.",
+      "photos": [
+        "photos/seg_6.jpg",
+        "photos/seg_1.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%B5%9B%E6%A0%BC%E5%B9%BF%E5%9C%BA&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "hqs",
+      "region": "sz",
+      "zone": "hqb",
+      "category": "ver",
+      "name": "Calle peatonal de Huaqiangbei",
+      "name_zh": "华强北步行街",
+      "city_zh": "深圳",
+      "why": "La calle principal, con pantallas y riadas de gente.",
+      "when": "Mediodía",
+      "shot": "v360",
+      "tip": "Palo alzado caminando: transmite la escala del sitio.",
+      "photos": [
+        "photos/hqs_4.jpg",
+        "photos/hqs_3.jpg",
+        "photos/hqs_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E5%BC%BA%E5%8C%97%E6%AD%A5%E8%A1%8C%E8%A1%97&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "shb",
+      "region": "sz",
+      "zone": "luo",
+      "category": "comprar",
+      "name": "Mercado de joyería de Shuibei",
+      "name_zh": "水贝珠宝",
+      "city_zh": "深圳",
+      "why": "El centro de joyería al por mayor de China. Aquí está la plata S925 a buen precio.",
+      "when": "Mañana",
+      "shot": "raw",
+      "tip": "Pide el sello S925 y compara precio por gramo en varios puestos.",
+      "photos": [
+        "photos/shb_3.jpg",
+        "photos/shb_2.jpg",
+        "photos/shb_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B4%E8%B4%9D%E7%8F%A0%E5%AE%9D&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "lcc",
+      "region": "sz",
+      "zone": "luo",
+      "category": "comprar",
+      "name": "Luohu Commercial City",
+      "name_zh": "罗湖商业城",
+      "city_zh": "深圳",
+      "why": "Edificio de tiendas y sastres junto a la frontera con Hong Kong. Hay que regatear.",
+      "when": "Tarde",
+      "shot": "raw",
+      "tip": "Está al lado del paso fronterizo de Luohu.",
+      "photos": [
+        "photos/lcc_3.jpg",
+        "photos/lcc_0.jpg",
+        "photos/lcc_4.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%BD%97%E6%B9%96%E5%95%86%E4%B8%9A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "dmn",
+      "region": "sz",
+      "zone": "luo",
+      "category": "comer",
+      "name": "Calle peatonal de Dongmen",
+      "name_zh": "东门步行街",
+      "city_zh": "深圳",
+      "why": "Calles comerciales con más ambiente local y comida callejera.",
+      "when": "Tarde y noche",
+      "shot": "v360",
+      "tip": "Mercado lleno de gente: clips cortos, bandolera por delante.",
+      "photos": [
+        "photos/dmn_0.jpg",
+        "photos/dmn_4.jpg",
+        "photos/dmn_2.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E6%AD%A5%E8%A1%8C%E8%A1%97&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "daf",
+      "region": "sz",
+      "zone": "lon",
+      "category": "ver",
+      "name": "Pueblo de pintores de Dafen",
+      "name_zh": "大芬油画村",
+      "city_zh": "深圳",
+      "why": "Callejuelas llenas de talleres donde pintan cuadros al óleo a mano.",
+      "when": "Mañana",
+      "shot": "raw",
+      "tip": "Detalles de pinceles y lienzos con el móvil.",
+      "photos": [
+        "photos/daf_1.jpg",
+        "photos/daf_0.jpg",
+        "photos/daf_3.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E8%8A%AC%E6%B2%B9%E7%94%BB%E6%9D%91&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "gkg",
+      "region": "sz",
+      "zone": "lon",
+      "category": "ver",
+      "name": "Pueblo hakka de Gankeng",
+      "name_zh": "甘坑客家小镇",
+      "city_zh": "深圳",
+      "why": "Pueblo hakka restaurado con casas de piedra, puentes y faroles.",
+      "when": "Tarde",
+      "shot": "both",
+      "tip": "Mejor al caer la tarde, con los faroles encendidos.",
+      "photos": [
+        "photos/gkg_5.jpg",
+        "photos/gkg_3.jpg",
+        "photos/gkg_4.jpg",
+        "photos/gkg_0.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%94%98%E5%9D%91%E5%AE%A2%E5%AE%B6%E5%B0%8F%E9%95%87&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "dap",
+      "region": "sz",
+      "zone": "est",
+      "category": "ver",
+      "name": "Fortaleza de Dapeng",
+      "name_zh": "大鹏所城",
+      "city_zh": "深圳",
+      "why": "Ciudad amurallada de la dinastía Ming, con calles de piedra y casas antiguas.",
+      "when": "Mañana",
+      "shot": "both",
+      "tip": "Paseo por las murallas con la 360.",
+      "photos": [
+        "photos/dap_0.jpg",
+        "photos/dap_5.jpg",
+        "photos/dap_3.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%B9%8F%E6%89%80%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "dms",
+      "region": "sz",
+      "zone": "est",
+      "category": "ver",
+      "name": "Playa de Dameisha",
+      "name_zh": "大梅沙",
+      "city_zh": "深圳",
+      "why": "Playa y paseo marítimo con montañas detrás.",
+      "when": "Atardecer",
+      "shot": "both",
+      "tip": "Plano bajo cerca del agua al atardecer.",
+      "photos": [
+        "photos/dms_1.jpg",
+        "photos/dms_6.jpg",
+        "photos/dms_4.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E6%A2%85%E6%B2%99&city=%E6%B7%B1%E5%9C%B3"
+    },
+    {
+      "id": "chc",
+      "region": "gz",
+      "zone": "xig",
+      "category": "ver",
+      "name": "Casa del clan Chen",
+      "name_zh": "陈家祠",
+      "city_zh": "广州",
+      "why": "Academia familiar de finales del siglo XIX, con tallas en madera y piedra y tejados de cerámica. Lo más bonito de la ciudad antigua.",
+      "when": "Mañana (cierra los martes)",
+      "shot": "raw",
+      "tip": "Detalles de los tejados con el tele 3x. La entrada es con pasaporte.",
+      "photos": [
+        "photos/chc_1.jpg",
+        "photos/chc_7.jpg",
+        "photos/chc_5.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%99%88%E5%AE%B6%E7%A5%A0&city=%E5%B9%BF%E5%B7%9E"
+    },
+    {
+      "id": "yqf",
+      "region": "gz",
+      "zone": "xig",
+      "category": "ver",
+      "name": "Yongqing Fang",
+      "name_zh": "永庆坊",
+      "city_zh": "广州",
+      "why": "Callejas restauradas del viejo Xiguan, con soportales, cafés y la casa ancestral de Bruce Lee.",
+      "when": "Mediodía",
+      "shot": "both",
+      "tip": "Plano 360 caminando bajo los soportales de Enning Road.",
+      "photos": [
+        "photos/yqf_3.jpg",
+        "photos/yqf_4.jpg",
+        "photos/yqf_7.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B8%E5%BA%86%E5%9D%8A&city=%E5%B9%BF%E5%B7%9E"
+    },
+    {
+      "id": "sha",
+      "region": "gz",
+      "zone": "xig",
+      "category": "ver",
+      "name": "Isla de Shamian",
+      "name_zh": "沙面岛",
+      "city_zh": "广州",
+      "why": "Isla de la época colonial con edificios europeos, banianos enormes y calles tranquilas.",
+      "when": "Primera hora de la tarde",
+      "shot": "both",
+      "tip": "Luz filtrada por los árboles: foto RAW con EV −0,3 para no quemar las fachadas.",
+      "photos": [
+        "photos/sha_0.jpg",
+        "photos/sha_6.jpg",
+        "photos/sha_7.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B2%99%E9%9D%A2%E5%B2%9B&city=%E5%B9%BF%E5%B7%9E"
+    },
+    {
+      "id": "gzr",
+      "region": "gz",
+      "zone": "xig",
+      "category": "comer",
+      "name": "Guangzhou Restaurant",
+      "name_zh": "广州酒家",
+      "city_zh": "广州",
+      "why": "Dim sum en un restaurante cantonés de 1935 junto a Shangxiajiu. Har gow, siu mai y bollos de char siu con té.",
+      "when": "Desayuno o comida",
+      "shot": "raw",
+      "tip": "De postre, leche de doble piel en Nanxin (南信牛奶甜品专家), en Dishifu Road.",
+      "photos": [
+        "photos/gzr_4.jpg",
+        "photos/gzr_0.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E9%85%92%E5%AE%B6&city=%E5%B9%BF%E5%B7%9E"
+    },
+    {
+      "id": "hcg",
+      "region": "gz",
+      "zone": "zjx",
+      "category": "noche",
+      "name": "Huacheng Square",
+      "name_zh": "花城广场",
+      "city_zh": "广州",
+      "why": "La gran plaza entre rascacielos, con la Canton Tower al fondo y la ópera de Zaha Hadid al lado. Es gratis.",
+      "when": "Atardecer",
+      "shot": "both",
+      "tip": "Hyperlapse de la torre encendiéndose desde el eje de la plaza.",
+      "photos": [
+        "photos/hcg_6.jpg",
+        "photos/hcg_1.jpg",
+        "photos/hcg_7.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%8A%B1%E5%9F%8E%E5%B9%BF%E5%9C%BA&city=%E5%B9%BF%E5%B7%9E"
+    },
+    {
+      "id": "ctw",
+      "region": "gz",
+      "zone": "zjx",
+      "category": "ver",
+      "name": "Canton Tower",
+      "name_zh": "广州塔",
+      "city_zh": "广州",
+      "why": "La torre de 600 m al otro lado del río, con miradores a 433 y 450 m y una noria de cápsulas en lo alto.",
+      "when": "Noche",
+      "shot": "raw",
+      "tip": "Si subís, reservad hora. Desde abajo ya sale la foto, así que subir no es obligatorio.",
+      "photos": [
+        "photos/ctw_3.jpg",
+        "photos/ctw_1.jpg",
+        "photos/ctw_4.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%A1%94&city=%E5%B9%BF%E5%B7%9E"
+    },
+    {
+      "id": "prc",
+      "region": "gz",
+      "zone": "zjx",
+      "category": "noche",
+      "name": "Crucero por el río",
+      "name_zh": "珠江夜游（广州塔码头）",
+      "city_zh": "广州",
+      "why": "Una hora en barco entre puentes y rascacielos iluminados. La alternativa a subir a la torre.",
+      "when": "Noche",
+      "shot": "v360",
+      "tip": "360 en modo nocturno desde la cubierta, si el barco la tiene abierta.",
+      "photos": [
+        "photos/prc_7.jpg",
+        "photos/prc_2.jpg",
+        "photos/prc_1.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%8F%A0%E6%B1%9F%E5%A4%9C%E6%B8%B8%EF%BC%88%E5%B9%BF%E5%B7%9E%E5%A1%94%E7%A0%81%E5%A4%B4%EF%BC%89&city=%E5%B9%BF%E5%B7%9E"
+    },
+    {
+      "id": "mky",
+      "region": "hk",
+      "zone": "kow",
+      "category": "ver",
+      "name": "Monkey Hill",
+      "name_zh": "金山郊野公园 · 九龙水塘",
+      "city_zh": "香港",
+      "why": "Macacos salvajes junto al embalse de Kowloon, a 20–30 minutos de Mong Kok. Suelen estar ya al lado de la parada del bus.",
+      "when": "Primera hora",
+      "shot": "v360",
+      "tip": "Bus 81 hasta Shek Lei Pui Reservoir (o taxi). Prohibido darles de comer (multa de hasta 10.000 HK$), nada de bolsas de plástico ni comida a la vista. Graba a 60 fps desde unos metros.",
+      "photos": [],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%87%91%E5%B1%B1%E9%83%8A%E9%87%8E%E5%85%AC%E5%9B%AD%20%C2%B7%20%E4%B9%9D%E9%BE%99%E6%B0%B4%E5%A1%98&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "ssp",
+      "region": "hk",
+      "zone": "kow",
+      "category": "comer",
+      "name": "Sham Shui Po",
+      "name_zh": "深水埗",
+      "city_zh": "香港",
+      "why": "El barrio más local de Kowloon: mercados de calle, comida barata de puesto en puesto y Apliu Street, con electrónica de segunda mano.",
+      "when": "Mediodía",
+      "shot": "both",
+      "tip": "Para perderse y comer. Está a unos 10 minutos de Monkey Hill.",
+      "photos": [],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B7%B1%E6%B0%B4%E5%9F%97&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "tst",
+      "region": "hk",
+      "zone": "kow",
+      "category": "noche",
+      "name": "Paseo de Tsim Sha Tsui",
+      "name_zh": "尖沙咀海滨长廊",
+      "city_zh": "香港",
+      "why": "La vista clásica del skyline de la isla. A las 20:00, Symphony of Lights.",
+      "when": "Noche",
+      "shot": "both",
+      "tip": "Foto RAW apoyada en la barandilla; 360 en modo nocturno.",
+      "photos": [
+        "photos/tst_1.jpg",
+        "photos/tst_4.jpg",
+        "photos/tst_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B0%96%E6%B2%99%E5%92%80%E6%B5%B7%E6%BB%A8%E9%95%BF%E5%BB%8A&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "tmp",
+      "region": "hk",
+      "zone": "kow",
+      "category": "comer",
+      "name": "Mercado nocturno de Temple Street",
+      "name_zh": "庙街夜市",
+      "city_zh": "香港",
+      "why": "Puestos, comida callejera y adivinos. El Hong Kong de las películas.",
+      "when": "Noche",
+      "shot": "v360",
+      "tip": "Clips cortos caminando, palo no muy alto con tanta gente.",
+      "photos": [
+        "photos/tmp_2.jpg",
+        "photos/tmp_6.jpg",
+        "photos/tmp_4.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%BA%99%E8%A1%97%E5%A4%9C%E5%B8%82&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "mok",
+      "region": "hk",
+      "zone": "kow",
+      "category": "comprar",
+      "name": "Mong Kok",
+      "name_zh": "旺角",
+      "city_zh": "香港",
+      "why": "Neones, Sneakers Street y Ladies’ Market.",
+      "when": "Tarde",
+      "shot": "both",
+      "tip": "Neones con el móvil en RAW, EV −0,7 para no quemarlos.",
+      "photos": [
+        "photos/mok_0.jpg",
+        "photos/mok_4.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%97%BA%E8%A7%92&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "fer",
+      "region": "hk",
+      "zone": "isl",
+      "category": "ver",
+      "name": "Star Ferry",
+      "name_zh": "天星小轮",
+      "city_zh": "香港",
+      "why": "El ferry de toda la vida entre Kowloon y Central, con la mejor vista por casi nada.",
+      "when": "Mañana o noche",
+      "shot": "v360",
+      "tip": "Hyperlapse corto de la travesía con el palo apoyado.",
+      "photos": [
+        "photos/fer_0.jpg",
+        "photos/fer_2.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A9%E6%98%9F%E5%B0%8F%E8%BD%AE&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "pk",
+      "region": "hk",
+      "zone": "isl",
+      "category": "ver",
+      "name": "Victoria Peak",
+      "name_zh": "太平山顶 · 山顶缆车",
+      "city_zh": "香港",
+      "why": "La vista desde arriba de toda la bahía. Se sube en el Peak Tram.",
+      "when": "Atardecer",
+      "shot": "both",
+      "tip": "Opcional. El tranvía tarda unos 6 minutos y cuesta 116 HK$ ida y vuelta, pero las colas son largas. La ciudad iluminada se ve gratis desde Tsim Sha Tsui.",
+      "photos": [
+        "photos/pk_5.jpg",
+        "photos/pk_2.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%AA%E5%B9%B3%E5%B1%B1%E9%A1%B6%20%C2%B7%20%E5%B1%B1%E9%A1%B6%E7%BC%86%E8%BD%A6&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "mon",
+      "region": "hk",
+      "zone": "isl",
+      "category": "ver",
+      "name": "Monster Building",
+      "name_zh": "益昌大厦",
+      "city_zh": "香港",
+      "why": "El edificio de viviendas apiladas de las películas. Vive gente: en silencio.",
+      "when": "Mañana",
+      "shot": "raw",
+      "tip": "Foto RAW hacia arriba con el 0,6x, simétrica.",
+      "photos": [
+        "photos/mon_0.jpg",
+        "photos/mon_3.jpg",
+        "photos/mon_1.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%9B%8A%E6%98%8C%E5%A4%A7%E5%8E%A6&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "dim",
+      "region": "hk",
+      "zone": "isl",
+      "category": "comer",
+      "name": "Dim sum y Mid-Levels",
+      "name_zh": "中环 · 半山扶梯",
+      "city_zh": "香港",
+      "why": "Desayuno de dim sum y la escalera mecánica más larga del mundo subiendo por el barrio.",
+      "when": "Mañana",
+      "shot": "both",
+      "tip": "Detalle de las cestas de vapor con el móvil.",
+      "photos": [
+        "photos/dim_0.jpg",
+        "photos/dim_6.jpg",
+        "photos/dim_5.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E4%B8%AD%E7%8E%AF%20%C2%B7%20%E5%8D%8A%E5%B1%B1%E6%89%B6%E6%A2%AF&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "tra",
+      "region": "hk",
+      "zone": "isl",
+      "category": "otro",
+      "name": "Tranvía Ding Ding",
+      "name_zh": "叮叮车",
+      "city_zh": "香港",
+      "why": "Tranvía de dos pisos que cruza la isla. Siéntate arriba, delante.",
+      "when": "Cualquier hora",
+      "shot": "v360",
+      "tip": "Cámara pegada a la ventana: sensación de movimiento.",
+      "photos": [
+        "photos/tra_0.jpg",
+        "photos/tra_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8F%AE%E5%8F%AE%E8%BD%A6&city=%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "id": "raf",
+      "region": "ys",
+      "zone": "yul",
+      "category": "ver",
+      "name": "Balsa de bambú por el Yulong",
+      "name_zh": "遇龙河竹筏",
+      "city_zh": "阳朔",
+      "why": "El paseo en balsa entre montañas kársticas. El plano estrella del viaje.",
+      "when": "Mañana",
+      "shot": "both",
+      "tip": "Grúa desde el agua en 8K60, hyperlapse en 8K30 con el velcro, y fotos con el tele 3x/5x.",
+      "photos": [
+        "photos/raf_6.jpg",
+        "photos/raf_0.jpg",
+        "photos/raf_5.jpg",
+        "photos/raf_4.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%81%87%E9%BE%99%E6%B2%B3%E7%AB%B9%E7%AD%8F&city=%E9%98%B3%E6%9C%94"
+    },
+    {
+      "id": "bic",
+      "region": "ys",
+      "zone": "yul",
+      "category": "ver",
+      "name": "Bici por los arrozales",
+      "name_zh": "遇龙河骑行",
+      "city_zh": "阳朔",
+      "why": "Caminos llanos entre campos y montañas. Se alquilan bicis por todas partes.",
+      "when": "Tarde",
+      "shot": "v360",
+      "tip": "Palo corto en la mano mientras pedaleáis despacio, o un amigo graba.",
+      "photos": [
+        "photos/bic_2.jpg",
+        "photos/bic_4.jpg",
+        "photos/bic_1.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%81%87%E9%BE%99%E6%B2%B3%E9%AA%91%E8%A1%8C&city=%E9%98%B3%E6%9C%94"
+    },
+    {
+      "id": "moo",
+      "region": "ys",
+      "zone": "yul",
+      "category": "ver",
+      "name": "Moon Hill",
+      "name_zh": "月亮山",
+      "city_zh": "阳朔",
+      "why": "Una montaña con un arco natural en forma de luna. Subida de unos 30 minutos.",
+      "when": "Atardecer",
+      "shot": "raw",
+      "tip": "Vista del valle desde el arco con el 0,6x.",
+      "photos": [
+        "photos/moo_2.jpg",
+        "photos/moo_1.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%9C%88%E4%BA%AE%E5%B1%B1&city=%E9%98%B3%E6%9C%94"
+    },
+    {
+      "id": "b20",
+      "region": "ys",
+      "zone": "xin",
+      "category": "ver",
+      "name": "Mirador del billete de 20 yuanes",
+      "name_zh": "二十元人民币背景",
+      "city_zh": "阳朔",
+      "why": "El paisaje del río Li que sale en el billete de 20 yuanes.",
+      "when": "Mañana",
+      "shot": "raw",
+      "tip": "Llévate un billete de 20 y hazle la foto delante del paisaje.",
+      "photos": [
+        "photos/b20_0.jpg",
+        "photos/b20_5.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E4%BA%8C%E5%8D%81%E5%85%83%E4%BA%BA%E6%B0%91%E5%B8%81%E8%83%8C%E6%99%AF&city=%E9%98%B3%E6%9C%94"
+    },
+    {
+      "id": "lao",
+      "region": "ys",
+      "zone": "xin",
+      "category": "ver",
+      "name": "Laozhai Hill",
+      "name_zh": "老寨山",
+      "city_zh": "阳朔",
+      "why": "Subida empinada pero corta con una de las vistas más espectaculares del río Li.",
+      "when": "Atardecer",
+      "shot": "both",
+      "tip": "Calzado con agarre y frontal para bajar.",
+      "photos": [
+        "photos/lao_4.jpg",
+        "photos/lao_2.jpg",
+        "photos/lao_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%80%81%E5%AF%A8%E5%B1%B1&city=%E9%98%B3%E6%9C%94"
+    },
+    {
+      "id": "xgs",
+      "region": "ys",
+      "zone": "xin",
+      "category": "ver",
+      "name": "Xianggong Hill",
+      "name_zh": "相公山",
+      "city_zh": "阳朔",
+      "why": "El mirador clásico del amanecer, con el río serpenteando entre montañas y niebla.",
+      "when": "Amanecer",
+      "shot": "both",
+      "tip": "Hyperlapse del amanecer con el trípode.",
+      "photos": [
+        "photos/xgs_1.jpg",
+        "photos/xgs_2.jpg",
+        "photos/xgs_0.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%9B%B8%E5%85%AC%E5%B1%B1&city=%E9%98%B3%E6%9C%94"
+    },
+    {
+      "id": "xpt",
+      "region": "ys",
+      "zone": "xin",
+      "category": "comer",
+      "name": "Pueblo de Xingping",
+      "name_zh": "兴坪古镇",
+      "city_zh": "阳朔",
+      "why": "Pueblo antiguo a orillas del río Li, más tranquilo que Yangshuo.",
+      "when": "Mediodía",
+      "shot": "v360",
+      "tip": "Comer junto al río.",
+      "photos": [
+        "photos/xpt_2.jpg",
+        "photos/xpt_4.jpg",
+        "photos/xpt_6.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%85%B4%E5%9D%AA%E5%8F%A4%E9%95%87&city=%E9%98%B3%E6%9C%94"
+    },
+    {
+      "id": "wst",
+      "region": "ys",
+      "zone": "pue",
+      "category": "noche",
+      "name": "West Street",
+      "name_zh": "西街",
+      "city_zh": "阳朔",
+      "why": "La calle principal del pueblo: bares, comida y ambiente cada noche.",
+      "when": "Noche",
+      "shot": "v360",
+      "tip": "Brindis de los cuatro para el hilo del montaje.",
+      "photos": [
+        "photos/wst_0.jpg",
+        "photos/wst_4.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%A5%BF%E8%A1%97&city=%E9%98%B3%E6%9C%94"
+    },
+    {
+      "id": "lsj",
+      "region": "ys",
+      "zone": "pue",
+      "category": "noche",
+      "name": "Impression Liu Sanjie",
+      "name_zh": "印象·刘三姐",
+      "city_zh": "阳朔",
+      "why": "Espectáculo nocturno sobre el río con las montañas iluminadas de fondo.",
+      "when": "Noche",
+      "shot": "raw",
+      "tip": "Durante la función, mejor mirar que grabar.",
+      "photos": [
+        "photos/lsj_0.jpg",
+        "photos/lsj_2.jpg",
+        "photos/lsj_3.jpg"
+      ],
+      "lat": null,
+      "lng": null,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%B0%E8%B1%A1%C2%B7%E5%88%98%E4%B8%89%E5%A7%90&city=%E9%98%B3%E6%9C%94"
+    }
+  ]
+}
