@@ -33,12 +33,12 @@ Los datos (`public/data/`) van fuera del código: la investigación y los sitios
 
 ## Fase 1. El mapa real
 
-- [ ] Geocodificación con Nominatim (`scripts/geocode.mjs`, 1 petición por segundo) y `geocode-review.md`
-- [ ] Revisión a mano: solo coincidencias claras; las dudosas se consultan y lo que no aparezca queda en `null`
-- [ ] Extracto PMTiles de Protomaps con detalle en las zonas del viaje (antes, `--dry-run` para ver el tamaño)
-- [ ] Estilo del mapa (`@protomaps/basemaps`) con los colores de la maqueta, claro y oscuro, sin POI de base
-- [ ] Marcadores por categoría, agrupación al alejar y miniatura con foto al acercar
-- [ ] Pantalla Explorar: buscador (español y chino), región, filtros por categoría, hoja inferior y pestañas
+- [x] Geocodificación con Nominatim (`scripts/geocode.mjs`, 1 petición por segundo) y `geocode-review.md`
+- [x] Revisión a mano: solo coincidencias claras; las dudosas se consultan y lo que no aparezca queda en `null`
+- [x] Extracto PMTiles de Protomaps con detalle en las zonas del viaje (antes, `--dry-run` para ver el tamaño)
+- [x] Estilo del mapa (`@protomaps/basemaps`) con los colores de la maqueta, claro y oscuro, sin POI de base
+- [x] Marcadores por categoría, agrupación al alejar y miniatura con foto al acercar
+- [x] Pantalla Explorar: buscador (español y chino), región, filtros por categoría, hoja inferior y pestañas
 
 ## Fase 2. Ficha, Amap, visor y mood board
 
@@ -46,7 +46,7 @@ Los datos (`public/data/`) van fuera del código: la investigación y los sitios
 - [ ] Información práctica (con la fecha de verificación y las fuentes) y consejos locales
 - [ ] `src/data/amap.ts` con tests (`coordinate=wgs84`, `src=china-map`; sin coordenadas, `amap_search`)
 - [ ] Visor a pantalla completa y mood board por zona o región
-- [ ] Miniaturas y color dominante de cada foto (`scripts/thumbs.mjs`)
+- [x] Miniaturas y color dominante de cada foto (`scripts/thumbs.mjs`)
 - [ ] Prueba en un móvil real con Amap: un sitio de Shenzhen y otro de Hong Kong
 
 ## Fase 3. Sin conexión y despliegue
@@ -76,7 +76,7 @@ Agentes en paralelo, uno por zona o grupo de zonas pequeñas. Cada uno escribe s
 `research/<zona>.json`; después se revisa, `scripts/merge-research.mjs` lo fusiona en `places.json` y
 `check-data` lo valida.
 
-- [ ] Shenzhen: Bao'an y costa este · Nanshan · Futian · Huaqiangbei, Luohu y Longgang
+- [x] Shenzhen: Bao'an y costa este · Nanshan · Futian · Huaqiangbei, Luohu y Longgang
 - [ ] Hong Kong: Kowloon e isla
 - [ ] Guangzhou: Liwan y Zhujiang
 - [ ] Yangshuo: Yulong, Xingping y el pueblo
