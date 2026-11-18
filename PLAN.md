@@ -23,12 +23,12 @@ Los datos (`public/data/`) van fuera del código: la investigación y los sitios
 
 ## Fase 0. Cimientos
 
-- [ ] Este `PLAN.md` y la maqueta en `docs/design/`
-- [ ] Una línea en CLAUDE.md que apunte a la maqueta
-- [ ] Vite + React + TypeScript; tokens claro y oscuro de la maqueta; Geist autoalojada
-- [ ] Esquema de datos en `src/data/types.ts` (`geo`, `practical`, `tips`, estados)
-- [ ] `scripts/check-data.mjs`
-- [ ] `.gitignore` y primer commit
+- [x] Este `PLAN.md` y la maqueta en `docs/design/`
+- [x] Una línea en CLAUDE.md que apunte a la maqueta
+- [x] Vite + React + TypeScript; tokens claro y oscuro de la maqueta; Geist autoalojada
+- [x] Esquema de datos en `src/data/types.ts` (`geo`, `practical`, `tips`, estados)
+- [x] `scripts/check-data.mjs`
+- [x] `.gitignore` y primer commit
 - [ ] Mensaje para Alex con lo que necesitamos de la Raspberry
 
 ## Fase 1. El mapa real

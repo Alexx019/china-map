@@ -13,14 +13,20 @@
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",
+    "@protomaps/basemaps": "^5.7.2",
+    "maplibre-gl": "^6.19.0",
+    "motion": "^14.14.0",
+    "pmtiles": "^4.5.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "zustand": "^5.1.0"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.3.0",
+    "sharp": "^0.35.5",
     "typescript": "~5.9",
     "vite": "^8.3.8",
     "vitest": "^5.1.1"

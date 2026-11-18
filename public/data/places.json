@@ -295,9 +295,14 @@
         "photos/nor_3.jpg",
         "photos/nor_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%B9%BE%E5%8C%BA%E4%B9%8B%E5%85%89%E6%91%A9%E5%A4%A9%E8%BD%AE&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.544266,
+      "lng": 113.883082,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B9%BE%E5%8C%BA%E4%B9%8B%E5%85%89%E6%91%A9%E5%A4%A9%E8%BD%AE&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/914175455",
+        "checked": true
+      }
     },
     {
       "id": "ohb",
@@ -315,9 +320,14 @@
         "photos/ohb_3.jpg",
         "photos/ohb_2.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%AC%A2%E4%B9%90%E6%B8%AF%E6%B9%BE&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.546311,
+      "lng": 113.881011,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%AC%A2%E4%B9%90%E6%B8%AF%E6%B9%BE&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/771513760",
+        "checked": true
+      }
     },
     {
       "id": "htf",
@@ -336,9 +346,15 @@
         "photos/htf_2.jpg",
         "photos/htf_3.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E9%AB%98%E4%BA%A4%E4%BC%9A%20%C2%B7%20%E6%B7%B1%E5%9C%B3%E5%9B%BD%E9%99%85%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.701195,
+      "lng": 113.768951,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%AB%98%E4%BA%A4%E4%BC%9A%20%C2%B7%20%E6%B7%B1%E5%9C%B3%E5%9B%BD%E9%99%85%E4%BC%9A%E5%B1%95%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/1005694758",
+        "checked": true,
+        "note": "Recinto 深圳国际会展中心"
+      }
     },
     {
       "id": "dji",
@@ -357,9 +373,15 @@
         "photos/dji_4.jpg",
         "photos/dji_3.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E7%96%86%E6%97%97%E8%88%B0%E5%BA%97%20%C2%B7%20%E6%AC%A2%E4%B9%90%E6%B5%B7%E5%B2%B8&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.52488,
+      "lng": 113.987006,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E7%96%86%E6%97%97%E8%88%B0%E5%BA%97%20%C2%B7%20%E6%AC%A2%E4%B9%90%E6%B5%B7%E5%B2%B8&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/5305182201",
+        "checked": true,
+        "note": "Tienda «大疆创新» de Happy Coast en OSM; falta confirmar que es la insignia"
+      }
     },
     {
       "id": "hcs",
@@ -377,9 +399,14 @@
         "photos/hcs_1.jpg",
         "photos/hcs_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%AC%A2%E4%B9%90%E6%B5%B7%E5%B2%B8&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.525953,
+      "lng": 113.983004,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%AC%A2%E4%B9%90%E6%B5%B7%E5%B2%B8&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/322631274",
+        "checked": true
+      }
     },
     {
       "id": "szb",
@@ -398,9 +425,15 @@
         "photos/szb_4.jpg",
         "photos/szb_2.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E6%B9%BE%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.524489,
+      "lng": 113.987998,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E6%B9%BE%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/9062301243",
+        "checked": true,
+        "note": "Estación de metro 深圳湾公园, en el parque (el parque es un paseo largo junto a la bahía)"
+      }
     },
     {
       "id": "tal",
@@ -420,9 +453,14 @@
         "photos/tal_5.jpg",
         "photos/tal_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E4%BA%BA%E6%89%8D%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.513662,
+      "lng": 113.944174,
+      "amap_search": "https://uri.amap.com/search?keyword=%E4%BA%BA%E6%89%8D%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "relation/18459537",
+        "checked": true
+      }
     },
     {
       "id": "oct",
@@ -441,9 +479,14 @@
         "photos/oct_0.jpg",
         "photos/oct_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E4%BE%A8%E5%9F%8E%E5%88%9B%E6%84%8F%E6%96%87%E5%8C%96%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.541221,
+      "lng": 113.988622,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E4%BE%A8%E5%9F%8E%E5%88%9B%E6%84%8F%E6%96%87%E5%8C%96%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/741581536",
+        "checked": true
+      }
     },
     {
       "id": "sea",
@@ -461,9 +504,15 @@
         "photos/sea_2.jpg",
         "photos/sea_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E8%9B%87%E5%8F%A3%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C%20%C2%B7%20%E6%98%8E%E5%8D%8E%E8%BD%AE&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.486389,
+      "lng": 113.911969,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%9B%87%E5%8F%A3%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C%20%C2%B7%20%E6%98%8E%E5%8D%8E%E8%BD%AE&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/105683429",
+        "checked": true,
+        "note": "El barco 明华轮, en el centro de Sea World"
+      }
     },
     {
       "id": "rbt",
@@ -502,9 +551,14 @@
         "photos/pin_2.jpg",
         "photos/pin_5.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%B3%E5%AE%89%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%20%C2%B7%20%E4%BA%91%E9%99%85%E8%A7%82%E5%85%89%E5%B1%82&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.536732,
+      "lng": 114.050355,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%B3%E5%AE%89%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%20%C2%B7%20%E4%BA%91%E9%99%85%E8%A7%82%E5%85%89%E5%B1%82&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/535860513",
+        "checked": true
+      }
     },
     {
       "id": "lhs",
@@ -523,9 +577,14 @@
         "photos/lhs_1.jpg",
         "photos/lhs_2.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E8%8E%B2%E8%8A%B1%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.556628,
+      "lng": 114.053239,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%8E%B2%E8%8A%B1%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/41281446",
+        "checked": true
+      }
     },
     {
       "id": "civ",
@@ -544,9 +603,14 @@
         "photos/civ_2.jpg",
         "photos/civ_4.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83%20%C2%B7%20%E7%A6%8F%E7%94%B0%E7%81%AF%E5%85%89%E7%A7%80&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.546373,
+      "lng": 114.054522,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83%20%C2%B7%20%E7%A6%8F%E7%94%B0%E7%81%AF%E5%85%89%E7%A7%80&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "relation/10837975",
+        "checked": true
+      }
     },
     {
       "id": "shw",
@@ -586,9 +650,14 @@
         "photos/coc_2.jpg",
         "photos/coc_1.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E7%A6%8F%E7%94%B0COCO%20Park&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.536389,
+      "lng": 114.048865,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%A6%8F%E7%94%B0COCO%20Park&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/546582690",
+        "checked": true
+      }
     },
     {
       "id": "hqe",
@@ -607,9 +676,14 @@
         "photos/hqe_0.jpg",
         "photos/hqe_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E5%BC%BA%E7%94%B5%E5%AD%90%E4%B8%96%E7%95%8C&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.544241,
+      "lng": 114.08096,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E5%BC%BA%E7%94%B5%E5%AD%90%E4%B8%96%E7%95%8C&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/99498037",
+        "checked": true
+      }
     },
     {
       "id": "seg",
@@ -627,9 +701,14 @@
         "photos/seg_6.jpg",
         "photos/seg_1.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E8%B5%9B%E6%A0%BC%E5%B9%BF%E5%9C%BA&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.54397,
+      "lng": 114.082345,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%B5%9B%E6%A0%BC%E5%B9%BF%E5%9C%BA&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/64896107",
+        "checked": true
+      }
     },
     {
       "id": "hqs",
@@ -648,9 +727,15 @@
         "photos/hqs_3.jpg",
         "photos/hqs_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E5%BC%BA%E5%8C%97%E6%AD%A5%E8%A1%8C%E8%A1%97&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.547384,
+      "lng": 114.081544,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%8E%E5%BC%BA%E5%8C%97%E6%AD%A5%E8%A1%8C%E8%A1%97&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/588249188",
+        "checked": true,
+        "note": "En OSM se llama 华强路步行街"
+      }
     },
     {
       "id": "shb",
@@ -690,9 +775,14 @@
         "photos/lcc_0.jpg",
         "photos/lcc_4.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E7%BD%97%E6%B9%96%E5%95%86%E4%B8%9A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.532814,
+      "lng": 114.113934,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%BD%97%E6%B9%96%E5%95%86%E4%B8%9A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/75839547",
+        "checked": true
+      }
     },
     {
       "id": "dmn",
@@ -711,9 +801,14 @@
         "photos/dmn_4.jpg",
         "photos/dmn_2.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E6%AD%A5%E8%A1%8C%E8%A1%97&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.548289,
+      "lng": 114.11434,
+      "amap_search": "https://uri.amap.com/search?keyword=%E4%B8%9C%E9%97%A8%E6%AD%A5%E8%A1%8C%E8%A1%97&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/1238852261",
+        "checked": true
+      }
     },
     {
       "id": "daf",
@@ -732,9 +827,14 @@
         "photos/daf_0.jpg",
         "photos/daf_3.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E8%8A%AC%E6%B2%B9%E7%94%BB%E6%9D%91&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.612501,
+      "lng": 114.131908,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E8%8A%AC%E6%B2%B9%E7%94%BB%E6%9D%91&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/248181066",
+        "checked": true
+      }
     },
     {
       "id": "gkg",
@@ -754,9 +854,14 @@
         "photos/gkg_4.jpg",
         "photos/gkg_0.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E7%94%98%E5%9D%91%E5%AE%A2%E5%AE%B6%E5%B0%8F%E9%95%87&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.658969,
+      "lng": 114.099585,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%94%98%E5%9D%91%E5%AE%A2%E5%AE%B6%E5%B0%8F%E9%95%87&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/1039077937",
+        "checked": true
+      }
     },
     {
       "id": "dap",
@@ -775,9 +880,14 @@
         "photos/dap_5.jpg",
         "photos/dap_3.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%B9%8F%E6%89%80%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.597874,
+      "lng": 114.507692,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%B9%8F%E6%89%80%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/404249608",
+        "checked": true
+      }
     },
     {
       "id": "dms",
@@ -796,9 +906,14 @@
         "photos/dms_6.jpg",
         "photos/dms_4.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E6%A2%85%E6%B2%99&city=%E6%B7%B1%E5%9C%B3"
+      "lat": 22.594362,
+      "lng": 114.302641,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A7%E6%A2%85%E6%B2%99&city=%E6%B7%B1%E5%9C%B3",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/192579211",
+        "checked": true
+      }
     },
     {
       "id": "chc",
@@ -817,9 +932,14 @@
         "photos/chc_7.jpg",
         "photos/chc_5.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E9%99%88%E5%AE%B6%E7%A5%A0&city=%E5%B9%BF%E5%B7%9E"
+      "lat": 23.129828,
+      "lng": 113.240133,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%99%88%E5%AE%B6%E7%A5%A0&city=%E5%B9%BF%E5%B7%9E",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/520935699",
+        "checked": true
+      }
     },
     {
       "id": "yqf",
@@ -838,9 +958,14 @@
         "photos/yqf_4.jpg",
         "photos/yqf_7.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B8%E5%BA%86%E5%9D%8A&city=%E5%B9%BF%E5%B7%9E"
+      "lat": 23.117503,
+      "lng": 113.232901,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B0%B8%E5%BA%86%E5%9D%8A&city=%E5%B9%BF%E5%B7%9E",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/1164896995",
+        "checked": true
+      }
     },
     {
       "id": "sha",
@@ -859,9 +984,14 @@
         "photos/sha_6.jpg",
         "photos/sha_7.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%B2%99%E9%9D%A2%E5%B2%9B&city=%E5%B9%BF%E5%B7%9E"
+      "lat": 23.109448,
+      "lng": 113.239305,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B2%99%E9%9D%A2%E5%B2%9B&city=%E5%B9%BF%E5%B7%9E",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "relation/6679655",
+        "checked": true
+      }
     },
     {
       "id": "gzr",
@@ -900,9 +1030,14 @@
         "photos/hcg_1.jpg",
         "photos/hcg_7.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E8%8A%B1%E5%9F%8E%E5%B9%BF%E5%9C%BA&city=%E5%B9%BF%E5%B7%9E"
+      "lat": 23.122532,
+      "lng": 113.318985,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%8A%B1%E5%9F%8E%E5%B9%BF%E5%9C%BA&city=%E5%B9%BF%E5%B7%9E",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/243319596",
+        "checked": true
+      }
     },
     {
       "id": "ctw",
@@ -921,9 +1056,14 @@
         "photos/ctw_1.jpg",
         "photos/ctw_4.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%A1%94&city=%E5%B9%BF%E5%B7%9E"
+      "lat": 23.109015,
+      "lng": 113.319148,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%A1%94&city=%E5%B9%BF%E5%B7%9E",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/584204634",
+        "checked": true
+      }
     },
     {
       "id": "prc",
@@ -959,9 +1099,15 @@
       "shot": "v360",
       "tip": "Bus 81 hasta Shek Lei Pui Reservoir (o taxi). Prohibido darles de comer (multa de hasta 10.000 HK$), nada de bolsas de plástico ni comida a la vista. Graba a 60 fps desde unos metros.",
       "photos": [],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E9%87%91%E5%B1%B1%E9%83%8A%E9%87%8E%E5%85%AC%E5%9B%AD%20%C2%B7%20%E4%B9%9D%E9%BE%99%E6%B0%B4%E5%A1%98&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.354125,
+      "lng": 114.154376,
+      "amap_search": "https://uri.amap.com/search?keyword=%E9%87%91%E5%B1%B1%E9%83%8A%E9%87%8E%E5%85%AC%E5%9B%AD%20%C2%B7%20%E4%B9%9D%E9%BE%99%E6%B0%B4%E5%A1%98&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/23618305",
+        "checked": true,
+        "note": "Embalse 九龍水塘, junto a Tai Po Road"
+      }
     },
     {
       "id": "ssp",
@@ -976,9 +1122,15 @@
       "shot": "both",
       "tip": "Para perderse y comer. Está a unos 10 minutos de Monkey Hill.",
       "photos": [],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%B7%B1%E6%B0%B4%E5%9F%97&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.329757,
+      "lng": 114.160851,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%B7%B1%E6%B0%B4%E5%9F%97&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/2621314796",
+        "checked": true,
+        "note": "Centro del barrio"
+      }
     },
     {
       "id": "tst",
@@ -997,9 +1149,15 @@
         "photos/tst_4.jpg",
         "photos/tst_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%B0%96%E6%B2%99%E5%92%80%E6%B5%B7%E6%BB%A8%E9%95%BF%E5%BB%8A&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.293425,
+      "lng": 114.175133,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B0%96%E6%B2%99%E5%92%80%E6%B5%B7%E6%BB%A8%E9%95%BF%E5%BB%8A&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/667356811",
+        "checked": true,
+        "note": "Avenida de las Estrellas (星光大道), en el paseo"
+      }
     },
     {
       "id": "tmp",
@@ -1018,9 +1176,14 @@
         "photos/tmp_6.jpg",
         "photos/tmp_4.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%BA%99%E8%A1%97%E5%A4%9C%E5%B8%82&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.306397,
+      "lng": 114.169965,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%BA%99%E8%A1%97%E5%A4%9C%E5%B8%82&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/880775625",
+        "checked": true
+      }
     },
     {
       "id": "mok",
@@ -1038,9 +1201,15 @@
         "photos/mok_0.jpg",
         "photos/mok_4.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%97%BA%E8%A7%92&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.320416,
+      "lng": 114.169811,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%97%BA%E8%A7%92&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/1295654855",
+        "checked": true,
+        "note": "Centro del barrio"
+      }
     },
     {
       "id": "fer",
@@ -1058,9 +1227,15 @@
         "photos/fer_0.jpg",
         "photos/fer_2.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A9%E6%98%9F%E5%B0%8F%E8%BD%AE&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.287042,
+      "lng": 114.16119,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%A9%E6%98%9F%E5%B0%8F%E8%BD%AE&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/1483823681",
+        "checked": true,
+        "note": "Muelle de Central (中環天星碼頭)"
+      }
     },
     {
       "id": "pk",
@@ -1078,9 +1253,15 @@
         "photos/pk_5.jpg",
         "photos/pk_2.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%AA%E5%B9%B3%E5%B1%B1%E9%A1%B6%20%C2%B7%20%E5%B1%B1%E9%A1%B6%E7%BC%86%E8%BD%A6&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.270938,
+      "lng": 114.150825,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%A4%AA%E5%B9%B3%E5%B1%B1%E9%A1%B6%20%C2%B7%20%E5%B1%B1%E9%A1%B6%E7%BC%86%E8%BD%A6&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/2131730508",
+        "checked": true,
+        "note": "Mirador 獅子亭, junto a la Peak Tower"
+      }
     },
     {
       "id": "mon",
@@ -1099,9 +1280,14 @@
         "photos/mon_3.jpg",
         "photos/mon_1.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E7%9B%8A%E6%98%8C%E5%A4%A7%E5%8E%A6&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.284029,
+      "lng": 114.212328,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%9B%8A%E6%98%8C%E5%A4%A7%E5%8E%A6&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/296725043",
+        "checked": true
+      }
     },
     {
       "id": "dim",
@@ -1120,9 +1306,15 @@
         "photos/dim_6.jpg",
         "photos/dim_5.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E4%B8%AD%E7%8E%AF%20%C2%B7%20%E5%8D%8A%E5%B1%B1%E6%89%B6%E6%A2%AF&city=%E9%A6%99%E6%B8%AF"
+      "lat": 22.282877,
+      "lng": 114.154169,
+      "amap_search": "https://uri.amap.com/search?keyword=%E4%B8%AD%E7%8E%AF%20%C2%B7%20%E5%8D%8A%E5%B1%B1%E6%89%B6%E6%A2%AF&city=%E9%A6%99%E6%B8%AF",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/817778729",
+        "checked": true,
+        "note": "Escaleras mecánicas de Mid-Levels"
+      }
     },
     {
       "id": "tra",
@@ -1203,9 +1395,14 @@
         "photos/moo_2.jpg",
         "photos/moo_1.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E6%9C%88%E4%BA%AE%E5%B1%B1&city=%E9%98%B3%E6%9C%94"
+      "lat": 24.728102,
+      "lng": 110.467728,
+      "amap_search": "https://uri.amap.com/search?keyword=%E6%9C%88%E4%BA%AE%E5%B1%B1&city=%E9%98%B3%E6%9C%94",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/1364118179",
+        "checked": true
+      }
     },
     {
       "id": "b20",
@@ -1223,9 +1420,14 @@
         "photos/b20_0.jpg",
         "photos/b20_5.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E4%BA%8C%E5%8D%81%E5%85%83%E4%BA%BA%E6%B0%91%E5%B8%81%E8%83%8C%E6%99%AF&city=%E9%98%B3%E6%9C%94"
+      "lat": 24.92454,
+      "lng": 110.517387,
+      "amap_search": "https://uri.amap.com/search?keyword=%E4%BA%8C%E5%8D%81%E5%85%83%E4%BA%BA%E6%B0%91%E5%B8%81%E8%83%8C%E6%99%AF&city=%E9%98%B3%E6%9C%94",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/6255301985",
+        "checked": true
+      }
     },
     {
       "id": "lao",
@@ -1244,9 +1446,14 @@
         "photos/lao_2.jpg",
         "photos/lao_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E8%80%81%E5%AF%A8%E5%B1%B1&city=%E9%98%B3%E6%9C%94"
+      "lat": 24.917735,
+      "lng": 110.520504,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%80%81%E5%AF%A8%E5%B1%B1&city=%E9%98%B3%E6%9C%94",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/4780981642",
+        "checked": true
+      }
     },
     {
       "id": "xgs",
@@ -1265,9 +1472,14 @@
         "photos/xgs_2.jpg",
         "photos/xgs_0.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E7%9B%B8%E5%85%AC%E5%B1%B1&city=%E9%98%B3%E6%9C%94"
+      "lat": 24.925807,
+      "lng": 110.479002,
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%9B%B8%E5%85%AC%E5%B1%B1&city=%E9%98%B3%E6%9C%94",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/6487071285",
+        "checked": true
+      }
     },
     {
       "id": "xpt",
@@ -1286,9 +1498,14 @@
         "photos/xpt_4.jpg",
         "photos/xpt_6.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%85%B4%E5%9D%AA%E5%8F%A4%E9%95%87&city=%E9%98%B3%E6%9C%94"
+      "lat": 24.919123,
+      "lng": 110.523609,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%85%B4%E5%9D%AA%E5%8F%A4%E9%95%87&city=%E9%98%B3%E6%9C%94",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "node/9921956319",
+        "checked": true
+      }
     },
     {
       "id": "wst",
@@ -1306,9 +1523,14 @@
         "photos/wst_0.jpg",
         "photos/wst_4.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E8%A5%BF%E8%A1%97&city=%E9%98%B3%E6%9C%94"
+      "lat": 24.778173,
+      "lng": 110.490461,
+      "amap_search": "https://uri.amap.com/search?keyword=%E8%A5%BF%E8%A1%97&city=%E9%98%B3%E6%9C%94",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/849826843",
+        "checked": true
+      }
     },
     {
       "id": "lsj",
@@ -1327,9 +1549,14 @@
         "photos/lsj_2.jpg",
         "photos/lsj_3.jpg"
       ],
-      "lat": null,
-      "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%B0%E8%B1%A1%C2%B7%E5%88%98%E4%B8%89%E5%A7%90&city=%E9%98%B3%E6%9C%94"
+      "lat": 24.769969,
+      "lng": 110.503593,
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8D%B0%E8%B1%A1%C2%B7%E5%88%98%E4%B8%89%E5%A7%90&city=%E9%98%B3%E6%9C%94",
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/313899372",
+        "checked": true
+      }
     }
   ]
 }

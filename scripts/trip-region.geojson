@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "Shenzhen y Hong Kong" },
+      "geometry": { "type": "Polygon", "coordinates": [[[113.75,22.15],[114.65,22.15],[114.65,22.88],[113.75,22.88],[113.75,22.15]]] } },
+    { "type": "Feature", "properties": { "name": "Guangzhou centro" },
+      "geometry": { "type": "Polygon", "coordinates": [[[113.15,22.95],[113.50,22.95],[113.50,23.25],[113.15,23.25],[113.15,22.95]]] } },
+    { "type": "Feature", "properties": { "name": "Yangshuo y Xingping" },
+      "geometry": { "type": "Polygon", "coordinates": [[[110.30,24.60],[110.65,24.60],[110.65,25.05],[110.30,25.05],[110.30,24.60]]] } }
+  ]
+}

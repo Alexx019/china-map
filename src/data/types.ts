@@ -39,6 +39,8 @@ export interface Geo {
   source: 'nominatim' | 'manual';
   osm_id?: string | null;
   checked: boolean;
+  /** Qué punto es exactamente, si no es obvio (p. ej. «estación de metro del parque»). */
+  note?: string;
 }
 
 /**

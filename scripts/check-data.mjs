@@ -76,6 +76,7 @@ for (const p of data.places) {
   if (p.geo !== undefined) {
     if (!['nominatim', 'manual'].includes(p.geo.source)) err(at, `geo.source no válido: ${p.geo.source}`);
     if (typeof p.geo.checked !== 'boolean') err(at, 'geo.checked debe ser true o false');
+    if (p.geo.note !== undefined && (typeof p.geo.note !== 'string' || !p.geo.note.trim())) err(at, 'geo.note vacío');
   }
 
   if (p.practical !== undefined) {
