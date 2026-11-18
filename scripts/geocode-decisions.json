@@ -1,45 +1,151 @@
 {
-  "nor": { "osm": "way/914175455" },
-  "ohb": { "osm": "way/771513760" },
-  "htf": { "osm": "way/1005694758", "note": "Recinto 深圳国际会展中心" },
-  "dji": { "osm": "node/5305182201", "note": "Tienda «大疆创新» de Happy Coast en OSM; falta confirmar que es la insignia" },
-  "hcs": { "osm": "way/322631274" },
-  "szb": { "osm": "node/9062301243", "note": "Estación de metro 深圳湾公园, en el parque (el parque es un paseo largo junto a la bahía)" },
-  "tal": { "osm": "relation/18459537" },
-  "oct": { "osm": "way/741581536" },
-  "sea": { "osm": "way/105683429", "note": "El barco 明华轮, en el centro de Sea World" },
-  "pin": { "osm": "way/535860513" },
-  "lhs": { "osm": "way/41281446" },
-  "civ": { "osm": "relation/10837975" },
-  "coc": { "osm": "way/546582690" },
-  "hqe": { "osm": "way/99498037" },
-  "seg": { "osm": "way/64896107" },
-  "hqs": { "osm": "way/588249188", "note": "En OSM se llama 华强路步行街" },
-  "lcc": { "osm": "way/75839547" },
-  "dmn": { "osm": "way/1238852261" },
-  "daf": { "osm": "way/248181066" },
-  "gkg": { "osm": "way/1039077937" },
-  "dap": { "osm": "way/404249608" },
-  "dms": { "osm": "way/192579211" },
-  "chc": { "osm": "way/520935699" },
-  "yqf": { "osm": "way/1164896995" },
-  "sha": { "osm": "relation/6679655" },
-  "hcg": { "osm": "way/243319596" },
-  "ctw": { "osm": "way/584204634" },
-  "mky": { "osm": "way/23618305", "note": "Embalse 九龍水塘, junto a Tai Po Road" },
-  "ssp": { "osm": "node/2621314796", "note": "Centro del barrio" },
-  "tst": { "osm": "way/667356811", "note": "Avenida de las Estrellas (星光大道), en el paseo" },
-  "tmp": { "osm": "way/880775625" },
-  "mok": { "osm": "node/1295654855", "note": "Centro del barrio" },
-  "fer": { "osm": "way/1483823681", "note": "Muelle de Central (中環天星碼頭)" },
-  "pk": { "osm": "node/2131730508", "note": "Mirador 獅子亭, junto a la Peak Tower" },
-  "mon": { "osm": "way/296725043" },
-  "dim": { "osm": "way/817778729", "note": "Escaleras mecánicas de Mid-Levels" },
-  "moo": { "osm": "node/1364118179" },
-  "b20": { "osm": "node/6255301985" },
-  "lao": { "osm": "node/4780981642" },
-  "xgs": { "osm": "node/6487071285" },
-  "xpt": { "osm": "node/9921956319" },
-  "wst": { "osm": "way/849826843" },
-  "lsj": { "osm": "way/313899372" }
+  "nor": {
+    "osm": "way/914175455"
+  },
+  "ohb": {
+    "osm": "way/771513760"
+  },
+  "htf": {
+    "osm": "way/1005694758",
+    "note": "Recinto 深圳国际会展中心"
+  },
+  "dji": {
+    "osm": "node/5305182201",
+    "note": "Tienda «大疆创新» de Happy Coast en OSM; falta confirmar que es la insignia"
+  },
+  "hcs": {
+    "osm": "way/322631274"
+  },
+  "szb": {
+    "osm": "node/9062301243",
+    "note": "Estación de metro 深圳湾公园, en el parque (el parque es un paseo largo junto a la bahía)"
+  },
+  "tal": {
+    "osm": "relation/18459537"
+  },
+  "oct": {
+    "osm": "way/741581536"
+  },
+  "sea": {
+    "osm": "way/105683429",
+    "note": "El barco 明华轮, en el centro de Sea World"
+  },
+  "pin": {
+    "osm": "way/535860513"
+  },
+  "lhs": {
+    "osm": "way/41281446"
+  },
+  "civ": {
+    "osm": "relation/10837975"
+  },
+  "coc": {
+    "osm": "way/546582690"
+  },
+  "hqe": {
+    "osm": "way/99498037"
+  },
+  "seg": {
+    "osm": "way/64896107"
+  },
+  "hqs": {
+    "osm": "way/588249188",
+    "note": "En OSM se llama 华强路步行街"
+  },
+  "lcc": {
+    "osm": "way/75839547"
+  },
+  "dmn": {
+    "osm": "way/1238852261"
+  },
+  "daf": {
+    "osm": "way/248181066"
+  },
+  "gkg": {
+    "osm": "way/1039077937"
+  },
+  "dap": {
+    "osm": "way/404249608"
+  },
+  "dms": {
+    "osm": "way/192579211"
+  },
+  "chc": {
+    "osm": "way/520935699"
+  },
+  "yqf": {
+    "osm": "way/1164896995"
+  },
+  "sha": {
+    "osm": "relation/6679655"
+  },
+  "hcg": {
+    "osm": "way/243319596"
+  },
+  "ctw": {
+    "osm": "way/584204634"
+  },
+  "mky": {
+    "osm": "way/23618305",
+    "note": "Embalse 九龍水塘, junto a Tai Po Road"
+  },
+  "ssp": {
+    "osm": "node/2621314796",
+    "note": "Centro del barrio"
+  },
+  "tst": {
+    "osm": "way/667356811",
+    "note": "Avenida de las Estrellas (星光大道), en el paseo"
+  },
+  "tmp": {
+    "osm": "way/880775625"
+  },
+  "mok": {
+    "osm": "node/1295654855",
+    "note": "Centro del barrio"
+  },
+  "fer": {
+    "osm": "way/1483823681",
+    "note": "Muelle de Central (中環天星碼頭)"
+  },
+  "pk": {
+    "osm": "node/2131730508",
+    "note": "Mirador 獅子亭, junto a la Peak Tower"
+  },
+  "mon": {
+    "osm": "way/296725043"
+  },
+  "dim": {
+    "osm": "way/817778729",
+    "note": "Escaleras mecánicas de Mid-Levels"
+  },
+  "moo": {
+    "osm": "node/1364118179"
+  },
+  "b20": {
+    "osm": "node/6255301985"
+  },
+  "lao": {
+    "osm": "node/4780981642"
+  },
+  "xgs": {
+    "osm": "node/6487071285"
+  },
+  "xpt": {
+    "osm": "node/9921956319"
+  },
+  "wst": {
+    "osm": "way/849826843"
+  },
+  "lsj": {
+    "osm": "way/313899372"
+  },
+  "gzr": {
+    "osm": "way/944348111",
+    "note": "La histórica de 文昌南路 (Liwan); la búsqueda «广州酒家 文昌» la devuelve a ella"
+  },
+  "prc": {
+    "osm": "way/921623181",
+    "note": "Muelle 财富码头 / 广州塔码头, al noreste de la torre"
+  }
 }

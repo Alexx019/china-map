@@ -83,7 +83,7 @@
       "name": "Huaqiangbei",
       "name_zh": "华强北",
       "when": "Mañana",
-      "lede": "El mercado de electrónica más grande del mundo. Mejor por la mañana, que hay menos gente.",
+      "lede": "El mercado de electrónica más grande del mundo. Mejor a media mañana: a primera hora muchos puestos siguen cerrados.",
       "plan": [
         "Huaqiang Electronics World y SEG Plaza",
         "Calle peatonal de Huaqiangbei",
@@ -264,8 +264,8 @@
       "name": "Librería Zhongshuge",
       "name_zh": "钟书阁（欢乐港湾）",
       "city_zh": "深圳",
-      "why": "La escalera espiral infinita. Es una ilusión de estanterías y espejos que solo funciona desde el centro.",
-      "when": "Hacia las 16:00, entre semana",
+      "why": "La escalera espiral infinita. Estanterías reales con un techo de espejo que la multiplica: el efecto solo funciona desde el centro.",
+      "when": "A la apertura (10:00), entre semana",
       "shot": "both",
       "tip": "Foto RAW centrada y nivelada; con la 360, entra caminando y revela la espiral al pararte en el centro.",
       "photos": [
@@ -509,7 +509,7 @@
       "name": "Paseo de OH BAY",
       "name_zh": "欢乐港湾",
       "city_zh": "深圳",
-      "why": "Frente marítimo con tiendas y restaurantes. Buen sitio para cenar los cuatro sin buscar más.",
+      "why": "Frente marítimo con tiendas y restaurantes. Para cenar, mejor elegir sitio antes en Amap o Dianping: en 2026 cerró medio bloque de restaurantes.",
       "when": "Atardecer",
       "shot": "v360",
       "tip": "Paseo en grupo con el palo alzado: plano de \"vida\" para el montaje.",
@@ -2561,7 +2561,7 @@
       "name_zh": "华强北步行街",
       "city_zh": "深圳",
       "why": "La calle principal, con pantallas y riadas de gente.",
-      "when": "Mediodía",
+      "when": "Al atardecer, con las pantallas encendidas",
       "shot": "v360",
       "tip": "Palo alzado caminando: transmite la escala del sitio.",
       "photos": [
@@ -3736,7 +3736,7 @@
       "name_zh": "沙面岛",
       "city_zh": "广州",
       "why": "Isla de la época colonial con edificios europeos, banianos enormes y calles tranquilas.",
-      "when": "Primera hora de la tarde",
+      "when": "Primera hora de la mañana o última de la tarde",
       "shot": "both",
       "tip": "Luz filtrada por los árboles: foto RAW con EV −0,3 para no quemar las fachadas.",
       "photos": [
@@ -3842,8 +3842,8 @@
         "photos/gzr_4.jpg",
         "photos/gzr_0.jpg"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 23.116497,
+      "lng": 113.240604,
       "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E9%85%92%E5%AE%B6&city=%E5%B9%BF%E5%B7%9E",
       "practical": {
         "how_to_get": "Restaurante original: 广州酒家 (文昌总店), 荔湾区文昌南路2号, junto a la calle peatonal Shangxiajiu. Metro 长寿路站 (L1), salida A, unos 800 m (11 min a pie). En Amap, buscar «广州酒家(文昌总店)»: hay muchas sucursales con el mismo nombre.",
@@ -3926,7 +3926,13 @@
             "title": "Ctrip, reseña de usuario (jun 2026)"
           }
         }
-      ]
+      ],
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/944348111",
+        "checked": true,
+        "note": "La histórica de 文昌南路 (Liwan); la búsqueda «广州酒家 文昌» la devuelve a ella"
+      }
     },
     {
       "id": "hcg",
@@ -4200,7 +4206,7 @@
       "name": "Crucero por el río",
       "name_zh": "珠江夜游（广州塔码头）",
       "city_zh": "广州",
-      "why": "Una hora en barco entre puentes y rascacielos iluminados. La alternativa a subir a la torre.",
+      "why": "Unos 50 minutos en barco entre puentes y rascacielos iluminados. La alternativa a subir a la torre.",
       "when": "Noche",
       "shot": "v360",
       "tip": "360 en modo nocturno desde la cubierta, si el barco la tiene abierta.",
@@ -4209,8 +4215,8 @@
         "photos/prc_2.jpg",
         "photos/prc_1.jpg"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 23.110286,
+      "lng": 113.321543,
       "amap_search": "https://uri.amap.com/search?keyword=%E7%8F%A0%E6%B1%9F%E5%A4%9C%E6%B8%B8%EF%BC%88%E5%B9%BF%E5%B7%9E%E5%A1%94%E7%A0%81%E5%A4%B4%EF%BC%89&city=%E5%B9%BF%E5%B7%9E",
       "practical": {
         "how_to_get": "Muelle 珠江夜游广州塔码头 (también llamado «广州塔财富码头»): 海珠区阅江西路222号, en la orilla del río al noreste de la torre. Metro 广州塔站 (L3 y APM). Algunos barcos de la naviera 广州客轮 salen de un punto distinto, «广州塔码头(广州客轮)»: mira el muelle en el billete.",
@@ -4292,7 +4298,13 @@
             "title": "Ctrip, reseña de usuario (feb 2026)"
           }
         }
-      ]
+      ],
+      "geo": {
+        "source": "nominatim",
+        "osm_id": "way/921623181",
+        "checked": true,
+        "note": "Muelle 财富码头 / 广州塔码头, al noreste de la torre"
+      }
     },
     {
       "id": "mky",
@@ -4305,7 +4317,7 @@
       "why": "Macacos salvajes junto al embalse de Kowloon, a 20–30 minutos de Mong Kok. Suelen estar ya al lado de la parada del bus.",
       "when": "Primera hora",
       "shot": "v360",
-      "tip": "Bus 81 hasta Shek Lei Pui Reservoir (o taxi). Prohibido darles de comer (multa de hasta 10.000 HK$), nada de bolsas de plástico ni comida a la vista. Graba a 60 fps desde unos metros.",
+      "tip": "Bus 81 hasta Shek Lei Pui Reservoir (o taxi). Prohibido darles de comer (multa fija de 5.000 HK$; si va a juicio, hasta 100.000 HK$), nada de bolsas de plástico ni comida a la vista. Graba a 60 fps desde unos metros.",
       "photos": [],
       "lat": 22.354125,
       "lng": 114.154376,
@@ -4521,7 +4533,7 @@
       "name": "Paseo de Tsim Sha Tsui",
       "name_zh": "尖沙咀海滨长廊",
       "city_zh": "香港",
-      "why": "La vista clásica del skyline de la isla. A las 20:00, Symphony of Lights.",
+      "why": "La vista clásica del skyline de la isla. La Symphony of Lights terminó el 18 nov 2026; del 19 nov al 5 ene hay un espectáculo navideño de WinterFest cada noche de 19:00 a 23:00 junto al Centro Cultural y la Torre del Reloj.",
       "when": "Noche",
       "shot": "both",
       "tip": "Foto RAW apoyada en la barandilla; 360 en modo nocturno.",
@@ -5299,7 +5311,7 @@
       "why": "El paseo en balsa entre montañas kársticas. El plano estrella del viaje.",
       "when": "Mañana",
       "shot": "both",
-      "tip": "Grúa desde el agua en 8K60, hyperlapse en 8K30 con el velcro, y fotos con el tele 3x/5x.",
+      "tip": "Grúa desde el agua en 8K60, hyperlapse en 8K30 con el velcro, y fotos con el tele 3x/5x. Ojo: el aviso oficial pide no llevar móvil ni cámara en la balsa; confirmadlo al embarcar.",
       "photos": [
         "photos/raf_6.jpg",
         "photos/raf_0.jpg",
@@ -5588,7 +5600,7 @@
       "name": "Moon Hill",
       "name_zh": "月亮山",
       "city_zh": "阳朔",
-      "why": "Una montaña con un arco natural en forma de luna. Subida de unos 30 minutos.",
+      "why": "Una montaña con un arco natural en forma de luna. Unos 30 min de subida hasta el arco y 1 h hasta la cima. Ojo: puede estar cerrado (Ctrip lo marcaba sin fecha de reapertura en nov 2026).",
       "when": "Atardecer",
       "shot": "raw",
       "tip": "Vista del valle desde el arco con el 0,6x.",
