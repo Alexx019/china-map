@@ -4315,7 +4315,92 @@
         "osm_id": "way/23618305",
         "checked": true,
         "note": "Embalse 九龍水塘, junto a Tai Po Road"
-      }
+      },
+      "practical": {
+        "how_to_get": "Bus KMB 81 (desde Jordan, Yau Ma Tei o Prince Edward, dirección Wo Che) o bus 72 (desde Cheung Sha Wan, dirección Tai Wo). Bajar en la parada «Shek Lei Pui Reservoir» (石梨貝水塘). En taxi, los conductores conocen «Monkey Hill».",
+        "payment": null,
+        "passport": null,
+        "rules": "Prohibido dar de comer a los monos: multa fija de 5.000 HK$ y, si va a juicio, hasta 100.000 HK$ y un año de cárcel (desde ago 2024). Hay cámaras con IA en dos aparcamientos de Kam Shan y más patrullas en 2026. AFCD pide no comer cerca de ellos, guardar comida y bolsas de plástico dentro de la mochila, no acercarse (sobre todo a las crías), no mirarlos fijamente, no tirarles nada y no hacer ruido.",
+        "before_you_go": "Los monos se acercan a cualquier cosa que parezca comida: nada de bolsas de plástico a la vista. Desde la parada hay un paseo corto y sombreado (Kam Shan Family Walk, 1 km, sobre todo escaleras de subida).",
+        "hours": null,
+        "closed_days": null,
+        "booking": null,
+        "tickets": null,
+        "duration": "El paseo familiar Kam Shan Family Walk: 1 km, unos 30 minutos (ida y vuelta desde la misma parada).",
+        "best_time": null,
+        "sources": [
+          {
+            "url": "https://www.info.gov.hk/gia/general/202608/05/P2026080500629.htm",
+            "title": "Gobierno de HK (AFCD), nota de prensa 5 ago 2026: más patrullas contra la alimentación ilegal",
+            "fields": [
+              "rules"
+            ]
+          },
+          {
+            "url": "https://www.afcd.gov.hk/english/conservation/con_fau/con_fau_nui/con_fau_nui_str/con_fau_nui_str.html",
+            "title": "AFCD: Nuisance Caused by Monkeys (consejos al visitante)",
+            "fields": [
+              "rules",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.hiking.gov.hk/trail/info/id/VGZRNVlyYTdoR2l4cXB2TTRSRWpsQT09/map_type/1",
+            "title": "Hiking.gov.hk: Kam Shan Family Walk (bus 72/81, parada 石梨貝水塘)",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://lcsd.gov.hk/en/healthy/hiking/road_family/road_family3.html",
+            "title": "LCSD: ruta desde «Monkey Hill», Tai Po Road (bus 81 desde Prince Edward)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://pvtistes.net/monkey-hill-hong-kong/",
+            "title": "PVTistes: Monkey Hill (12 nov 2026)",
+            "fields": [
+              "how_to_get",
+              "rules"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "No lleves nada de comer en la mano al bajar del bus: a un visitante le quitó un mono el bollo en la misma parada, antes de entrar al parque.",
+          "source": {
+            "url": "https://wanderlog.com/place/details/1814194/kam-shan-country-park",
+            "title": "Wanderlog, reseña de Kam Shan Country Park"
+          }
+        },
+        {
+          "text": "No los mires fijamente a los ojos y ojo con las madres: protegen mucho a las crías.",
+          "source": {
+            "url": "https://pvtistes.net/monkey-hill-hong-kong/",
+            "title": "PVTistes (12 nov 2026)"
+          }
+        },
+        {
+          "text": "Los encuentras sobre todo junto a la carretera y los aparcamientos, no hace falta adentrarse mucho.",
+          "source": {
+            "url": "https://pvtistes.net/monkey-hill-hong-kong/",
+            "title": "PVTistes (12 nov 2026)"
+          }
+        },
+        {
+          "text": "No abras la mochila con monos cerca, aunque creas que no te ven.",
+          "source": {
+            "url": "https://strippedpixel.com/monkey-mountain/",
+            "title": "Stripped Pixel: Monkey Mountain (2011, comentario del autor)"
+          }
+        }
+      ]
     },
     {
       "id": "ssp",
@@ -4338,7 +4423,95 @@
         "osm_id": "node/2621314796",
         "checked": true,
         "note": "Centro del barrio"
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro, estación Sham Shui Po (línea Tsuen Wan), a pocas paradas de Tsim Sha Tsui. Por confirmar: salida (las guías citan C1, C2 o D2 para Apliu Street).",
+        "payment": "Por confirmar por local. En Hop Yik Tai conviene llevar efectivo preparado. Kung Wo no tiene pedido por QR.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Casi todos los locales famosos están en 3 calles: Fuk Wing St, Kweilin St y Pei Ho St. Muchos son pequeños y sin reserva: se hace cola.",
+        "hours": "Horarios por local (guía de feb 2026): Kung Wo Beancurd 7:00–21:00; Hop Yik Tai 6:30–20:00; Lau Sum Kee (82 Fuk Wing St) 12:00–22:00; Tim Ho Wan (9-11 Fuk Wing St) lun–vie 10:00–21:30, sáb–dom 9:00–21:30; Man Kee Cart Noodles 11:00–16:00; Oi Man Sang 16:30–23:00; Shum Shum Desserts 15:00–23:45. Apliu Street: por confirmar (las guías dan desde 10:00–19:00 hasta mediodía–medianoche).",
+        "closed_days": null,
+        "booking": "Oi Man Sang no acepta reservas. En el resto de puestos de comida, sin datos.",
+        "price_per_person": null,
+        "dishes": "Kung Wo (公和荳品廠, 118 Pei Ho St): tofu dulce (豆腐花), tofu frito relleno de pescado, leche de soja fría. Lau Sum Kee (劉森記麵家): fideos con huevas de gamba, sopa de wonton. Hop Yik Tai (合益泰小食, 121 Kweilin St): cheung fun con salsas, bolas de pescado al curry. Tim Ho Wan (添好運): bollos horneados de cerdo char siu. Man Kee (文記車仔麵): fideos «de carrito» con salsa de chile casera. Shum Shum (深深甜品): postres dulces calientes. Oi Man Sang (愛文生): dai pai dong, calamar con sal y pimienta.",
+        "menu": "Hing Fat Noodle House (興發麵家, Cheung Sha Wan) no tiene carta en inglés. En Man Kee hay una carta colgada fuera. Resto: sin datos.",
+        "sources": [
+          {
+            "url": "https://danielfooddiary.com/2026/02/19/shamshuipo/",
+            "title": "Daniel Food Diary: Sham Shui Po food guide (19 feb 2026)",
+            "fields": [
+              "payment",
+              "before_you_go",
+              "hours",
+              "booking",
+              "dishes",
+              "menu"
+            ]
+          },
+          {
+            "url": "https://guide.michelin.com/mo/en/article/travel/neighbourhood-guide-sham-sui-po",
+            "title": "Guía Michelin: Neighbourhood guide Sham Shui Po (jun 2024)",
+            "fields": [
+              "how_to_get",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://www.stheadline.com/realtime-finance/3572431/",
+            "title": "星島頭條: 公和荳品廠 不設掃碼落單 (2026)",
+            "fields": [
+              "payment"
+            ]
+          },
+          {
+            "url": "https://www.apliu-street.hk/opening-hours",
+            "title": "Apliu Street opening hours (web no oficial)",
+            "fields": [
+              "hours"
+            ]
+          },
+          {
+            "url": "https://offpeaktrip.com/en/guide/hongkong/apliu-street-flea-market",
+            "title": "Offpeaktrip: Apliu Street Flea Market",
+            "fields": [
+              "how_to_get",
+              "hours"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Oi Man Sang se llena de gente del barrio al salir del trabajo y no reserva: llega antes de las 18:00.",
+          "source": {
+            "url": "https://danielfooddiary.com/2026/02/19/shamshuipo/",
+            "title": "Daniel Food Diary (feb 2026)"
+          }
+        },
+        {
+          "text": "En Hop Yik Tai la cola avanza rápido: ten el dinero preparado y come de pie en el callejón, como hace la gente de allí.",
+          "source": {
+            "url": "https://danielfooddiary.com/2026/02/19/shamshuipo/",
+            "title": "Daniel Food Diary (feb 2026)"
+          }
+        },
+        {
+          "text": "Si la cola de Lau Sum Kee en Fuk Wing St es larga, su local de Kweilin St está a dos pasos.",
+          "source": {
+            "url": "https://danielfooddiary.com/2026/02/19/shamshuipo/",
+            "title": "Daniel Food Diary (feb 2026)"
+          }
+        },
+        {
+          "text": "Pedir en Man Kee lía la primera vez: mira la carta de fuera o fíjate en cómo piden los demás antes de llegar al mostrador.",
+          "source": {
+            "url": "https://danielfooddiary.com/2026/02/19/shamshuipo/",
+            "title": "Daniel Food Diary (feb 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "tst",
@@ -4365,7 +4538,63 @@
         "osm_id": "way/667356811",
         "checked": true,
         "note": "Avenida de las Estrellas (星光大道), en el paseo"
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro East Tsim Sha Tsui, salida J: a pocos minutos a pie de la Avenue of Stars. También desde la estación Tsim Sha Tsui siguiendo Salisbury Road, o en Star Ferry y paseo por la orilla.",
+        "payment": null,
+        "passport": null,
+        "rules": "Durante las fiestas puede haber control de multitudes: seguir las indicaciones de policía y personal.",
+        "before_you_go": "La Symphony of Lights (幻彩詠香江) hizo su última función el 18 nov 2026 y ya no hay pase diario de las 20:00. En su lugar, del 19 nov 2026 al 5 ene 2027 está el «Prudential Hong Kong Winter Wonderland» de WinterFest: luces y música en la Torre del Reloj, el Centro Cultural, el Museo de Arte y el Museo del Espacio.",
+        "hours": null,
+        "closed_days": null,
+        "booking": null,
+        "showtimes": "Symphony of Lights: ya no se hace (última función, 18 nov 2026). Espectáculo de Navidad de WinterFest en TST: cada día 19:00–23:00 del 19 nov 2026 al 5 ene 2027 (24–27 dic hasta la 1:00).",
+        "best_spot": "Para el espectáculo de Navidad: la terraza mirador (Viewing Deck) del Centro Cultural de Hong Kong. Para el skyline: la orilla frente al Centro Cultural y la Avenue of Stars.",
+        "sources": [
+          {
+            "url": "https://www.thestandard.com.hk/news/article/348078/Hong-Kong-to-stage-largest-ever-WinterFest-as-A-Symphony-of-Lights-prepares-for-final-bow",
+            "title": "The Standard: última función de A Symphony of Lights el 18 nov (10 nov 2026)",
+            "fields": [
+              "before_you_go",
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://unwire.hk/2026/11/10/symphony-of-lights-farewell-2026/life-tech/travel/",
+            "title": "unwire.hk: 幻彩詠香江 11月18日告別 (10 nov 2026)",
+            "fields": [
+              "before_you_go",
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://newshub.medianet.com.au/2026/11/hktb-spreads-seasonal-joy-with-biggest-ever-hong-kong-winterfest/181264/",
+            "title": "HKTB (nota de prensa): Hong Kong WinterFest 2026, Prudential Hong Kong Winter Wonderland en TST",
+            "fields": [
+              "rules",
+              "before_you_go",
+              "showtimes",
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://www.tourism.gov.hk/symphony/english/faqs/faqs.html",
+            "title": "Tourism Commission: A Symphony of Lights FAQ (puntos de observación)",
+            "fields": [
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://dev3.avenueofstars.com.hk/en/transportation/",
+            "title": "Avenue of Stars (web oficial): cómo llegar",
+            "fields": [
+              "how_to_get"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": []
     },
     {
       "id": "tmp",
@@ -4391,7 +4620,70 @@
         "source": "nominatim",
         "osm_id": "way/880775625",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro Yau Ma Tei, salida C: unos 3 minutos por Man Ming Lane. O metro Jordan, salida A: por Nathan Road hasta Kansu Street y girar a Temple Street.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Hoy es más un mercado nocturno para turistas: ropa, recuerdos, adivinos y puestos de comida. Precios distintos de un puesto a otro: comparar antes de comprar.",
+        "hours": "Puestos aprox. 16:00–24:00 (los locales tienen su propio horario). Por confirmar: otra guía dice que empiezan a montar entre las 14:00 y las 16:00 y cierran sobre las 23:00–24:00.",
+        "closed_days": null,
+        "booking": null,
+        "price_per_person": null,
+        "dishes": "Arroz en olla de barro (煲仔飯), por ejemplo en Hing Kee (興記煲仔飯) o Four Seasons (四季煲仔飯); bolas de pescado, «tres tesoros» rellenos (煎釀三寶), sopa de aleta imitación (碗仔翅). Cerca: Mido Cafe (美都餐室, desde 1950), postres en Kai Kai (佳佳甜品), wonton en Mak Man Kee (麥文記麵家).",
+        "menu": null,
+        "sources": [
+          {
+            "url": "https://www.bring-you.info/?p=47762",
+            "title": "BringYou: 2026香港廟街夜市攻略 (actualizado 10 ene 2026)",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "hours",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://uptogo.com.tw/旅遊/香港廟街夜市幾點？/",
+            "title": "uptogo: 香港廟街夜市幾點？ (horario de montaje de puestos)",
+            "fields": [
+              "hours"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "De día está casi vacío: el ambiente está entre las 19:00 y las 22:00.",
+          "source": {
+            "url": "https://uptogo.com.tw/旅遊/香港廟街夜市幾點？/",
+            "title": "uptogo (Taiwán), guía de horarios"
+          }
+        },
+        {
+          "text": "Los faroles de la calle siguen siendo lo más fotogénico; el ambiente de película se ha suavizado y la comida callejera se ha ido metiendo en locales.",
+          "source": {
+            "url": "https://www.bring-you.info/?p=47762",
+            "title": "BringYou (ene 2026)"
+          }
+        },
+        {
+          "text": "Para cenar en serio, mejor arroz en olla de barro en los locales de alrededor (Hing Kee, Four Seasons) que en los puestos.",
+          "source": {
+            "url": "https://www.bring-you.info/?p=47762",
+            "title": "BringYou (ene 2026)"
+          }
+        },
+        {
+          "text": "En los puestos de ropa y recuerdos, compara precios en varios antes de comprar.",
+          "source": {
+            "url": "https://www.bring-you.info/?p=47762",
+            "title": "BringYou (ene 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "mok",
@@ -4417,7 +4709,60 @@
         "osm_id": "node/1295654855",
         "checked": true,
         "note": "Centro del barrio"
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro Mong Kok (líneas Tsuen Wan y Kwun Tong). Ladies' Market (通菜街): salida D3, unos 2 minutos. Sneakers Street (花園街, tramo sur): salida E2, unos 5 minutos. Se puede bajar caminando hasta Prince Edward sin volver atrás.",
+        "payment": "En Ladies' Market algunos puestos solo aceptan efectivo: llevar dólares de Hong Kong.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "En Ladies' Market se regatea: los precios de salida son altos. Prueba a pedir un 40 % menos; hay quien cierra al 30 % del precio inicial. Si no vas a comprar, no regatees.",
+        "hours": "Ladies' Market: la mayoría de puestos, aprox. 12:00–23:00. Sneakers Street: la mayoría de tiendas, 11:00–22:00 (varía por tienda).",
+        "closed_days": null,
+        "booking": null,
+        "sources": [
+          {
+            "url": "https://www.bring-you.info/?p=47757",
+            "title": "BringYou: 香港旺角景點推薦 女人街、波鞋街、金魚街 (actualizado 22 oct 2025)",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "before_you_go",
+              "hours"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Si quieres pasear tranquilo por Ladies' Market, ve un día laborable por la tarde: al anochecer y los fines de semana se llena.",
+          "source": {
+            "url": "https://www.bring-you.info/?p=47757",
+            "title": "BringYou (oct 2025)"
+          }
+        },
+        {
+          "text": "Los puestos venden cosas muy parecidas: pregunta precio en varios antes de comprar y no tengas prisa.",
+          "source": {
+            "url": "https://www.bring-you.info/?p=47757",
+            "title": "BringYou (oct 2025)"
+          }
+        },
+        {
+          "text": "Recorrido sin volver atrás: Ladies' Market, Sneakers Street y la calle de los peces de colores (金魚街), acabando en Prince Edward.",
+          "source": {
+            "url": "https://www.bring-you.info/?p=47757",
+            "title": "BringYou (oct 2025)"
+          }
+        },
+        {
+          "text": "Para picar: el pan de piña con mantequilla de Kam Wah Café (金華冰廳), junto a Prince Edward.",
+          "source": {
+            "url": "https://www.bring-you.info/?p=47757",
+            "title": "BringYou (oct 2025)"
+          }
+        }
+      ]
     },
     {
       "id": "fer",
@@ -4443,7 +4788,85 @@
         "osm_id": "way/1483823681",
         "checked": true,
         "note": "Muelle de Central (中環天星碼頭)"
-      }
+      },
+      "practical": {
+        "how_to_get": "Ruta Central ↔ Tsim Sha Tsui. En Central sale del muelle 7 (Central Pier 7): desde el metro Central se sigue la pasarela elevada. En Kowloon, del muelle Star Ferry de Tsim Sha Tsui. También hay ruta Wan Chai ↔ Tsim Sha Tsui.",
+        "payment": "Octopus en los torniquetes. Efectivo en HKD (billetes de 10 y 20 y monedas; dan cambio). En las máquinas de billetes: WeChat Pay, Alipay, UnionPay QuickPass y tarjeta de crédito; también se puede pagar escaneando un QR con el móvil.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "La subida de tarifas aprobada en oct 2026 entra en vigor el 25 ene 2027: durante el viaje se pagan los precios actuales.",
+        "hours": "Central ↔ Tsim Sha Tsui: todos los días de 6:30 a 23:30. Cada 6–8 minutos casi todo el día; cada 10–12 minutos a primera y última hora.",
+        "closed_days": "Ninguno: funciona todos los días.",
+        "booking": "No hace falta: se paga al pasar el torniquete.",
+        "tickets": "Central ↔ TST, adulto: lun–vie 5,0 HK$ arriba / 4,0 HK$ abajo; sáb, dom y festivos 6,5 / 5,6 HK$. Niños de 3 a 11 años y mayores de 65: 2,8–3,9 HK$. Pase turístico de 4 días: 50 HK$.",
+        "duration": "La travesía dura entre 6 y 10 minutos.",
+        "best_time": null,
+        "sources": [
+          {
+            "url": "https://www.starferry.com.hk/en/service",
+            "title": "Star Ferry (oficial): Timetable & Fare",
+            "fields": [
+              "payment",
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.chinadailyhk.com/article/641486",
+            "title": "China Daily HK: aprobada la subida de tarifas del Star Ferry desde el 25 ene 2027 (22 oct 2026)",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://hongkongcheapo.com/getting-around/star-ferry/",
+            "title": "Hong Kong Cheapo: Star Ferry (actualizado jul 2025)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.trip.com/guide/attraction/star-ferry-hong-kong.html",
+            "title": "Trip.com: The Star Ferry Hong Kong (guía)",
+            "fields": [
+              "duration"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "De Tsim Sha Tsui a Central, siéntate a la izquierda; de Central a Tsim Sha Tsui, a la derecha. Así ves la isla todo el trayecto.",
+          "source": {
+            "url": "https://www.hongkonghustle.com/?p=513",
+            "title": "Hong Kong Hustle (blog, c. 2009)"
+          }
+        },
+        {
+          "text": "Ponte cerca de la puerta antes de que abran para coger primera fila en la parte abierta del centro del barco, que es la mejor para fotos. Gira el respaldo del banco para ir mirando hacia delante.",
+          "source": {
+            "url": "https://www.hongkonghustle.com/?p=513",
+            "title": "Hong Kong Hustle (blog, c. 2009)"
+          }
+        },
+        {
+          "text": "Si no consigues buen sitio, espera al siguiente barco: pasa a los pocos minutos.",
+          "source": {
+            "url": "https://www.hongkonghustle.com/?p=513",
+            "title": "Hong Kong Hustle (blog, c. 2009)"
+          }
+        },
+        {
+          "text": "Para ver más bahía de noche, hay un crucero turístico del Star Ferry aparte del trayecto normal; varios viajeros lo recomiendan con las luces encendidas.",
+          "source": {
+            "url": "https://www.trip.com/guide/attraction/star-ferry-hong-kong.html",
+            "title": "Trip.com, reseñas de usuarios"
+          }
+        }
+      ]
     },
     {
       "id": "pk",
@@ -4469,7 +4892,117 @@
         "osm_id": "node/2131730508",
         "checked": true,
         "note": "Mirador 獅子亭, junto a la Peak Tower"
-      }
+      },
+      "practical": {
+        "how_to_get": "Estación inferior del Peak Tram en Garden Road. Desde metro Central, salida J2: 10–12 minutos a pie por Chater Garden y Garden Road. Desde metro Admiralty, salida C1: a través de Hong Kong Park. Bus 15C desde el muelle del Star Ferry de Central hasta la estación inferior. Alternativas para subir sin tranvía: bus 15 (Citybus) desde Central Pier 5, el muelle del Star Ferry o Exchange Square; o minibús verde 1 desde el sótano de Two IFC.",
+        "payment": "En las taquillas: efectivo y las principales tarjetas. Octopus ya no sirve en los torniquetes (desde el 26 may 2026): solo para comprar billete en taquilla. Bus 15: Octopus o importe exacto.",
+        "passport": null,
+        "rules": "Desde mayo de 2026, para bajar desde la cima funciona el «Peak Tram Easy Queue»: se coge un número (escaneando el billete en un QR o en un quiosco de Peak Tower) y se vuelve en la franja asignada. Sin número, se va por la cola de espera (Stand-by), más lenta.",
+        "before_you_go": "Las colas dependen del tiempo, los festivos y el atardecer. El billete con hora no da prioridad para embarcar. Mira la previsión del Observatorio: las nubes bajas tapan la vista. Ten un plan B para bajar (bus 15, minibús 1 o taxi).",
+        "hours": "Peak Tram: todos los días 7:30–23:00, cada 15–20 minutos. Sky Terrace 428: 8:30–22:00.",
+        "closed_days": null,
+        "booking": "Recomendado comprar online antes: en fines de semana y festivos la cola de taquilla puede pasar de 1 hora. Aun así, el billete online no garantiza saltarse la cola.",
+        "tickets": "Peak Tram (desde el 29 dic 2025): adulto 116 HK$ ida y vuelta, 82 HK$ ida. Niños de 3 a 11 años y mayores de 65: 75 / 52 HK$. Combinado tranvía + Sky Terrace 428 (adulto): 182 HK$ ida y vuelta, 146 HK$ ida. Sky Terrace 428 sola: 80 HK$ (niños y mayores: 50 HK$). Bus 15: 13 HK$ el trayecto completo. El mirador de Lugard Road es gratis.",
+        "duration": "Entre 2,5 y 4,5 horas en total. El bus 15 tarda 40 minutos o más en subir.",
+        "best_time": "Para ver día, atardecer y noche: llegar arriba hacia las 16:45–17:15. Menos cola: entre 8:00 y 10:00; la tarde es lo más concurrido.",
+        "sources": [
+          {
+            "url": "https://news.rthk.hk/rthk/en/component/k2/1837108-20251222.htm",
+            "title": "RTHK: Peak Tram fares to increase from December 29 (22 dic 2025)",
+            "fields": [
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/hongkong/victoria-peak/",
+            "title": "Wander in China: Victoria Peak 2026 (3 oct 2026; tarifas comprobadas el 29 sep 2026)",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "hours",
+              "booking",
+              "tickets",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.hk-victoria-peak.com/peak-tram-hong-kong-ultimate-guide-tickets-schedule",
+            "title": "hk-victoria-peak.com: Peak Tram 2026 (tarifas comprobadas el 6 oct 2026)",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "hours",
+              "tickets",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.dimsumdaily.hk/?p=618328",
+            "title": "Dimsum Daily: el Peak Tram deja de aceptar Octopus en torniquetes desde el 26 may y estrena Easy Queue (20 may 2026)",
+            "fields": [
+              "payment",
+              "rules"
+            ]
+          },
+          {
+            "url": "https://www.hk-victoria-peak.com/bus-15-peak",
+            "title": "hk-victoria-peak.com: Bus 15 to the Peak (sin fecha)",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "tickets",
+              "duration"
+            ]
+          },
+          {
+            "url": "https://hk.trip.com/blog/peak-tram-hk/",
+            "title": "Trip.com blog: 山頂纜車攻略",
+            "fields": [
+              "booking",
+              "how_to_get"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Gratis y con mejor vista que la terraza de pago: el paseo llano por Lugard Road (unos 15 minutos desde Peak Tower) lleva a un mirador sin cristales delante.",
+          "source": {
+            "url": "https://www.wanderinchina.com/destinations/hongkong/victoria-peak/",
+            "title": "Wander in China (oct 2026)"
+          }
+        },
+        {
+          "text": "En el tranvía, siéntate a la derecha al subir y a la izquierda al bajar.",
+          "source": {
+            "url": "https://www.wanderinchina.com/destinations/hongkong/victoria-peak/",
+            "title": "Wander in China (oct 2026)"
+          }
+        },
+        {
+          "text": "Las horas más tranquilas son de 8:00 a 10:00. En festivos, mejor subir antes de las 15:00.",
+          "source": {
+            "url": "https://www.hk-victoria-peak.com/peak-tram-hong-kong-ultimate-guide-tickets-schedule",
+            "title": "hk-victoria-peak.com (2026)"
+          }
+        },
+        {
+          "text": "Para bajar, saca el número de Easy Queue nada más llegar arriba, para no encontrarte una cola larga tras el atardecer.",
+          "source": {
+            "url": "https://www.dimsumdaily.hk/?p=618328",
+            "title": "Dimsum Daily (may 2026)"
+          }
+        },
+        {
+          "text": "El bus 15 es la alternativa barata: en el piso de arriba se ve la ciudad mientras sube por las curvas de Peak Road.",
+          "source": {
+            "url": "https://www.hk-victoria-peak.com/bus-15-peak",
+            "title": "hk-victoria-peak.com, Bus 15"
+          }
+        }
+      ]
     },
     {
       "id": "mon",
@@ -4495,7 +5028,92 @@
         "source": "nominatim",
         "osm_id": "way/296725043",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro Quarry Bay, salida A: girar a la derecha por King's Road; menos de 5 minutos. Alternativa: metro Tai Koo, salida B. Dirección: Yick Cheong Building, 1046 King's Road, Quarry Bay. Se sube por unas escaleras al patio interior.",
+        "payment": null,
+        "passport": null,
+        "rules": "Es propiedad privada con viviendas. Desde 2018 hay un aviso de las comunidades de vecinos de los 5 edificios (海山樓, 福昌樓, 益昌大廈, 益發大廈, 海景樓): no se permite hacer fotos ni grabar sin permiso. En la práctica muchos turistas fotografían; hay que guardar silencio y no bloquear el paso.",
+        "before_you_go": "Vive mucha gente: ir en silencio. En la planta baja hay tiendas. El patio oriental suele estar más tranquilo que el principal.",
+        "hours": null,
+        "closed_days": null,
+        "booking": null,
+        "tickets": null,
+        "duration": null,
+        "best_time": "Primera hora de la mañana o última de la tarde: mejor luz y menos gente.",
+        "sources": [
+          {
+            "url": "https://unwire.hk/2018/01/30/choi-hung-too-many-people/hottopic/",
+            "title": "unwire.hk: aviso de los 5 edificios, «未經許可不得拍照與錄影» (30 ene 2018)",
+            "fields": [
+              "rules"
+            ]
+          },
+          {
+            "url": "https://www.stheadline.com/realtime-property/3463015/",
+            "title": "星島頭條: 鰂魚涌「怪獸大廈」 (2025)",
+            "fields": [
+              "rules"
+            ]
+          },
+          {
+            "url": "https://gatetoadventures.com/hong-kong-quarry-bay-monster-building/",
+            "title": "Gate to Adventures: Monster Building (dic 2021)",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://ca.trip.com/moments/detail/hong-kong-38-138983973",
+            "title": "Trip.com Moments: Monster Building (dic 2025)",
+            "fields": [
+              "how_to_get",
+              "rules",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.timeout.com/hong-kong/attractions/monster-building-yick-cheong-building",
+            "title": "Time Out HK: Monster Building (cartel que pide permiso para fotografiar)",
+            "fields": [
+              "how_to_get",
+              "rules"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Entra hasta el patio central para la foto simétrica clásica y dispara recto hacia arriba desde el centro.",
+          "source": {
+            "url": "https://ca.trip.com/moments/detail/hong-kong-38-138983973",
+            "title": "Trip.com Moments (dic 2025)"
+          }
+        },
+        {
+          "text": "Ve a primera hora o a última de la tarde: mejor luz y menos gente.",
+          "source": {
+            "url": "https://ca.trip.com/moments/detail/hong-kong-38-138983973",
+            "title": "Trip.com Moments (dic 2025)"
+          }
+        },
+        {
+          "text": "Si en el patio principal hay cola para la foto, pasa al patio oriental: suele estar casi vacío y el encuadre hacia el cielo es igual de bueno.",
+          "source": {
+            "url": "https://gatetoadventures.com/hong-kong-quarry-bay-monster-building/",
+            "title": "Gate to Adventures (2021)"
+          }
+        },
+        {
+          "text": "Es la casa de mucha gente: hablad bajo y no taponéis los pasillos.",
+          "source": {
+            "url": "https://ca.trip.com/moments/detail/hong-kong-38-138983973",
+            "title": "Trip.com Moments (dic 2025)"
+          }
+        }
+      ]
     },
     {
       "id": "dim",
@@ -4522,7 +5140,78 @@
         "osm_id": "way/817778729",
         "checked": true,
         "note": "Escaleras mecánicas de Mid-Levels"
-      }
+      },
+      "practical": {
+        "how_to_get": "La escalera mecánica Central–Mid-Levels empieza en Queen's Road Central (junto a Cochrane Street) y sube hasta Conduit Road. Para bajar: escaleras al lado o minibús 3 hasta Central.",
+        "payment": "Luk Yu Tea House (陸羽茶室): acepta tarjeta de crédito; OpenRice lista Visa, Mastercard, efectivo, Octopus, UnionPay y JCB.",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "La escalera es gratis y cubierta, pero cambia de sentido: de 6:00 a 10:00 solo baja (hora punta). Si vas a desayunar temprano, tendrás que subir andando. En Luk Yu se cobra un 10 % de servicio.",
+        "hours": "Escalera: baja de 6:00 a 10:00 y sube de 10:00 a 24:00, todos los días. Luk Yu Tea House (24-26 Stanley St): todos los días 7:00–22:00.",
+        "closed_days": null,
+        "booking": "Luk Yu gestiona sus reservas directamente (por teléfono). Una reseña de ene 2025 cuenta que, con reserva para las 11:30, se encontró cerrado sin aviso: llamar antes.",
+        "price_per_person": null,
+        "dishes": "Luk Yu Tea House: dim sum tradicional (la oferta cambia cada semana), tallarines de arroz salteados con ternera (乾炒牛河) y pollo de piel crujiente (脆皮炸子雞).",
+        "menu": "En Luk Yu el dim sum se pide marcando una hoja impresa (點心紙).",
+        "sources": [
+          {
+            "url": "https://www.td.gov.hk/en/transport_in_hong_kong/pedestrians/hillside_escalator",
+            "title": "Transport Department (oficial): Central to Mid-Levels Escalator and Walkway System",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://hong-kong-traveller.com/midlevels-escalator.html",
+            "title": "Hong Kong Traveller: The Mid-Levels Escalator",
+            "fields": [
+              "how_to_get",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/luk-yu-tea-house",
+            "title": "Guía Michelin: 陸羽茶室 Luk Yu Tea House",
+            "fields": [
+              "payment",
+              "hours",
+              "booking",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://www.openrice.com/zh/hongkong/r-%E9%99%B8%E7%BE%BD%E8%8C%B6%E5%AE%A4-%E4%B8%AD%E7%92%B0-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E9%BB%9E%E5%BF%83-r1966",
+            "title": "OpenRice: 陸羽茶室 (formas de pago, horario, reseñas)",
+            "fields": [
+              "payment",
+              "before_you_go",
+              "hours",
+              "booking",
+              "dishes",
+              "menu"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "En la escalera, para y explora: Staunton Street y Elgin Street (SoHo) y Lyndhurst Terrace están llenas de cafés y restaurantes.",
+          "source": {
+            "url": "https://hong-kong-traveller.com/midlevels-escalator.html",
+            "title": "Hong Kong Traveller"
+          }
+        },
+        {
+          "text": "Luk Yu es mejor como desayuno temprano, como hace la clientela de siempre; al mediodía se llena de turistas.",
+          "source": {
+            "url": "https://www.cathaypacific.com/cx/en_IE/inspiration/dining/best-dim-sum-hong-kong.html",
+            "title": "Cathay Pacific: The best dim sum in Hong Kong"
+          }
+        }
+      ]
     },
     {
       "id": "tra",
@@ -4542,7 +5231,62 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%8F%AE%E5%8F%AE%E8%BD%A6&city=%E9%A6%99%E6%B8%AF"
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%8F%AE%E5%8F%AE%E8%BD%A6&city=%E9%A6%99%E6%B8%AF",
+      "practical": {
+        "how_to_get": "Recorre la orilla norte de la isla entre Kennedy Town y Shau Kei Wan (6 rutas, una con desvío a Happy Valley). Se sube por la puerta trasera y se baja por la delantera.",
+        "payment": "Se paga al bajar, en la puerta delantera. Octopus, efectivo (sin cambio: monedas justas), tarjeta de crédito contactless (Visa, Mastercard, UnionPay, JCB), Apple Pay, Google Pay, Samsung Pay, Huawei Pay y QR (AlipayHK, Alipay, WeChat Pay, UnionPay, BoC Pay).",
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Precio único sin importar la distancia. No dan cambio a bordo.",
+        "hours": "Varía por ruta. Ejemplo: Kennedy Town → Happy Valley, todos los días de 5:00 a 24:00.",
+        "closed_days": "Ninguno: funciona todos los días.",
+        "booking": "No hace falta.",
+        "tickets": "Adulto 3,30 HK$; niños de 3 a 11 años 1,60 HK$; mayores de 65 años 1,50 HK$.",
+        "duration": null,
+        "best_time": null,
+        "sources": [
+          {
+            "url": "https://hktramways.com/en/schedules-fares",
+            "title": "Hong Kong Tramways (oficial): Schedules and Fares",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.moneyhk101.com/tram-fare/",
+            "title": "MoneyHK101: 電車收費2026 (14 jul 2026)",
+            "fields": [
+              "how_to_get",
+              "payment",
+              "before_you_go",
+              "booking",
+              "tickets"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "No pagues al subir: entra por detrás sin pasar la tarjeta y paga al salir por delante, junto al conductor.",
+          "source": {
+            "url": "https://www.moneyhk101.com/tram-fare/",
+            "title": "MoneyHK101 (jul 2026)"
+          }
+        },
+        {
+          "text": "Si pagas en efectivo, lleva el importe justo: la caja no da cambio. Más cómodo con Octopus o tarjeta contactless.",
+          "source": {
+            "url": "https://hktramways.com/en/schedules-fares",
+            "title": "Hong Kong Tramways (oficial)"
+          }
+        }
+      ]
     },
     {
       "id": "raf",
