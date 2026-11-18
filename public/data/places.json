@@ -3516,7 +3516,104 @@
         "source": "nominatim",
         "osm_id": "way/520935699",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro 陈家祠站 (L1 y L8). La salida E es la más directa a la entrada; la D da a la plaza, buena para la foto de la fachada; la F tiene ascensor.",
+        "payment": "La entrada se paga al reservarla online, en la cuenta oficial de WeChat del museo. No consta otra forma de pago.",
+        "passport": "Sí. Hace falta el documento con el que se reservó: los extranjeros enseñan el QR de la reserva junto con el pasaporte.",
+        "rules": "Sin flash dentro de las salas. Hay control de seguridad. Consigna después del control: gratis 30 min, luego 1,5 CNY/hora.",
+        "before_you_go": "Sin reserva no se entra, y si se agotan los cupos online no venden en taquilla. Visitas guiadas gratis a las 10:00 y a las 16:00 (apuntarse allí, plazas limitadas). Audioguía: 20 CNY + 100 CNY de fianza. Guía de pago desde 35 CNY por persona.",
+        "hours": "Del 16 oct al 31 dic: 9:00–17:30 (última entrada 17:00). Turno de mañana: se entra de 9:00 a 14:00; turno de tarde, de 12:00 a 17:00.",
+        "closed_days": "Martes (salvo festivos oficiales). En nuestras fechas cierra el 24 nov y el 1 dic.",
+        "booking": "Obligatoria. Cuenta oficial de WeChat 广东民间工艺博物馆 → «Servicio» → «Reserva de entradas». Un billete por documento y día; hasta 6 por cuenta. Las entradas de terceros no sirven. Se puede anular antes de las 18:00 del día de visita.",
+        "tickets": "Adulto (18–59 años): 10 CNY. Reducida 5 CNY (6–17 años, estudiantes, 60–64 años). Gratis: menores de 6 años o de 1,3 m y mayores de 65, con documento.",
+        "duration": "Entre 1,5 y 2 horas; con prisa, 1 hora.",
+        "best_time": "Entre semana por la mañana, fuera de festivos chinos: hay menos gente. No llegar justo antes del cierre.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/guangzhou152/6772.html",
+            "title": "Ctrip: 陈家祠 (horario por temporadas, cierre de los martes, descuentos, servicios; consultado 18 nov 2026)",
+            "fields": [
+              "hours",
+              "closed_days",
+              "tickets",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.eastchinatrip.com/zh-hant/guangzhou-chen-clan-ancestral-hall-guide/",
+            "title": "East China Trip: Guangzhou Chen Clan Ancestral Hall guide (27 oct 2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets",
+              "rules",
+              "before_you_go",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://goasia.cc/en/article/chen-clan-ancestral-hall",
+            "title": "GoAsia: Chen Clan Ancestral Hall (actualizado 29 oct 2026, cita el aviso del museo del 17 sep 2026)",
+            "fields": [
+              "hours",
+              "closed_days",
+              "booking",
+              "before_you_go",
+              "payment",
+              "tickets"
+            ]
+          },
+          {
+            "url": "https://www.itimaker.com/blog/chen-clan-ancestral-hall-guide",
+            "title": "ItiMaker: Chen Clan Ancestral Hall guide (horario y normas comprobados el 15 oct 2026)",
+            "fields": [
+              "passport",
+              "booking",
+              "tickets",
+              "hours",
+              "closed_days",
+              "duration",
+              "best_time",
+              "payment"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Reserva por WeChat con días de margen: en festivos se agota y en taquilla no venden.",
+          "source": {
+            "url": "https://goasia.cc/en/article/chen-clan-ancestral-hall",
+            "title": "GoAsia (oct 2026)"
+          }
+        },
+        {
+          "text": "Dedícale al menos 2 horas: lo mejor son los detalles de tallas, cerámicas y relieves de los tejados, y con prisa se escapan.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/6772.html",
+            "title": "Ctrip, reseñas de usuarios (2025-2026)"
+          }
+        },
+        {
+          "text": "Si coges entrada con visita guiada, llega puntual: quien llega tarde se queda sin explicación. Las reseñas hablan muy bien de los guías.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/6772.html",
+            "title": "Ctrip, reseñas de usuarios (2025-2026)"
+          }
+        },
+        {
+          "text": "Para la foto de la fachada, sal por la D del metro, que da a la plaza delantera.",
+          "source": {
+            "url": "https://www.eastchinatrip.com/zh-hant/guangzhou-chen-clan-ancestral-hall-guide/",
+            "title": "East China Trip (oct 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "yqf",
@@ -3542,7 +3639,93 @@
         "source": "nominatim",
         "osm_id": "way/1164896995",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro 黄沙站 (L1 y L6), salida B, unos 5–10 min a pie (unos 410 m). Alternativa: 长寿路站 (L1), por el lado de Baohua Road.",
+        "payment": null,
+        "passport": null,
+        "rules": "Hay vecinos viviendo en las casas: habla bajo, no entres por puertas entreabiertas, no te pares a hacer fotos en los portales y pide permiso antes de fotografiar a alguien de cerca.",
+        "before_you_go": "Las calles son libres y gratis. Dentro: Museo de la Ópera Cantonesa (gratis, con reserva) y casa ancestral de Bruce Lee (13 Yongqing First Lane). El Bahe Guild Hall (八和会馆) está cerrado temporalmente.",
+        "hours": "Calles: abiertas todo el día. Museo de la Ópera Cantonesa: 9:00–21:00 (última entrada 20:30). Casa de Bruce Lee: 9:00–21:00 (guía de feb 2026; mira el cartel de la entrada).",
+        "closed_days": "Calles: ninguno. Museo de la Ópera Cantonesa: lunes (salvo festivos).",
+        "booking": "Calles: no. Museo de la Ópera Cantonesa: gratis pero con reserva previa (WeChat); teléfono 020-81820016. Algunas funciones de ópera se reservan aparte.",
+        "tickets": "Calles: gratis. Museo de la Ópera Cantonesa: gratis. Casa de Bruce Lee: por confirmar (mira el cartel de la entrada).",
+        "duration": "Unas 3 horas con una visita a un interior; 4–5 horas con museo, comida y callejones cercanos.",
+        "best_time": "De la tarde a la noche: el atardecer en las calles y, al anochecer, el canal y el puente Luna iluminados. Los lunes el museo está cerrado.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/guangzhou152/5136250.html",
+            "title": "Ctrip: 永庆坊 (abierto todo el día; reseñas 2025-2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "tickets",
+              "booking",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://www.wanderinchina.com/destinations/guangzhou/yongqingfang/",
+            "title": "Wander in China: Yongqingfang Guangzhou 2026 (8 sep 2026)",
+            "fields": [
+              "how_to_get",
+              "rules",
+              "before_you_go",
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets",
+              "duration",
+              "best_time"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/guangzhou152/1482486.html",
+            "title": "Ctrip: 八和会馆 (永庆坊店), marcado como cerrado temporalmente (resultado de búsqueda)",
+            "fields": [
+              "before_you_go"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "La foto estrella es el puente Luna (月亮桥) de noche: con las luces encendidas, el arco y su reflejo forman un círculo.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/5136250.html",
+            "title": "Ctrip, reseñas de usuarios (2025-2026)"
+          }
+        },
+        {
+          "text": "Sube a un mirador elevado del barrio (el «空中楼阁») para ver los tejados de los soportales desde arriba: hay poca gente.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/5136250.html",
+            "title": "Ctrip, reseña de usuario (nov 2025)"
+          }
+        },
+        {
+          "text": "Para comer, los locales recomiendan la piel de pescado de Chen Tian Ji (陈添记) y los fideos de bambú (竹升面) de Baohua (宝华面店). La leche con té en tubo de bambú que se ha hecho viral no merece la pena.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/5136250.html",
+            "title": "Ctrip, reseñas de usuarios (2025-2026)"
+          }
+        },
+        {
+          "text": "En el Museo de la Ópera Cantonesa hay funciones gratis: mira los horarios al llegar.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/5136250.html",
+            "title": "Ctrip, reseñas de usuarios (jul y nov 2025)"
+          }
+        },
+        {
+          "text": "Calzado plano: las calles son de losas de piedra.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/5136250.html",
+            "title": "Ctrip, reseña de usuario (nov 2025)"
+          }
+        }
+      ]
     },
     {
       "id": "sha",
@@ -3568,7 +3751,80 @@
         "source": "nominatim",
         "osm_id": "relation/6679655",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro 黄沙站 (L1 y L6), salida F, 5 min a pie cruzando una pasarela. Alternativa: 文化公园站 (L6 y L8), salida E, unos 5 min.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "La isla es de paso libre. Algunos edificios tienen horario propio: el Shamian Art Center (沙面艺术中心) abre de martes a domingo, 10:00–18:00. La iglesia protestante de Shamian (沙面堂) normalmente solo abre los domingos. El museo de Asuntos Exteriores de Guangdong pide registrarse.",
+        "hours": "Abierta todo el día, todo el año.",
+        "closed_days": "Ninguno (la isla).",
+        "booking": "No hace falta.",
+        "tickets": "Gratis.",
+        "duration": null,
+        "best_time": "De 8:00 a 10:00 o de 16:00 a 18:00: mejor luz y menos gente. De noche, con las farolas encendidas, está muy tranquila.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/guangzhou152/11346.html",
+            "title": "Ctrip: 沙面 (abierto todo el día, gratis; reseñas 2025-2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "closed_days",
+              "booking",
+              "tickets",
+              "best_time",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/guangzhou152/136031729.html",
+            "title": "Ctrip: 沙面艺术中心 (resultado de búsqueda: martes a domingo, 10:00–18:00)",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/sight/guangzhou152/1481701.html",
+            "title": "Ctrip: 基督教沙面会堂 (resultado de búsqueda: abre los domingos)",
+            "fields": [
+              "before_you_go"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Delante del Starbucks hay un alcanforero centenario cuya copa forma un corazón: es la foto más buscada de la isla.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/11346.html",
+            "title": "Ctrip, reseña de usuario (dic 2025)"
+          }
+        },
+        {
+          "text": "El paso de cebra frente al antiguo HSBC (沙面大街54号), con sus columnas y su cúpula, es otro encuadre muy usado.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/11346.html",
+            "title": "Ctrip, reseña de usuario (mar 2026)"
+          }
+        },
+        {
+          "text": "Acaba en el paseo del río (沙面南街), bajo los banianos y frente a Baietan: al atardecer es cuando mejor está.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/11346.html",
+            "title": "Ctrip, descripción y reseñas (2026)"
+          }
+        },
+        {
+          "text": "Entra al vestíbulo del hotel White Swan (白天鹅宾馆), al lado de la isla, a ver la cascada interior.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/11346.html",
+            "title": "Ctrip, reseña de usuario (dic 2025)"
+          }
+        }
+      ]
     },
     {
       "id": "gzr",
@@ -3588,7 +3844,89 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E9%85%92%E5%AE%B6&city=%E5%B9%BF%E5%B7%9E"
+      "amap_search": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E9%85%92%E5%AE%B6&city=%E5%B9%BF%E5%B7%9E",
+      "practical": {
+        "how_to_get": "Restaurante original: 广州酒家 (文昌总店), 荔湾区文昌南路2号, junto a la calle peatonal Shangxiajiu. Metro 长寿路站 (L1), salida A, unos 800 m (11 min a pie). En Amap, buscar «广州酒家(文昌总店)»: hay muchas sucursales con el mismo nombre.",
+        "payment": null,
+        "passport": null,
+        "rules": null,
+        "before_you_go": "Reabrió en noviembre de 2025 tras casi tres años de obras, y en la planta baja abrió un museo de la cocina cantonesa (粤菜博物馆). Los reservados cobran un 10 % de servicio.",
+        "hours": "Todos los días: 8:00–14:30 y 17:00–21:30.",
+        "closed_days": null,
+        "booking": "En sala no hay reserva: se coge número y se espera, a veces 2–4 horas; hay reventas de números en la puerta. Los reservados se piden con 2–3 días de antelación y el fin de semana es difícil conseguir uno.",
+        "price_per_person": "Unos 111 CNY por persona de media (Ctrip). En las reseñas, entre 114 y 200 CNY.",
+        "dishes": "Har gow con brotes de bambú (穗城竹笋尖蒸虾饺皇), pastel de nabo con cecina (瑶柱腊味萝卜糕), ganso asado al carbón (古法碳烧鹅), bollo de char siu (古法笑口叉烧包), siu mai de pescado (鱼肉菊花烧卖). Plato emblema: pollo Wenchang (文昌鸡).",
+        "menu": null,
+        "sources": [
+          {
+            "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/120001/444379.html",
+            "title": "Ctrip Food: 广州酒家(文昌总店) (horario, media 111 CNY, metro; consultado 18 nov 2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "price_per_person",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://you.ctrip.com/food/guangzhou152/444379.html",
+            "title": "Ctrip Food: 广州酒家(文昌总店), platos y reseñas 2023-2026",
+            "fields": [
+              "how_to_get",
+              "before_you_go",
+              "booking",
+              "price_per_person",
+              "dishes"
+            ]
+          },
+          {
+            "url": "https://news.ycwb.com/ikinvjitic/content_53877663.htm",
+            "title": "金羊网: 从「广州酒家」到「粤菜博物馆」 (dic 2025; leído solo a través del resumen de búsqueda)",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://sina.cn/detail/niktyyr0715685",
+            "title": "Sina: guía de dim sum en Guangzhou (jul 2026; leído solo a través del resumen de búsqueda, sin abrir)",
+            "fields": [
+              "before_you_go",
+              "booking"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Prepárate para esperar: las reseñas de 2026 hablan de 2 a 4 horas de cola para mesa. Ve a primera hora o en un día entre semana.",
+          "source": {
+            "url": "https://you.ctrip.com/food/guangzhou152/444379.html",
+            "title": "Ctrip, reseña de usuario (feb 2026)"
+          }
+        },
+        {
+          "text": "En la puerta hay reventa de números de turno: no se los compres a nadie y saca el tuyo en el mostrador.",
+          "source": {
+            "url": "https://you.ctrip.com/food/guangzhou152/444379.html",
+            "title": "Ctrip, reseña de usuario (sep 2026)"
+          }
+        },
+        {
+          "text": "Además del dim sum, pide el pollo Wenchang (文昌鸡), el plato de la casa, de piel tersa y carne jugosa.",
+          "source": {
+            "url": "https://you.ctrip.com/food/guangzhou152/444379.html",
+            "title": "Ctrip, reseñas de usuarios (2023 y jun 2026)"
+          }
+        },
+        {
+          "text": "Mientras esperas, échale un vistazo al museo de la cocina cantonesa de la planta baja.",
+          "source": {
+            "url": "https://you.ctrip.com/food/guangzhou152/444379.html",
+            "title": "Ctrip, reseña de usuario (jun 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "hcg",
@@ -3614,7 +3952,101 @@
         "source": "nominatim",
         "osm_id": "way/243319596",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "APM 花城大道站 (sale en mitad de la plaza) o metro 珠江新城站 (L3 y L5). La salida exacta, por confirmar: las guías dan salidas distintas y algunas eran solo para el festival de luces.",
+        "payment": "Gratis, no hay que pagar nada para estar en la plaza.",
+        "passport": null,
+        "rules": "Con trípode, ponte en el borde de los paseos y obedece si el personal lo prohíbe. No bloquees los accesos de la Ópera. En el festival de luces puede haber zonas con reserva, documento o accesos señalados.",
+        "before_you_go": "Es la plaza central del eje nuevo: Ópera, Biblioteca, Museo de Guangdong y la Canton Tower enfrente, al otro lado del río. Hay muchos restaurantes alrededor. El Festival Internacional de Luces de Guangzhou de 2026 es del 4 al 14 de diciembre: después de nuestro viaje.",
+        "hours": "Abierta todo el día, todo el año.",
+        "closed_days": "Ninguno.",
+        "booking": "No hace falta.",
+        "showtimes": "No hay espectáculo diario fijo: los edificios se iluminan cada noche y los espectáculos sincronizados solo se hacen en fechas concretas (festival de luces). Encendido de la torre: Por confirmar: 19:00–22:30 según una guía, de 19:30 a 22:30 según otra.",
+        "best_spot": "Bajando por el eje central hacia el sur, en dirección a Haixinsha: la torre queda de frente.",
+        "sources": [
+          {
+            "url": "https://gs.ctrip.com/html5/you/sight/152/110543.html",
+            "title": "Ctrip: 花城广场 (abierta todo el día, gratis)",
+            "fields": [
+              "hours",
+              "closed_days",
+              "booking",
+              "payment",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.itimaker.com/blog/huacheng-square-light-show",
+            "title": "ItiMaker: Huacheng Square light show (actualizado 15 oct 2026)",
+            "fields": [
+              "how_to_get",
+              "rules",
+              "showtimes",
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://guangzhoutravel.github.io/travel-blog/guangzhou-metro-to-huacheng-square.htm",
+            "title": "Guangzhou Travel blog: metro to Huacheng Square (resultado de búsqueda)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://news.dayoo.com/guangzhou/202611/03/139995_55019994.htm",
+            "title": "大洋网: rueda de prensa del Festival de Luces 2026 (3 nov 2026)",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://news.dayoo.com/guangzhou/202611/03/139995_55019773.htm",
+            "title": "大洋网: Festival de Luces 2026, del 4 al 14 de diciembre (resultado de búsqueda)",
+            "fields": [
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.chinaxiantour.com/guangzhou-attractions/canton-tower.html",
+            "title": "China Xian Tour: Canton Tower (26 ago 2026), espectáculo LED 19:00–22:30",
+            "fields": [
+              "showtimes"
+            ]
+          },
+          {
+            "url": "https://citiesinsider.com/country/china/guangzhou/pearl-river-nightlife/zh",
+            "title": "Cities Insider: 广州珠江夜生活指南 (2026), luces de 19:30 a 22:30",
+            "fields": [
+              "showtimes"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Llega antes de que oscurezca del todo: así pruebas encuadres mientras el cielo aún tiene color y luego ves encenderse la torre.",
+          "source": {
+            "url": "https://www.itimaker.com/blog/huacheng-square-light-show",
+            "title": "ItiMaker (2026)"
+          }
+        },
+        {
+          "text": "Puedes cenar en la zona y luego pasear por la plaza: hay muchos restaurantes alrededor y de noche es cuando más luce.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/110543.html",
+            "title": "Ctrip, reseñas de usuarios"
+          }
+        },
+        {
+          "text": "Si hay calima o lluvia, la torre sale apagada en las fotos y el suelo resbala: mira la previsión por horas.",
+          "source": {
+            "url": "https://www.itimaker.com/blog/huacheng-square-light-show",
+            "title": "ItiMaker (2026)"
+          }
+        }
+      ]
     },
     {
       "id": "ctw",
@@ -3640,7 +4072,125 @@
         "source": "nominatim",
         "osm_id": "way/584204634",
         "checked": true
-      }
+      },
+      "practical": {
+        "how_to_get": "Metro 广州塔站 (L3 y APM). Dentro de la estación hay salidas señalizadas directamente a la torre. Número de salida: por confirmar. Dirección: 海珠区阅江西路222号. En los días de mucha gente puedes salir por 赤岗塔站 (salida B, unos 6 min a pie hasta la puerta este).",
+        "payment": null,
+        "passport": "Llévalo en original: una guía de 2026 dice que en el control de seguridad no aceptan copias digitales. Para los descuentos (edad, cumpleaños) hay que enseñar el documento original.",
+        "rules": "Control de seguridad al entrar. Deja las maletas en el hotel; hay consigna en la taquilla oeste y taquillas automáticas en la plaza este.",
+        "before_you_go": "Los miradores interiores están en los pisos 428/433 (Baiyun y Xingkong). Arriba: terraza exterior de 450 m, noria horizontal de cápsulas (Bubble Tram, 460 m), terraza de 488 m y caída libre (Sky Drop, 480 m). Hay restaurantes en los pisos 103–107. Sopla viento arriba: lleva una chaqueta.",
+        "hours": "Torre: 9:30–22:30 (última entrada 22:00). Noria: 10:00–22:30; los lunes, 15:00–22:30 (el último lunes del mes, desde las 17:00). Sky Drop: 10:00–22:30; los lunes, desde las 12:00.",
+        "closed_days": "Abre todos los días. Los lunes la noria y el Sky Drop abren más tarde.",
+        "booking": "Se puede comprar online (Ctrip/Trip.com o canales oficiales). Si tu entrada tiene hora, llega 20–30 min antes por el control y los ascensores.",
+        "tickets": "Por confirmar (precios de adulto): 433 m interior, 150 CNY; + terraza de 450 m, 228 CNY; + noria de 460 m, 283–298 CNY; + 488 m, unos 328 CNY; paquete completo («一塔倾城»), 398 CNY. Reducidas (estudiantes, 60–74 años): 433 m, 75 CNY; 450 m, 175 CNY; noria, 250–255 CNY. Niños de 1,2–1,5 m: mitad de precio; menores de 1,2 m, gratis.",
+        "duration": "1,5–2 horas solo los miradores; 2–3 horas con la noria o la terraza de 488 m.",
+        "best_time": "Al atardecer: llega 60–90 min antes de la puesta de sol para ver la ciudad de día, el atardecer y la noche. Entre semana hay menos gente. Con niebla o lluvia no compensan las entradas caras.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/guangzhou152/107540.html",
+            "title": "Ctrip: 广州塔 (horario de hoy, horarios de la noria y el Sky Drop, descuentos, servicios; consultado 18 nov 2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "closed_days",
+              "tickets",
+              "passport",
+              "rules",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.chinaxiantour.com/guangzhou-attractions/canton-tower.html",
+            "title": "China Xian Tour: Canton Tower (actualizado 26 ago 2026)",
+            "fields": [
+              "tickets",
+              "booking",
+              "duration",
+              "best_time",
+              "before_you_go",
+              "rules",
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20250905529020.html",
+            "title": "大河票务网: 2025广州塔门票预订官网 (5 sep 2025)",
+            "fields": [
+              "tickets",
+              "hours",
+              "before_you_go"
+            ]
+          },
+          {
+            "url": "https://www.dahepiao.com/lvyounews1/20251029535719.html",
+            "title": "大河票务网: 2025广州塔460米摩天轮 (29 oct 2025)",
+            "fields": [
+              "tickets",
+              "hours"
+            ]
+          },
+          {
+            "url": "https://m.gz.bendibao.com/tour/jingdianbangdan/",
+            "title": "广州本地宝: 景点榜单 (actualizado ene 2026; leído solo a través del resumen de búsqueda)",
+            "fields": [
+              "tickets",
+              "booking"
+            ]
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Canton_Tower_station",
+            "title": "Wikipedia: Canton Tower station (salidas)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://news.dayoo.com/guangzhou/202610/03/139995_55009753.htm",
+            "title": "大洋网: aviso de Golden Week 2026, salida alternativa por 赤岗塔站 B (resultado de búsqueda)",
+            "fields": [
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://citiesinsider.com/country/china/guangzhou/pearl-river-nightlife/zh",
+            "title": "Cities Insider: 广州珠江夜生活指南 (2026)",
+            "fields": [
+              "passport"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Sube al atardecer: en una visita ves la puesta de sol, el río al anochecer y la ciudad encendida.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/107540.html",
+            "title": "Ctrip, reseñas de usuarios (ago-oct 2026)"
+          }
+        },
+        {
+          "text": "Si no subís, el paseo junto al río al pie de la torre es buen sitio para fotografiar la torre iluminada.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/107540.html",
+            "title": "Ctrip, reseña de usuario (ago 2026)"
+          }
+        },
+        {
+          "text": "Come algo ligero antes y cena después: así no pierdes el turno de tu entrada.",
+          "source": {
+            "url": "https://www.chinaxiantour.com/guangzhou-attractions/canton-tower.html",
+            "title": "China Xian Tour (2026)"
+          }
+        },
+        {
+          "text": "Si te dan miedo las alturas, empieza por los miradores interiores antes de salir a las terrazas exteriores.",
+          "source": {
+            "url": "https://www.chinaxiantour.com/guangzhou-attractions/canton-tower.html",
+            "title": "China Xian Tour (2026)"
+          }
+        }
+      ]
     },
     {
       "id": "prc",
@@ -3661,7 +4211,88 @@
       ],
       "lat": null,
       "lng": null,
-      "amap_search": "https://uri.amap.com/search?keyword=%E7%8F%A0%E6%B1%9F%E5%A4%9C%E6%B8%B8%EF%BC%88%E5%B9%BF%E5%B7%9E%E5%A1%94%E7%A0%81%E5%A4%B4%EF%BC%89&city=%E5%B9%BF%E5%B7%9E"
+      "amap_search": "https://uri.amap.com/search?keyword=%E7%8F%A0%E6%B1%9F%E5%A4%9C%E6%B8%B8%EF%BC%88%E5%B9%BF%E5%B7%9E%E5%A1%94%E7%A0%81%E5%A4%B4%EF%BC%89&city=%E5%B9%BF%E5%B7%9E",
+      "practical": {
+        "how_to_get": "Muelle 珠江夜游广州塔码头 (también llamado «广州塔财富码头»): 海珠区阅江西路222号, en la orilla del río al noreste de la torre. Metro 广州塔站 (L3 y APM). Algunos barcos de la naviera 广州客轮 salen de un punto distinto, «广州塔码头(广州客轮)»: mira el muelle en el billete.",
+        "payment": "Alipay y WeChat Pay (vincula antes una Visa o Mastercard): en los muelles casi no aceptan efectivo.",
+        "passport": "Llévalo en original: una guía de 2026 dice que se pide para embarcar y que no aceptan copias digitales.",
+        "rules": null,
+        "before_you_go": "Si compras online, cambia el billete en la taquilla del muelle: hay mucha gente y cuesta encontrarla, así que ve con tiempo. Cada barco y cada tipo de billete da acceso a cubiertas distintas: la cubierta exterior de arriba no siempre está incluida. Hay snacks y bebida a bordo.",
+        "hours": "Muelle: 18:00–23:40 (última entrada 22:30).",
+        "closed_days": null,
+        "booking": "Recomendable comprar antes en Ctrip/Trip.com o Meituan, y no comprar a los revendedores de la calle.",
+        "tickets": "Ejemplo de Ctrip para el viernes 20-nov-2026, adulto «desde»: 珠江王子号 y 珠江公主号, 137 CNY; 金璟号, 117 CNY; versión «+X» de los mismos barcos, 247 CNY; 吉祥舫 (con cena), 167 CNY; barcos de 广州客轮, 117–137 CNY. Niños: gratis hasta 6 años (sin asiento); de 7 a 13, tarifa reducida.",
+        "duration": "Unos 50 min en la mayoría de los barcos desde este muelle; 60–90 min en los de 广州客轮.",
+        "best_time": "Coge un barco a partir de las 19:00–19:30: los de antes navegan en parte antes de que se enciendan las luces de la ciudad.",
+        "showtimes": "Salidas del viernes 20-nov-2026 (Ctrip): 17:10, 18:25, 18:50, 19:30, 19:45, 20:00, 20:35, 21:00, 21:10, 21:45 y 22:50 (广州塔码头). Barcos de 广州客轮: 18:50, 19:35, 20:10, 20:35, 20:45, 21:25 y 21:55. Cambia según el día: compruébalo al comprar.",
+        "best_spot": "La cubierta exterior de arriba (3.ª planta / «VIP露天»), con la vista más abierta. Comprueba que tu billete la incluye.",
+        "sources": [
+          {
+            "url": "https://you.ctrip.com/sight/guangzhou152/4719347.html",
+            "title": "Ctrip: 珠江夜游广州塔码头 (dirección, horario, descuentos, reseñas 2025-2026; consultado 18 nov 2026)",
+            "fields": [
+              "how_to_get",
+              "hours",
+              "tickets",
+              "duration",
+              "before_you_go",
+              "best_spot"
+            ]
+          },
+          {
+            "url": "https://m.ctrip.com/html5/ship/guangzhou-guangzhou",
+            "title": "Ctrip Ship: horario y precios de los cruceros del 20-nov-2026 (consultado 18 nov 2026)",
+            "fields": [
+              "showtimes",
+              "tickets",
+              "duration",
+              "how_to_get"
+            ]
+          },
+          {
+            "url": "https://citiesinsider.com/country/china/guangzhou/pearl-river-nightlife/zh",
+            "title": "Cities Insider: 广州珠江夜生活指南 (2026)",
+            "fields": [
+              "passport",
+              "payment",
+              "booking",
+              "best_time",
+              "best_spot"
+            ]
+          }
+        ],
+        "verified_at": "2026-11-18"
+      },
+      "tips": [
+        {
+          "text": "Si vas a subir a la torre, este muelle está justo debajo: sales de la torre y embarcas.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/4719347.html",
+            "title": "Ctrip, reseña de usuario (ene 2026)"
+          }
+        },
+        {
+          "text": "Pide billete de la cubierta exterior de arriba: desde dentro o desde la cubierta de abajo se ve bastante menos.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/4719347.html",
+            "title": "Ctrip, reseñas de usuarios (ene y feb 2026)"
+          }
+        },
+        {
+          "text": "Ve con tiempo de sobra: hay tanta gente que cuesta encontrar el embarque y la taquilla, y hay que cambiar el billete en la ventanilla.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/4719347.html",
+            "title": "Ctrip, reseña de usuario (ago 2025)"
+          }
+        },
+        {
+          "text": "Desde este muelle el paseo es corto (unos 50 min): si quieres más rato en el agua, elige uno de los barcos de 60–90 min.",
+          "source": {
+            "url": "https://you.ctrip.com/sight/guangzhou152/4719347.html",
+            "title": "Ctrip, reseña de usuario (feb 2026)"
+          }
+        }
+      ]
     },
     {
       "id": "mky",
