@@ -1,0 +1,104 @@
+.card {
+  margin: 8px 20px 24px;
+  padding: 16px;
+  border-radius: 20px;
+  background: var(--surface-2);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.head {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.icon[data-ready] {
+  background: var(--cat-ver);
+  color: #fff;
+}
+.text {
+  min-width: 0;
+}
+.title {
+  margin: 0;
+  font-size: 15.5px;
+  font-weight: 700;
+}
+.sub {
+  margin: 2px 0 0;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--text-2);
+}
+.button {
+  height: 44px;
+  border-radius: 22px;
+  border: 0;
+  background: var(--cluster);
+  color: var(--cluster-text);
+  font-size: 14.5px;
+  font-weight: 650;
+  cursor: pointer;
+}
+.button:disabled {
+  opacity: 0.5;
+}
+.progress {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.bar {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--hair);
+  overflow: hidden;
+}
+.bar span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  transition: width 200ms linear;
+}
+.progressLabel {
+  font-size: 12.5px;
+  color: var(--text-2);
+}
+.error {
+  margin: 0;
+  font-size: 13px;
+  color: var(--accent-text);
+}
+
+.pill {
+  margin: 0 16px;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  background: var(--cluster);
+  color: var(--cluster-text);
+  font-size: 12.5px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+.pillDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--cat-comer);
+}

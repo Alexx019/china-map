@@ -1,4 +1,6 @@
-import { AttributionControl, Map as MlMap, addProtocol, removeProtocol, type GeoJSONSource } from 'maplibre-gl';
+import { AttributionControl, Map as MlMap, addProtocol, removeProtocol, setWorkerUrl, type GeoJSONSource } from 'maplibre-gl';
+// El worker de MapLibre se carga con una URL que Vite no detecta: se importa como fichero y se le pasa
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import type { FeatureCollection, Point } from 'geojson';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { Protocol } from 'pmtiles';
@@ -10,6 +12,8 @@ import { useIsDark } from '../state/theme';
 import { fitTo, flyToPlace, setMap } from './controller';
 import { MarkerLayer, type PlaceProps } from './markers';
 import { buildStyle, PLACES_SOURCE } from './style';
+
+setWorkerUrl(workerUrl);
 
 const CJK_FONTS = "'PingFang SC', 'Noto Sans SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif";
 

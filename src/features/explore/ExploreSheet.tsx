@@ -6,6 +6,7 @@ import type { Place } from '../../data/types';
 import { useStore } from '../../state/store';
 import { BottomSheet } from '../../ui/BottomSheet';
 import { CATEGORY_LABEL, categoryColor, Icon } from '../../ui/icons';
+import { OfflineCard } from '../offline/OfflineCard';
 import { AmapAction, ZhCard } from '../place/actions';
 import css from './Explore.module.css';
 import { MapButtons } from './MapButtons';
@@ -137,6 +138,7 @@ function RegionBody() {
         ))}
       </div>
       {unlocated.length > 0 && <Unlocated places={unlocated} />}
+      <OfflineCard />
     </>
   );
 }

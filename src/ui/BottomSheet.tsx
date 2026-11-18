@@ -1,5 +1,5 @@
 import { animate, motion, useDragControls, useMotionValue, type PanInfo } from 'motion/react';
-import { useCallback, useEffect, useLayoutEffect, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 import { setBottomInset } from '../map/controller';
 import type { SheetSnap } from '../state/store';
 import css from './BottomSheet.module.css';
@@ -30,6 +30,19 @@ export function BottomSheet({ snap, onSnap, header, children, floating }: Props)
   const y = useMotionValue(h.full - h.peek);
   const controls = useDragControls();
   const [visible, setVisible] = useState(h[snap]);
+  // Alto real de la cabecera (cambia según la vista): el contenido ocupa el resto de lo visible
+  const handleRef = useRef<HTMLDivElement>(null);
+  const [headH, setHeadH] = useState(96);
+  // La hoja sigue por debajo de la barra de pestañas (padding inferior = barra + zona segura)
+  const [padBottom, setPadBottom] = useState(TAB_BAR);
+  useLayoutEffect(() => {
+    const el = handleRef.current;
+    if (!el) return;
+    if (el.parentElement) setPadBottom(parseFloat(getComputedStyle(el.parentElement).paddingBottom) || TAB_BAR);
+    const ro = new ResizeObserver(() => setHeadH(el.offsetHeight));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   useEffect(() => {
     const onResize = () => setH(heights());
@@ -72,7 +85,7 @@ export function BottomSheet({ snap, onSnap, header, children, floating }: Props)
       aria-label="Panel de sitios"
     >
       {floating && <div className={css.floating} data-hidden={snap === 'full' || undefined}>{floating}</div>}
-      <div className={css.handleArea} onPointerDown={(e) => controls.start(e)}>
+      <div ref={handleRef} className={css.handleArea} onPointerDown={(e) => controls.start(e)}>
         <button
           type="button"
           className={css.grabber}
@@ -81,7 +94,7 @@ export function BottomSheet({ snap, onSnap, header, children, floating }: Props)
         />
         {header}
       </div>
-      <div className={css.body} style={{ maxHeight: Math.max(0, visible - 64) }}>
+      <div className={css.body} style={{ maxHeight: Math.max(0, visible - headH - padBottom) }}>
         {children}
       </div>
     </motion.section>

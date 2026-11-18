@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useStore } from '../../state/store';
 import { CATEGORY_LABEL, CATEGORY_ORDER, categoryColor, Icon } from '../../ui/icons';
+import { OfflinePill } from '../offline/OfflineCard';
 import css from './TopBar.module.css';
 
 /** Buscador flotante con selector de región, y debajo los filtros por categoría (maqueta: pantalla 1). */
@@ -112,6 +113,7 @@ export function TopBar() {
           </button>
         ))}
       </div>
+      <OfflinePill />
     </header>
   );
 }
