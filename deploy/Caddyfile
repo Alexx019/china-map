@@ -23,10 +23,11 @@
 	@immutable path /assets/*
 	header @immutable Cache-Control "public, max-age=31536000, immutable"
 
-	# Fase 4: estados y rutas compartidos
-	# handle /api/* {
-	# 	reverse_proxy api:8787
-	# }
+	# Estados y rutas compartidos
+	handle /api/* {
+		header Cache-Control "no-store"
+		reverse_proxy api:8787
+	}
 
 	root * /srv/site
 	try_files {path} /index.html

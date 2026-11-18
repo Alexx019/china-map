@@ -16,6 +16,8 @@ export interface PlaceProps {
   category: CategoryId;
   thumb: string;
   bg: string;
+  /** Estado compartido: '' si no está marcado. */
+  status: string;
 }
 
 interface Entry {
@@ -73,6 +75,8 @@ export class MarkerLayer {
         entry.el.classList.toggle('pin--selected', sel);
         entry.el.style.zIndex = sel ? '5' : photo ? '2' : '1';
         entry.el.setAttribute('aria-pressed', String(sel));
+        const st = (p.status as string) || '';
+        if (entry.el.dataset.status !== st) entry.el.dataset.status = st;
       }
     }
 
@@ -100,6 +104,7 @@ export class MarkerLayer {
       `<span class="pin__dot">${iconSvg(p.category, 14, '#fff', 2.4)}</span>` +
       photo +
       `<span class="pin__badge">${iconSvg(p.category, 10, '#fff', 3)}</span>` +
+      `<span class="pin__status"></span>` +
       `<span class="pin__label"></span>`;
     (el.querySelector('.pin__label') as HTMLElement).textContent = p.name;
     el.addEventListener('click', (e) => {

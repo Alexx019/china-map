@@ -40,7 +40,9 @@ export default defineConfig({
       devOptions: { enabled: false },
     }),
   ],
-  server: { host: true },
+  // En desarrollo, la API (server/index.mjs) corre aparte en el 8787
+  server: { host: true, proxy: { '/api': 'http://127.0.0.1:8787' } },
+  preview: { proxy: { '/api': 'http://127.0.0.1:8787' } },
   // MapLibre 6 carga su worker con new URL(..., import.meta.url): el pre-empaquetado lo rompe
   optimizeDeps: { exclude: ['maplibre-gl'] },
   test: {

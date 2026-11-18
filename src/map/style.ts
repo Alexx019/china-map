@@ -180,8 +180,10 @@ function basemap(isDark: boolean): LayerSpecification[] {
 }
 
 export const PLACES_SOURCE = 'places';
+export const ROUTE_SOURCE = 'route';
+const EMPTY: FeatureCollection = { type: 'FeatureCollection', features: [] };
 
-export function buildStyle(isDark: boolean, places: FeatureCollection): StyleSpecification {
+export function buildStyle(isDark: boolean, places: FeatureCollection, route?: FeatureCollection): StyleSpecification {
   const origin = window.location.origin;
   return {
     version: 8,
@@ -199,9 +201,13 @@ export function buildStyle(isDark: boolean, places: FeatureCollection): StyleSpe
         clusterRadius: 46,
         clusterMaxZoom: 13,
       },
+      [ROUTE_SOURCE]: { type: 'geojson', data: route ?? EMPTY },
     },
     layers: [
       ...basemap(isDark),
+      // Ruta del grupo abierta: línea con borde, debajo de los marcadores
+      { id: 'route-casing', type: 'line', source: ROUTE_SOURCE, layout: { 'line-join': 'round', 'line-cap': 'round' }, paint: { 'line-color': isDark ? '#14181F' : '#FFFFFF', 'line-width': 8 } },
+      { id: 'route-line', type: 'line', source: ROUTE_SOURCE, layout: { 'line-join': 'round', 'line-cap': 'round' }, paint: { 'line-color': '#D23A2A', 'line-width': 4 } },
       // Capa invisible: hace que se carguen los sitios. Los marcadores se dibujan en HTML (markers.ts)
       { id: 'places-anchor', type: 'circle', source: PLACES_SOURCE, paint: { 'circle-radius': 1, 'circle-opacity': 0 } },
     ],

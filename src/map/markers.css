@@ -102,6 +102,58 @@
   height: 56px;
 }
 
+/* Estado compartido */
+.pin__status {
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--marker-ring);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.pin[data-status='queremos'] .pin__status {
+  display: flex;
+  background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z'/%3E%3C/svg%3E") center / 10px no-repeat;
+}
+.pin[data-status='visitado'] .pin__status {
+  display: flex;
+  background: var(--cat-ver) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E") center / 10px no-repeat;
+}
+.pin[data-status='visitado'] .pin__dot,
+.pin[data-status='visitado'] .pin__photo {
+  opacity: 0.6;
+}
+.pin[data-status='quiza']::after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  border: 2px dashed var(--text-2);
+  pointer-events: none;
+}
+
+/* Paradas de la ruta abierta */
+.stop {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2.5px solid #fff;
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--marker-shadow);
+  pointer-events: none;
+}
+
 /* Agrupaciones */
 .cluster {
   width: 36px;

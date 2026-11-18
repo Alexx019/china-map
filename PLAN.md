@@ -58,10 +58,10 @@ Los datos (`public/data/`) van fuera del código: la investigación y los sitios
 
 ## Fase 4. Estados y rutas compartidos
 
-- [ ] API en Node con SQLite: `status` y `routes`
-- [ ] Sincronización con cola local (funciona sin conexión; gana el último cambio)
-- [ ] Estados en el marcador, la ficha, los filtros y la pestaña Guardados
-- [ ] Rutas con nombre: crear, ordenar arrastrando, dibujarlas en el mapa y abrir cada tramo en Amap.
+- [x] API en Node con SQLite: `status` y `routes`
+- [x] Sincronización con cola local (funciona sin conexión; gana el último cambio)
+- [x] Estados en el marcador, la ficha, los filtros y la pestaña Guardados
+- [x] Rutas con nombre: crear, ordenar arrastrando, dibujarlas en el mapa y abrir cada tramo en Amap.
   La app nunca propone rutas.
 
 ## Fase 5. Repaso antes de salir

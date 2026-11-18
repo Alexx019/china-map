@@ -7,8 +7,9 @@ import { useStore, type Route } from './store';
 //   #/sitio/<id>                    sitio elegido (vista previa en la hoja)
 //   #/ficha/<id>[/foto/<n>]         ficha completa [y visor]
 //   #/fotos/<zona>[/region][/foto/<n>]   mood board [de toda la región] [y visor]
+//   #/ruta/<id>                     ruta del grupo
 
-const EMPTY: Route = { selectedId: null, zoneId: null, ficha: false, mood: null, viewer: null };
+const EMPTY: Route = { selectedId: null, zoneId: null, ficha: false, mood: null, viewer: null, routeId: null };
 
 export function parseHash(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
@@ -22,6 +23,8 @@ export function parseHash(hash: string): Route {
       return id ? { ...EMPTY, selectedId: id } : EMPTY;
     case 'ficha':
       return id ? { ...EMPTY, selectedId: id, ficha: true, viewer } : EMPTY;
+    case 'ruta':
+      return id ? { ...EMPTY, routeId: id } : EMPTY;
     case 'fotos':
       return id ? { ...EMPTY, zoneId: id, mood: { zone: id, scope: parts[2] === 'region' ? 'region' : 'zona' }, viewer } : EMPTY;
     default:
@@ -35,12 +38,13 @@ export function hashFor(r: Route): string {
   if (r.mood) return `#/fotos/${e(r.mood.zone)}${r.mood.scope === 'region' ? '/region' : ''}${foto}`;
   if (r.selectedId && r.ficha) return `#/ficha/${e(r.selectedId)}${foto}`;
   if (r.selectedId) return `#/sitio/${e(r.selectedId)}`;
+  if (r.routeId) return `#/ruta/${e(r.routeId)}`;
   if (r.zoneId) return `#/zona/${e(r.zoneId)}`;
   return '';
 }
 
 /** Profundidad: cuanto más «dentro», más alta. Abrir algo más profundo apila una entrada del historial. */
-const depth = (r: Route) => (r.zoneId ? 1 : 0) + (r.selectedId ? 2 : 0) + (r.ficha ? 3 : 0) + (r.mood ? 3 : 0) + (r.viewer != null ? 4 : 0);
+const depth = (r: Route) => (r.zoneId ? 1 : 0) + (r.selectedId ? 2 : 0) + (r.ficha ? 3 : 0) + (r.mood ? 3 : 0) + (r.viewer != null ? 4 : 0) + (r.routeId ? 2 : 0);
 
 const routeOf = (s: Route): Route => ({
   selectedId: s.selectedId,
@@ -48,6 +52,7 @@ const routeOf = (s: Route): Route => ({
   ficha: s.ficha,
   mood: s.mood,
   viewer: s.viewer,
+  routeId: s.routeId,
 });
 
 export function useHashNav() {

@@ -189,3 +189,10 @@
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+.chipSep {
+  flex-shrink: 0;
+  width: 1px;
+  margin: 6px 2px;
+  background: var(--hair);
+}

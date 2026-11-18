@@ -411,3 +411,13 @@
   gap: 4px;
   cursor: pointer;
 }
+
+.rowLi {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.rowLi > .row {
+  flex: 1;
+  min-width: 0;
+}

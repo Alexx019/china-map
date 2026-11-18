@@ -1,8 +1,11 @@
 # Despliegue en la Raspberry
 
 La web se sirve con **Caddy** en Docker: HTTPS automático (Let's Encrypt), contraseña para toda la web
-y cabeceras para que no la indexe nadie. En la fase 4 se añade al mismo `docker-compose.yml` la API de
-estados y rutas.
+y cabeceras para que no la indexe nadie. Al lado corre la **API** de estados y rutas (`server/index.mjs`,
+Node sin dependencias + SQLite en el volumen `api_data`), detrás de la misma contraseña en `/api`.
+
+Copia de seguridad de los estados y rutas:
+`docker compose exec api sh -c 'cat /data/china-map.db' > china-map-$(date +%F).db`
 
 ## Lo que hace falta de la Pi (pedir a Alex)
 

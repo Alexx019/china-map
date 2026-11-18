@@ -14,7 +14,20 @@ services:
       - ./site:/srv/site:ro
       - caddy_data:/data
       - caddy_config:/config
+    depends_on:
+      - api
+
+  # Estados y rutas compartidos (SQLite en un volumen: sobrevive a reinicios y despliegues)
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    restart: unless-stopped
+    volumes:
+      - api_data:/data
+      - ./site:/site:ro
 
 volumes:
+  api_data:
   caddy_data:
   caddy_config:

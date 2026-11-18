@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useStore } from '../../state/store';
 import { CATEGORY_LABEL, CATEGORY_ORDER, categoryColor, Icon } from '../../ui/icons';
 import { OfflinePill } from '../offline/OfflineCard';
+import { STATUS } from '../shared/StatusPicker';
 import css from './TopBar.module.css';
 
 /** Buscador flotante con selector de región, y debajo los filtros por categoría (maqueta: pantalla 1). */
@@ -15,6 +16,8 @@ export function TopBar() {
   const categories = useStore((s) => s.categories);
   const toggleCategory = useStore((s) => s.toggleCategory);
   const clearCategories = useStore((s) => s.clearCategories);
+  const statusFilter = useStore((s) => s.statusFilter);
+  const toggleStatus = useStore((s) => s.toggleStatusFilter);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -96,7 +99,7 @@ export function TopBar() {
         </div>
       </div>
 
-      <div className={css.chips} role="group" aria-label="Filtrar por categoría">
+      <div className={css.chips} role="group" aria-label="Filtros">
         <button type="button" className={css.chip} aria-pressed={categories.length === 0} onClick={clearCategories}>
           Todos
         </button>
@@ -110,6 +113,13 @@ export function TopBar() {
           >
             <span className={css.dot} style={{ background: categoryColor(c) }} />
             {CATEGORY_LABEL[c]}
+          </button>
+        ))}
+        <span className={css.chipSep} aria-hidden="true" />
+        {STATUS.map((st) => (
+          <button key={st.id} type="button" className={css.chip} aria-pressed={statusFilter.includes(st.id)} onClick={() => toggleStatus(st.id)}>
+            <Icon name={st.icon} size={15} stroke={2.2} />
+            {st.label}
           </button>
         ))}
       </div>

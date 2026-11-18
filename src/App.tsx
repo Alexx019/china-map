@@ -11,6 +11,8 @@ import { useHashNav } from './state/nav';
 import { useStore } from './state/store';
 import { useApplyTheme } from './state/theme';
 import { TabBar } from './ui/TabBar';
+import { NameDialog } from './features/shared/NameDialog';
+import { startSync } from './state/shared';
 
 export function App() {
   const setData = useStore((s) => s.setData);
@@ -19,6 +21,7 @@ export function App() {
 
   useApplyTheme();
   useHashNav();
+  useEffect(() => startSync(), []);
 
   useEffect(() => {
     Promise.all([loadTripData(), loadPhotoManifest()]).then(
@@ -47,6 +50,7 @@ export function App() {
           <PlaceScreen />
           <MoodBoard />
           <PhotoViewer />
+          <NameDialog />
         </>
       )}
     </>

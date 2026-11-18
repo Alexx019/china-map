@@ -8,8 +8,12 @@ import { BottomSheet } from '../../ui/BottomSheet';
 import { CATEGORY_LABEL, categoryColor, Icon } from '../../ui/icons';
 import { OfflineCard } from '../offline/OfflineCard';
 import { AmapAction, ZhCard } from '../place/actions';
+import { RoutesBody, RoutesHeader } from '../routes/RoutesView';
+import { SavedBody, SavedHeader } from '../saved/SavedView';
+import { StatusPicker } from '../shared/StatusPicker';
 import css from './Explore.module.css';
 import { MapButtons } from './MapButtons';
+import { PlaceRow } from './PlaceRow';
 
 export function ExploreSheet() {
   const data = useStore((s) => s.data);
@@ -24,7 +28,8 @@ export function ExploreSheet() {
   const selected = selectedId ? data.places.find((p) => p.id === selectedId) : undefined;
 
   let view: { header: React.ReactNode; body: React.ReactNode };
-  if (tab !== 'explorar') view = comingSoon(tab);
+  if (tab === 'guardados') view = { header: <SavedHeader />, body: <SavedBody /> };
+  else if (tab === 'rutas') view = { header: <RoutesHeader />, body: <RoutesBody /> };
   else if (selected) view = placeView(selected);
   else if (query.trim()) view = searchView();
   else if (zoneId) view = zoneView();
@@ -51,22 +56,6 @@ function searchView() {
 function placeView(p: Place) {
   return { header: <PlaceHeader place={p} />, body: <PlaceBody place={p} /> };
 }
-function comingSoon(tab: string) {
-  const title = tab === 'guardados' ? 'Guardados' : 'Rutas';
-  const text =
-    tab === 'guardados'
-      ? 'Aquí saldrán los sitios marcados como «Queremos ir», «Quizá» y «Visitado», compartidos entre los cuatro.'
-      : 'Aquí saldrán las rutas que hagáis vosotros: elegir sitios, ordenarlos y abrir cada tramo en Amap.';
-  return {
-    header: (
-      <div className={css.head}>
-        <h1 className={css.title}>{title}</h1>
-      </div>
-    ),
-    body: <p className={css.empty}>{text} Llega en la próxima fase.</p>,
-  };
-}
-
 /* ---------- Región ---------- */
 
 function useScopePlaces(filter: (p: Place) => boolean) {
@@ -258,6 +247,7 @@ function PlaceBody({ place }: { place: Place }) {
   return (
     <div className={css.place}>
       <ZhCard place={place} />
+      <StatusPicker placeId={place.id} />
       <AmapAction place={place} />
       <button type="button" className={css.fichaBtn} onClick={() => openFicha(place.id)}>
         Ver ficha completa
@@ -320,42 +310,6 @@ function PlaceCard({ place }: { place: Place }) {
         {CATEGORY_LABEL[place.category]}
       </span>
     </button>
-  );
-}
-
-function PlaceRow({ place, showZone }: { place: Place; showZone?: boolean }) {
-  const data = useStore((s) => s.data)!;
-  const photos = useStore((s) => s.photos);
-  const select = useStore((s) => s.select);
-  const setSheet = useStore((s) => s.setSheet);
-  const setQuery = useStore((s) => s.setQuery);
-  const ph = place.photos[0];
-  const zone = data.zones.find((z) => z.id === place.zone);
-  return (
-    <li>
-      <button
-        type="button"
-        className={css.row}
-        onClick={() => {
-          select(place.id);
-          setQuery('');
-          setSheet('half');
-        }}
-      >
-        <span className={css.rowImg} style={{ background: photoBackground(ph ? photos[ph] : undefined) }}>
-          {ph && <img src={thumbUrl(ph, 's')} alt="" loading="lazy" />}
-        </span>
-        <span className={css.rowText}>
-          <span className={css.rowName}>{place.name}</span>
-          <span className={css.rowMeta}>
-            <span className={css.dot} style={{ background: categoryColor(place.category) }} />
-            {CATEGORY_LABEL[place.category]}
-            {showZone && zone ? ` · ${zone.name}` : ''}
-            {!isLocated(place) ? ' · sin ubicar' : ''}
-          </span>
-        </span>
-      </button>
-    </li>
   );
 }
 

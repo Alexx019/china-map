@@ -10,7 +10,8 @@
     "preview": "vite preview --host",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "check-data": "node scripts/check-data.mjs"
+    "check-data": "node scripts/check-data.mjs",
+    "api": "PLACES_PATH=public/data/places.json DB_PATH=.cache/dev.db node server/index.mjs"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",

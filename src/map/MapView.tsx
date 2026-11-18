@@ -1,7 +1,8 @@
-import { AttributionControl, Map as MlMap, addProtocol, removeProtocol, setWorkerUrl, type GeoJSONSource } from 'maplibre-gl';
+import { AttributionControl, Map as MlMap, Marker, addProtocol, removeProtocol, setWorkerUrl, type GeoJSONSource } from 'maplibre-gl';
 // El worker de MapLibre se carga con una URL que Vite no detecta: se importa como fichero y se le pasa
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
-import type { FeatureCollection, Point } from 'geojson';
+import type { FeatureCollection, LineString, Point } from 'geojson';
+import { useShared } from '../state/shared';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { Protocol } from 'pmtiles';
 import { useEffect, useMemo, useRef } from 'react';
@@ -11,7 +12,7 @@ import { useStore } from '../state/store';
 import { useIsDark } from '../state/theme';
 import { fitTo, flyToPlace, setMap } from './controller';
 import { MarkerLayer, type PlaceProps } from './markers';
-import { buildStyle, PLACES_SOURCE } from './style';
+import { buildStyle, PLACES_SOURCE, ROUTE_SOURCE } from './style';
 
 setWorkerUrl(workerUrl);
 
@@ -25,6 +26,10 @@ export function MapView() {
   const data = useStore((s) => s.data);
   const photos = useStore((s) => s.photos);
   const categories = useStore((s) => s.categories);
+  const statusFilter = useStore((s) => s.statusFilter);
+  const statuses = useShared((s) => s.statuses);
+  const routeId = useStore((s) => s.routeId);
+  const route = useShared((s) => (routeId ? s.routes[routeId] : undefined));
   const regionId = useStore((s) => s.regionId);
   const zoneId = useStore((s) => s.zoneId);
   const selectedId = useStore((s) => s.selectedId);
@@ -32,7 +37,14 @@ export function MapView() {
 
   // Sitios con coordenadas, filtrados por categoría
   const places = useMemo<FeatureCollection<Point, PlaceProps>>(() => {
-    const list = (data?.places ?? []).filter(isLocated).filter((p) => !categories.length || categories.includes(p.category));
+    const list = (data?.places ?? [])
+      .filter(isLocated)
+      .filter((p) => !categories.length || categories.includes(p.category))
+      .filter((p) => {
+        if (!statusFilter.length) return true;
+        const v = statuses[p.id]?.value;
+        return v ? statusFilter.includes(v) : false;
+      });
     return {
       type: 'FeatureCollection',
       features: list.map((p) => ({
@@ -44,13 +56,30 @@ export function MapView() {
           category: p.category,
           thumb: p.photos[0] ? thumbUrl(p.photos[0], 's') : '',
           bg: photoBackground(photos[p.photos[0]]),
+          status: statuses[p.id]?.value ?? '',
         },
       })),
     };
-  }, [data, photos, categories]);
+  }, [data, photos, categories, statusFilter, statuses]);
 
-  const latest = useRef({ places, dark });
-  latest.current = { places, dark };
+  // Ruta abierta: paradas con coordenadas, en orden
+  const routeStops = useMemo(() => {
+    if (!data || !route || route.deleted) return [];
+    return route.stops.map((id) => data.places.find((p) => p.id === id)).filter((p) => p !== undefined).filter(isLocated);
+  }, [data, route]);
+  const routeLine = useMemo<FeatureCollection<LineString>>(
+    () => ({
+      type: 'FeatureCollection',
+      features:
+        routeStops.length > 1
+          ? [{ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: routeStops.map((p) => [p.lng, p.lat]) } }]
+          : [],
+    }),
+    [routeStops],
+  );
+
+  const latest = useRef({ places, dark, routeLine });
+  latest.current = { places, dark, routeLine };
 
   // Crear el mapa una vez hay datos
   useEffect(() => {
@@ -62,7 +91,7 @@ export function MapView() {
     const initial = boundsOf(data.places.filter((p) => p.region === state.regionId)) ?? TILE_BOUNDS;
     const map = new MlMap({
       container: container.current,
-      style: buildStyle(latest.current.dark, latest.current.places),
+      style: buildStyle(latest.current.dark, latest.current.places, latest.current.routeLine),
       bounds: initial,
       fitBoundsOptions: { padding: { top: 176, bottom: 330, left: 36, right: 36 } },
       maxBounds: [
@@ -105,7 +134,7 @@ export function MapView() {
 
   // Claro / oscuro sin recrear el mapa
   useEffect(() => {
-    mapRef.current?.setStyle(buildStyle(dark, latest.current.places), { diff: true });
+    mapRef.current?.setStyle(buildStyle(dark, latest.current.places, latest.current.routeLine), { diff: true });
   }, [dark]);
 
   // Filtros
@@ -136,6 +165,32 @@ export function MapView() {
       if (b) fitTo(b, 14);
     }
   }, [data, regionId, zoneId, selectedId]);
+
+  // Ruta: línea + paradas numeradas; al abrirla, encuadre de todas las paradas
+  const stopMarkers = useRef<Marker[]>([]);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    (map.getSource(ROUTE_SOURCE) as GeoJSONSource | undefined)?.setData(routeLine);
+    for (const m of stopMarkers.current) m.remove();
+    stopMarkers.current = routeStops.map((p, i) => {
+      const el = document.createElement('div');
+      el.className = 'stop';
+      el.textContent = String(i + 1);
+      // Encima del marcador del sitio, sin taparlo
+      return new Marker({ element: el, offset: [0, -34] }).setLngLat([p.lng, p.lat]).addTo(map);
+    });
+  }, [routeLine, routeStops]);
+  const fittedRoute = useRef<string | null>(null);
+  useEffect(() => {
+    // Encuadrar al abrir la ruta y cada vez que cambia el número de paradas
+    const key = routeId ? `${routeId}:${routeStops.length}` : null;
+    if (!key) fittedRoute.current = null;
+    if (!key || fittedRoute.current === key || !routeStops.length) return;
+    fittedRoute.current = key;
+    const b = boundsOf(routeStops);
+    if (b) fitTo(b, 16);
+  }, [routeId, routeStops]);
 
   return <div ref={container} style={{ position: 'absolute', inset: 0 }} aria-label="Mapa" role="region" />;
 }

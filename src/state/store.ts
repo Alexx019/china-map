@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { AmapMode } from '../data/amap';
 import type { PhotoManifest } from '../data/photos';
-import type { CategoryId, TripData } from '../data/types';
+import type { CategoryId, Status, TripData } from '../data/types';
 
 export type ThemePref = 'auto' | 'light' | 'dark';
 export type Tab = 'explorar' | 'guardados' | 'rutas';
@@ -18,6 +18,8 @@ export interface Route {
   mood: { zone: string; scope: 'zona' | 'region' } | null;
   /** Foto abierta en el visor (de la ficha o del mood board). */
   viewer: number | null;
+  /** Ruta del grupo abierta en la pestaña Rutas. */
+  routeId: string | null;
 }
 
 interface AppState {
@@ -27,6 +29,8 @@ interface AppState {
   zoneId: string | null;
   /** Vacío = todas las categorías. */
   categories: CategoryId[];
+  /** Vacío = todos (marcados o no). */
+  statusFilter: Status[];
   query: string;
   selectedId: string | null;
   theme: ThemePref;
@@ -36,6 +40,11 @@ interface AppState {
   ficha: boolean;
   mood: Route['mood'];
   viewer: number | null;
+  routeId: string | null;
+  /** Añadiendo paradas a la ruta abierta (la hoja muestra la lista de sitios). */
+  addingStops: boolean;
+  /** Pide el nombre de quien usa el móvil y luego sigue con la acción. */
+  askName: (() => void) | null;
 
   setData: (data: TripData, photos: PhotoManifest) => void;
   setRegion: (id: string) => void;
@@ -55,6 +64,10 @@ interface AppState {
   openViewer: (index: number) => void;
   setViewer: (index: number | null) => void;
   applyRoute: (r: Route) => void;
+  toggleStatusFilter: (s: Status) => void;
+  openRoute: (id: string | null) => void;
+  setAddingStops: (v: boolean) => void;
+  setAskName: (fn: (() => void) | null) => void;
 }
 
 export const useStore = create<AppState>()(
@@ -65,6 +78,7 @@ export const useStore = create<AppState>()(
       regionId: 'sz',
       zoneId: null,
       categories: [],
+      statusFilter: [],
       query: '',
       selectedId: null,
       theme: 'auto',
@@ -74,6 +88,9 @@ export const useStore = create<AppState>()(
       ficha: false,
       mood: null,
       viewer: null,
+      routeId: null,
+      addingStops: false,
+      askName: null,
 
       setData: (data, photos) => {
         const regionOk = data.regions.some((r) => r.id === get().regionId);
@@ -112,13 +129,20 @@ export const useStore = create<AppState>()(
       setViewer: (index) => set({ viewer: index }),
       applyRoute: (r) => {
         const place = r.selectedId ? get().data?.places.find((p) => p.id === r.selectedId) : undefined;
-        set({ ...r, ...(place ? { regionId: place.region } : {}) });
+        set({ ...r, ...(place ? { regionId: place.region } : {}), ...(r.routeId ? { tab: 'rutas' as Tab } : {}) });
       },
+      toggleStatusFilter: (st) => {
+        const cur = get().statusFilter;
+        set({ statusFilter: cur.includes(st) ? cur.filter((x) => x !== st) : [...cur, st] });
+      },
+      openRoute: (id) => set({ routeId: id, addingStops: false, selectedId: null, ficha: false, ...(id ? { tab: 'rutas' as Tab } : {}) }),
+      setAddingStops: (v) => set({ addingStops: v }),
+      setAskName: (fn) => set({ askName: fn }),
     }),
     {
       name: 'china-map:ui',
       // Solo preferencias de cada móvil; los datos se cargan siempre de /data
-      partialize: (s) => ({ regionId: s.regionId, theme: s.theme, amapMode: s.amapMode, categories: s.categories }),
+      partialize: (s) => ({ regionId: s.regionId, theme: s.theme, amapMode: s.amapMode, categories: s.categories, statusFilter: s.statusFilter }),
     },
   ),
 );

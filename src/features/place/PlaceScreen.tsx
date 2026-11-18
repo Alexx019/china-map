@@ -7,6 +7,8 @@ import { CATEGORY_LABEL, categoryColor, Icon } from '../../ui/icons';
 import { AmapAction, AmapLink, amapCompactClass, ZhCard } from './actions';
 import css from './Place.module.css';
 import { PracticalSection, TipsSection } from './Practical';
+import { AddToRouteButton } from '../routes/AddToRoute';
+import { StatusPicker } from '../shared/StatusPicker';
 
 const spring = { type: 'spring', stiffness: 380, damping: 40 } as const;
 
@@ -149,13 +151,11 @@ function Ficha({ place, data }: { place: Place; data: TripData }) {
           <h1 className={css.title}>{place.name}</h1>
 
           <ZhCard place={place} />
+          <StatusPicker placeId={place.id} />
           <AmapAction place={place} />
 
           <div className={css.secondary}>
-            <button type="button" className={css.secondaryBtn} onClick={closeFicha}>
-              <Icon name="map" size={17} />
-              Ver en el mapa
-            </button>
+            <AddToRouteButton place={place} className={css.secondaryBtn} />
             <button type="button" className={css.secondaryBtn} onClick={() => openMood(place.zone)}>
               <Icon name="images" size={17} />
               Fotos de la zona

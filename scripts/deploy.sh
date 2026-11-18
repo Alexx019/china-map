@@ -20,6 +20,7 @@ fi
 npm run build
 ssh "$PI_SSH" "mkdir -p '$PI_DIR/site'"
 rsync -az --delete --info=stats1 dist/ "$PI_SSH:$PI_DIR/site/"
-rsync -az deploy/Caddyfile deploy/docker-compose.yml "$PI_SSH:$PI_DIR/"
-ssh "$PI_SSH" "cd '$PI_DIR' && test -f .env || { echo 'Falta $PI_DIR/.env (ver deploy/.env.example)'; exit 1; }; docker compose up -d && docker compose exec -T caddy caddy reload --config /etc/caddy/Caddyfile"
+rsync -az deploy/Caddyfile deploy/docker-compose.yml deploy/Dockerfile.api "$PI_SSH:$PI_DIR/"
+rsync -az server/index.mjs "$PI_SSH:$PI_DIR/server/"
+ssh "$PI_SSH" "cd '$PI_DIR' && test -f .env || { echo 'Falta $PI_DIR/.env (ver deploy/.env.example)'; exit 1; }; docker compose up -d --build && docker compose exec -T caddy caddy reload --config /etc/caddy/Caddyfile"
 echo "Publicado."
