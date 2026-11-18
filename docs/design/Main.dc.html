@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Explorar el mapa</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; position: relative; overflow: hidden; background: {{t.land}}; color: {{t.text}}; font-family: 'Geist', 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', system-ui, sans-serif; -webkit-font-smoothing: antialiased">
+
+<svg width="390" height="844" viewBox="0 0 390 844" aria-hidden="true" style="position: absolute; left: 0; top: 0">
+<rect x="0" y="0" width="390" height="844" fill="{{t.land}}"></rect>
+<g stroke="{{t.minor}}" stroke-width="2.5" fill="none" stroke-linecap="round">
+<path d="M150 40 L380 62"></path>
+<path d="M140 96 L390 122"></path>
+<path d="M176 156 L390 164"></path>
+<path d="M206 292 L390 304"></path>
+<path d="M188 0 L214 300"></path>
+<path d="M320 0 L330 300"></path>
+<path d="M362 0 L366 300"></path>
+<path d="M90 60 L112 200"></path>
+<path d="M30 30 L56 210"></path>
+<path d="M120 236 L210 226"></path>
+<path d="M226 230 L330 236"></path>
+</g>
+<path d="M232 128 C 262 118 292 124 300 146 C 306 168 286 184 262 186 C 238 188 222 172 222 154 C 222 142 226 132 232 128 Z" fill="{{t.park}}"></path>
+<path d="M300 318 C 330 310 362 316 374 332 C 380 350 362 362 336 360 C 312 358 296 346 296 334 C 296 328 298 322 300 318 Z" fill="{{t.park}}"></path>
+<path d="M0 236 C 40 244 62 262 74 292 C 90 330 104 372 150 404 C 196 436 250 452 320 448 C 352 446 376 440 390 436 L 390 844 L 0 844 Z" fill="{{t.water}}"></path>
+<path d="M156 398 C 200 426 252 440 318 438" stroke="{{t.park}}" stroke-width="9" fill="none" stroke-linecap="round"></path>
+<path d="M390 288 C 362 298 346 314 336 338 C 328 362 332 400 342 444" stroke="{{t.water}}" stroke-width="9" fill="none"></path>
+<g stroke="{{t.roadCase}}" stroke-width="10" fill="none" stroke-linecap="round">
+<path d="M0 196 C 120 186 260 206 390 194"></path>
+<path d="M120 0 C 128 90 150 170 196 250 C 230 310 262 360 300 420"></path>
+<path d="M262 0 C 266 120 270 240 276 400"></path>
+<path d="M96 330 C 180 318 290 330 390 352"></path>
+</g>
+<g stroke="{{t.road}}" stroke-width="6.5" fill="none" stroke-linecap="round">
+<path d="M0 196 C 120 186 260 206 390 194"></path>
+<path d="M120 0 C 128 90 150 170 196 250 C 230 310 262 360 300 420"></path>
+<path d="M262 0 C 266 120 270 240 276 400"></path>
+<path d="M96 330 C 180 318 290 330 390 352"></path>
+</g>
+</svg>
+
+<div style="position: absolute; left: 22px; top: 176px; font-size: 13px; font-weight: 600; letter-spacing: 0.01em; color: {{t.label}}; text-shadow: 0 0 3px {{t.halo}}, 0 0 3px {{t.halo}}">Bao'an</div>
+<div style="position: absolute; left: 116px; top: 372px; font-size: 13px; font-weight: 600; letter-spacing: 0.01em; color: {{t.label}}; text-shadow: 0 0 3px {{t.halo}}, 0 0 3px {{t.halo}}">Nanshan</div>
+<div style="position: absolute; left: 276px; top: 270px; font-size: 13px; font-weight: 600; letter-spacing: 0.01em; color: {{t.label}}; text-shadow: 0 0 3px {{t.halo}}, 0 0 3px {{t.halo}}">Futian</div>
+<div style="position: absolute; left: 168px; top: 452px; font-size: 12px; font-style: italic; color: {{t.waterLabel}}">Bahía de Shenzhen</div>
+
+<div aria-label="Cluster de 3 sitios en Huaqiangbei" role="img" style="position: absolute; left: 332px; top: 172px; width: 36px; height: 36px; border-radius: 18px; background: {{t.cluster}}; color: {{t.clusterText}}; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; box-shadow: 0 0 0 5px {{t.clusterRing}}">3</div>
+<div aria-label="Cluster de 5 sitios en Futian" role="img" style="position: absolute; left: 280px; top: 218px; width: 40px; height: 40px; border-radius: 20px; background: {{t.cluster}}; color: {{t.clusterText}}; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 700; box-shadow: 0 0 0 6px {{t.clusterRing}}">5</div>
+<div aria-label="Cluster de 7 sitios en Nanshan" role="img" style="position: absolute; left: 192px; top: 334px; width: 42px; height: 42px; border-radius: 21px; background: {{t.cluster}}; color: {{t.clusterText}}; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 700; box-shadow: 0 0 0 6px {{t.clusterRing}}">7</div>
+
+<div aria-label="China Hi-Tech Fair" role="img" style="position: absolute; left: 148px; top: 162px; width: 28px; height: 28px; border-radius: 14px; background: #2F8C6E; border: 2.5px solid {{t.ring}}; box-sizing: border-box; display: flex; align-items: center; justify-content: center; box-shadow: {{t.markerShadow}}">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 19.88 0 1 1 0 0 1 0 .7 10.75 10.75 0 0 1-19.88 0"></path><circle cx="12" cy="12" r="3"></circle></svg>
+</div>
+<div aria-label="Paseo de OH BAY" role="img" style="position: absolute; left: 70px; top: 254px; width: 28px; height: 28px; border-radius: 14px; background: #B87719; border: 2.5px solid {{t.ring}}; box-sizing: border-box; display: flex; align-items: center; justify-content: center; box-shadow: {{t.markerShadow}}">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg>
+</div>
+
+<a href="Ficha.dc.html" aria-label="Abrir Librería Zhongshuge" style="position: absolute; left: 74px; top: 190px; display: flex; align-items: center; gap: 8px; text-decoration: none; color: {{t.text}}">
+<div style="width: 48px; height: 48px; border-radius: 24px; background: {{zsgBg}}; border: 3px solid {{t.ring}}; box-sizing: border-box; box-shadow: {{t.markerShadow}}; position: relative; flex-shrink: 0">
+<div style="position: absolute; right: -5px; bottom: -4px; width: 20px; height: 20px; border-radius: 10px; background: #2F8C6E; border: 2px solid {{t.ring}}; box-sizing: border-box; display: flex; align-items: center; justify-content: center">
+<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 19.88 0 1 1 0 0 1 0 .7 10.75 10.75 0 0 1-19.88 0"></path><circle cx="12" cy="12" r="3"></circle></svg>
+</div>
+</div>
+<span style="font-size: 13px; font-weight: 650; text-shadow: 0 0 3px {{t.halo}}, 0 0 3px {{t.halo}}, 0 0 3px {{t.halo}}">Librería Zhongshuge</span>
+</a>
+
+<a href="Ficha.dc.html" aria-label="Abrir Noria Bay Glory" style="position: absolute; left: 126px; top: 276px; display: flex; align-items: center; gap: 8px; text-decoration: none; color: {{t.text}}">
+<div style="width: 48px; height: 48px; border-radius: 24px; background: {{norBg}}; border: 3px solid {{t.ring}}; box-sizing: border-box; box-shadow: {{t.markerShadow}}; position: relative; flex-shrink: 0">
+<div style="position: absolute; right: -5px; bottom: -4px; width: 20px; height: 20px; border-radius: 10px; background: #6550C8; border: 2px solid {{t.ring}}; box-sizing: border-box; display: flex; align-items: center; justify-content: center">
+<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
+</div>
+</div>
+<span style="font-size: 13px; font-weight: 650; text-shadow: 0 0 3px {{t.halo}}, 0 0 3px {{t.halo}}, 0 0 3px {{t.halo}}">Noria Bay Glory</span>
+</a>
+
+<div style="position: absolute; left: 16px; right: 16px; top: 56px; height: 52px; border-radius: 26px; background: {{t.glass}}; backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border: 1px solid {{t.glassBorder}}; box-shadow: {{t.shadow}}; display: flex; align-items: center; padding: 0 6px 0 16px; box-sizing: border-box; gap: 10px">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="{{t.text2}}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+<label for="buscar" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Buscar sitios</label>
+<input id="buscar" type="search" placeholder="Buscar sitios" style="flex: 1; min-width: 0; border: 0; background: transparent; font: inherit; font-size: 16px; color: {{t.text}}; outline: none">
+<div style="width: 1px; height: 24px; background: {{t.hair}}"></div>
+<button type="button" style="height: 40px; border: 0; border-radius: 20px; background: transparent; color: {{t.text}}; font: inherit; font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 4px; padding: 0 10px; cursor: pointer">Shenzhen<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="{{t.text2}}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button>
+</div>
+
+<div style="position: absolute; left: 0; right: 0; top: 118px; display: flex; gap: 8px; padding: 0 16px; overflow: hidden">
+<button type="button" style="flex-shrink: 0; height: 36px; padding: 0 14px; border-radius: 18px; border: 0; background: {{t.chipSel}}; color: {{t.chipSelText}}; font: inherit; font-size: 14px; font-weight: 600; box-shadow: {{t.shadow}}">Todos</button>
+<sc-for list="{{chips}}" as="chip" hint-placeholder-count="4">
+<button type="button" style="flex-shrink: 0; height: 36px; padding: 0 14px 0 12px; border-radius: 18px; border: 1px solid {{t.glassBorder}}; background: {{t.chipBg}}; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); color: {{t.text}}; font: inherit; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 7px; box-shadow: {{t.shadow}}"><span style="width: 9px; height: 9px; border-radius: 5px; background: {{chip.c}}"></span>{{chip.l}}</button>
+</sc-for>
+</div>
+
+<button type="button" aria-label="Capas y modo del mapa" style="position: absolute; right: 16px; top: 352px; width: 48px; height: 48px; border-radius: 24px; border: 1px solid {{t.glassBorder}}; background: {{t.glass}}; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: {{t.shadow}}; display: flex; align-items: center; justify-content: center">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{t.text}}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"></path><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path></svg>
+</button>
+<button type="button" aria-label="Centrar en mi ubicación" style="position: absolute; right: 16px; top: 410px; width: 48px; height: 48px; border-radius: 24px; border: 1px solid {{t.glassBorder}}; background: {{t.glass}}; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: {{t.shadow}}; display: flex; align-items: center; justify-content: center">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{t.text}}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="2" x2="5" y1="12" y2="12"></line><line x1="19" x2="22" y1="12" y2="12"></line><line x1="12" x2="12" y1="2" y2="5"></line><line x1="12" x2="12" y1="19" y2="22"></line><circle cx="12" cy="12" r="7"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+</button>
+
+<div style="position: absolute; left: 0; right: 0; top: 476px; bottom: 0; background: {{t.sheet}}; border-radius: 28px 28px 0 0; box-shadow: 0 -8px 30px rgba(0,0,0,0.12); overflow: hidden">
+<div style="width: 36px; height: 5px; border-radius: 3px; background: {{t.grab}}; margin: 8px auto 0"></div>
+<div style="padding: 12px 20px 0; display: flex; align-items: baseline; gap: 10px">
+<h1 style="margin: 0; font-size: 28px; line-height: 1.1; font-weight: 750; letter-spacing: -0.025em">Shenzhen</h1>
+<span style="font-size: 18px; color: {{t.text2}}; font-weight: 500">深圳</span>
+</div>
+<p style="margin: 4px 20px 0; font-size: 14px; color: {{t.text2}}">26 sitios en 7 zonas</p>
+<div style="display: flex; gap: 8px; padding: 14px 20px 0; overflow: hidden">
+<sc-for list="{{zones}}" as="z" hint-placeholder-count="4">
+<button type="button" style="flex-shrink: 0; height: 32px; padding: 0 12px; border-radius: 16px; border: 1px solid {{t.hair}}; background: transparent; color: {{t.text}}; font: inherit; font-size: 13px; font-weight: 500; white-space: nowrap">{{z}}</button>
+</sc-for>
+</div>
+<div style="display: flex; gap: 12px; padding: 16px 20px 0; overflow: hidden">
+<sc-for list="{{cards}}" as="card" hint-placeholder-count="3">
+<a href="Ficha.dc.html" style="flex-shrink: 0; width: 150px; text-decoration: none; color: {{t.text}}; display: flex; flex-direction: column; gap: 7px">
+<div style="width: 150px; height: 96px; border-radius: 16px; background: {{card.bg}}"></div>
+<div style="font-size: 14px; font-weight: 600; line-height: 1.25">{{card.name}}</div>
+<div style="display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: {{t.text2}}"><span style="width: 8px; height: 8px; border-radius: 4px; background: {{card.c}}"></span>{{card.cat}}</div>
+</a>
+</sc-for>
+</div>
+</div>
+
+<nav aria-label="Secciones" style="position: absolute; left: 0; right: 0; bottom: 0; height: 84px; background: {{t.nav}}; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-top: 1px solid {{t.hair}}; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding-top: 8px; box-sizing: border-box">
+<a href="Main.dc.html" aria-current="page" style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: {{t.text}}">
+<span style="width: 60px; height: 32px; border-radius: 16px; background: {{t.navActive}}; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{t.text}}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.56 2.27a2 2 0 0 1-1.78 0l-4.22-2.1a2 2 0 0 0-1.78 0l-3.66 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.56-2.27a2 2 0 0 1 1.78 0z"></path><path d="M15 5.76v15"></path><path d="M9 3.24v15"></path></svg></span>
+<span style="font-size: 12px; font-weight: 650">Explorar</span>
+</a>
+<a href="Main.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: {{t.text2}}">
+<span style="width: 60px; height: 32px; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{t.text2}}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path></svg></span>
+<span style="font-size: 12px; font-weight: 500">Guardados</span>
+</a>
+<a href="Ruta.dc.html" style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: {{t.text2}}">
+<span style="width: 60px; height: 32px; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{t.text2}}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="19" r="3"></circle><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"></path><circle cx="18" cy="5" r="3"></circle></svg></span>
+<span style="font-size: 12px; font-weight: 500">Rutas</span>
+</a>
+</nav>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"dark":{"editor":"boolean","default":false},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var dark = this.props.dark ?? false;
+    var light = {
+      land: '#ECEEF1', water: '#C6DAEA', park: '#D6E5D4', road: '#FFFFFF', roadCase: '#D8DCE2', minor: '#F8F9FA',
+      label: '#5B6270', waterLabel: '#4D7593', halo: '#ECEEF1',
+      glass: 'rgba(255,255,255,0.80)', glassBorder: 'rgba(17,19,24,0.07)', chipBg: 'rgba(255,255,255,0.86)',
+      chipSel: '#111318', chipSelText: '#FFFFFF', shadow: '0 4px 16px rgba(17,19,24,0.10)',
+      sheet: '#FFFFFF', text: '#111318', text2: '#5B6270', hair: 'rgba(17,19,24,0.10)', grab: 'rgba(17,19,24,0.18)',
+      nav: 'rgba(255,255,255,0.94)', navActive: 'rgba(17,19,24,0.07)',
+      cluster: '#111318', clusterText: '#FFFFFF', clusterRing: 'rgba(17,19,24,0.12)', ring: '#FFFFFF',
+      markerShadow: '0 2px 8px rgba(17,19,24,0.25)'
+    };
+    var night = {
+      land: '#14181F', water: '#0D2232', park: '#15261D', road: '#2A313C', roadCase: '#1A1F27', minor: '#1B2028',
+      label: '#9AA1AD', waterLabel: '#6E93AE', halo: '#14181F',
+      glass: 'rgba(28,31,38,0.78)', glassBorder: 'rgba(255,255,255,0.08)', chipBg: 'rgba(30,33,40,0.86)',
+      chipSel: '#F2F3F5', chipSelText: '#111318', shadow: '0 4px 16px rgba(0,0,0,0.40)',
+      sheet: '#16181D', text: '#F2F3F5', text2: '#9AA1AD', hair: 'rgba(255,255,255,0.10)', grab: 'rgba(255,255,255,0.24)',
+      nav: 'rgba(22,24,29,0.94)', navActive: 'rgba(255,255,255,0.10)',
+      cluster: '#F2F3F5', clusterText: '#111318', clusterRing: 'rgba(242,243,245,0.16)', ring: '#F2F3F5',
+      markerShadow: '0 2px 10px rgba(0,0,0,0.55)'
+    };
+    var g = function (a) { return 'linear-gradient(180deg, ' + a[0] + ' 0%, ' + a[1] + ' 55%, ' + a[2] + ' 100%)'; };
+    return {
+      t: dark ? night : light,
+      zsgBg: g(['#675047', '#796156', '#59423b']),
+      norBg: g(['#bb809c', '#8f685d', '#4e4a49']),
+      chips: [
+        { l: 'Ver y hacer', c: '#2F8C6E' },
+        { l: 'Comer', c: '#B87719' },
+        { l: 'Comprar', c: '#3567C9' },
+        { l: 'De noche', c: '#6550C8' }
+      ],
+      zones: ["Bao'an · OH BAY", 'Nanshan · la bahía', 'Futian · el centro', 'Huaqiangbei', 'Luohu · el Shenzhen de antes', 'Longgang · arte y hakka', 'Costa este'],
+      cards: [
+        { name: 'Librería Zhongshuge', cat: 'Ver y hacer', c: '#2F8C6E', bg: g(['#675047', '#796156', '#59423b']) },
+        { name: 'Noria Bay Glory', cat: 'De noche', c: '#6550C8', bg: g(['#bb809c', '#8f685d', '#4e4a49']) },
+        { name: 'Paseo de OH BAY', cat: 'Comer', c: '#B87719', bg: g(['#5c8dc5', '#7d96b0', '#615d58']) }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

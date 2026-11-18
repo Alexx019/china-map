@@ -1,0 +1,101 @@
+/* Tokens de la maqueta aprobada «Cristal» (docs/design/README.md). Claro y oscuro según el móvil. */
+@import '@fontsource-variable/geist';
+
+:root {
+  color-scheme: light dark;
+
+  --font-sans: 'Geist Variable', 'PingFang SC', 'Noto Sans SC', 'Noto Sans CJK SC', 'Microsoft YaHei',
+    system-ui, sans-serif;
+
+  /* Mapa */
+  --map-land: #eceef1;
+  --map-water: #c6daea;
+  --map-park: #d6e5d4;
+  --map-road: #ffffff;
+  --map-road-case: #d8dce2;
+  --map-minor: #f8f9fa;
+  --map-label: #5b6270;
+  --map-water-label: #4d7593;
+
+  /* Superficies y texto */
+  --surface: #ffffff;
+  --surface-2: #f4f5f7;
+  --text: #111318;
+  --text-2: #5b6270;
+  --text-body: #2a2e36;
+  --hair: rgba(17, 19, 24, 0.1);
+  --hair-soft: rgba(17, 19, 24, 0.07);
+  --grab: rgba(17, 19, 24, 0.18);
+
+  /* Cristal */
+  --glass: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(17, 19, 24, 0.07);
+  --glass-blur: blur(20px) saturate(180%);
+  --chip: rgba(255, 255, 255, 0.86);
+  --nav: rgba(255, 255, 255, 0.94);
+  --nav-active: rgba(17, 19, 24, 0.07);
+  --shadow: 0 4px 16px rgba(17, 19, 24, 0.1);
+  --sheet-shadow: 0 -8px 30px rgba(0, 0, 0, 0.12);
+
+  /* Marcadores */
+  --cluster: #111318;
+  --cluster-text: #ffffff;
+  --cluster-ring: rgba(17, 19, 24, 0.12);
+  --marker-ring: #ffffff;
+  --marker-shadow: 0 2px 8px rgba(17, 19, 24, 0.25);
+
+  /* Acento: Ir con Amap, Queremos ir, rutas */
+  --accent: #d23a2a;
+  --accent-text: #b42f21;
+  --on-accent: #ffffff;
+
+  /* Categorías */
+  --cat-ver: #2f8c6e;
+  --cat-comer: #b87719;
+  --cat-comprar: #3567c9;
+  --cat-noche: #6550c8;
+  --cat-otro: #6f7682;
+
+  /* Forma */
+  --r-sheet: 28px;
+  --r-card: 16px;
+  --r-thumb: 14px;
+  --tap: 44px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --map-land: #14181f;
+    --map-water: #0d2232;
+    --map-park: #15261d;
+    --map-road: #2a313c;
+    --map-road-case: #1a1f27;
+    --map-minor: #1b2028;
+    --map-label: #9aa1ad;
+    --map-water-label: #6e93ae;
+
+    --surface: #16181d;
+    --surface-2: #1f2228;
+    --text: #f2f3f5;
+    --text-2: #9aa1ad;
+    --text-body: #d9dce1;
+    --hair: rgba(255, 255, 255, 0.1);
+    --hair-soft: rgba(255, 255, 255, 0.07);
+    --grab: rgba(255, 255, 255, 0.24);
+
+    --glass: rgba(28, 31, 38, 0.78);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --chip: rgba(30, 33, 40, 0.86);
+    --nav: rgba(22, 24, 29, 0.94);
+    --nav-active: rgba(255, 255, 255, 0.1);
+    --shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+
+    --cluster: #f2f3f5;
+    --cluster-text: #111318;
+    --cluster-ring: rgba(242, 243, 245, 0.16);
+    --marker-ring: #f2f3f5;
+    --marker-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
+
+    --accent-text: #ff8a7a;
+  }
+}

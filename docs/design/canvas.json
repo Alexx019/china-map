@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "createdOnFiles": { "v": 1, "at": "2026-11-18T14:00:00Z" },
+  "title": "china-map: diseño móvil",
+  "launch": { "view": "canvas" },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": { "x": 0, "y": 0, "w": 390, "h": 844, "title": "1. Explorar", "is_interactive": true, "radius": 44 },
+    "Ficha.dc.html": { "x": 470, "y": 0, "w": 390, "h": 844, "title": "2. Ficha del sitio", "is_interactive": true, "radius": 44 },
+    "FichaInfo.dc.html": { "x": 940, "y": 0, "w": 390, "h": 844, "title": "3. Ficha: información práctica", "is_interactive": true, "radius": 44 },
+    "Visor.dc.html": { "x": 1410, "y": 0, "w": 390, "h": 844, "title": "4. Visor de fotos", "is_interactive": true, "radius": 44 },
+    "MoodBoard.dc.html": { "x": 1880, "y": 0, "w": 390, "h": 844, "title": "5. Mood board de la zona", "is_interactive": true, "radius": 44 },
+    "Ruta.dc.html": { "x": 2350, "y": 0, "w": 390, "h": 844, "title": "6. Ruta hecha por vosotros", "is_interactive": true, "radius": 44 },
+    "Oscuro.dc.html": { "x": 2820, "y": 0, "w": 390, "h": 844, "title": "7. Explorar en modo oscuro", "is_interactive": true, "radius": 44 }
+  },
+  "order": ["Main.dc.html", "Ficha.dc.html", "FichaInfo.dc.html", "Visor.dc.html", "MoodBoard.dc.html", "Ruta.dc.html", "Oscuro.dc.html"],
+  "notes": {
+    "titulo": { "x": 0, "y": -320, "text": "china-map en el móvil: diseño «Cristal»", "kind": "title1", "maxW": 3210 },
+    "mapa": { "x": 0, "y": 964, "w": 420, "size": "m", "fill": "gray", "text": "Mapa ilustrativo: los sitios aún no tienen coordenadas. En la app será el mapa real de OpenStreetMap con este mismo estilo, en claro u oscuro según el móvil." },
+    "fotos": { "x": 500, "y": 964, "w": 420, "size": "m", "fill": "gray", "text": "Las fotos son privadas y no se han subido aquí. Cada hueco lleva un degradado con los colores reales de esa foto; en la app irá la foto." },
+    "datos": { "x": 1000, "y": 964, "w": 420, "size": "m", "fill": "gray", "text": "Textos sacados de places.json. La información práctica y los consejos locales aún no están investigados, así que salen «Por confirmar»: nada inventado." },
+    "play": { "x": 1500, "y": 964, "w": 420, "size": "m", "fill": "blue", "text": "Pulsa Play en «1. Explorar» y toca la librería, una foto o «Rutas» para moverte entre pantallas." }
+  },
+  "designSystems": []
+}

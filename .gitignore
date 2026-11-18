@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+
+# Generado
+public/map/*.pmtiles
+public/data/thumbs/
+.cache/
+
+# Claude Code: ajustes locales de cada uno
+.claude/settings.local.json

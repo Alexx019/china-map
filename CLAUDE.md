@@ -1,86 +1,115 @@
-# Cuaderno del Sur: mapa del viaje a China
+# China Map: guía privada de sitios para el viaje
 
-Web privada para 4 amigos durante un viaje del 22 nov al 3 dic de 2026: Shenzhen,
-Guangzhou, Hong Kong y Yangshuo. Sustituye a un mapa dibujado a mano (`cuaderno-sur.html`)
-por un **mapa real** con los mismos sitios, fichas y fotos.
+Mapa real con los sitios que merecen la pena en Shenzhen, Guangzhou, Hong Kong y Yangshuo:
+comida, sitios visuales, espectáculos, parques, tiendas, miradores, lo que sea. Cada sitio
+tiene su ficha con fotos, toda la información práctica y el enlace para ir con Amap.
 
-Se aloja en una **Raspberry Pi en España** (casa de Alex) y se usa **desde China en el móvil**.
+**No es una web de planificación.** Nada de «plan del día», itinerarios ni «hoy toca
+esto + esto». Los 4 abrimos el mapa, vemos qué hay cerca o qué nos apetece, leemos la ficha
+y decidimos nosotros.
 
-## Lo que ya existe en esta carpeta
+Viaje: del 22 de noviembre al 2 de diciembre de 2026. Se aloja en una **Raspberry Pi en
+España** (casa de Alex) y se usa **desde China en el móvil**.
 
-- `places.json`: 4 regiones, 14 zonas (con su plan del día) y 52 sitios. Cada sitio lleva
-  nombre, nombre en chino, categoría, por qué ir, cuándo, qué grabar, consejo, fotos y
-  un enlace de búsqueda en Amap. **`lat` y `lng` están a `null`**: hay que geocodificarlos.
-- `photos/`: 141 fotos de referencia (900 px, JPEG), de 1 a 4 por sitio. Son de Baidu
-  Imágenes y **solo para uso privado**: no se publican ni se suben a un repo público.
+## Material de partida (`public/data/`)
 
-## Objetivo de la v1 (el viaje empieza el 22 de noviembre)
+- `public/data/places.json`: 52 sitios agrupados en 4 regiones y 14 zonas. Cada sitio lleva nombre,
+  nombre en chino, categoría, por qué ir, mejor momento, consejo de grabación, fotos y un
+  enlace de búsqueda en Amap. **`lat` y `lng` están a `null`**: hay que geocodificarlos.
+  Las zonas traen un campo `plan` de la versión anterior: **no se usa**.
+- `public/data/photos/`: 141 fotos de referencia (900 px, JPEG), de 1 a 4 por sitio. Son de Baidu
+  Imágenes y **solo para uso privado**: el repo es privado y no se publican.
 
-1. Mapa real con todos los sitios como marcadores por categoría; zoom a región y zona.
-2. Ficha por sitio: galería de fotos deslizable (de una en una), visor a pantalla completa,
-   textos, botón "copiar nombre en chino" y botón "Ir con Amap" (ver abajo).
-3. Mood board por zona: cuadrícula tipo Instagram con todas las fotos de la zona.
-4. Estado por sitio: Vamos / Quizá / Mejor no / **Visitado**, compartido entre los 4.
-5. Ruta del día: elegir y ordenar sitios, dibujarlos unidos en el mapa y abrir la ruta en Amap.
-6. Añadir sitios nuevos (desde enlaces de TikTok, Xiaohongshu, webs de comida y de eventos de
-   luces). En la v1, se añaden pidiéndoselo a Claude Code, que edita `places.json`.
+## Qué tiene que hacer
 
-Fuera de la v1: cuentas de usuario, extracción automática de enlaces con IA, cálculo de rutas a pie.
+1. **Mapa real** con todos los sitios como marcadores por categoría. Filtros por categoría
+   y por región. Agrupar marcadores cercanos al alejar.
+2. **Ficha de cada sitio**, con aire de artículo de guía:
+   - galería de fotos deslizable (de una en una) y visor a pantalla completa;
+   - por qué merece la pena;
+   - **información práctica** (ver abajo);
+   - **consejos de gente local** (ver abajo);
+   - botón «copiar nombre en chino» y botón grande **«Ir con Amap»**.
+3. **Mood board** por zona o región: cuadrícula tipo Instagram con todas las fotos.
+4. **Estado de cada sitio**, compartido entre los 4: Queremos ir / Quizá / Visitado.
+   Y poder filtrar el mapa por estado.
+5. **Rutas que creamos nosotros.** Cualquiera de los 4 elige sitios del mapa, los ordena
+   (arrastrando) y guarda la ruta con un nombre. La ruta se dibuja en el mapa, se comparte
+   entre los 4 y se puede abrir en Amap tramo a tramo. **La web nunca propone ni genera
+   rutas ni planes por su cuenta**: solo es la herramienta para hacerlas.
+6. **Añadir sitios nuevos** a partir de enlaces (TikTok, Xiaohongshu, webs de restaurantes y
+   de eventos de luces). Por ahora se añaden pidiéndoselo a Claude Code, que investiga el
+   sitio y lo mete en los datos con su ficha completa.
 
-## Navegación con Amap (obligatorio)
+## Información práctica (obligatoria)
 
-Cada ficha tiene un botón grande **«Ir con Amap»** que abre la app de Amap (高德地图) con la
-ruta ya puesta hasta ese sitio. Es como vamos a movernos allí: el mapa de la web es para ver
-y planificar, Amap para llegar.
+Según el tipo de sitio:
+- **Restaurantes y cafés:** precio medio por persona, horario, si hace falta reservar, platos
+  recomendados, si hay carta en inglés o con fotos.
+- **Museos, atracciones, miradores, noria, parques:** precio de cada tipo de entrada,
+  horario, días de cierre, si hay que reservar (dónde y con cuánta antelación), duración
+  típica de la visita, mejor hora.
+- **Espectáculos y eventos de luces:** días y horas de los pases, si hace falta reserva,
+  mejor sitio para verlo.
+- **Para todos:** cómo llegar (metro y salida), formas de pago (Alipay, WeChat, efectivo,
+  tarjeta extranjera), si piden pasaporte, normas (grabar, mochilas, etc.) y lo que hay que
+  saber antes de ir (por ejemplo, si para entrar a un sitio hay que consumir o comprar algo).
 
-- Con coordenadas: `https://uri.amap.com/navigation?to=<lng>,<lat>,<nombre_zh>&mode=walk&coordinate=wgs84&callnative=1&src=cuaderno-sur`
+Reglas:
+- Guardarlo en cada sitio en un bloque `practical`, con `sources` (URLs) y `verified_at` (fecha).
+- Investigar con búsqueda web, priorizando fuentes oficiales y guías chinas recientes
+  (2025-2026).
+- **No inventar nada.** Si un dato no se encuentra o las fuentes se contradicen, dejarlo en
+  `null` o «por confirmar». Un dato falso nos puede hacer perder una mañana allí.
+- En la ficha, mostrar la fecha de verificación y los enlaces a las fuentes.
+
+## Consejos de gente local
+
+Para cada sitio, 2 a 5 consejos útiles que da la gente que ha ido, sacados de reseñas
+recientes de Dianping (大众点评), Xiaohongshu (小红书), Meituan o foros: a qué hora ir para
+evitar colas, qué pedir, qué no merece la pena, trucos para la foto, etc.
+- Resumirlos con nuestras palabras, en español, sin copiar reseñas literales.
+- Guardar la fuente de cada uno. Si no se encuentra nada fiable, dejarlo vacío.
+
+## Navegación con Amap (obligatoria)
+
+El mapa de la web es para ver qué hay; Amap (高德地图) es para llegar. El botón «Ir con Amap»
+abre la app de Amap con la ruta ya puesta hasta ese sitio.
+
+- Con coordenadas: `https://uri.amap.com/navigation?to=<lng>,<lat>,<nombre_zh>&mode=walk&coordinate=wgs84&callnative=1&src=china-map`
   - `callnative=1` abre la app si está instalada; si no, la web de Amap.
   - Nuestras coordenadas son WGS-84 (las de OSM), por eso `coordinate=wgs84`. Si en las
     pruebas el destino sale desplazado unos cientos de metros, convertir a GCJ-02 y usar
     `coordinate=gaode`.
-  - Selector de modo junto al botón: a pie (`walk`), transporte público (`bus`), coche/taxi (`car`).
-- Sin coordenadas todavía: usar la búsqueda por nombre en chino, que ya está en `amap_search`
-  dentro de `places.json`.
-- La ruta del día también se abre en Amap: el primer sitio como destino y los siguientes
-  como paradas (`via`), o sitio a sitio si Amap no admite tantas paradas.
-- **Probarlo en un móvil real** con Amap instalado antes del viaje, con un sitio de Shenzhen
-  y otro de Hong Kong.
+  - Selector de modo junto al botón: a pie (`walk`), transporte público (`bus`), coche o taxi (`car`).
+- Sin coordenadas todavía: buscar por el nombre en chino (`amap_search` en los datos).
+- **Probarlo en un móvil real** con Amap instalado, con un sitio de Shenzhen y otro de Hong Kong.
 
-## Restricciones importantes
+## Restricciones
 
 - **Funcionar en China.** Nada de Google (Fonts, Maps, Analytics) ni CDNs externos: todo
   servido desde la Raspberry. Fuentes auto-hospedadas.
-- **Funcionar sin conexión (PWA).** Service worker que guarde la app, los datos, las fotos y
-  las teselas del mapa de las zonas del viaje. La conexión desde China a un servidor en España
-  puede ser lenta o fallar; la web tiene que seguir abriendo.
+- **Funcionar sin conexión (PWA).** Guardar la app, los datos, las fotos y las teselas del
+  mapa de las zonas del viaje. Desde China, la conexión a un servidor en España puede ser
+  lenta o fallar, y la web tiene que seguir abriendo.
 - **Mapa:** MapLibre GL JS con teselas vectoriales de OpenStreetMap **alojadas en la
-  Raspberry** (un extracto PMTiles de Protomaps para Guangdong, Hong Kong y Guilin).
-  Coordenadas en **WGS-84**. Ojo: Amap usa GCJ-02, así que no mezclar coordenadas de Amap
-  con el mapa de OSM sin convertirlas.
-- **Privada.** Protegida con contraseña (por ejemplo, autenticación básica en Caddy o nginx).
-  No se indexa en buscadores.
-- **Rápida y fluida en el móvil.** Animaciones cuidadas, sin parpadeos, galerías con scroll-snap.
-
-## Stack sugerido
-
-- Vite + React + TypeScript.
-- MapLibre GL JS + PMTiles.
-- Estado compartido: un backend mínimo en la Raspberry (por ejemplo, SQLite con una API
-  pequeña en Node o Python), con caché local en el navegador para cuando no hay conexión.
-- Despliegue: build estático + API detrás de Caddy (HTTPS automático) en Docker en la Pi.
+  Raspberry** (extracto PMTiles de Protomaps para Guangdong, Hong Kong y Guilin).
+  Coordenadas en **WGS-84**. Amap usa GCJ-02: no mezclar coordenadas sin convertirlas.
+- **Privada.** Protegida con contraseña. No se indexa en buscadores.
+- **Rápida y fluida en el móvil:** animaciones cuidadas, sin parpadeos, galerías con scroll-snap.
 
 ## Estética
 
-Partir del aire de cuaderno del mapa antiguo: papel crema, tinta cacao-ciruela, rosa como
-acento, serif de alto contraste para títulos (Bodoni Moda, auto-hospedada) y sans del
-sistema para el cuerpo. Estilo del mapa ajustado a esa paleta, no el estilo por defecto de OSM.
+**Profesional y editorial**, como una buena guía de viaje digital con mapa. Nada infantil ni
+«cuqui», nada de tonos pastel ni colores chillones. Tipografía cuidada, fotos protagonistas,
+mucho espacio, jerarquía clara y datos prácticos fáciles de escanear. Modo claro y oscuro.
+Mapa sobrio a juego con la interfaz, no el estilo por defecto de OSM.
 
-## Primeras tareas
+**Diseño aprobado:** maqueta «Cristal» con tokens y pantallas en [docs/design/](docs/design/README.md).
+El orden de trabajo está en [PLAN.md](PLAN.md).
 
-1. Crear el proyecto con Vite y mostrar los 52 sitios en el mapa.
-2. Geocodificar `places.json`: buscar cada sitio por su nombre en chino con Nominatim
-   (respetando su límite de 1 petición por segundo) y **revisar a mano** los que no salgan o
-   salgan lejos. Mejor dejar `null` que inventar una coordenada.
-3. Fichas, galería, visor y mood board.
-4. Estados compartidos y ruta del día.
-5. PWA sin conexión y despliegue en la Raspberry.
+## Despliegue
+
+Build estático y una API pequeña para los estados compartidos (por ejemplo, SQLite), detrás
+de un servidor con HTTPS y contraseña, en Docker en la Raspberry. Con caché en el navegador
+para cuando no haya conexión.
