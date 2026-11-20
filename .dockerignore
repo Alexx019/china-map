@@ -1,0 +1,11 @@
+.git
+node_modules
+dist
+.cache
+.claude
+deploy/.env
+deploy/deploy.env
+.env
+.env.*
+public/map/*.pmtiles
+public/data/thumbs

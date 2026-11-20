@@ -4,6 +4,10 @@ Guía privada de sitios con mapa para el viaje a Shenzhen, Guangzhou, Hong Kong 
 (22 nov – 2 dic 2026). Qué tiene que hacer: [CLAUDE.md](CLAUDE.md) · Plan: [PLAN.md](PLAN.md) ·
 Diseño: [docs/design/](docs/design/README.md) · Despliegue: [deploy/](deploy/README.md).
 
+**Portainer + Cloudflare Tunnel desde Git:** [guía de instalación y actualizaciones](deploy/portainer/README.md).
+Usa `docker-compose.yml` en la raíz: compila la web y la API y prepara el mapa
+automáticamente en el primer arranque, con SQLite y mapa en volúmenes persistentes.
+
 ## Probarla en el ordenador
 
 Requisitos: Node 22 o superior y el mapa descargado en `public/map/trip.pmtiles` (ver abajo).
