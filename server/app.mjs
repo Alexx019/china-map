@@ -18,13 +18,18 @@ export function createApplication({ db, seedPath, manifestPath, mediaDirectory, 
     res.set('Cache-Control','public, max-age=31536000, immutable');
     res.sendFile(join(mediaDirectory, req.params[0], req.params[1]));
   });
-  if (!passwordHash) {
-    app.all('/mcp', (_req,res) => res.status(503).json({ error:'MCP desactivado: configurar MCP_PASSWORD_HASH en Portainer' }));
-    return { app, catalog, mcpEnabled:false };
-  }
-  if (!/^scrypt\$[\w-]{22}\$[\w-]{86}$/.test(passwordHash)) throw new Error('MCP_PASSWORD_HASH debe generarse con server/password.mjs');
-  const parsedUrl = new URL(publicUrl);
-  if (parsedUrl.pathname !== '/' || parsedUrl.search || parsedUrl.hash || (parsedUrl.protocol !== 'https:' && !['localhost','127.0.0.1'].includes(parsedUrl.hostname))) throw new Error('MCP_PUBLIC_URL debe ser un origen HTTPS sin ruta');
+  const disabled = mcpError => {
+    app.all('/mcp', (_req,res) => res.status(503).json({ error:mcpError }));
+    return { app, catalog, mcpEnabled:false, mcpError };
+  };
+  passwordHash = passwordHash.trim();
+  if (!passwordHash) return disabled('MCP_PASSWORD_HASH_NOT_CONFIGURED');
+  // Un error de configuración del MCP no debe detener el catálogo ni la web.
+  if (!/^scrypt\$[\w-]{22}\$[\w-]{86}$/.test(passwordHash)) return disabled('MCP_PASSWORD_HASH_INVALID');
+  let parsedUrl;
+  try { parsedUrl = new URL(publicUrl); }
+  catch { return disabled('MCP_PUBLIC_URL_INVALID'); }
+  if (parsedUrl.pathname !== '/' || parsedUrl.search || parsedUrl.hash || (parsedUrl.protocol !== 'https:' && !['localhost','127.0.0.1'].includes(parsedUrl.hostname))) return disabled('MCP_PUBLIC_URL_INVALID');
   const { provider, consent, resource, origin } = createAuth(db, publicUrl, passwordHash);
   app.use(mcpAuthRouter({ provider, issuerUrl:new URL(origin), resourceServerUrl:new URL(resource), scopesSupported:SCOPES, resourceName:'china-map' }));
   app.post('/mcp/consent', express.urlencoded({ extended:false, limit:'4kb' }), consent);

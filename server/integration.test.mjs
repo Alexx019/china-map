@@ -146,3 +146,20 @@ test('fotos: bloqueo de SSRF, formatos activos y datos inválidos', async () => 
   await assert.rejects(downloadImage('http://example.com/photo.jpg'),/HTTPS/);
   await assert.rejects(saveImage({base64:Buffer.from('<svg xmlns="http://www.w3.org/2000/svg"></svg>').toString('base64')},tmpdir()),/Formato/);
 });
+
+test('una variable MCP incorrecta no tumba el catálogo y mantiene la edición cerrada', async () => {
+  const goodHash = await hashPassword(password);
+  for (const config of [
+    {passwordHash:'scrypt$incompleto',publicUrl:'https://china.ariassouto.es',error:'MCP_PASSWORD_HASH_INVALID'},
+    {passwordHash:goodHash,publicUrl:'https://china.ariassouto.es/mcp',error:'MCP_PUBLIC_URL_INVALID'},
+    {passwordHash:goodHash,publicUrl:'no-es-una-url',error:'MCP_PUBLIC_URL_INVALID'},
+  ]) {
+    const db = new DatabaseSync(':memory:');
+    try {
+      const app = createApplication({db,seedPath,manifestPath,mediaDirectory:tmpdir(),...config});
+      assert.equal(app.mcpEnabled,false);
+      assert.equal(app.mcpError,config.error);
+      assert.equal(app.catalog.document().places.length,seed.places.length);
+    } finally { db.close(); }
+  }
+});

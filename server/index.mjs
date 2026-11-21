@@ -39,13 +39,14 @@ db.exec(`
 
 // Ids válidos de sitios, si se le pasa places.json (evita guardar basura)
 const placesPath = process.env.PLACES_PATH ?? new URL('../public/data/places.json', import.meta.url);
-const { app, catalog, mcpEnabled } = createApplication({ db, seedPath:placesPath,
+const { app, catalog, mcpEnabled, mcpError } = createApplication({ db, seedPath:placesPath,
   manifestPath:process.env.PHOTO_MANIFEST_PATH ?? new URL('../public/data/thumbs/photos.json', import.meta.url),
   mediaDirectory:process.env.MEDIA_PATH ?? `${dirname(DB_PATH)}/media`,
   publicUrl:process.env.MCP_PUBLIC_URL ?? 'https://china.ariassouto.es',
   passwordHash:process.env.MCP_PASSWORD_HASH,
   allowedOrigins:(process.env.MCP_ALLOWED_ORIGINS ?? '').split(',').filter(Boolean),
 });
+if (mcpError) console.warn(`MCP desactivado: ${mcpError}`);
 let placeIds = null;
 const loadPlaces = () => {
   placeIds = new Set(catalog.document().places.map(p => p.id));
@@ -110,7 +111,7 @@ const send = (res, code, body) => {
 const server = createServer(app);
 app.use((req, res) => {
   const url = new URL(req.url ?? '/', 'http://x');
-  if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, mcp: mcpEnabled, catalog_revision:catalog.getRevision() });
+  if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, mcp: mcpEnabled, ...(mcpError ? {mcp_error:mcpError} : {}), catalog_revision:catalog.getRevision() });
   if (req.method === 'GET' && url.pathname === '/api/state') return send(res, 200, state());
   if (req.method === 'POST' && url.pathname === '/api/ops') {
     let size = 0;
