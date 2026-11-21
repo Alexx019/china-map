@@ -8,12 +8,16 @@ Diseño: [docs/design/](docs/design/README.md) · Despliegue: [deploy/](deploy/R
 Usa `docker-compose.yml` en la raíz: compila la web y la API y prepara el mapa
 automáticamente en el primer arranque, con SQLite y mapa en volúmenes persistentes.
 
+**MCP remoto para consultar y editar fichas y fotos:** [guía de activación](deploy/portainer/MCP.md).
+Los cambios de producción persisten en SQLite y aparecen en la web sin recompilar.
+
 ## Probarla en el ordenador
 
 Requisitos: Node 22 o superior y el mapa descargado en `public/map/trip.pmtiles` (ver abajo).
 
 ```sh
 npm install
+npm --prefix server ci # dependencias de la API y del MCP
 npm run local            # web + API → http://localhost:5173
 npm run local -- --prod  # build de producción → http://localhost:4173 (service worker y modo sin conexión)
 ```
@@ -33,7 +37,7 @@ hace falta redirigir el puerto en Windows. Para probarla de verdad en el móvil,
 - `public/data/places.json`: sitios, con su información práctica y consejos (fuentes en `research/`).
 - `npm run check-data`: valida el fichero (se ejecuta también antes de cada build).
 - Coordenadas: `scripts/geocode.mjs` → revisar → `scripts/geocode-decisions.json` → `scripts/geocode-apply.mjs`.
-- Mapa: `scripts/extract-tiles.sh <binario-pmtiles>` (44 MB, fuera de git).
+- Mapa continuo: `scripts/extract-tiles.sh <binario-pmtiles>` (unos 375 MB según el build, fuera de git).
 - Miniaturas: `scripts/thumbs.mjs` (también antes de cada build).
 
 ## Comprobaciones

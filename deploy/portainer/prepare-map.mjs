@@ -1,6 +1,7 @@
 // Se ejecuta una vez por despliegue; conserva el mapa válido del volumen.
 import { spawn } from 'node:child_process';
-import { mkdir, open, rename, rm } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { mkdir, open, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
@@ -40,32 +41,54 @@ export async function resolveBuild(requested, fetchImpl = fetch) {
 
 function extract(args) {
   return new Promise((resolve, reject) => {
-    const child = spawn('pmtiles', args, { stdio: 'inherit' });
+    const child = spawn(process.env.PMTILES_BIN || 'pmtiles', args, { stdio: 'inherit' });
     child.once('error', reject);
     child.once('exit', (code, signal) => code === 0 ? resolve() : reject(new Error(`pmtiles: ${signal ?? code}`)));
   });
 }
 
 export async function prepareMap({ directory = '/maps', build = process.env.MAP_BUILD,
-  fetchImpl = fetch, run = extract, region = '/app/trip-region.geojson' } = {}) {
+  fetchImpl = fetch, run = extract, region = '/app/trip-region.geojson', context = '/app/map-context.geojson' } = {}) {
   await mkdir(directory, { recursive: true });
   const destination = join(directory, 'trip.pmtiles');
-  if (await validArchive(destination)) {
+  const metadata = join(directory, 'coverage.json');
+  const fingerprint = createHash('sha256').update(await readFile(region)).update(await readFile(context))
+    .update('context=0..10;detail=11..14').digest('hex');
+  let previous = null;
+  try {
+    previous = JSON.parse(await readFile(metadata, 'utf8'));
+  } catch (error) {
+    if (error.code !== 'ENOENT' && !(error instanceof SyntaxError)) throw error;
+  }
+  if (previous?.fingerprint === fingerprint && await validArchive(destination)) {
     console.log('Mapa ya preparado; se conserva el archivo del volumen.');
     return;
   }
   const date = await resolveBuild(build, fetchImpl);
   const temporary = join(directory, 'trip.partial.pmtiles');
+  const background = join(directory, 'context.partial.pmtiles');
+  const detail = join(directory, 'detail.partial.pmtiles');
   await rm(temporary, { force: true });
+  await rm(background, { force: true });
+  await rm(detail, { force: true });
   try {
-    console.log(`Extrayendo regiones del viaje del build ${date} (solo el primer arranque)...`);
-    await run(['extract', `https://build.protomaps.com/${date}.pmtiles`, temporary,
-      `--region=${region}`, '--maxzoom=14']);
+    console.log(`Extrayendo cobertura del viaje del build ${date} (nueva instalación o cobertura modificada)...`);
+    await run(['extract', `https://build.protomaps.com/${date}.pmtiles`, background,
+      `--region=${context}`, '--maxzoom=10']);
+    await run(['extract', `https://build.protomaps.com/${date}.pmtiles`, detail,
+      `--region=${region}`, '--minzoom=11', '--maxzoom=14']);
+    // Niveles disjuntos: no hay teselas duplicadas al unir ambos extractos.
+    await run(['merge', background, detail, temporary]);
     if (!(await validArchive(temporary))) throw new Error('La extracción no produjo un archivo PMTiles v3 válido');
+    await writeFile(`${metadata}.partial`, JSON.stringify({ fingerprint, build: date }));
     await rename(temporary, destination);
+    await rename(`${metadata}.partial`, metadata);
     console.log('Mapa preparado.');
   } finally {
     await rm(temporary, { force: true });
+    await rm(background, { force: true });
+    await rm(detail, { force: true });
+    await rm(`${metadata}.partial`, { force: true });
   }
 }
 

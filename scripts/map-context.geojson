@@ -1,0 +1,5 @@
+{
+  "type": "Feature",
+  "properties": { "name": "Fondo regional amplio del sur de China" },
+  "geometry": { "type": "Polygon", "coordinates": [[[105,17],[121,17],[121,31],[105,31],[105,17]]] }
+}

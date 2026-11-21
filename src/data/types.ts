@@ -116,6 +116,7 @@ export interface Place {
 }
 
 export interface TripData {
+  revision?: number;
   generated: string;
   note?: string;
   regions: Region[];

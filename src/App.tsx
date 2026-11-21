@@ -30,6 +30,28 @@ export function App() {
     );
   }, [setData]);
 
+  useEffect(() => {
+    let cancelled = false;
+    let refreshing = false;
+    const refresh = async () => {
+      if (refreshing || document.visibilityState === 'hidden' || !navigator.onLine) return;
+      refreshing = true;
+      try {
+        const data = await loadTripData();
+        const current = useStore.getState().data;
+        if (!cancelled && current && data.revision !== undefined && data.revision !== current.revision) {
+          const photos = await loadPhotoManifest();
+          if (!cancelled) setData(data, photos);
+        }
+      } catch { /* Sin conexión: conservar el catálogo ya cargado. */ }
+      finally { refreshing = false; }
+    };
+    const timer = window.setInterval(() => { void refresh(); }, 30000);
+    window.addEventListener('focus', refresh);
+    document.addEventListener('visibilitychange', refresh);
+    return () => { cancelled = true; window.clearInterval(timer); window.removeEventListener('focus', refresh); document.removeEventListener('visibilitychange', refresh); };
+  }, [setData]);
+
   if (error) {
     return (
       <main style={{ padding: '96px 24px', display: 'grid', gap: 8 }}>

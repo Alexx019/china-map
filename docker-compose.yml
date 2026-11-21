@@ -16,6 +16,10 @@ services:
       context: .
       target: api
     restart: unless-stopped
+    environment:
+      MCP_PUBLIC_URL: ${MCP_PUBLIC_URL:-https://china.ariassouto.es}
+      MCP_PASSWORD_HASH: ${MCP_PASSWORD_HASH:-}
+      MCP_ALLOWED_ORIGINS: ${MCP_ALLOWED_ORIGINS:-}
     volumes:
       - api_data:/data
     healthcheck:

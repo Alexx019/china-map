@@ -1,0 +1,13 @@
+{
+  "name": "china-map-server",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test *.test.mjs", "password": "node password.mjs" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "express": "^5.1.0",
+    "ipaddr.js": "^2.2.0",
+    "sharp": "0.35.5",
+    "zod": "4.6.7"
+  }
+}

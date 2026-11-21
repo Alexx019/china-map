@@ -1,7 +1,9 @@
 # API de estados y rutas (server/index.mjs). Sin dependencias: Node trae http y sqlite.
 FROM node:24-alpine
 WORKDIR /app
-COPY server/index.mjs ./index.mjs
+COPY server/package.json server/package-lock.json ./
+RUN npm ci --omit=dev
+COPY server/ ./
 ENV PORT=8787 DB_PATH=/data/china-map.db PLACES_PATH=/site/data/places.json NODE_NO_WARNINGS=1
 # El volumen /data hereda este dueño: sin esto, la API (usuario node) no podría escribir la base de datos
 RUN mkdir -p /data && chown node:node /data

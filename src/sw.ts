@@ -6,7 +6,7 @@ import { cleanupOutdatedCaches, createHandlerBoundToURL, precacheAndRoute } from
 import { createPartialResponse } from 'workbox-range-requests';
 import { NavigationRoute, registerRoute } from 'workbox-routing';
 import { CacheFirst, NetworkFirst } from 'workbox-strategies';
-import { CACHE, MAP_URL } from './offline/caches';
+import { CACHE, MAP_PATH, MAP_URL } from './offline/caches';
 
 declare const self: ServiceWorkerGlobalScope;
 
@@ -33,7 +33,7 @@ registerRoute(({ url }) => url.pathname.startsWith('/data/photos/'), new CacheFi
 // Mapa: el lector de PMTiles pide trozos (Range). Si el fichero entero está guardado
 // («Preparar sin conexión»), se sirven los trozos desde la caché; si no, van a la red.
 registerRoute(
-  ({ url }) => url.pathname === MAP_URL,
+  ({ url }) => url.pathname === MAP_PATH && url.search === new URL(MAP_URL, self.location.origin).search,
   async ({ request }) => {
     const cached = await (await caches.open(CACHE.map)).match(MAP_URL);
     if (cached) return request.headers.has('range') ? createPartialResponse(request, cached) : cached;

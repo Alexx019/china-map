@@ -87,6 +87,10 @@ export async function prepareOffline(data: TripData, onProgress: (p: Progress) =
       MAP_URL,
       new Response(blob, { headers: { 'Content-Type': 'application/octet-stream', 'Content-Length': String(blob.size) } }),
     );
+    // Liberar el recorte antiguo solo cuando el nuevo ya está guardado completo.
+    for (const name of await caches.keys()) {
+      if (name.startsWith('cm-map-') && name !== CACHE.map) await caches.delete(name);
+    }
   }
   onProgress({ done: total, total, label: 'Listo' });
 }

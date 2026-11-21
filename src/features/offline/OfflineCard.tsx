@@ -67,7 +67,7 @@ export function OfflineCard() {
           <p className={css.sub}>
             {ready
               ? 'Mapa, fichas y fotos guardados en este móvil.'
-              : 'Guarda el mapa y las fotos en el móvil (unos 65 MB). Mejor con wifi, antes de salir.'}
+              : 'Guarda el mapa ampliado y las fotos en el móvil (unos 400 MB). Mejor con wifi, antes de salir.'}
           </p>
         </div>
       </div>

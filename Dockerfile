@@ -12,9 +12,12 @@ COPY deploy/portainer/Caddyfile /etc/caddy/Caddyfile
 
 FROM node:24-alpine AS api
 WORKDIR /app
-COPY server/index.mjs ./index.mjs
-COPY public/data/places.json /site/data/places.json
-ENV PORT=8787 DB_PATH=/data/china-map.db PLACES_PATH=/site/data/places.json NODE_NO_WARNINGS=1
+COPY server/package.json server/package-lock.json ./
+RUN npm ci --omit=dev
+COPY server/ ./
+COPY --from=build /app/dist/data/places.json /site/data/places.json
+COPY --from=build /app/dist/data/thumbs/photos.json /site/data/thumbs/photos.json
+ENV PORT=8787 DB_PATH=/data/china-map.db PLACES_PATH=/site/data/places.json PHOTO_MANIFEST_PATH=/site/data/thumbs/photos.json MEDIA_PATH=/data/media NODE_NO_WARNINGS=1
 RUN mkdir -p /data && chown node:node /data
 USER node
 EXPOSE 8787
@@ -26,5 +29,6 @@ FROM node:24-alpine AS map-init
 COPY --from=pmtiles /go-pmtiles /usr/local/bin/pmtiles
 WORKDIR /app
 COPY scripts/trip-region.geojson ./trip-region.geojson
+COPY scripts/map-context.geojson ./map-context.geojson
 COPY deploy/portainer/prepare-map.mjs ./prepare-map.mjs
 CMD ["node", "prepare-map.mjs"]

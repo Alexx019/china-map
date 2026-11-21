@@ -1,6 +1,7 @@
 import { DARK, LIGHT, layers, type Flavor } from '@protomaps/basemaps';
 import type { LayerSpecification, StyleSpecification } from '@maplibre/maplibre-gl-style-spec';
 import type { FeatureCollection } from 'geojson';
+import { MAP_URL } from '../offline/caches';
 
 // Colores del mapa de la maqueta «Cristal» (docs/design/README.md). Sobrio, a juego con la interfaz.
 const light: Flavor = {
@@ -191,7 +192,7 @@ export function buildStyle(isDark: boolean, places: FeatureCollection, route?: F
     sources: {
       protomaps: {
         type: 'vector',
-        url: `pmtiles://${origin}/map/trip.pmtiles`,
+        url: `pmtiles://${origin}${MAP_URL}`,
         attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap</a> · <a href="https://protomaps.com">Protomaps</a>',
       },
       [PLACES_SOURCE]: {

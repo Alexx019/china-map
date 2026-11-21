@@ -1,10 +1,12 @@
 node_modules/
+server/.env
 dist/
 *.local
 .DS_Store
 
 # Generado
 public/map/*.pmtiles
+public/map/coverage.json
 public/data/thumbs/
 .cache/
 

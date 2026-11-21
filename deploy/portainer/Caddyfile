@@ -20,9 +20,23 @@
 		reverse_proxy api:8787
 	}
 
+	@catalog path /data/places.json /data/thumbs/photos.json /data/photos/mcp-* /data/thumbs/s/mcp-* /data/thumbs/m/mcp-*
+	handle @catalog {
+		reverse_proxy api:8787
+	}
+
+	@mcp path /mcp /mcp/* /.well-known/oauth-* /authorize /token /register /revoke
+	handle @mcp {
+		header Cache-Control "no-store"
+		reverse_proxy api:8787 {
+			flush_interval -1
+		}
+	}
+
 	# Fuera de la imagen: no oculta los glifos incluidos en /srv/site/map/fonts.
 	# Un mapa ausente devuelve 404, nunca index.html. file_server soporta Range.
 	handle /map/trip.pmtiles {
+		header Cache-Control "no-cache"
 		root * /maps
 		rewrite * /trip.pmtiles
 		file_server

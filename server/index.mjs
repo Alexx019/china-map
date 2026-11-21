@@ -1,5 +1,5 @@
 // API mínima de china-map: estados de cada sitio y rutas del grupo, compartidos entre los 4.
-// Sin dependencias: node:http + node:sqlite. La contraseña la pone Caddy delante (basic auth).
+// Catálogo editable y MCP OAuth en app.mjs; estados y rutas compartidos en SQLite.
 //
 //   GET  /api/health
 //   GET  /api/state           → { statuses, routes, now }
@@ -7,9 +7,10 @@
 //
 // Variables: PORT (8787), DB_PATH (./data/china-map.db), PLACES_PATH (opcional, para validar ids).
 import { createServer } from 'node:http';
-import { mkdirSync, readFileSync, existsSync } from 'node:fs';
+import { mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
+import { createApplication } from './app.mjs';
 
 const PORT = Number(process.env.PORT ?? 8787);
 const DB_PATH = process.env.DB_PATH ?? './data/china-map.db';
@@ -37,10 +38,17 @@ db.exec(`
 `);
 
 // Ids válidos de sitios, si se le pasa places.json (evita guardar basura)
+const placesPath = process.env.PLACES_PATH ?? new URL('../public/data/places.json', import.meta.url);
+const { app, catalog, mcpEnabled } = createApplication({ db, seedPath:placesPath,
+  manifestPath:process.env.PHOTO_MANIFEST_PATH ?? new URL('../public/data/thumbs/photos.json', import.meta.url),
+  mediaDirectory:process.env.MEDIA_PATH ?? `${dirname(DB_PATH)}/media`,
+  publicUrl:process.env.MCP_PUBLIC_URL ?? 'https://china.ariassouto.es',
+  passwordHash:process.env.MCP_PASSWORD_HASH,
+  allowedOrigins:(process.env.MCP_ALLOWED_ORIGINS ?? '').split(',').filter(Boolean),
+});
 let placeIds = null;
-const placesPath = process.env.PLACES_PATH;
 const loadPlaces = () => {
-  if (placesPath && existsSync(placesPath)) placeIds = new Set(JSON.parse(readFileSync(placesPath, 'utf8')).places.map((p) => p.id));
+  placeIds = new Set(catalog.document().places.map(p => p.id));
 };
 loadPlaces();
 
@@ -99,9 +107,10 @@ const send = (res, code, body) => {
   res.end(JSON.stringify(body));
 };
 
-const server = createServer((req, res) => {
+const server = createServer(app);
+app.use((req, res) => {
   const url = new URL(req.url ?? '/', 'http://x');
-  if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true });
+  if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, mcp: mcpEnabled, catalog_revision:catalog.getRevision() });
   if (req.method === 'GET' && url.pathname === '/api/state') return send(res, 200, state());
   if (req.method === 'POST' && url.pathname === '/api/ops') {
     let size = 0;

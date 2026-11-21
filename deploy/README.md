@@ -28,7 +28,7 @@ Sin HTTPS no funciona el modo sin conexión: los navegadores solo permiten servi
    nano .env
    ```
 2. En el portátil, copiar `deploy/deploy.env.example` como `deploy/deploy.env` y rellenar `PI_SSH` y `PI_DIR`.
-3. Tener el mapa: `scripts/extract-tiles.sh <ruta-al-binario-pmtiles>` (44 MB, no está en git).
+3. Tener el mapa: `scripts/extract-tiles.sh <ruta-al-binario-pmtiles>` (unos 375 MB según el build, no está en git).
 4. Publicar: `scripts/deploy.sh`.
 
 ## Después
@@ -41,7 +41,7 @@ Sin HTTPS no funciona el modo sin conexión: los navegadores solo permiten servi
 1. Abrir la web, poner la contraseña.
 2. **Añadir a la pantalla de inicio**: en iPhone, Safari → Compartir → «Añadir a pantalla de inicio»;
    en Android, Chrome → menú → «Instalar aplicación».
-3. Abrir la app instalada → en la hoja de la región, **«Guardar en el móvil»** (unos 65 MB).
+3. Abrir la app instalada → en la hoja de la región, **«Guardar en el móvil»** (unos 400 MB).
 4. Probar en modo avión: tiene que abrir con el mapa y las fotos.
 
 ## Por confirmar

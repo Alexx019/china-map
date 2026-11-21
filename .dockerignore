@@ -1,5 +1,8 @@
 .git
 node_modules
+**/node_modules
+server/.env
+server/.env.*
 dist
 .cache
 .claude
@@ -8,4 +11,5 @@ deploy/deploy.env
 .env
 .env.*
 public/map/*.pmtiles
+public/map/coverage.json
 public/data/thumbs

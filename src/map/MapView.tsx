@@ -6,13 +6,16 @@ import { useShared } from '../state/shared';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { Protocol } from 'pmtiles';
 import { useEffect, useMemo, useRef } from 'react';
-import { boundsOf, isLocated, TILE_BOUNDS } from '../data/geo';
+import { boundsOf, isLocated, MAP_BOUNDS, TILE_BOUNDS } from '../data/geo';
 import { photoBackground, thumbUrl } from '../data/photos';
 import { useStore } from '../state/store';
 import { useIsDark } from '../state/theme';
-import { fitTo, flyToPlace, setMap } from './controller';
+import { cameraInsets, fitTo, flyToPlace, setMap } from './controller';
 import { MarkerLayer, type PlaceProps } from './markers';
 import { buildStyle, PLACES_SOURCE, ROUTE_SOURCE } from './style';
+import { attachEdgeFeedback } from './edgeFeedback';
+import css from './MapView.module.css';
+import { attachOverview } from './overview';
 
 setWorkerUrl(workerUrl);
 
@@ -20,6 +23,7 @@ const CJK_FONTS = "'PingFang SC', 'Noto Sans SC', 'Noto Sans CJK SC', 'Microsoft
 
 export function MapView() {
   const container = useRef<HTMLDivElement>(null);
+  const edges = useRef<SVGSVGElement>(null);
   const mapRef = useRef<MlMap | null>(null);
   const markersRef = useRef<MarkerLayer | null>(null);
 
@@ -88,17 +92,19 @@ export function MapView() {
     addProtocol('pmtiles', protocol.tile);
 
     const state = useStore.getState();
-    const initial = boundsOf(data.places.filter((p) => p.region === state.regionId)) ?? TILE_BOUNDS;
+    const overviewPlaces = () => {
+      const region = useStore.getState().regionId;
+      return data.places.filter(p => region === 'sz' || region === 'hk' ? p.region === 'sz' || p.region === 'hk' : p.region === region);
+    };
+    const initial = boundsOf(overviewPlaces()) ?? TILE_BOUNDS;
     const map = new MlMap({
       container: container.current,
       style: buildStyle(latest.current.dark, latest.current.places, latest.current.routeLine),
       bounds: initial,
-      fitBoundsOptions: { padding: { top: 176, bottom: 330, left: 36, right: 36 } },
-      maxBounds: [
-        [TILE_BOUNDS[0][0] - 1.2, TILE_BOUNDS[0][1] - 1],
-        [TILE_BOUNDS[1][0] + 1.2, TILE_BOUNDS[1][1] + 1],
-      ],
-      minZoom: 6,
+      fitBoundsOptions: { padding: cameraInsets() },
+      maxBounds: MAP_BOUNDS,
+      renderWorldCopies: false,
+      minZoom: 4,
       maxZoom: 18,
       attributionControl: false,
       dragRotate: false,
@@ -110,6 +116,7 @@ export function MapView() {
     map.touchZoomRotate.disableRotation();
     map.keyboard.disableRotation();
     map.addControl(new AttributionControl({ compact: true }), 'top-right');
+    const detachEdges = edges.current ? attachEdgeFeedback(map, edges.current) : undefined;
 
     const markers = new MarkerLayer(map, (id) => useStore.getState().select(id));
     markers.setSelected(state.selectedId);
@@ -122,7 +129,13 @@ export function MapView() {
     mapRef.current = map;
     markersRef.current = markers;
     setMap(map);
+    const detachOverview = attachOverview(map, () => boundsOf(overviewPlaces()) ?? TILE_BOUNDS);
+    const resize = new ResizeObserver(() => map.resize());
+    resize.observe(container.current);
     return () => {
+      resize.disconnect();
+      detachOverview?.();
+      detachEdges?.();
       markers.destroy();
       map.remove();
       removeProtocol('pmtiles');
@@ -192,5 +205,13 @@ export function MapView() {
     if (b) fitTo(b, 16);
   }, [routeId, routeStops]);
 
-  return <div ref={container} style={{ position: 'absolute', inset: 0 }} aria-label="Mapa" role="region" />;
+  return (
+    <div className={css.frame} aria-label="Mapa" role="region">
+      <div ref={container} className={css.canvas} />
+      <svg ref={edges} className={css.edges} preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path data-edge="left" /><path data-edge="right" />
+        <path data-edge="top" /><path data-edge="bottom" />
+      </svg>
+    </div>
+  );
 }

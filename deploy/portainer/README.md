@@ -1,5 +1,7 @@
 # Portainer desde Git + Cloudflare Tunnel
 
+**MCP para editar puntos y fotos en producción:** [activación y uso](MCP.md).
+
 Esta alternativa usa el mismo flujo que [Keppler](https://github.com/Alexx019/Keppler):
 Portainer clona el repositorio, construye las imágenes y levanta el stack. No requiere
 clonar el repo por SSH, instalar Node en el servidor ni copiar archivos al host.
@@ -94,8 +96,22 @@ con un cambio visible antes de activar actualizaciones automáticas.
 
 - `api_data` conserva SQLite, con los estados y rutas compartidos. Mantener el
   nombre del stack y sus volúmenes al actualizar; no usar `down -v`.
-- `map_data` conserva `trip.pmtiles`. Los siguientes despliegues lo reutilizan
-  sin descargarlo. Cambiar `MAP_BUILD` no reemplaza un mapa ya preparado.
+- `map_data` conserva `trip.pmtiles` y `coverage.json`. Los siguientes despliegues
+  reutilizan el mapa sin descargarlo si la cobertura no ha cambiado. Al actualizar
+  `scripts/trip-region.geojson` o `scripts/map-context.geojson`, el inicializador detecta el cambio y prepara el
+  mapa nuevo antes de arrancar la web. Los volúmenes antiguos sin metadatos se
+  migran automáticamente. Cambiar solo `MAP_BUILD` no reemplaza un mapa preparado.
+- El archivo combina un fondo regional amplio (zoom 0–10) con el detalle continuo
+  del viaje (zoom 11–14), unos 375 MB según el build. Los niveles no se solapan.
+  La cámara se limita dentro de la zona detallada, más pequeña que el fondo cargado.
+  Al alejar al mínimo, Shenzhen y Hong Kong quedan centradas en el área visible.
+  Los bordes muestran resistencia y el mapa cede unos píxeles al arrastrar hacia fuera.
+  El panel se superpone al mapa a pantalla completa y puede bajarse hasta el tirador.
+  Si la extracción falla, se conserva el mapa anterior y
+  el despliegue espera a que se pueda completar el nuevo.
+- La caché del móvil también está versionada. Tras esta actualización, pulsar
+  «Guardar en el móvil» con wifi para guardar el mapa ampliado (unos 400 MB con
+  fotos). El recorte antiguo se elimina de la caché solo tras completar el nuevo.
 - Si falla la primera extracción, revisar los logs de `map-init` y redeployar;
   se eliminan los archivos parciales y se vuelve a intentar. La web no arranca
   con un mapa a medio descargar. Si el volumen contiene un mapa corrupto con

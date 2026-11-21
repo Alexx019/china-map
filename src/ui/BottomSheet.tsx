@@ -10,7 +10,7 @@ const TAB_BAR = 64; // sin contar la zona segura inferior (la suma el CSS)
 function heights(): Record<SheetSnap, number> {
   const vh = window.innerHeight;
   const full = vh - TOP_GAP - TAB_BAR;
-  return { peek: Math.min(284, full), half: Math.round(Math.min(full, vh * 0.52)), full };
+  return { collapsed: Math.min(TAB_BAR + 26, full), peek: Math.min(284, full), half: Math.round(Math.min(full, vh * 0.52)), full };
 }
 
 const spring = { type: 'spring', stiffness: 420, damping: 42, mass: 0.9 } as const;
@@ -27,7 +27,7 @@ interface Props {
 
 export function BottomSheet({ snap, onSnap, header, children, floating }: Props) {
   const [h, setH] = useState(heights);
-  const y = useMotionValue(h.full - h.peek);
+  const y = useMotionValue(h.full - h[snap]);
   const controls = useDragControls();
   const [visible, setVisible] = useState(h[snap]);
   // Alto real de la cabecera (cambia según la vista): el contenido ocupa el resto de lo visible
@@ -63,7 +63,7 @@ export function BottomSheet({ snap, onSnap, header, children, floating }: Props)
     (_: unknown, info: PanInfo) => {
       // Altura que tendría la hoja con la inercia del gesto; se elige la más cercana
       const projected = h.full - (y.get() + info.velocity.y * 0.18);
-      const order: SheetSnap[] = ['peek', 'half', 'full'];
+      const order: SheetSnap[] = ['collapsed', 'peek', 'half', 'full'];
       const best = order.reduce((a, b) => (Math.abs(h[b] - projected) < Math.abs(h[a] - projected) ? b : a));
       if (best === snap) animate(y, h.full - h[best], spring);
       else onSnap(best);
@@ -74,11 +74,12 @@ export function BottomSheet({ snap, onSnap, header, children, floating }: Props)
   return (
     <motion.section
       className={css.sheet}
+      data-collapsed={snap === 'collapsed' || undefined}
       style={{ y, height: h.full }}
       drag="y"
       dragListener={false}
       dragControls={controls}
-      dragConstraints={{ top: 0, bottom: h.full - h.peek }}
+      dragConstraints={{ top: 0, bottom: h.full - h.collapsed }}
       dragElastic={0.06}
       dragMomentum={false}
       onDragEnd={onDragEnd}
@@ -89,12 +90,17 @@ export function BottomSheet({ snap, onSnap, header, children, floating }: Props)
         <button
           type="button"
           className={css.grabber}
-          aria-label={snap === 'full' ? 'Bajar el panel' : 'Subir el panel'}
-          onClick={() => onSnap(snap === 'peek' ? 'half' : snap === 'half' ? 'full' : 'peek')}
+          aria-label={snap === 'collapsed' ? 'Abrir el panel' : snap === 'full' ? 'Bajar el panel' : 'Subir el panel'}
+          onClick={() => onSnap(snap === 'collapsed' ? 'peek' : snap === 'peek' ? 'half' : snap === 'half' ? 'full' : 'collapsed')}
         />
-        {header}
+        {snap !== 'collapsed' && <button type="button" className={css.collapse} aria-label="Ocultar el panel"
+          onPointerDown={e => e.stopPropagation()} onClick={() => onSnap('collapsed')}>
+          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+        </button>}
+        <div className={css.header} aria-hidden={snap === 'collapsed' || undefined} inert={snap === 'collapsed'}>{header}</div>
       </div>
-      <div className={css.body} style={{ maxHeight: Math.max(0, visible - headH - padBottom) }}>
+      <div className={css.body} aria-hidden={snap === 'collapsed' || undefined} inert={snap === 'collapsed'}
+        style={{ maxHeight: Math.max(0, visible - headH - padBottom) }}>
         {children}
       </div>
     </motion.section>

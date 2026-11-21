@@ -16,9 +16,28 @@
 }
 
 .handleArea {
+  position: relative;
   flex-shrink: 0;
   touch-action: none;
   cursor: grab;
+}
+
+.collapse {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  width: 44px;
+  height: 28px;
+  border: 0;
+  background: transparent;
+  color: var(--text-2);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.sheet[data-collapsed] .header {
+  visibility: hidden;
 }
 
 .grabber {

@@ -6,7 +6,7 @@ import type { CategoryId, Status, TripData } from '../data/types';
 
 export type ThemePref = 'auto' | 'light' | 'dark';
 export type Tab = 'explorar' | 'guardados' | 'rutas';
-export type SheetSnap = 'peek' | 'half' | 'full';
+export type SheetSnap = 'collapsed' | 'peek' | 'half' | 'full';
 
 /** Pantallas que se abren encima del mapa. Todo esto vive también en el hash (state/nav.ts). */
 export interface Route {
@@ -109,7 +109,8 @@ export const useStore = create<AppState>()(
       setQuery: (q) => set({ query: q }),
       select: (id) => {
         const place = get().data?.places.find((p) => p.id === id);
-        set({ selectedId: id, ...(place ? { regionId: place.region } : {}) });
+        set({ selectedId: id, ...(place ? { regionId: place.region } : {}),
+          ...(id && get().sheet === 'collapsed' ? { sheet: 'peek' as SheetSnap } : {}) });
       },
       cycleTheme: () => {
         const order: ThemePref[] = ['auto', 'light', 'dark'];
