@@ -1,10 +1,6 @@
 :80 {
 	encode zstd gzip
 
-	basic_auth {
-		{$BASIC_USER} {$BASIC_HASH}
-	}
-
 	header {
 		X-Robots-Tag "noindex, nofollow, noarchive"
 		Referrer-Policy "no-referrer"

@@ -11,16 +11,11 @@ Requisitos: Portainer sobre **Docker Standalone**, servidor Linux amd64 o arm64,
 puerto 9012 libre y salida a Internet hacia los registros Docker y Protomaps.
 No funciona con Docker Swarm (el stack necesita `build` y dependencias de Compose).
 
-1. Generar un hash bcrypt para la contraseña de la web:
+La web, el mapa y la API no requieren contraseña. Cualquier visitante puede ver
+y modificar los estados y rutas compartidos, salvo que se proteja el acceso con
+Cloudflare Access.
 
-   ```sh
-   docker run --rm -it caddy:2-alpine caddy hash-password
-   ```
-
-   También se puede usar una consola temporal de Caddy en Portainer. La contraseña
-   se introduce en la consola; solo se guarda su hash en las variables del stack.
-
-2. En **Stacks → Add stack → Repository**:
+1. En **Stacks → Add stack → Repository**:
 
    | Campo | Valor |
    | --- | --- |
@@ -33,22 +28,19 @@ No funciona con Docker Swarm (el stack necesita `build` y dependencias de Compos
    la PR: se puede desplegar directamente la rama. Para usar `main` tras la fusión,
    cambiar la referencia del stack a `refs/heads/main`.
 
-3. En **Environment variables** añadir:
+2. En **Environment variables** añadir:
 
    | Variable | Valor |
    | --- | --- |
-   | `BASIC_USER` | Tu usuario, por ejemplo `viaje` |
-   | `BASIC_HASH` | El hash bcrypt completo |
    | `WEB_PORT` | `9012` (u otro puerto libre) |
 
    `WEB_BIND_IP` es opcional (por defecto `0.0.0.0`). Se puede limitar a la IP LAN
    del servidor si `cloudflared` puede alcanzarla. `MAP_BUILD` es opcional:
    fecha `AAAAMMDD` de un build disponible, para fijar la extracción inicial.
-   En el formulario de Portainer pegar el hash sin comillas ni duplicar `$`.
-   Si se copia un hash literalmente en un YAML Compose, cada `$` debe ser `$$`.
-   No subir contraseñas ni variables reales a Git.
+   No hacen falta `BASIC_USER` ni `BASIC_HASH`; se pueden eliminar de los stacks
+   creados con la versión anterior.
 
-4. Pulsar **Deploy the stack**. La primera compilación y extracción del mapa
+3. Pulsar **Deploy the stack**. La primera compilación y extracción del mapa
    pueden tardar varios minutos. `map-init` consulta los builds de Protomaps y
    extrae las regiones del viaje a un volumen. La web espera a que termine
    correctamente y a que la API responda. Un `map-init` finalizado con código 0
@@ -66,8 +58,8 @@ En el túnel de Cloudflare, añadir una **Published application route**:
 | URL | `IP-LAN-DEL-SERVIDOR:9012` |
 
 La URL pública será `https://china.TU-DOMINIO`. El tramo entre `cloudflared` y
-Caddy es HTTP; Cloudflare proporciona el HTTPS público. Caddy mantiene la
-contraseña tanto para la web como para `/api/*` y el mapa.
+Caddy es HTTP; Cloudflare proporciona el HTTPS público. La aplicación no exige
+autenticación; el túnel por sí solo tampoco restringe el acceso.
 
 En tu caso, `cloudflared` está en el bridge predeterminado: usar una IP del host
 alcanzable desde ese contenedor, no `localhost` ni el nombre `web`. No hace falta
@@ -120,13 +112,13 @@ con un cambio visible antes de activar actualizaciones automáticas.
 
 ## Comprobaciones
 
-Abrir el subdominio por HTTPS e introducir las credenciales. Confirmar:
+Abrir el subdominio por HTTPS. Confirmar:
 
 - `/api/health` responde y una marca se sincroniza entre dos dispositivos.
 - El mapa, glifos y fotos aparecen.
 - Una petición con `Range: bytes=0-126` a `/map/trip.pmtiles` devuelve `206`
   y `Content-Range` (se puede comprobar en las herramientas de red del navegador).
-- Sin credenciales, la web, la API y el mapa devuelven `401`.
+- La web, la API y el mapa funcionan sin solicitar credenciales.
 - Instalar la PWA, guardar una región y probar en modo avión.
 - Editar un texto en la rama y redeployar: aparece el cambio y se conservan las marcas.
 

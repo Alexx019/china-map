@@ -30,9 +30,6 @@ services:
       context: .
       target: web
     restart: unless-stopped
-    environment:
-      BASIC_USER: ${BASIC_USER:?Define BASIC_USER en Portainer}
-      BASIC_HASH: ${BASIC_HASH:?Define BASIC_HASH en Portainer}
     ports:
       - "${WEB_BIND_IP:-0.0.0.0}:${WEB_PORT:-9012}:80"
     volumes:
