@@ -61,6 +61,9 @@ export function createAuth(db, publicUrl, passwordHash) {
       const pending = { client: client.client_id, redirectUri: params.redirectUri, state: params.state, scopes, codeChallenge: params.codeChallenge };
       db.prepare('INSERT INTO oauth_pending VALUES(?,?,?)').run(hash(transaction), JSON.stringify(pending), now() + 600);
       res.setHeader('Cache-Control', 'no-store');
+      // no-referrer puede convertir Origin en null en una navegación POST de formulario.
+      // same-origin conserva la comprobación CSRF y no envía el referer a otros sitios.
+      res.setHeader('Referrer-Policy', 'same-origin');
       res.cookie(`cm_auth_${transaction.slice(0,12)}`, transaction, { httpOnly: true, secure, sameSite: 'lax', maxAge: 600000, path: '/mcp/consent' });
       const write = scopes.includes('map:write');
       res.type('html').send(`<!doctype html><html lang="es"><meta name="viewport" content="width=device-width"><title>Autorizar china-map</title>

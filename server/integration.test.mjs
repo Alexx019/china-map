@@ -43,11 +43,14 @@ async function fixture(t) {
       code_challenge:createHash('sha256').update(verifier).digest('base64url'),code_challenge_method:'S256',scope:scopes,resource:origin+'/mcp',state:'preserved-state' });
     const authorize = await fetch(origin+'/authorize?'+query,{redirect:'manual'});
     assert.equal(authorize.status,200,await authorize.clone().text());
+    assert.equal(authorize.headers.get('referrer-policy'),'same-origin');
     const html = await authorize.text();
     const transaction = html.match(/name="transaction" value="([\w-]+)"/)[1];
     const cookie = authorize.headers.get('set-cookie').split(';')[0];
     const csrf = await form('/mcp/consent',{transaction,password},{Origin:'https://evil.example',Cookie:cookie});
     assert.equal(csrf.status,403);
+    const opaqueOrigin = await form('/mcp/consent',{transaction,password},{Origin:'null',Cookie:cookie});
+    assert.equal(opaqueOrigin.status,403,'Un origen opaco no debe saltarse la protección CSRF');
     const consent = await form('/mcp/consent',{transaction,password},{Origin:origin,Cookie:cookie});
     assert.equal(consent.status,303,await consent.clone().text());
     const redirect = new URL(consent.headers.get('location'));
