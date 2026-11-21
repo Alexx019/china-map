@@ -66,8 +66,16 @@ async function fixture(t) {
     const noCookie = await form('/mcp/consent',{transaction,password},{Origin:'null',...fetchMetadata});
     assert.equal(noCookie.status,403,'Fetch Metadata no sustituye la cookie de consentimiento');
     const consent = await form('/mcp/consent',{transaction,password},opaqueOrigin ? {Origin:'null',Cookie:cookie,...fetchMetadata} : {Origin:origin,Cookie:cookie});
-    assert.equal(consent.status,303,await consent.clone().text());
-    const redirect = new URL(consent.headers.get('location'));
+    assert.equal(consent.status,200,await consent.clone().text());
+    assert.equal(consent.headers.get('location'),null,'El POST no redirige fuera del origen: Chromium lo bloquea con form-action self');
+    const completed = await consent.text();
+    assert.match(completed, /http-equiv="refresh"/);
+    assert.match(completed, /name="referrer" content="no-referrer"/);
+    assert.doesNotMatch(completed, /<form|<script/);
+    assert.ok(!completed.includes(password),'La contraseña no sale en la página de regreso');
+    const redirect = new URL(completed.match(/<a href="([^"]+)"/)[1].replaceAll('&amp;','&'));
+    const repeated = await form('/mcp/consent',{transaction,password},{Origin:origin,Cookie:cookie});
+    assert.equal(repeated.status,400,'La autorización completada no se puede reenviar');
     assert.equal(redirect.searchParams.get('state'),'preserved-state');
     const exchange = { grant_type:'authorization_code',client_id:client.client_id,code:redirect.searchParams.get('code'),redirect_uri:client.redirect_uris[0],code_verifier:verifier,resource:origin+'/mcp' };
     const invalid = await form('/token',{...exchange,code_verifier:randomBytes(32).toString('base64url')});

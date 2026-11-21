@@ -155,7 +155,13 @@ export function createAuth(db, publicUrl, passwordHash) {
     const redirect = new URL(pending.redirectUri);
     redirect.searchParams.set('code', code);
     if (pending.state !== undefined) redirect.searchParams.set('state', pending.state);
-    res.redirect(303, redirect.href);
+    // Chromium aplica form-action también a los redirects del POST: un 303 al
+    // callback externo/loopback quedaría bloqueado después de consumir la cookie.
+    // Terminar el POST con un documento y navegar desde él mantiene el formulario
+    // en el mismo origen, sin ampliar CSP ni enviar la contraseña al cliente.
+    res.setHeader('Referrer-Policy', 'no-referrer');
+    res.type('html').send(`<!doctype html><html lang="es"><meta name="viewport" content="width=device-width"><meta name="referrer" content="no-referrer"><meta http-equiv="refresh" content="0;url=${escape(redirect.href)}"><title>Autorización completada</title>
+    <h1>Autorización completada</h1><p>Volviendo al cliente…</p><p><a href="${escape(redirect.href)}" referrerpolicy="no-referrer">Continuar al cliente</a></p></html>`);
   }
   return { provider, consent, resource, origin };
 }

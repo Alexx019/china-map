@@ -111,7 +111,7 @@ const send = (res, code, body) => {
 const server = createServer(app);
 app.use((req, res) => {
   const url = new URL(req.url ?? '/', 'http://x');
-  if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, mcp: mcpEnabled, oauth_consent_version:3, ...(mcpError ? {mcp_error:mcpError} : {}), catalog_revision:catalog.getRevision() });
+  if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, mcp: mcpEnabled, oauth_consent_version:4, ...(mcpError ? {mcp_error:mcpError} : {}), catalog_revision:catalog.getRevision() });
   if (req.method === 'GET' && url.pathname === '/api/state') return send(res, 200, state());
   if (req.method === 'POST' && url.pathname === '/api/ops') {
     let size = 0;
