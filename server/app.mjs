@@ -6,6 +6,7 @@ import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/
 import { createCatalog } from './catalog.mjs';
 import { createAuth, SCOPES } from './auth.mjs';
 import { createMapMcp } from './mcp.mjs';
+import { parsePasswordHash } from './password-hash.mjs';
 
 export function createApplication({ db, seedPath, manifestPath, mediaDirectory, publicUrl, passwordHash = '', allowedOrigins = [] }) {
   const app = express();
@@ -25,7 +26,7 @@ export function createApplication({ db, seedPath, manifestPath, mediaDirectory, 
   passwordHash = passwordHash.trim();
   if (!passwordHash) return disabled('MCP_PASSWORD_HASH_NOT_CONFIGURED');
   // Un error de configuración del MCP no debe detener el catálogo ni la web.
-  if (!/^scrypt\$[\w-]{22}\$[\w-]{86}$/.test(passwordHash)) return disabled('MCP_PASSWORD_HASH_INVALID');
+  if (!parsePasswordHash(passwordHash)) return disabled('MCP_PASSWORD_HASH_INVALID');
   let parsedUrl;
   try { parsedUrl = new URL(publicUrl); }
   catch { return disabled('MCP_PUBLIC_URL_INVALID'); }

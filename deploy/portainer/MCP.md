@@ -16,7 +16,9 @@ hacia la API en el mismo stack. No se ha desplegado automáticamente en tu servi
    ```
 
    La consola solicita la contraseña sin mostrarla y devuelve una línea
-   `MCP_PASSWORD_HASH=scrypt$...`. No enviar la contraseña al chat ni guardarla en Git.
+   `MCP_PASSWORD_HASH=scrypt:...`. El formato nuevo usa dos puntos para evitar
+   que Portainer o Compose interpreten partes del hash como variables.
+   No enviar la contraseña al chat ni guardarla en Git.
    Alternativa tras un primer despliegue: consola interactiva del contenedor `api`,
    ejecutar `node password.mjs`.
 
@@ -25,11 +27,12 @@ hacia la API en el mismo stack. No se ha desplegado automáticamente en tu servi
    | Variable | Valor |
    | --- | --- |
    | `MCP_PUBLIC_URL` | `https://china.ariassouto.es` (sin `/mcp`) |
-   | `MCP_PASSWORD_HASH` | Solo el valor `scrypt$...` generado; sin comillas añadidas |
+   | `MCP_PASSWORD_HASH` | Solo el valor `scrypt:...` generado; sin comillas añadidas |
 
    Si no se configura el hash, el MCP permanece **desactivado** y devuelve 503.
    La web y el catálogo público siguen funcionando. Las contraseñas anteriores de
-   Basic Auth no se usan. En el formulario de variables no duplicar los signos `$`.
+   Basic Auth no se usan. El hash anterior con `$` también se admite si llega intacto,
+   pero para nuevas configuraciones se recomienda el formato con `:`.
 
 4. Ejecutar **Pull and redeploy**. El servidor instala sus dependencias desde
    `server/package-lock.json`. No se cambian los volúmenes existentes.
