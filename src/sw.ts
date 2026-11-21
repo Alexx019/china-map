@@ -7,6 +7,7 @@ import { createPartialResponse } from 'workbox-range-requests';
 import { NavigationRoute, registerRoute } from 'workbox-routing';
 import { CacheFirst, NetworkFirst } from 'workbox-strategies';
 import { CACHE, MAP_PATH, MAP_URL } from './offline/caches';
+import { SERVER_NAVIGATION } from './offline/navigation';
 
 declare const self: ServiceWorkerGlobalScope;
 
@@ -16,7 +17,7 @@ cleanupOutdatedCaches();
 
 // App, estilos, fuentes y glifos del mapa: en la caché desde la primera visita
 precacheAndRoute(self.__WB_MANIFEST);
-registerRoute(new NavigationRoute(createHandlerBoundToURL('/index.html')));
+registerRoute(new NavigationRoute(createHandlerBoundToURL('/index.html'), { denylist:SERVER_NAVIGATION }));
 
 const ok = new CacheableResponsePlugin({ statuses: [200] });
 
