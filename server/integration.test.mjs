@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { createServer } from 'node:http';
+import { createServer, request as httpRequest } from 'node:http';
 import { mkdtemp, rm, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
@@ -11,7 +11,7 @@ import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js';
 import { createApplication } from './app.mjs';
 import { createCatalog } from './catalog.mjs';
-import { hashPassword } from './auth.mjs';
+import { hashPassword, consentOriginAllowed } from './auth.mjs';
 import { publicAddress, downloadImage, saveImage } from './media.mjs';
 
 const repo = resolve(import.meta.dirname, '..');
@@ -31,8 +31,19 @@ async function fixture(t) {
   const app = createApplication({db,seedPath,manifestPath,mediaDirectory:join(directory,'media'),publicUrl:origin,passwordHash});
   server.on('request',app.app);
   t.after(async () => { server.closeAllConnections(); await new Promise(r=>server.close(r)); db.close(); await rm(directory,{recursive:true,force:true}); });
-  const form = async (path, body, extra={}) => fetch(origin+path,{ method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded',...extra},body:new URLSearchParams(body),redirect:'manual' });
-  async function login(scopes='map:read map:write') {
+  // HTTP directo conserva Fetch Metadata tal como lo enviaría una navegación.
+  // fetch() de Node sustituye Sec-Fetch-Mode por el modo de su propia petición.
+  const form = (path, body, extra={}) => new Promise((resolve,reject) => {
+    const payload = new URLSearchParams(body).toString();
+    const req = httpRequest(origin+path,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded','Content-Length':Buffer.byteLength(payload),...extra}},res=>{
+      const chunks=[];
+      res.on('data',chunk=>chunks.push(chunk));
+      res.on('end',()=>resolve(new Response(Buffer.concat(chunks),{status:res.statusCode,headers:Object.entries(res.headers).flatMap(([key,value])=>(Array.isArray(value)?value:[value]).map(item=>[key,item]))})));
+      res.on('error',reject);
+    });
+    req.on('error',reject); req.end(payload);
+  });
+  async function login(scopes='map:read map:write', opaqueOrigin=false) {
     const registration = await fetch(origin+'/register',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
       client_name:'Integration test',redirect_uris:['http://127.0.0.1/callback'],grant_types:['authorization_code','refresh_token'],response_types:['code'],token_endpoint_auth_method:'none',
     })});
@@ -47,11 +58,14 @@ async function fixture(t) {
     const html = await authorize.text();
     const transaction = html.match(/name="transaction" value="([\w-]+)"/)[1];
     const cookie = authorize.headers.get('set-cookie').split(';')[0];
-    const csrf = await form('/mcp/consent',{transaction,password},{Origin:'https://evil.example',Cookie:cookie});
+    const fetchMetadata = {'Sec-Fetch-Site':'same-origin','Sec-Fetch-Mode':'navigate','Sec-Fetch-Dest':'document'};
+    const csrf = await form('/mcp/consent',{transaction,password},{Origin:'https://evil.example',Cookie:cookie,...fetchMetadata});
     assert.equal(csrf.status,403);
-    const opaqueOrigin = await form('/mcp/consent',{transaction,password},{Origin:'null',Cookie:cookie});
-    assert.equal(opaqueOrigin.status,403,'Un origen opaco no debe saltarse la protección CSRF');
-    const consent = await form('/mcp/consent',{transaction,password},{Origin:origin,Cookie:cookie});
+    const opaqueRejected = await form('/mcp/consent',{transaction,password},{Origin:'null',Cookie:cookie});
+    assert.equal(opaqueRejected.status,403,'Un origen opaco sin Fetch Metadata no debe saltarse la protección CSRF');
+    const noCookie = await form('/mcp/consent',{transaction,password},{Origin:'null',...fetchMetadata});
+    assert.equal(noCookie.status,403,'Fetch Metadata no sustituye la cookie de consentimiento');
+    const consent = await form('/mcp/consent',{transaction,password},opaqueOrigin ? {Origin:'null',Cookie:cookie,...fetchMetadata} : {Origin:origin,Cookie:cookie});
     assert.equal(consent.status,303,await consent.clone().text());
     const redirect = new URL(consent.headers.get('location'));
     assert.equal(redirect.searchParams.get('state'),'preserved-state');
@@ -122,7 +136,7 @@ test('OAuth/PKCE y cliente MCP oficial: catálogo completo, fotos, revisiones y 
 
 test('permisos de solo lectura, audiencia, renovación y revocación', async t => {
   const f = await fixture(t);
-  const {client:registered,tokens} = await f.login('map:read');
+  const {client:registered,tokens} = await f.login('map:read',true);
   const client = await f.mcp(tokens.access_token);
   const write = await client.callTool({name:'delete_place',arguments:{id:seed.places[0].id,expected_revision:0,confirm:true}});
   assert.equal(write.isError,true); assert.match(write.content[0].text,/map:write/);
@@ -165,4 +179,16 @@ test('una variable MCP incorrecta no tumba el catálogo y mantiene la edición c
       assert.equal(app.catalog.document().places.length,seed.places.length);
     } finally { db.close(); }
   }
+});
+
+test('Fetch Metadata solo permite formularios same-origin, nunca cross-site ni subdominios', () => {
+  const origin = 'https://china.ariassouto.es';
+  const good = {'sec-fetch-site':'same-origin','sec-fetch-mode':'navigate','sec-fetch-dest':'document'};
+  assert.equal(consentOriginAllowed({origin},origin),true);
+  assert.equal(consentOriginAllowed({origin:'null',...good},origin),true);
+  assert.equal(consentOriginAllowed(good,origin),true);
+  assert.equal(consentOriginAllowed({origin:'https://evil.example',...good},origin),false);
+  assert.equal(consentOriginAllowed({origin:'null',...good,'sec-fetch-site':'cross-site'},origin),false);
+  assert.equal(consentOriginAllowed({origin:'null',...good,'sec-fetch-site':'same-site'},origin),false);
+  assert.equal(consentOriginAllowed({origin:'null'},origin),false);
 });

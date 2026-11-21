@@ -9,6 +9,19 @@ const now = () => Math.floor(Date.now() / 1000);
 export const SCOPES = ['map:read', 'map:write'];
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[c]);
 
+export function consentOriginAllowed(headers, expectedOrigin) {
+  const origin = headers.origin;
+  if (origin === expectedOrigin) return true;
+  // Un Origin explícito de otro sitio siempre se rechaza, aunque se falsifiquen otros headers.
+  if (origin && origin !== 'null') return false;
+  // Algunos navegadores/políticas ocultan Origin en formularios. Fetch Metadata
+  // identifica esta navegación como del mismo origen. Además se exige más abajo
+  // la cookie HttpOnly, la transacción aleatoria y la contraseña del propietario.
+  return headers['sec-fetch-site'] === 'same-origin'
+    && headers['sec-fetch-mode'] === 'navigate'
+    && headers['sec-fetch-dest'] === 'document';
+}
+
 export function createAuth(db, publicUrl, passwordHash) {
   const origin = new URL(publicUrl).origin;
   const resource = `${origin}/mcp`;
@@ -66,7 +79,7 @@ export function createAuth(db, publicUrl, passwordHash) {
       res.setHeader('Referrer-Policy', 'same-origin');
       res.cookie(`cm_auth_${transaction.slice(0,12)}`, transaction, { httpOnly: true, secure, sameSite: 'lax', maxAge: 600000, path: '/mcp/consent' });
       const write = scopes.includes('map:write');
-      res.type('html').send(`<!doctype html><html lang="es"><meta name="viewport" content="width=device-width"><title>Autorizar china-map</title>
+      res.type('html').send(`<!doctype html><html lang="es"><meta name="viewport" content="width=device-width"><meta name="referrer" content="same-origin"><title>Autorizar china-map</title>
       <style>body{font:16px system-ui;background:#f2f3f5;padding:32px}main{max-width:440px;margin:8vh auto;background:white;padding:28px;border-radius:20px}input,button{box-sizing:border-box;width:100%;padding:14px;margin-top:16px}button{background:#151719;color:white;border:0;border-radius:12px}small{overflow-wrap:anywhere}</style>
       <main><h1>Conectar con tu mapa</h1><p>Cliente: <strong>${escape(client.client_name || client.client_id)}</strong></p>
       <p>Permisos: consultar${write ? ' y editar sitios, fotos, regiones y zonas' : ' el catálogo'}.</p>
@@ -116,7 +129,10 @@ export function createAuth(db, publicUrl, passwordHash) {
   };
   async function consent(req, res) {
     res.setHeader('Cache-Control', 'no-store');
-    if (req.headers.origin !== origin) return res.status(403).send('Origen no válido');
+    if (!consentOriginAllowed(req.headers, origin)) return res.status(403).json({
+      error:'Origen no válido', code:'MCP_CONSENT_ORIGIN_REJECTED', expected_origin:origin,
+      received_origin:req.headers.origin ?? null, fetch_site:req.headers['sec-fetch-site'] ?? null,
+    });
     const transaction = req.body.transaction;
     if (typeof transaction !== 'string' || !/^[\w-]{43}$/.test(transaction)) return res.status(400).send('Solicitud no válida');
     const cookieName = `cm_auth_${transaction.slice(0,12)}`;
