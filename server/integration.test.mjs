@@ -100,6 +100,7 @@ test('OAuth/PKCE y cliente MCP oficial: catálogo completo, fotos, revisiones y 
   const unauthorized = await fetch(f.origin+'/mcp',{method:'POST'});
   assert.equal(unauthorized.status,401);
   assert.match(unauthorized.headers.get('www-authenticate'),/oauth-protected-resource\/mcp/);
+  assert.match(unauthorized.headers.get('www-authenticate'),/scope="map:read map:write"/,'Una nueva conexión debe poder solicitar edición');
   const metadata = await (await fetch(f.origin+'/.well-known/oauth-protected-resource/mcp')).json();
   assert.equal(metadata.resource,f.origin+'/mcp');
   const {tokens} = await f.login();

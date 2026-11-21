@@ -45,6 +45,14 @@ export function createApplication({ db, seedPath, manifestPath, mediaDirectory, 
     if (req.method === 'OPTIONS') return res.set('Access-Control-Allow-Methods','POST, GET, DELETE, OPTIONS')
       .set('Access-Control-Allow-Headers','Authorization, Content-Type, Accept, MCP-Protocol-Version').sendStatus(204);
     next();
+  }, (req,res,next) => {
+    // El desafío inicial guía los scopes que pide Codex. Anunciar solo el mínimo
+    // de lectura impedía autorizar las herramientas de edición al conectar.
+    // Los tokens explícitamente limitados a lectura siguen siendo válidos.
+    if (!req.headers.authorization) return res.status(401)
+      .set('WWW-Authenticate', `Bearer resource_metadata="${getOAuthProtectedResourceMetadataUrl(new URL(resource))}", scope="${SCOPES.join(' ')}"`)
+      .json({error:'Autenticación requerida'});
+    next();
   }, requireBearerAuth({ verifier:provider, requiredScopes:['map:read'], expectedResource:new URL(resource), resourceMetadataUrl:getOAuthProtectedResourceMetadataUrl(new URL(resource)) }),
   express.json({limit:'18mb'}), async (req,res) => {
     res.set('Cache-Control','no-store');
